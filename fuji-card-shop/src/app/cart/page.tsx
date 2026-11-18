@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import type { CSSProperties } from "react";
-import { getProduct } from "@/data/products";
+import { ProductArt } from "@/components/ProductArt";
+import { getProductBySlug } from "@/data/resolveProducts";
 import { useCart } from "@/lib/cart";
 
 export default function CartPage() {
@@ -10,7 +10,7 @@ export default function CartPage() {
 
   const resolved = lines
     .map((line) => {
-      const product = getProduct(line.slug);
+      const product = getProductBySlug(line.slug);
       return product ? { line, product } : null;
     })
     .filter((entry): entry is NonNullable<typeof entry> => entry !== null);
@@ -41,17 +41,8 @@ export default function CartPage() {
           <div className="cart-lines">
             {resolved.map(({ line, product }) => (
               <div key={line.slug} className="cart-line">
-                <div
-                  className="product-art"
-                  style={
-                    {
-                      "--accent": product.accent,
-                      "--accent-2": product.accentSecondary,
-                      aspectRatio: "1 / 1",
-                    } as CSSProperties
-                  }
-                >
-                  <div className="product-art-inner" />
+                <div style={{ width: 88 }}>
+                  <ProductArt product={product} />
                 </div>
                 <div>
                   <h2 style={{ fontSize: "1rem", marginBottom: "0.35rem" }}>

@@ -16,6 +16,7 @@ export const navLinks = [
   { href: "/category/pokemon", label: "Pokémon" },
   { href: "/category/one-piece", label: "ONE PIECE" },
   { href: "/category/other-tcg", label: "Other TCG" },
+  { href: "/gallery", label: "Photos" },
   { href: "/shipping", label: "Shipping" },
   { href: "/about", label: "Our story" },
   { href: "/contact", label: "Contact" },

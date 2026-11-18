@@ -7,16 +7,27 @@ import {
   ourStory,
   whyFuji,
 } from "@/data/content";
-import { getFeaturedProducts, getSaleProducts } from "@/data/products";
+import {
+  getFeaturedProductsResolved,
+  getSaleProductsResolved,
+} from "@/data/resolveProducts";
 
 export default function HomePage() {
-  const featured = getFeaturedProducts().slice(0, 12);
-  const sale = getSaleProducts().slice(0, 10);
+  const featured = getFeaturedProductsResolved().slice(0, 12);
+  const sale = getSaleProductsResolved().slice(0, 10);
 
   return (
     <>
       <section className="hero">
-        <div className="hero-media" aria-hidden="true" />
+        <div className="hero-media" aria-hidden="true">
+          {/* Live shop banner recovered from Wayback */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            className="hero-banner-img"
+            src="/images/products/story-banner.png"
+            alt=""
+          />
+        </div>
         <div className="shell hero-copy">
           <div className="hero-kicker">
             {brand.trustpilotScore} · Ships from Japan
