@@ -43,7 +43,7 @@ npm run lint    # eslint
 | --- | --- |
 | WooCommerce cart, payments (card / Google Pay / Apple Pay / PayPal), tariffs at checkout | Local cart + checkout stub only |
 | Full WP product catalog + pagination + variants | Curated inventory pulled from crawled pages |
-| Hosted product photography | Stylized product art (live CDN blocked from this environment; image URLs noted where known) |
+| Hosted product photography | 41 archived product/banner photos in `public/images/products/` (Wayback recovery). Newest live CDN assets still blocked (403/Cloudflare); see `/gallery` |
 | Account / My Account | Not implemented |
 | Live contact inbox | Front-end form stub |
 

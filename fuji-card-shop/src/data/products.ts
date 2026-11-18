@@ -31,6 +31,8 @@ export type Product = {
   dimensions?: string;
   featured?: boolean;
   onSale?: boolean;
+  /** Local path under /public, e.g. /images/products/M2a-bb.jpg */
+  image?: string;
   imageRef?: string;
 };
 

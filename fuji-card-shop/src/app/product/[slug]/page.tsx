@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import type { CSSProperties } from "react";
 import { AddToCartButton } from "@/components/AddToCartButton";
-import { formatPrice, getProduct, products } from "@/data/products";
+import { ProductArt } from "@/components/ProductArt";
+import { formatPrice } from "@/data/products";
+import { getAllProducts, getProductBySlug } from "@/data/resolveProducts";
 
 type Params = { slug: string };
 
 export function generateStaticParams() {
-  return products.map((product) => ({ slug: product.slug }));
+  return getAllProducts().map((product) => ({ slug: product.slug }));
 }
 
 export function generateMetadata({
@@ -17,7 +18,7 @@ export function generateMetadata({
   params: Promise<Params>;
 }): Promise<Metadata> {
   return params.then(({ slug }) => {
-    const product = getProduct(slug);
+    const product = getProductBySlug(slug);
     return {
       title: product?.name ?? "Product",
       description: product?.shortDescription,
@@ -31,26 +32,15 @@ export default async function ProductPage({
   params: Promise<Params>;
 }) {
   const { slug } = await params;
-  const product = getProduct(slug);
+  const product = getProductBySlug(slug);
   if (!product) {
     notFound();
   }
 
   return (
     <div className="shell product-layout" style={{ paddingTop: "2.5rem" }}>
-      <div
-        className="product-detail-art"
-        style={
-          {
-            "--accent": product.accent,
-            "--accent-2": product.accentSecondary,
-          } as CSSProperties
-        }
-      >
-        {product.badge ? <span className="product-badge">{product.badge}</span> : null}
-        <div className="product-art-inner" style={{ inset: 0, position: "absolute" }}>
-          <div className="product-art-label">{product.name}</div>
-        </div>
+      <div className="product-detail-art">
+        <ProductArt product={product} priority />
       </div>
 
       <div className="detail-copy">

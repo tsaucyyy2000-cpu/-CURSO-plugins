@@ -2,11 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { CategoryFilters } from "@/components/CategoryFilters";
 import { ProductCard } from "@/components/ProductCard";
-import {
-  categories,
-  getProductsByCategory,
-  type CategorySlug,
-} from "@/data/products";
+import { categories, type CategorySlug } from "@/data/products";
+import { getProductsByCategorySlug } from "@/data/resolveProducts";
 
 type Params = { slug: string };
 
@@ -38,7 +35,7 @@ export default async function CategoryPage({
     notFound();
   }
 
-  const list = getProductsByCategory(slug as CategorySlug);
+  const list = getProductsByCategorySlug(slug as CategorySlug);
 
   return (
     <div className="shell">
