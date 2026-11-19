@@ -1,0 +1,21 @@
+{
+  "title": "Apex TCG 200-Product Wholesale Planning Catalog",
+  "prepared": "October 24, 2026",
+  "disclaimer": "Illustrative planning estimates\u2014not supplier-confirmed costs, verified live market prices, or guaranteed wholesale offers. Confirm stock, condition, language, case quantity, shipping, and final selling price before quoting customers.",
+  "caseFormula": "estimated case price = earlier draft unit price \u00d7 assumed units per case \u00d7 0.95",
+  "sourceDocs": [
+    "/docs/apex/ApexTCG_200_Product_Pricing_Planning_Catalog.docx",
+    "/docs/apex/ApexTCG_B2B_Case_Pricing_200_Products.docx",
+    "/docs/apex/ApexTCG_Wholesale_Pro_Forma_Quote.pdf",
+    "/docs/apex/ApexTCG_GTS_Sample_Transaction_Confirmation.pdf"
+  ],
+  "wholesale": {
+    "business": "ApexTCG",
+    "shipTo": "447 Broadway, New York, NY 10013, United States",
+    "quoteRef": "APX-PFQ-20261031-01",
+    "quoteDate": "October 31, 2026",
+    "sampleOrderSubtotal": 73000,
+    "sampleShipping": 1000,
+    "sampleTotalBeforeTax": 74000
+  }
+}

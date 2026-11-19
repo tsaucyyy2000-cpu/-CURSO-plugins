@@ -150,6 +150,39 @@ export default function HomePage() {
       </section>
 
       <section className="section" style={{ paddingTop: 0 }}>
+        <div className="shell split">
+          <div>
+            <div className="section-head">
+              <div className="eyebrow">Wholesale</div>
+              <h2>Apex TCG planning catalog</h2>
+              <p>
+                200 sealed SKUs with unit and B2B case planning prices — merged from the Apex upload
+                pack into this Project site.
+              </p>
+            </div>
+            <div className="hero-actions">
+              <Link href="/apex" className="btn btn-primary">
+                Open Apex wholesale
+              </Link>
+              <Link href="/apex/cases" className="btn btn-secondary">
+                Case pricing
+              </Link>
+            </div>
+          </div>
+          <div className="story-panel">
+            <div className="eyebrow">Quote-led</div>
+            <h3 style={{ fontSize: "1.8rem", margin: "0.5rem 0 1rem" }}>
+              Planning estimates, not live checkout
+            </h3>
+            <p style={{ color: "var(--mist)" }}>
+              Confirm stock, case pack, and final wholesale terms before quoting. Source DOCX/PDF
+              downloads live under Wholesale docs.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section" style={{ paddingTop: 0 }}>
         <div className="shell">
           <div className="section-head">
             <div className="eyebrow">Trust</div>

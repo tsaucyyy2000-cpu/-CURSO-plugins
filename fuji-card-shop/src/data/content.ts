@@ -16,6 +16,7 @@ export const navLinks = [
   { href: "/category/pokemon", label: "Pokémon" },
   { href: "/category/one-piece", label: "ONE PIECE" },
   { href: "/category/other-tcg", label: "Other TCG" },
+  { href: "/apex", label: "Apex wholesale" },
   { href: "/gallery", label: "Photos" },
   { href: "/shipping", label: "Shipping" },
   { href: "/about", label: "Our story" },
@@ -23,6 +24,10 @@ export const navLinks = [
 ];
 
 export const footerLinks = [
+  { href: "/apex", label: "Apex TCG wholesale" },
+  { href: "/apex/catalog", label: "Apex planning catalog" },
+  { href: "/apex/cases", label: "Apex B2B case pricing" },
+  { href: "/apex/wholesale", label: "Wholesale docs & quotes" },
   { href: "/shipping", label: "Shipping & taxes" },
   { href: "/right-to-cancel", label: "Right to cancel" },
   { href: "/terms", label: "Terms & conditions" },
