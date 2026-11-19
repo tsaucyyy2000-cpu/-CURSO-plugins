@@ -35,6 +35,7 @@ export const footerLinks = [
   { href: "/specified-commercial-transaction-act", label: "Specified Commercial Transaction Act" },
   { href: "/fake-accounts", label: "Beware of fake accounts" },
   { href: "/contact", label: "Contact" },
+  { href: "/admin", label: "Staff login" },
 ];
 
 export const heroReleases = [

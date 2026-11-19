@@ -1,5 +1,19 @@
 import catalog from "./apex-catalog.json";
+import apexImages from "./apex-images.json";
 import meta from "./apex-meta.json";
+
+export type ApexImageMeta = {
+  title?: string;
+  image: string;
+  filename?: string;
+  source_url?: string;
+  matchedProductName?: string;
+  matchQuality?: "exact" | "closest-line";
+  note?: string;
+  attribution?: string;
+  counterpartSlug?: string;
+  tcgplayerProductId?: number;
+};
 
 export type ApexProduct = {
   id: number;
@@ -16,11 +30,35 @@ export type ApexProduct = {
   quoteRequired: boolean;
   accent: string;
   accentSecondary: string;
+  image?: string;
+  imageRef?: string;
+  imageMatchQuality?: "exact" | "closest-line";
+  imageNote?: string;
+  visible?: boolean;
 };
+
+type ImageMap = Record<string, ApexImageMeta>;
+
+const images = apexImages as ImageMap;
 
 export const apexMeta = meta;
 
-export const apexProducts = catalog as ApexProduct[];
+function withImage(product: ApexProduct): ApexProduct {
+  const entry = images[product.slug];
+  if (!entry) {
+    return { ...product, visible: product.visible !== false };
+  }
+  return {
+    ...product,
+    image: entry.image,
+    imageRef: entry.source_url,
+    imageMatchQuality: entry.matchQuality,
+    imageNote: entry.note,
+    visible: product.visible !== false,
+  };
+}
+
+export const apexProducts: ApexProduct[] = (catalog as ApexProduct[]).map(withImage);
 
 export function getApexProduct(slug: string): ApexProduct | undefined {
   return apexProducts.find((product) => product.slug === slug);

@@ -117,6 +117,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
 
   const clear = useCallback(() => setLines([]), []);
 
+  // Prices always resolve from catalog data — never trust client-provided amounts.
   const value = useMemo<CartContextValue>(() => {
     const resolved = lines
       .map((line) => {

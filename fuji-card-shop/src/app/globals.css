@@ -759,3 +759,127 @@ p {
     transition: none !important;
   }
 }
+
+/* Admin */
+.admin-shell .site-header,
+.admin-shell .site-footer {
+  /* keep global chrome; admin content sits in main */
+}
+
+.admin-login {
+  max-width: 28rem;
+}
+
+.admin-label {
+  display: grid;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+  color: var(--mist-soft);
+  font-size: 0.92rem;
+}
+
+.admin-label input,
+.admin-search,
+.admin-table input[type="text"],
+.admin-table input:not([type="checkbox"]) {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.35);
+  color: var(--foam);
+  border-radius: 0.55rem;
+  padding: 0.55rem 0.7rem;
+  font: inherit;
+}
+
+.admin-error {
+  color: #ffb4b4;
+  margin: 0.5rem 0 0.85rem;
+}
+
+.admin-toolbar,
+.admin-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.admin-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  color: var(--mist);
+  font-size: 0.9rem;
+  margin-right: auto;
+}
+
+.admin-search {
+  min-width: min(100%, 18rem);
+  flex: 1;
+}
+
+.admin-table-wrap {
+  overflow-x: auto;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.85rem;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  vertical-align: top;
+  text-align: left;
+}
+
+.admin-table th {
+  color: var(--gold);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.admin-thumb {
+  width: 64px;
+  height: 84px;
+  object-fit: cover;
+  border-radius: 0.4rem;
+  background: #122033;
+}
+
+.admin-thumb.placeholder {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--mist);
+}
+
+.admin-catalog-tag {
+  display: inline-block;
+  margin-bottom: 0.35rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 215, 140, 0.35);
+  color: var(--gold);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.admin-slug {
+  color: var(--mist);
+  font-size: 0.78rem;
+  margin: 0.35rem 0;
+  word-break: break-all;
+}
+
+.admin-entry {
+  opacity: 0.55;
+  font-size: 0.85rem;
+}

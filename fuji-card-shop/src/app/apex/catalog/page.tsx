@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import type { CSSProperties } from "react";
+import { ApexProductArt } from "@/components/ApexProductArt";
 import { apexMeta, apexProducts, formatUsd, getApexSections } from "@/data/apex";
 
 export const metadata: Metadata = {
@@ -68,24 +68,7 @@ export default async function ApexCatalogPage({
             <div className="product-grid">
               {rows.map((product) => (
                 <Link key={product.slug} href={`/apex/product/${product.slug}`} className="product-tile">
-                  <div
-                    className="product-art"
-                    style={
-                      {
-                        "--accent": product.accent,
-                        "--accent-2": product.accentSecondary,
-                      } as CSSProperties
-                    }
-                  >
-                    {product.quoteRequired ? (
-                      <span className="product-badge">Quote</span>
-                    ) : product.status ? (
-                      <span className="product-badge">{product.status}</span>
-                    ) : null}
-                    <div className="product-art-inner">
-                      <div className="product-art-label">{product.name}</div>
-                    </div>
-                  </div>
+                  <ApexProductArt product={product} />
                   <div className="product-meta">
                     <h3>{product.name}</h3>
                     <div style={{ color: "var(--mist)", fontSize: "0.88rem" }}>
