@@ -24,13 +24,18 @@ export function ApexProductArt({
         <span className="product-badge">{product.status}</span>
       ) : null}
       {product.image ? (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          className="product-photo"
-          src={product.image}
-          alt={product.name}
-          loading={priority ? "eager" : "lazy"}
-        />
+        <>
+          <span className="authentic-chip">
+            {product.imageMatchQuality === "closest-line" ? "Line-matched photo" : "Authentic sealed"}
+          </span>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            className="product-photo"
+            src={product.image}
+            alt={product.name}
+            loading={priority ? "eager" : "lazy"}
+          />
+        </>
       ) : (
         <div className="product-art-inner">
           <div className="product-art-label">{product.name}</div>

@@ -34,6 +34,8 @@ export type Product = {
   /** Local path under /public, e.g. /images/products/M2a-bb.jpg */
   image?: string;
   imageRef?: string;
+  imageMatchQuality?: "exact" | "closest-line";
+  imageNote?: string;
 };
 
 export const categories: {

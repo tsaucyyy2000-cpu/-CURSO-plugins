@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ApexProductArt } from "@/components/ApexProductArt";
+import { TrustStrip } from "@/components/TrustStrip";
 import { apexMeta, apexProducts, formatUsd, getApexSections } from "@/data/apex";
 
 export const metadata: Metadata = {
@@ -29,17 +30,23 @@ export default async function ApexCatalogPage({
     list.some((product) => product.section === section),
   );
 
+  const withPhotos = list.filter((product) => product.image).length;
+
   return (
-    <div className="shell" style={{ paddingBottom: "4rem" }}>
+    <>
+    <div className="shell" style={{ paddingBottom: "1rem" }}>
       <div className="page-hero">
         <div className="eyebrow">Apex TCG</div>
         <h1>200-product planning catalog</h1>
         <p>
-          Unit draft prices from the Apex wholesale planning sheet ({apexMeta.prepared}).{" "}
+          Unit draft prices from the Apex wholesale planning sheet ({apexMeta.prepared}). Authentic
+          sealed photos on {withPhotos}/{list.length} shown SKUs.{" "}
           <Link href="/apex/cases">View case pricing →</Link>
         </p>
       </div>
-
+    </div>
+    <TrustStrip />
+    <div className="shell" style={{ paddingBottom: "4rem", paddingTop: "1.25rem" }}>
       <div className="filters">
         {filters.map((filter) => (
           <Link
@@ -71,7 +78,13 @@ export default async function ApexCatalogPage({
                   <ApexProductArt product={product} />
                   <div className="product-meta">
                     <h3>{product.name}</h3>
-                    <div style={{ color: "var(--mist)", fontSize: "0.88rem" }}>
+                    <div className="product-assurance">
+                      {product.image
+                        ? product.imageMatchQuality === "closest-line"
+                          ? "Closest authentic sealed photo"
+                          : "Official sealed product photo"
+                        : "Sealed planning SKU"}
+                      {" · "}
                       {product.format || "Sealed"}
                     </div>
                     <div className="price">{formatUsd(product.unitPrice)}</div>
@@ -83,5 +96,6 @@ export default async function ApexCatalogPage({
         );
       })}
     </div>
+    </>
   );
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { CategoryFilters } from "@/components/CategoryFilters";
 import { ProductCard } from "@/components/ProductCard";
+import { TrustStrip } from "@/components/TrustStrip";
 import { categories, type CategorySlug } from "@/data/products";
 import { getProductsByCategorySlug } from "@/data/resolveProducts";
 
@@ -37,19 +38,28 @@ export default async function CategoryPage({
 
   const list = getProductsByCategorySlug(slug as CategorySlug);
 
+  const withPhotos = list.filter((product) => product.image).length;
+
   return (
-    <div className="shell">
-      <div className="page-hero">
-        <div className="eyebrow">Category</div>
-        <h1>{category.name}</h1>
-        <p>{category.description}</p>
+    <>
+      <div className="shell">
+        <div className="page-hero">
+          <div className="eyebrow">Category</div>
+          <h1>{category.name}</h1>
+          <p>
+            {category.description} Authentic sealed photos on {withPhotos}/{list.length} listings.
+          </p>
+        </div>
       </div>
-      <CategoryFilters active={category.slug} />
-      <div className="product-grid" style={{ paddingBottom: "4rem" }}>
-        {list.map((product) => (
-          <ProductCard key={product.slug} product={product} />
-        ))}
+      <TrustStrip />
+      <div className="shell">
+        <CategoryFilters active={category.slug} />
+        <div className="product-grid" style={{ paddingBottom: "4rem", paddingTop: "1.25rem" }}>
+          {list.map((product) => (
+            <ProductCard key={product.slug} product={product} />
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 }

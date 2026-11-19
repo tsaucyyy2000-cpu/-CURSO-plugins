@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { CategoryFilters } from "@/components/CategoryFilters";
 import { ProductCard } from "@/components/ProductCard";
+import { TrustStrip } from "@/components/TrustStrip";
 import { getAllProducts } from "@/data/resolveProducts";
 
 export const metadata: Metadata = {
@@ -9,23 +10,29 @@ export const metadata: Metadata = {
 
 export default function StorePage() {
   const products = getAllProducts();
+  const withPhotos = products.filter((product) => product.image).length;
+
   return (
-    <div className="shell">
-      <div className="page-hero">
-        <div className="eyebrow">Shop</div>
-        <h1>Store</h1>
-        <p>
-          Japanese Pokémon products, ONE PIECE CARD GAME, and other sealed TCG —
-          rebuilt from the live Fuji Card Shop catalog structure, with archived
-          product photography where available.
-        </p>
+    <>
+      <div className="shell">
+        <div className="page-hero">
+          <div className="eyebrow">Shop</div>
+          <h1>Store</h1>
+          <p>
+            Japanese Pokémon, ONE PIECE, and sealed TCG with authentic product photography on every
+            listing ({withPhotos}/{products.length}). Factory-sealed presentation — ships from Japan.
+          </p>
+        </div>
       </div>
-      <CategoryFilters />
-      <div className="product-grid" style={{ paddingBottom: "4rem" }}>
-        {products.map((product) => (
-          <ProductCard key={product.slug} product={product} />
-        ))}
+      <TrustStrip />
+      <div className="shell">
+        <CategoryFilters />
+        <div className="product-grid" style={{ paddingBottom: "4rem", paddingTop: "1.25rem" }}>
+          {products.map((product) => (
+            <ProductCard key={product.slug} product={product} />
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 }

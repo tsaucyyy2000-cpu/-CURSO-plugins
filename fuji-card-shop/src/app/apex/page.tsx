@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { TrustStrip } from "@/components/TrustStrip";
 import { apexMeta, apexProducts, formatUsd } from "@/data/apex";
 
 export const metadata: Metadata = {
@@ -12,7 +13,8 @@ export default function ApexHubPage() {
   const other = apexProducts.length - pokemon - onePiece;
 
   return (
-    <div className="shell" style={{ paddingBottom: "4rem" }}>
+    <>
+    <div className="shell">
       <div className="page-hero">
         <div className="eyebrow">Wholesale partner</div>
         <h1>Apex TCG</h1>
@@ -22,10 +24,16 @@ export default function ApexHubPage() {
         </p>
       </div>
 
-      <div className="stub-note" style={{ marginBottom: "2rem" }}>
+      <div className="stub-note" style={{ marginBottom: "1.25rem" }}>
         {apexMeta.disclaimer}
       </div>
-
+      <p style={{ color: "var(--mist)", marginBottom: "1.75rem" }}>
+        Every planning SKU carries sealed-product photography so buyers can recognize the real
+        item before requesting a quote.
+      </p>
+    </div>
+    <TrustStrip />
+    <div className="shell" style={{ paddingBottom: "4rem", paddingTop: "1.75rem" }}>
       <div className="why-grid" style={{ marginBottom: "2.5rem" }}>
         <div className="why-item">
           <h3>{apexProducts.length} planning SKUs</h3>
@@ -76,5 +84,6 @@ export default function ApexHubPage() {
         </p>
       </div>
     </div>
+    </>
   );
 }

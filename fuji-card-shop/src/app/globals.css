@@ -375,14 +375,86 @@ p {
   border-radius: calc(var(--radius) - 4px);
   overflow: hidden;
   border: 1px solid var(--line);
-  background: var(--ink-soft);
+  background:
+    radial-gradient(circle at 50% 20%, rgba(255, 255, 255, 0.08), transparent 42%),
+    linear-gradient(180deg, #152233 0%, #0b1220 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
 }
 
 .product-photo {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  background: #0b1220;
+  object-fit: contain;
+  object-position: center;
+  padding: 0.85rem 0.75rem 1rem;
+  background: transparent;
+  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.35));
+}
+
+.authentic-chip {
+  position: absolute;
+  right: 0.7rem;
+  bottom: 0.7rem;
+  z-index: 2;
+  padding: 0.28rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(10, 22, 18, 0.82);
+  border: 1px solid rgba(120, 210, 170, 0.45);
+  color: #b7f0d2;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.product-assurance {
+  color: var(--mist);
+  font-size: 0.8rem;
+  margin-bottom: 0.35rem;
+  line-height: 1.35;
+}
+
+.trust-strip {
+  border-block: 1px solid var(--line);
+  background:
+    linear-gradient(90deg, rgba(212, 168, 75, 0.08), transparent 30%, transparent 70%, rgba(120, 210, 170, 0.06)),
+    rgba(8, 14, 22, 0.72);
+  padding: 1.15rem 0;
+}
+
+.trust-strip-inner {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.trust-item {
+  display: grid;
+  gap: 0.3rem;
+  padding: 0.35rem 0.2rem;
+}
+
+.trust-item strong {
+  color: var(--foam);
+  font-size: 0.92rem;
+  letter-spacing: -0.01em;
+}
+
+.trust-item span {
+  color: var(--mist);
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+  .trust-strip-inner {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .trust-strip-inner {
+    grid-template-columns: 1fr;
+  }
 }
 
 .product-art-inner {

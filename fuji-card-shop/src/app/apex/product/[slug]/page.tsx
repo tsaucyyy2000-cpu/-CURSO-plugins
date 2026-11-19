@@ -50,6 +50,13 @@ export default async function ApexProductPage({
         <div className="eyebrow">{product.section}</div>
         <h1 style={{ fontSize: "clamp(1.8rem, 4vw, 2.6rem)" }}>{product.name}</h1>
         <div className="price">{formatUsd(product.unitPrice)} unit</div>
+        <p className="product-assurance">
+          {product.image
+            ? product.imageMatchQuality === "closest-line"
+              ? "Closest authentic sealed photo for this planning line"
+              : "Official sealed product photo for wholesale planning"
+            : "Sealed planning SKU"}
+        </p>
         {product.format ? <p style={{ color: "var(--mist)" }}>Format: {product.format}</p> : null}
         {product.status ? <p style={{ color: "var(--gold)" }}>{product.status}</p> : null}
 

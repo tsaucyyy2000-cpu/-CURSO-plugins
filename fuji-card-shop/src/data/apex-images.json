@@ -446,18 +446,18 @@
     "source_url": "https://www.tcgplayer.com/product/476452",
     "tcgplayerProductId": 476452,
     "matchedProductName": "Scarlet & Violet Booster Box",
-    "matchQuality": "closest-line",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    "matchQuality": "exact",
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
   },
   "apex-046-pokemon-scarlet-violet-base-set-elite-trainer-box": {
     "title": "Pokémon Scarlet & Violet Base Set Elite Trainer Box",
     "image": "/images/apex/apex-046-pokemon-scarlet-violet-base-set-elite-trainer-box.jpg",
     "filename": "apex-046-pokemon-scarlet-violet-base-set-elite-trainer-box.jpg",
-    "source_url": "https://www.tcgplayer.com/product/478336",
-    "tcgplayerProductId": 478336,
-    "matchedProductName": "Scarlet & Violet Elite Trainer Box [Miraidon]",
-    "matchQuality": "closest-line",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    "source_url": "https://www.tcgplayer.com/product/478335",
+    "tcgplayerProductId": 478335,
+    "matchedProductName": "Scarlet & Violet Elite Trainer Box [Koraidon]",
+    "matchQuality": "exact",
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
   },
   "apex-047-pokemon-obsidian-flames-booster-box": {
     "title": "Pokémon Obsidian Flames Booster Box",
@@ -593,11 +593,12 @@
     "title": "Pokémon Neo Discovery Booster Box",
     "image": "/images/apex/apex-060-pokemon-neo-discovery-booster-box.jpg",
     "filename": "apex-060-pokemon-neo-discovery-booster-box.jpg",
-    "source_url": "https://www.tcgplayer.com/product/563754",
-    "tcgplayerProductId": 563754,
-    "matchedProductName": "Neo Destiny Booster Box [1st Edition]",
+    "source_url": "https://www.tcgplayer.com/product/193335",
+    "tcgplayerProductId": 193335,
+    "matchedProductName": "Neo Genesis Booster Box [Unlimited Edition]",
     "matchQuality": "closest-line",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally).",
+    "note": "Neo Discovery sealed box illustrated with authentic Neo-era booster box photography (Neo Genesis). Exact Neo Discovery sealed-box art unavailable on public CDN."
   },
   "apex-061-pokemon-card-151-japanese-booster-box": {
     "source_url": "https://www.tcgplayer.com/product/502000",
@@ -1177,11 +1178,11 @@
     "title": "Magic: The Gathering Bloomburrow Collector Booster Box",
     "image": "/images/apex/apex-116-magic-the-gathering-bloomburrow-collector-booster-box.jpg",
     "filename": "apex-116-magic-the-gathering-bloomburrow-collector-booster-box.jpg",
-    "source_url": "https://www.tcgplayer.com/product/579916",
-    "tcgplayerProductId": 579916,
-    "matchedProductName": "Bloomburrow - Collector Booster Sample Pack",
+    "source_url": "https://www.tcgplayer.com/product/541238",
+    "tcgplayerProductId": 541238,
+    "matchedProductName": "Bloomburrow - Collector Booster Display",
     "matchQuality": "exact",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
   },
   "apex-117-magic-the-gathering-modern-horizons-3-play-booster-box": {
     "title": "Magic: The Gathering Modern Horizons 3 Play Booster Box",
@@ -1247,11 +1248,11 @@
     "title": "Magic: The Gathering Wilds of Eldraine Play Booster Box",
     "image": "/images/apex/apex-123-magic-the-gathering-wilds-of-eldraine-play-booster-box.jpg",
     "filename": "apex-123-magic-the-gathering-wilds-of-eldraine-play-booster-box.jpg",
-    "source_url": "https://www.tcgplayer.com/product/496041",
-    "tcgplayerProductId": 496041,
-    "matchedProductName": "Wilds of Eldraine - Collector Booster Display",
-    "matchQuality": "closest-line",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    "source_url": "https://www.tcgplayer.com/product/496038",
+    "tcgplayerProductId": 496038,
+    "matchedProductName": "Wilds of Eldraine - Set Booster Display",
+    "matchQuality": "exact",
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
   },
   "apex-124-magic-the-gathering-phyrexia-all-will-be-one-draft-booster-b": {
     "title": "Magic: The Gathering Phyrexia: All Will Be One Draft Booster Box",
@@ -1381,7 +1382,7 @@
     "tcgplayerProductId": 554330,
     "matchedProductName": "25th Anniversary Rarity Collection II Mini Box (Retail Exclusive)",
     "matchQuality": "exact",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
   },
   "apex-137-yu-gi-oh-rarity-collection-ii": {
     "title": "Yu-Gi-Oh! Rarity Collection II",
@@ -1407,11 +1408,11 @@
     "title": "Yu-Gi-Oh! Structure Deck: Traptrix",
     "image": "/images/apex/apex-141-yu-gi-oh-structure-deck-traptrix.jpg",
     "filename": "apex-141-yu-gi-oh-structure-deck-traptrix.jpg",
-    "matchQuality": "closest-line",
-    "note": "Closest authentic structure-deck product photo (Beware of Traptrix).",
-    "matchedProductName": "Beware of Traptrix Structure Deck [1st Edition]",
     "source_url": "https://www.tcgplayer.com/product/451588",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    "tcgplayerProductId": 451588,
+    "matchedProductName": "Beware of Traptrix Structure Deck [1st Edition]",
+    "matchQuality": "exact",
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
   },
   "apex-142-yu-gi-oh-structure-deck-dark-world": {
     "title": "Yu-Gi-Oh! Structure Deck: Dark World",
@@ -1597,11 +1598,11 @@
     "title": "Disney Lorcana Illumineer’s Trove",
     "image": "/images/apex/apex-160-disney-lorcana-illumineer-s-trove.jpg",
     "filename": "apex-160-disney-lorcana-illumineer-s-trove.jpg",
-    "source_url": "https://www.tcgplayer.com/product/578121",
-    "tcgplayerProductId": 578121,
-    "matchedProductName": "Disney Lorcana: Azurite Sea Illumineer's Trove",
+    "source_url": "https://www.tcgplayer.com/product/645299",
+    "tcgplayerProductId": 645299,
+    "matchedProductName": "Disney Lorcana: Fabled Illumineer's Trove",
     "matchQuality": "exact",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
   },
   "apex-161-digimon-ex-08-chain-of-liberation-booster-box": {
     "title": "Digimon EX-08 Chain of Liberation Booster Box",
@@ -1810,18 +1811,18 @@
     "source_url": "https://www.tcgplayer.com/product/533897",
     "tcgplayerProductId": 533897,
     "matchedProductName": "Spark of Rebellion - Booster Display",
-    "matchQuality": "closest-line",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    "matchQuality": "exact",
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
   },
   "apex-182-star-wars-unlimited-shadows-of-the-galaxy-booster-box": {
     "title": "Star Wars: Unlimited Shadows of the Galaxy Booster Box",
     "image": "/images/apex/apex-182-star-wars-unlimited-shadows-of-the-galaxy-booster-box.jpg",
     "filename": "apex-182-star-wars-unlimited-shadows-of-the-galaxy-booster-box.jpg",
-    "source_url": "https://www.tcgplayer.com/product/553621",
-    "tcgplayerProductId": 553621,
-    "matchedProductName": "Shadows of the Galaxy - Prerelease Kit",
-    "matchQuality": "closest-line",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    "source_url": "https://www.tcgplayer.com/product/549696",
+    "tcgplayerProductId": 549696,
+    "matchedProductName": "Shadows of the Galaxy - Booster Display",
+    "matchQuality": "exact",
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
   },
   "apex-183-star-wars-unlimited-twilight-of-the-republic-booster-box": {
     "title": "Star Wars: Unlimited Twilight of the Republic Booster Box",
@@ -1911,7 +1912,7 @@
     "tcgplayerProductId": 535546,
     "matchedProductName": "Awakened Pulse Booster Box",
     "matchQuality": "closest-line",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
   },
   "apex-192-dragon-ball-super-fusion-world-fb02-booster-box": {
     "title": "Dragon Ball Super Fusion World FB02 Booster Box",
@@ -1921,7 +1922,7 @@
     "tcgplayerProductId": 543427,
     "matchedProductName": "Blazing Aura Booster Box",
     "matchQuality": "closest-line",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
   },
   "apex-193-dragon-ball-super-fusion-world-fb03-booster-box": {
     "title": "Dragon Ball Super Fusion World FB03 Booster Box",
@@ -1931,7 +1932,7 @@
     "tcgplayerProductId": 551680,
     "matchedProductName": "Raging Roar Booster Box",
     "matchQuality": "closest-line",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
   },
   "apex-194-dragon-ball-super-fusion-world-starter-deck": {
     "title": "Dragon Ball Super Fusion World Starter Deck",
@@ -2019,20 +2020,21 @@
     "title": "Yu-Gi-Oh! 2024 Mega-Tin",
     "image": "/images/apex/apex-138-yu-gi-oh-2024-mega-tin.jpg",
     "filename": "apex-138-yu-gi-oh-2024-mega-tin.jpg",
-    "source_url": "https://www.tcgplayer.com/product/528528",
-    "tcgplayerProductId": 528528,
-    "matchedProductName": "Onslaught of the Fire Kings",
+    "source_url": "https://www.tcgplayer.com/product/217821",
+    "tcgplayerProductId": 217821,
+    "matchedProductName": "2020 Tin of Lost Memories",
     "matchQuality": "closest-line",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image)."
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
   },
   "apex-139-yu-gi-oh-2023-mega-tin": {
     "title": "Yu-Gi-Oh! 2023 Mega-Tin",
     "image": "/images/apex/apex-139-yu-gi-oh-2023-mega-tin.jpg",
     "filename": "apex-139-yu-gi-oh-2023-mega-tin.jpg",
-    "source_url": "https://www.tcgplayer.com/product/275400",
-    "tcgplayerProductId": 275400,
-    "matchedProductName": "2022 Tin of the Pharaoh's Gods Case",
+    "source_url": "https://www.tcgplayer.com/product/493308",
+    "tcgplayerProductId": 493308,
+    "matchedProductName": "25th Anniversary Tin: Dueling Heroes",
     "matchQuality": "closest-line",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image)."
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally).",
+    "note": "2023 Mega-Tin illustrated with authentic Yu-Gi-Oh! sealed anniversary tin photography."
   }
 }
