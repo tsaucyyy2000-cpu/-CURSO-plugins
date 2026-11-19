@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import type { CSSProperties } from "react";
+import { ApexProductArt } from "@/components/ApexProductArt";
 import { apexProducts, formatUsd, getApexProduct } from "@/data/apex";
 
 type Params = { slug: string };
@@ -34,27 +34,29 @@ export default async function ApexProductPage({
 
   return (
     <div className="shell product-layout" style={{ paddingTop: "2.5rem" }}>
-      <div
-        className="product-detail-art"
-        style={
-          {
-            "--accent": product.accent,
-            "--accent-2": product.accentSecondary,
-          } as CSSProperties
-        }
-      >
-        <div className="product-art" style={{ aspectRatio: "1 / 1", borderRadius: "var(--radius)" }}>
-          {product.quoteRequired ? <span className="product-badge">Quote required</span> : null}
-          <div className="product-art-inner">
-            <div className="product-art-label">{product.name}</div>
-          </div>
+      <div className="product-detail-art">
+        <div style={{ aspectRatio: "1 / 1", borderRadius: "var(--radius)", overflow: "hidden" }}>
+          <ApexProductArt product={product} priority />
         </div>
+        {product.imageMatchQuality === "closest-line" ? (
+          <p className="stub-note" style={{ marginTop: "0.75rem" }}>
+            Closest authentic product-line photo
+            {product.imageNote ? ` — ${product.imageNote}` : "."}
+          </p>
+        ) : null}
       </div>
 
       <div className="detail-copy">
         <div className="eyebrow">{product.section}</div>
         <h1 style={{ fontSize: "clamp(1.8rem, 4vw, 2.6rem)" }}>{product.name}</h1>
         <div className="price">{formatUsd(product.unitPrice)} unit</div>
+        <p className="product-assurance">
+          {product.image
+            ? product.imageMatchQuality === "closest-line"
+              ? "Closest authentic sealed photo for this planning line"
+              : "Official sealed product photo for wholesale planning"
+            : "Sealed planning SKU"}
+        </p>
         {product.format ? <p style={{ color: "var(--mist)" }}>Format: {product.format}</p> : null}
         {product.status ? <p style={{ color: "var(--gold)" }}>{product.status}</p> : null}
 

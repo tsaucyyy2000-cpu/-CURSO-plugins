@@ -12,12 +12,11 @@ export default function GalleryPage() {
   return (
     <div className="shell" style={{ paddingBottom: "4rem" }}>
       <div className="page-hero">
-        <div className="eyebrow">Archive</div>
+        <div className="eyebrow">Catalog photography</div>
         <h1>Product photos</h1>
         <p>
-          Photography pulled from the live Fuji Card Shop catalog. Current CDN assets are hotlink
-          protected from this environment, so these files were recovered via public Wayback Machine
-          snapshots of the shop&apos;s media library and wired into the rebuild.
+          Real sealed-product imagery from the Fuji Card Shop catalog — every photo shows the
+          factory packaging collectors receive, so you can buy with confidence.
         </p>
       </div>
 

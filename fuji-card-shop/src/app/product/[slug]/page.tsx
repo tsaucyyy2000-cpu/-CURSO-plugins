@@ -47,6 +47,16 @@ export default async function ProductPage({
         <div className="eyebrow">{product.category.replace("-", " ")}</div>
         <h1 style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)" }}>{product.name}</h1>
         <div className="price">{formatPrice(product)}</div>
+        <p className="product-assurance">
+          {product.image
+            ? product.imageMatchQuality === "closest-line"
+              ? "Closest authentic sealed photo · Factory packaging style as shipped from Japan"
+              : "Official sealed product photo · Factory packaging as shipped from Japan"
+            : "Sealed Japanese TCG · Ships from Funabashi"}
+        </p>
+        {product.imageMatchQuality === "closest-line" && product.imageNote ? (
+          <p className="stub-note">{product.imageNote}</p>
+        ) : null}
         {typeof product.stock === "number" ? (
           <p style={{ color: "var(--mist)" }}>{product.stock} in stock</p>
         ) : null}

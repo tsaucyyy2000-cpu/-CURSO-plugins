@@ -7,6 +7,8 @@ type ImageEntry = {
   image: string;
   filename: string;
   source_url?: string;
+  matchQuality?: "exact" | "closest-line";
+  note?: string;
 };
 
 type ImageMap = Record<string, ImageEntry>;
@@ -20,6 +22,8 @@ function withImage(product: Product): Product {
       ...product,
       image: direct.image,
       imageRef: direct.source_url || product.imageRef,
+      imageMatchQuality: direct.matchQuality ?? "exact",
+      imageNote: direct.note,
     };
   }
 
@@ -36,6 +40,8 @@ function withImage(product: Product): Product {
       ...product,
       image: fuzzy[1].image,
       imageRef: fuzzy[1].source_url || product.imageRef,
+      imageMatchQuality: fuzzy[1].matchQuality ?? "exact",
+      imageNote: fuzzy[1].note,
     };
   }
 

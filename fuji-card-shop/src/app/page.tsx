@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ProductCard } from "@/components/ProductCard";
+import { TrustStrip } from "@/components/TrustStrip";
 import {
   announcements,
   brand,
@@ -13,8 +14,8 @@ import {
 } from "@/data/resolveProducts";
 
 export default function HomePage() {
-  const featured = getFeaturedProductsResolved().slice(0, 12);
-  const sale = getSaleProductsResolved().slice(0, 10);
+  const featured = getFeaturedProductsResolved().slice(0, 18);
+  const sale = getSaleProductsResolved().slice(0, 12);
 
   return (
     <>
@@ -30,14 +31,14 @@ export default function HomePage() {
         </div>
         <div className="shell hero-copy">
           <div className="hero-kicker">
-            {brand.trustpilotScore} · Ships from Japan
+            {brand.trustpilotScore} Trustpilot · Authentic sealed · Ships from Japan
           </div>
           <h1>
             Fuji <em>Card</em> Shop
           </h1>
           <p className="hero-lead">
-            Authentic Japanese Pokémon, ONE PIECE, and sealed TCG — carefully packed
-            and sent worldwide with tracked express shipping.
+            Real sealed product photography across the full catalog — Japanese Pokémon, ONE PIECE,
+            and TCG you can recognize before you buy, packed carefully and sent worldwide.
           </p>
           <div className="hero-actions">
             <Link href="/store" className="btn btn-primary">
@@ -49,6 +50,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <TrustStrip />
 
       <section className="section">
         <div className="shell">
@@ -104,7 +107,10 @@ export default function HomePage() {
           <div className="section-head">
             <div className="eyebrow">Catalog</div>
             <h2>Featured products</h2>
-            <p>Homepage selections including pre-orders, anniversary sets, and Pokémon Center exclusives.</p>
+            <p>
+              Authentic sealed photography on every tile — pre-orders, anniversary sets, and Pokémon
+              Center exclusives.
+            </p>
           </div>
           <div className="product-grid">
             {featured.map((product) => (

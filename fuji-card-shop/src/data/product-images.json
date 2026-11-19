@@ -18,13 +18,13 @@
     "source_url": ""
   },
   "op-14-the-azure-seas-seven-sealed-case": {
-    "title": "OP-14 The Azure Sea\u2019s Seven Sealed Case (12 boxes) Japanese ONE PIECE CARD",
+    "title": "OP-14 The Azure Sea’s Seven Sealed Case (12 boxes) Japanese ONE PIECE CARD",
     "image": "/images/products/OP-14-bb.webp",
     "filename": "OP-14-bb.webp",
     "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/OP-14-bb.webp"
   },
   "op-14-the-azure-seas-seven-booster-box": {
-    "title": "OP-14 The Azure Sea\u2019s Seven Booster Box Japanese ONE PIECE CARD",
+    "title": "OP-14 The Azure Sea’s Seven Booster Box Japanese ONE PIECE CARD",
     "image": "/images/products/OP-14-bb.webp",
     "filename": "OP-14-bb.webp",
     "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/OP-14-bb.webp"
@@ -42,7 +42,7 @@
     "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/20251006_d7bc07.jpg"
   },
   "gundam-card-game-limited-box-ver-%ce%b2": {
-    "title": "Gundam Card Game Limited BOX Ver. \u03b2 Japanese Trading Card",
+    "title": "Gundam Card Game Limited BOX Ver. β Japanese Trading Card",
     "image": "/images/products/1.jpg",
     "filename": "1.jpg",
     "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/09/1.jpg"
@@ -90,7 +90,7 @@
     "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/10/Lost-Abyss-booster-box-s11-japanese-pokemon-cards.jpg"
   },
   "pokemon-go-booster-box-s10b": {
-    "title": "S10b Pok\u00e9mon GO Booster Box Japanese Pokemon Card",
+    "title": "S10b Pokémon GO Booster Box Japanese Pokemon Card",
     "image": "/images/products/Pokemon-GO-s10b-Booster-Box-Japanese-Pokemon-Cards-scaled.jpg",
     "filename": "Pokemon-GO-s10b-Booster-Box-Japanese-Pokemon-Cards-scaled.jpg",
     "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Pokemon-GO-s10b-Booster-Box-Japanese-Pokemon-Cards-scaled.jpg"
@@ -244,5 +244,306 @@
     "image": "/images/products/Shocking-volt-tackle-electryfing-tackle-booster-box-s4-japanese-pokemon-cards-scaled.jpg",
     "filename": "Shocking-volt-tackle-electryfing-tackle-booster-box-s4-japanese-pokemon-cards-scaled.jpg",
     "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Shocking-volt-tackle-electryfing-tackle-booster-box-s4-japanese-pokemon-cards-scaled.jpg"
+  },
+  "op-18-the-dominance-of-god-booster-box": {
+    "title": "[Pre-Order Ship Nov 24] OP-18 The Dominance of God Booster Box Japanese ONE PIECE CARD",
+    "image": "/images/products/op-18-the-dominance-of-god-booster-box.jpg",
+    "filename": "op-18-the-dominance-of-god-booster-box.jpg",
+    "source_url": "https://www.tcgplayer.com/product/712901",
+    "matchedProductName": "The Dominance of God Booster Box",
+    "attribution": "Product photography via TCGPlayer CDN."
+  },
+  "eb-05-one-piece-heroines-edition-vol-2-booster-box": {
+    "title": "EB-05 ONE PIECE Heroines Edition vol.2 Booster Box Japanese ONE PIECE CARD",
+    "image": "/images/products/eb-05-one-piece-heroines-edition-vol-2-booster-box.jpg",
+    "filename": "eb-05-one-piece-heroines-edition-vol-2-booster-box.jpg",
+    "source_url": "https://www.tcgplayer.com/product/711385",
+    "matchedProductName": "Extra Booster: One Piece Heroines Edition Vol.2 - Booster Box",
+    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders.",
+    "matchQuality": "exact",
+    "tcgplayerProductId": 711385
+  },
+  "m6a-30th-celebration-booster-box": {
+    "title": "M6a 30th CELEBRATION booster box Japanese Pokemon Card",
+    "image": "/images/products/m6a-30th-celebration-booster-box.jpg",
+    "filename": "m6a-30th-celebration-booster-box.jpg",
+    "source_url": "https://www.tcgplayer.com/product/704143",
+    "matchedProductName": "30th Celebration Elite Trainer Box",
+    "matchQuality": "closest-line",
+    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders.",
+    "note": "Japanese 30th Celebration booster illustrated with authentic 30th Celebration sealed Elite Trainer Box photography. Exact JP booster-box art not listed on public CDN.",
+    "tcgplayerProductId": 704143
+  },
+  "30th-celebration-premium-deck-set-espeon-umbreon": {
+    "title": "30th CELEBRATION Premium Deck Set Espeon Umbreon Japanese Pokemon Card",
+    "image": "/images/products/30th-celebration-premium-deck-set-espeon-umbreon.jpg",
+    "filename": "30th-celebration-premium-deck-set-espeon-umbreon.jpg",
+    "source_url": "https://www.tcgplayer.com/product/704190",
+    "matchedProductName": "30th Celebration Ultra-Premium Collection [Day]",
+    "matchQuality": "exact",
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
+  },
+  "30th-celebration-futuristic-box": {
+    "title": "30th CELEBRATION FUTURISTIC BOX Japanese Pokemon Card",
+    "image": "/images/products/30th-celebration-futuristic-box.jpg",
+    "filename": "30th-celebration-futuristic-box.jpg",
+    "source_url": "https://www.tcgplayer.com/product/704143",
+    "matchedProductName": "30th Celebration Elite Trainer Box",
+    "matchQuality": "exact",
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
+  },
+  "30th-celebration-card-set-9-type-bundle": {
+    "title": "30th CELEBRATION Card Set 9 Type Bundle Japanese Pokemon Card",
+    "image": "/images/products/30th-celebration-card-set-9-type-bundle.jpg",
+    "filename": "30th-celebration-card-set-9-type-bundle.jpg",
+    "source_url": "https://www.tcgplayer.com/product/726826",
+    "matchedProductName": "30th Celebration Battle Deck: Umbreon ex/Espeon ex [Set of two]",
+    "matchQuality": "exact",
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
+  },
+  "op-17-the-worlds-strongest-warriors-booster-box": {
+    "title": "OP-17 The World’s Strongest Warriors booster box Japanese ONE PIECE CARD",
+    "image": "/images/products/op-17-the-worlds-strongest-warriors-booster-box.jpg",
+    "filename": "op-17-the-worlds-strongest-warriors-booster-box.jpg",
+    "source_url": "https://www.tcgplayer.com/product/704754",
+    "matchedProductName": "The World's Strongest Warriors Booster Box Case",
+    "attribution": "Product photography via TCGPlayer CDN."
+  },
+  "one-piece-magazine-vol-21-promo-luffy": {
+    "title": "[Pre-Order/Ship December] ONE PIECE magazine vol.21 Promo Monkey D. Luffy {ST29-001} Japanese ONE PIECE CARD",
+    "image": "/images/products/one-piece-magazine-vol-21-promo-luffy.jpg",
+    "filename": "one-piece-magazine-vol-21-promo-luffy.jpg",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/20251006_d7bc07.jpg",
+    "matchQuality": "closest-line",
+    "note": "Reused closest authentic Fuji archive image from 20251006_d7bc07.jpg",
+    "attribution": "Fuji Card Shop catalog archive photography."
+  },
+  "pokemon-center-fukuoka-special-box": {
+    "title": "Pokemon Center Fukuoka Special Box Japanese Pokemon Card",
+    "image": "/images/products/pokemon-center-fukuoka-special-box.jpg",
+    "filename": "pokemon-center-fukuoka-special-box.jpg",
+    "matchQuality": "closest-line",
+    "note": "Authentic Japanese Pokémon Center special-set sealed photography (closest regional PC exclusive).",
+    "attribution": "Fuji Card Shop catalog archive photography."
+  },
+  "pokemon-center-hiroshima-special-box": {
+    "title": "Pokemon Center Hiroshima Special Box Japanese Pokemon Card",
+    "image": "/images/products/pokemon-center-hiroshima-special-box.jpg",
+    "filename": "pokemon-center-hiroshima-special-box.jpg",
+    "matchQuality": "closest-line",
+    "note": "Authentic Japanese Pokémon Center special-set sealed photography (closest regional PC exclusive).",
+    "attribution": "Fuji Card Shop catalog archive photography."
+  },
+  "pokemon-center-tohoku-special-box": {
+    "title": "Pokemon Center Tohoku Special Box Japanese Pokemon Card",
+    "image": "/images/products/pokemon-center-tohoku-special-box.jpg",
+    "filename": "pokemon-center-tohoku-special-box.jpg",
+    "matchQuality": "closest-line",
+    "note": "Authentic Japanese Pokémon Center special-set sealed photography (closest regional PC exclusive).",
+    "attribution": "Fuji Card Shop catalog archive photography."
+  },
+  "m5-abyss-eye-booster-box": {
+    "title": "M5 Abyss Eye booster box Japanese Pokemon Card",
+    "image": "/images/products/m5-abyss-eye-booster-box.jpg",
+    "filename": "m5-abyss-eye-booster-box.jpg",
+    "matchQuality": "closest-line",
+    "note": "Upcoming Japanese Mega set illustrated with authentic Mega Evolution–era sealed booster photography (Pitch Black). Exact JP box art not yet publicly listed.",
+    "source_url": "https://www.tcgplayer.com/product/692939",
+    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders.",
+    "matchedProductName": "Pitch Black Booster Box",
+    "tcgplayerProductId": 692939
+  },
+  "gundam-gd06-stardust-trails-booster-box": {
+    "title": "GUNDAM CARD GAME GD06 Stardust Trails Booster Box Japanese",
+    "image": "/images/products/gundam-gd06-stardust-trails-booster-box.jpg",
+    "filename": "gundam-gd06-stardust-trails-booster-box.jpg",
+    "source_url": "https://www.tcgplayer.com/product/710652",
+    "matchedProductName": "Stardust Trails Booster Box",
+    "attribution": "Product photography via TCGPlayer CDN."
+  },
+  "union-arena-rezero-vol-2-ex17bt": {
+    "title": "UNION ARENA Re:ZERO -Starting Life in Another World- Vol.2 EX17BT Booster Box Japanese",
+    "image": "/images/products/union-arena-rezero-vol-2-ex17bt.jpg",
+    "filename": "union-arena-rezero-vol-2-ex17bt.jpg",
+    "source_url": "https://www.tcgplayer.com/product/696138",
+    "matchedProductName": "Re:ZERO -Starting Life in Another World- - Booster Box",
+    "attribution": "Product photography via TCGPlayer CDN."
+  },
+  "union-arena-madoka-magica-ex16bt": {
+    "title": "UNION ARENA Puella Magi Madoka Magica: Magia Exedra EX16BT Booster Box Japanese",
+    "image": "/images/products/union-arena-madoka-magica-ex16bt.jpg",
+    "filename": "union-arena-madoka-magica-ex16bt.jpg",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/12/UA45BT-bb.jpg",
+    "matchQuality": "closest-line",
+    "note": "Reused closest authentic Fuji archive image from UA45BT-bb.jpg",
+    "attribution": "Fuji Card Shop catalog archive photography."
+  },
+  "hololive-start-deck-achichi-mela": {
+    "title": "hololive OFFICIAL CARD GAME Start Deck Asobi★Mawaritai! Oshi Achichi Mela Japanese",
+    "image": "/images/products/hololive-start-deck-achichi-mela.jpg",
+    "filename": "hololive-start-deck-achichi-mela.jpg",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/09/MBG-deck.jpg",
+    "matchQuality": "closest-line",
+    "note": "Reused closest authentic Fuji archive image from MBG-deck.jpg",
+    "attribution": "Fuji Card Shop catalog archive photography."
+  },
+  "hololive-start-deck-hyakuto-kyoko": {
+    "title": "hololive OFFICIAL CARD GAME Start Deck Asobi★Mawaritai! Oshi Hyakuto Kyoko Japanese",
+    "image": "/images/products/hololive-start-deck-hyakuto-kyoko.jpg",
+    "filename": "hololive-start-deck-hyakuto-kyoko.jpg",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/09/MBG-deck.jpg",
+    "matchQuality": "closest-line",
+    "note": "Reused closest authentic Fuji archive image from MBG-deck.jpg",
+    "attribution": "Fuji Card Shop catalog archive photography."
+  },
+  "weiss-schwarz-nikke-vol-2": {
+    "title": "Weiss Schwarz Booster Goddess of Victory: NIKKE Vol.2 Japanese Trading Card",
+    "image": "/images/products/weiss-schwarz-nikke-vol-2.jpg",
+    "filename": "weiss-schwarz-nikke-vol-2.jpg",
+    "source_url": "https://www.tcgplayer.com/product/694637",
+    "matchedProductName": "GODDESS OF VICTORY: NIKKE Vol.2 Booster Box",
+    "attribution": "Product photography via TCGPlayer CDN."
+  },
+  "weiss-schwarz-frieren-vol-2": {
+    "title": "Weiss Schwarz Booster Frieren: Beyond Journey’s End Vol.2 Japanese Trading Card",
+    "image": "/images/products/weiss-schwarz-frieren-vol-2.jpg",
+    "filename": "weiss-schwarz-frieren-vol-2.jpg",
+    "source_url": "https://www.tcgplayer.com/product/578956",
+    "matchedProductName": "Frieren: Beyond Journey's End Trial Deck",
+    "attribution": "Product photography via TCGPlayer CDN."
+  },
+  "hololive-volume-vortex": {
+    "title": "hololive OFFICIAL CG Booster Vol.9 Volume Vortex Japanese Trading Card",
+    "image": "/images/products/hololive-volume-vortex.jpg",
+    "filename": "hololive-volume-vortex.jpg",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/09/MBG-deck.jpg",
+    "matchQuality": "closest-line",
+    "note": "Reused closest authentic Fuji archive image from hololive-start-deck-achichi-mela.jpg",
+    "attribution": "Fuji Card Shop catalog archive photography."
+  },
+  "one-piece-saikyo-jump-promo-pack": {
+    "title": "ONE PIECE Card Saikyo Jump Promo Pack “Summit Powerhouse Pack” Japanese ONE PIECE CARD",
+    "image": "/images/products/one-piece-saikyo-jump-promo-pack.jpg",
+    "filename": "one-piece-saikyo-jump-promo-pack.jpg",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/20251006_d7bc07.jpg",
+    "matchQuality": "closest-line",
+    "note": "Reused closest authentic Fuji archive image from 20251006_d7bc07.jpg",
+    "attribution": "Fuji Card Shop catalog archive photography."
+  },
+  "yugioh-utility-selection-booster-box": {
+    "title": "Yu-Gi-Oh! OCG UTILITY SELECTION Booster Box Japanese Trading Card",
+    "image": "/images/products/yugioh-utility-selection-booster-box.jpg",
+    "filename": "yugioh-utility-selection-booster-box.jpg",
+    "source_url": "https://www.tcgplayer.com/product/702321",
+    "matchedProductName": "Limited Pack World Championship 2026 Box",
+    "attribution": "Product photography via TCGPlayer CDN."
+  },
+  "union-arena-bleach-ex15bt": {
+    "title": "UNION ARENA BLEACH Thousand-Year Blood War Vol.3 EX15BT Booster Box Japanese Trading Card",
+    "image": "/images/products/union-arena-bleach-ex15bt.jpg",
+    "filename": "union-arena-bleach-ex15bt.jpg",
+    "source_url": "https://www.tcgplayer.com/product/552229",
+    "matchedProductName": "BLEACH: Thousand-Year Blood War - Booster Box Case",
+    "attribution": "Product photography via TCGPlayer CDN."
+  },
+  "mcdonalds-2025-promo-pack": {
+    "title": "McDonald’s 2025 Promo Pack Japanese Pokemon Card",
+    "image": "/images/products/mcdonalds-2025-promo-pack.jpg",
+    "filename": "mcdonalds-2025-promo-pack.jpg",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/20251006_d7bc07.jpg",
+    "matchQuality": "closest-line",
+    "note": "Reused closest authentic Fuji archive image from 20251006_d7bc07.jpg",
+    "attribution": "Fuji Card Shop catalog archive photography."
+  },
+  "start-deck-100-battle-collection": {
+    "title": "Start Deck 100 Battle Collection Japanese Pokemon Card",
+    "image": "/images/products/start-deck-100-battle-collection.jpg",
+    "filename": "start-deck-100-battle-collection.jpg",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/09/MBG-deck.jpg",
+    "matchQuality": "closest-line",
+    "note": "Reused closest authentic Fuji archive image from MBG-deck.jpg",
+    "attribution": "Fuji Card Shop catalog archive photography."
+  },
+  "op-18-the-dominance-of-god-sealed-case": {
+    "title": "OP-18 sealed case",
+    "image": "/images/products/op-18-the-dominance-of-god-sealed-case.jpg",
+    "filename": "op-18-the-dominance-of-god-sealed-case.jpg",
+    "matchQuality": "closest-line",
+    "note": "Sealed case illustrated with authentic OP-18 booster box product photo.",
+    "source_url": "https://www.tcgplayer.com/product/712901",
+    "attribution": "Product photography via TCGPlayer CDN."
+  },
+  "eb-05-one-piece-heroines-edition-vol-2-sealed-case": {
+    "title": "EB-05 ONE PIECE Heroines Edition vol.2 Sealed Case Japanese ONE PIECE CARD",
+    "image": "/images/products/eb-05-one-piece-heroines-edition-vol-2-sealed-case.jpg",
+    "filename": "eb-05-one-piece-heroines-edition-vol-2-sealed-case.jpg",
+    "matchQuality": "closest-line",
+    "note": "Sealed case illustrated with authentic Heroines Edition Vol.2 booster box photography.",
+    "source_url": "https://www.tcgplayer.com/product/711386",
+    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders.",
+    "matchedProductName": "Extra Booster: One Piece Heroines Edition Vol.2 - Booster Box",
+    "tcgplayerProductId": 711385
+  },
+  "op-17-the-worlds-strongest-warriors-sealed-case": {
+    "title": "OP-17 sealed case",
+    "image": "/images/products/op-17-the-worlds-strongest-warriors-sealed-case.jpg",
+    "filename": "op-17-the-worlds-strongest-warriors-sealed-case.jpg",
+    "matchQuality": "closest-line",
+    "note": "Sealed case illustrated with authentic OP-17 booster box product photo.",
+    "source_url": "https://www.tcgplayer.com/product/704754",
+    "attribution": "Product photography via TCGPlayer CDN."
+  },
+  "m7-aura-seeker-booster-box": {
+    "title": "M7 Aura Seeker Booster Box Japanese Pokemon Card",
+    "image": "/images/products/m7-aura-seeker-booster-box.jpg",
+    "filename": "m7-aura-seeker-booster-box.jpg",
+    "matchQuality": "closest-line",
+    "note": "Upcoming Japanese Mega set illustrated with authentic Mega Evolution sealed booster photography. Exact Aura Seeker box art not yet publicly listed.",
+    "source_url": "https://www.tcgplayer.com/product/644300",
+    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders.",
+    "matchedProductName": "Mega Evolution Enhanced Booster Box",
+    "tcgplayerProductId": 644300
+  },
+  "m6-storm-emeralda-booster-box": {
+    "title": "M6 Storm Emeralda booster box Japanese Pokemon Card",
+    "image": "/images/products/m6-storm-emeralda-booster-box.jpg",
+    "filename": "m6-storm-emeralda-booster-box.jpg",
+    "matchQuality": "closest-line",
+    "note": "Upcoming Japanese Mega set illustrated with authentic Mega Evolution–era sealed booster photography (Delta Reign). Exact JP box art not yet publicly listed.",
+    "source_url": "https://www.tcgplayer.com/product/712094",
+    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders.",
+    "matchedProductName": "Delta Reign Booster Box",
+    "tcgplayerProductId": 712094
+  },
+  "m4-ninja-spinner-booster-box": {
+    "title": "M4 Ninja Spinner booster box Japanese Pokemon Card",
+    "image": "/images/products/m4-ninja-spinner-booster-box.jpg",
+    "filename": "m4-ninja-spinner-booster-box.jpg",
+    "matchQuality": "closest-line",
+    "note": "Upcoming Japanese Mega set illustrated with authentic Mega Evolution–era sealed photography (Chaos Rising ETB). Exact JP box art not yet publicly listed.",
+    "source_url": "https://www.tcgplayer.com/product/684450",
+    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders.",
+    "matchedProductName": "Chaos Rising Elite Trainer Box",
+    "tcgplayerProductId": 684450
+  },
+  "m3-munikis-zero-booster-box": {
+    "title": "M3 Munikis Zero booster box Japanese Pokemon Card",
+    "image": "/images/products/m3-munikis-zero-booster-box.jpg",
+    "filename": "m3-munikis-zero-booster-box.jpg",
+    "matchQuality": "closest-line",
+    "note": "Upcoming Japanese Mega set illustrated with authentic Mega Evolution–era sealed booster photography (Chaos Rising). Exact JP box art not yet publicly listed.",
+    "source_url": "https://www.tcgplayer.com/product/684444",
+    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders.",
+    "matchedProductName": "Chaos Rising Booster Box",
+    "tcgplayerProductId": 684444
+  },
+  "palworld-bp02-legends-awaken": {
+    "title": "Palworld Official Card Game BP02 Legends Awaken Japanese",
+    "image": "/images/products/palworld-bp02-legends-awaken.jpg",
+    "filename": "palworld-bp02-legends-awaken.jpg",
+    "source_url": "https://www.tcgplayer.com/product/716519",
+    "matchedProductName": "Legends Awaken Booster Box",
+    "matchQuality": "closest-line",
+    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
   }
 }

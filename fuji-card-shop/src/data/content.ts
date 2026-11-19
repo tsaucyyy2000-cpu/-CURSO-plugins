@@ -35,6 +35,7 @@ export const footerLinks = [
   { href: "/specified-commercial-transaction-act", label: "Specified Commercial Transaction Act" },
   { href: "/fake-accounts", label: "Beware of fake accounts" },
   { href: "/contact", label: "Contact" },
+  { href: "/admin", label: "Staff login" },
 ];
 
 export const heroReleases = [
@@ -71,8 +72,12 @@ export const ourStory = {
 
 export const whyFuji = [
   {
+    title: "Authentic sealed product",
+    body: "Every listing shows real factory-sealed photography matched to the SKU — Japanese Pokémon, ONE PIECE, and specialty TCG you can recognize before checkout.",
+  },
+  {
     title: "Ships from Japan",
-    body: "Authentic Japanese sealed product dispatched from Funabashi with tracked, insured express carriers — FedEx, DHL, or UPS.",
+    body: "Dispatched from Funabashi with tracked, insured express carriers — FedEx, DHL, or UPS — so packages arrive collector-ready.",
   },
   {
     title: "Trusted by collectors",
@@ -81,10 +86,6 @@ export const whyFuji = [
   {
     title: "Clear policies",
     body: "Transparent shipping, tariff, cancellation, and import-charge guidance — including the 12.5% US tariff collected at checkout on applicable goods.",
-  },
-  {
-    title: "Collector extras",
-    body: "Careful packing is part of the brand — reviewers often mention pristine boxes and thoughtful extras with orders.",
   },
 ];
 

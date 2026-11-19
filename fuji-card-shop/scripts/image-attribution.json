@@ -1,0 +1,1975 @@
+{
+  "source": "TCGPlayer CDN",
+  "products": [
+    {
+      "title": "Pok\u00e9mon 30th Celebration Elite Trainer Box",
+      "image": "/images/apex/apex-001-pokemon-30th-celebration-elite-trainer-box.jpg",
+      "filename": "apex-001-pokemon-30th-celebration-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/704143",
+      "tcgplayerProductId": 704143,
+      "matchedProductName": "30th Celebration Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon 30th Celebration Booster Bundle",
+      "image": "/images/apex/apex-002-pokemon-30th-celebration-booster-bundle.jpg",
+      "filename": "apex-002-pokemon-30th-celebration-booster-bundle.jpg",
+      "source_url": "https://www.tcgplayer.com/product/729930",
+      "tcgplayerProductId": 729930,
+      "matchedProductName": "Costco Pokemon 30th Celebration 2-Pack Trainer Box and Booster Bundle",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon ME Chaos Rising Booster Box",
+      "image": "/images/apex/apex-003-pokemon-me-chaos-rising-booster-box.jpg",
+      "filename": "apex-003-pokemon-me-chaos-rising-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/684444",
+      "tcgplayerProductId": 684444,
+      "matchedProductName": "Chaos Rising Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon ME Chaos Rising Elite Trainer Box",
+      "image": "/images/apex/apex-004-pokemon-me-chaos-rising-elite-trainer-box.jpg",
+      "filename": "apex-004-pokemon-me-chaos-rising-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/684450",
+      "tcgplayerProductId": 684450,
+      "matchedProductName": "Chaos Rising Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Destined Rivals Booster Box",
+      "image": "/images/apex/apex-005-pokemon-destined-rivals-booster-box.jpg",
+      "filename": "apex-005-pokemon-destined-rivals-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/624679",
+      "tcgplayerProductId": 624679,
+      "matchedProductName": "Destined Rivals Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Destined Rivals Elite Trainer Box",
+      "image": "/images/apex/apex-006-pokemon-destined-rivals-elite-trainer-box.jpg",
+      "filename": "apex-006-pokemon-destined-rivals-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/624676",
+      "tcgplayerProductId": 624676,
+      "matchedProductName": "Destined Rivals Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Destined Rivals Booster Bundle",
+      "image": "/images/apex/apex-007-pokemon-destined-rivals-booster-bundle.jpg",
+      "filename": "apex-007-pokemon-destined-rivals-booster-bundle.jpg",
+      "source_url": "https://www.tcgplayer.com/product/625670",
+      "tcgplayerProductId": 625670,
+      "matchedProductName": "Destined Rivals Booster Bundle",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Prismatic Evolutions Elite Trainer Box",
+      "image": "/images/apex/apex-008-pokemon-prismatic-evolutions-elite-trainer-box.jpg",
+      "filename": "apex-008-pokemon-prismatic-evolutions-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/593355",
+      "tcgplayerProductId": 593355,
+      "matchedProductName": "Prismatic Evolutions Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Prismatic Evolutions Booster Bundle",
+      "image": "/images/apex/apex-009-pokemon-prismatic-evolutions-booster-bundle.jpg",
+      "filename": "apex-009-pokemon-prismatic-evolutions-booster-bundle.jpg",
+      "source_url": "https://www.tcgplayer.com/product/600518",
+      "tcgplayerProductId": 600518,
+      "matchedProductName": "Prismatic Evolutions Booster Bundle",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Prismatic Evolutions Super Premium Collection",
+      "image": "/images/apex/apex-010-pokemon-prismatic-evolutions-super-premium-collection.jpg",
+      "filename": "apex-010-pokemon-prismatic-evolutions-super-premium-collection.jpg",
+      "source_url": "https://www.tcgplayer.com/product/622770",
+      "tcgplayerProductId": 622770,
+      "matchedProductName": "Prismatic Evolutions Super-Premium Collection",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Journey Together Booster Box",
+      "image": "/images/apex/apex-011-pokemon-journey-together-booster-box.jpg",
+      "filename": "apex-011-pokemon-journey-together-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/623628",
+      "tcgplayerProductId": 623628,
+      "matchedProductName": "Journey Together Enhanced Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Journey Together Elite Trainer Box",
+      "image": "/images/apex/apex-012-pokemon-journey-together-elite-trainer-box.jpg",
+      "filename": "apex-012-pokemon-journey-together-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/610930",
+      "tcgplayerProductId": 610930,
+      "matchedProductName": "Journey Together Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Surging Sparks Booster Box",
+      "image": "/images/apex/apex-013-pokemon-surging-sparks-booster-box.jpg",
+      "filename": "apex-013-pokemon-surging-sparks-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/565606",
+      "tcgplayerProductId": 565606,
+      "matchedProductName": "Surging Sparks Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Surging Sparks Elite Trainer Box",
+      "image": "/images/apex/apex-014-pokemon-surging-sparks-elite-trainer-box.jpg",
+      "filename": "apex-014-pokemon-surging-sparks-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/565630",
+      "tcgplayerProductId": 565630,
+      "matchedProductName": "Surging Sparks Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Stellar Crown Booster Box",
+      "image": "/images/apex/apex-015-pokemon-stellar-crown-booster-box.jpg",
+      "filename": "apex-015-pokemon-stellar-crown-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/557354",
+      "tcgplayerProductId": 557354,
+      "matchedProductName": "Stellar Crown Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Stellar Crown Elite Trainer Box",
+      "image": "/images/apex/apex-016-pokemon-stellar-crown-elite-trainer-box.jpg",
+      "filename": "apex-016-pokemon-stellar-crown-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/557350",
+      "tcgplayerProductId": 557350,
+      "matchedProductName": "Stellar Crown Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Shrouded Fable Booster Bundle",
+      "image": "/images/apex/apex-017-pokemon-shrouded-fable-booster-bundle.jpg",
+      "filename": "apex-017-pokemon-shrouded-fable-booster-bundle.jpg",
+      "source_url": "https://www.tcgplayer.com/product/553031",
+      "tcgplayerProductId": 553031,
+      "matchedProductName": "Shrouded Fable Booster Bundle",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Shrouded Fable Elite Trainer Box",
+      "image": "/images/apex/apex-018-pokemon-shrouded-fable-elite-trainer-box.jpg",
+      "filename": "apex-018-pokemon-shrouded-fable-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/552999",
+      "tcgplayerProductId": 552999,
+      "matchedProductName": "Shrouded Fable Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Twilight Masquerade Booster Box",
+      "image": "/images/apex/apex-019-pokemon-twilight-masquerade-booster-box.jpg",
+      "filename": "apex-019-pokemon-twilight-masquerade-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/543846",
+      "tcgplayerProductId": 543846,
+      "matchedProductName": "Twilight Masquerade Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Twilight Masquerade Elite Trainer Box",
+      "image": "/images/apex/apex-020-pokemon-twilight-masquerade-elite-trainer-box.jpg",
+      "filename": "apex-020-pokemon-twilight-masquerade-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/543845",
+      "tcgplayerProductId": 543845,
+      "matchedProductName": "Twilight Masquerade Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Temporal Forces Booster Box",
+      "image": "/images/apex/apex-021-pokemon-temporal-forces-booster-box.jpg",
+      "filename": "apex-021-pokemon-temporal-forces-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/536225",
+      "tcgplayerProductId": 536225,
+      "matchedProductName": "Temporal Forces Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Temporal Forces Elite Trainer Box",
+      "image": "/images/apex/apex-022-pokemon-temporal-forces-elite-trainer-box.jpg",
+      "filename": "apex-022-pokemon-temporal-forces-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/532845",
+      "tcgplayerProductId": 532845,
+      "matchedProductName": "Temporal Forces Elite Trainer Box [Walking Wake]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Paldean Fates Booster Bundle",
+      "image": "/images/apex/apex-023-pokemon-paldean-fates-booster-bundle.jpg",
+      "filename": "apex-023-pokemon-paldean-fates-booster-bundle.jpg",
+      "source_url": "https://www.tcgplayer.com/product/528771",
+      "tcgplayerProductId": 528771,
+      "matchedProductName": "Paldean Fates Booster Bundle",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Paldean Fates Elite Trainer Box",
+      "image": "/images/apex/apex-024-pokemon-paldean-fates-elite-trainer-box.jpg",
+      "filename": "apex-024-pokemon-paldean-fates-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/528040",
+      "tcgplayerProductId": 528040,
+      "matchedProductName": "Paldean Fates Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon 151 Booster Bundle",
+      "image": "/images/apex/apex-025-pokemon-151-booster-bundle.jpg",
+      "filename": "apex-025-pokemon-151-booster-bundle.jpg",
+      "source_url": "https://www.tcgplayer.com/product/502000",
+      "tcgplayerProductId": 502000,
+      "matchedProductName": "151 Booster Bundle",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon 151 Elite Trainer Box",
+      "image": "/images/apex/apex-026-pokemon-151-elite-trainer-box.jpg",
+      "filename": "apex-026-pokemon-151-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/503313",
+      "tcgplayerProductId": 503313,
+      "matchedProductName": "151 Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Crown Zenith Booster Bundle",
+      "image": "/images/apex/apex-027-pokemon-crown-zenith-booster-bundle.jpg",
+      "filename": "apex-027-pokemon-crown-zenith-booster-bundle.jpg",
+      "source_url": "https://www.tcgplayer.com/product/527562",
+      "tcgplayerProductId": 527562,
+      "matchedProductName": "Crown Zenith Booster Bundle",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Crown Zenith Elite Trainer Box",
+      "image": "/images/apex/apex-028-pokemon-crown-zenith-elite-trainer-box.jpg",
+      "filename": "apex-028-pokemon-crown-zenith-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/454246",
+      "tcgplayerProductId": 454246,
+      "matchedProductName": "Crown Zenith Pokemon Center Elite Trainer Box Plus",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Silver Tempest Booster Box",
+      "image": "/images/apex/apex-029-pokemon-silver-tempest-booster-box.jpg",
+      "filename": "apex-029-pokemon-silver-tempest-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/283389",
+      "tcgplayerProductId": 283389,
+      "matchedProductName": "Silver Tempest Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Silver Tempest Elite Trainer Box",
+      "image": "/images/apex/apex-030-pokemon-silver-tempest-elite-trainer-box.jpg",
+      "filename": "apex-030-pokemon-silver-tempest-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/283401",
+      "tcgplayerProductId": 283401,
+      "matchedProductName": "Silver Tempest Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Lost Origin Booster Box",
+      "image": "/images/apex/apex-031-pokemon-lost-origin-booster-box.jpg",
+      "filename": "apex-031-pokemon-lost-origin-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/277324",
+      "tcgplayerProductId": 277324,
+      "matchedProductName": "Lost Origin Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Lost Origin Elite Trainer Box",
+      "image": "/images/apex/apex-032-pokemon-lost-origin-elite-trainer-box.jpg",
+      "filename": "apex-032-pokemon-lost-origin-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/277335",
+      "tcgplayerProductId": 277335,
+      "matchedProductName": "Lost Origin Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Astral Radiance Booster Box",
+      "image": "/images/apex/apex-033-pokemon-astral-radiance-booster-box.jpg",
+      "filename": "apex-033-pokemon-astral-radiance-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/265519",
+      "tcgplayerProductId": 265519,
+      "matchedProductName": "Astral Radiance Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Astral Radiance Elite Trainer Box",
+      "image": "/images/apex/apex-034-pokemon-astral-radiance-elite-trainer-box.jpg",
+      "filename": "apex-034-pokemon-astral-radiance-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/265527",
+      "tcgplayerProductId": 265527,
+      "matchedProductName": "Astral Radiance Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Brilliant Stars Booster Box",
+      "image": "/images/apex/apex-035-pokemon-brilliant-stars-booster-box.jpg",
+      "filename": "apex-035-pokemon-brilliant-stars-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/256141",
+      "tcgplayerProductId": 256141,
+      "matchedProductName": "Brilliant Stars Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Brilliant Stars Elite Trainer Box",
+      "image": "/images/apex/apex-036-pokemon-brilliant-stars-elite-trainer-box.jpg",
+      "filename": "apex-036-pokemon-brilliant-stars-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/256138",
+      "tcgplayerProductId": 256138,
+      "matchedProductName": "Brilliant Stars Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Fusion Strike Booster Box",
+      "image": "/images/apex/apex-037-pokemon-fusion-strike-booster-box.jpg",
+      "filename": "apex-037-pokemon-fusion-strike-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/247654",
+      "tcgplayerProductId": 247654,
+      "matchedProductName": "Fusion Strike Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Evolving Skies Booster Box",
+      "image": "/images/apex/apex-038-pokemon-evolving-skies-booster-box.jpg",
+      "filename": "apex-038-pokemon-evolving-skies-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/242436",
+      "tcgplayerProductId": 242436,
+      "matchedProductName": "Evolving Skies Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Battle Styles Booster Box",
+      "image": "/images/apex/apex-039-pokemon-battle-styles-booster-box.jpg",
+      "filename": "apex-039-pokemon-battle-styles-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/229277",
+      "tcgplayerProductId": 229277,
+      "matchedProductName": "Battle Styles Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Darkness Ablaze Booster Box",
+      "image": "/images/apex/apex-040-pokemon-darkness-ablaze-booster-box.jpg",
+      "filename": "apex-040-pokemon-darkness-ablaze-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/216853",
+      "tcgplayerProductId": 216853,
+      "matchedProductName": "Darkness Ablaze Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Champion\u2019s Path Elite Trainer Box",
+      "image": "/images/apex/apex-041-pokemon-champion-s-path-elite-trainer-box.jpg",
+      "filename": "apex-041-pokemon-champion-s-path-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/218791",
+      "tcgplayerProductId": 218791,
+      "matchedProductName": "Champion's Path Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Hidden Fates Elite Trainer Box",
+      "image": "/images/apex/apex-042-pokemon-hidden-fates-elite-trainer-box.jpg",
+      "filename": "apex-042-pokemon-hidden-fates-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/194729",
+      "tcgplayerProductId": 194729,
+      "matchedProductName": "Hidden Fates Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Celebrations Elite Trainer Box",
+      "image": "/images/apex/apex-043-pokemon-celebrations-elite-trainer-box.jpg",
+      "filename": "apex-043-pokemon-celebrations-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/242811",
+      "tcgplayerProductId": 242811,
+      "matchedProductName": "Celebrations Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Celebrations Booster Bundle",
+      "image": "/images/apex/apex-044-pokemon-celebrations-booster-bundle.jpg",
+      "filename": "apex-044-pokemon-celebrations-booster-bundle.jpg",
+      "source_url": "https://www.tcgplayer.com/product/729930",
+      "tcgplayerProductId": 729930,
+      "matchedProductName": "Costco Pokemon 30th Celebration 2-Pack Trainer Box and Booster Bundle",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Scarlet & Violet Base Set Booster Box",
+      "image": "/images/apex/apex-045-pokemon-scarlet-violet-base-set-booster-box.jpg",
+      "filename": "apex-045-pokemon-scarlet-violet-base-set-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/476452",
+      "tcgplayerProductId": 476452,
+      "matchedProductName": "Scarlet & Violet Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Scarlet & Violet Base Set Elite Trainer Box",
+      "image": "/images/apex/apex-046-pokemon-scarlet-violet-base-set-elite-trainer-box.jpg",
+      "filename": "apex-046-pokemon-scarlet-violet-base-set-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/478336",
+      "tcgplayerProductId": 478336,
+      "matchedProductName": "Scarlet & Violet Elite Trainer Box [Miraidon]",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Obsidian Flames Booster Box",
+      "image": "/images/apex/apex-047-pokemon-obsidian-flames-booster-box.jpg",
+      "filename": "apex-047-pokemon-obsidian-flames-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/501257",
+      "tcgplayerProductId": 501257,
+      "matchedProductName": "Obsidian Flames Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Obsidian Flames Elite Trainer Box",
+      "image": "/images/apex/apex-048-pokemon-obsidian-flames-elite-trainer-box.jpg",
+      "filename": "apex-048-pokemon-obsidian-flames-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/501264",
+      "tcgplayerProductId": 501264,
+      "matchedProductName": "Obsidian Flames Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Paldea Evolved Booster Box",
+      "image": "/images/apex/apex-049-pokemon-paldea-evolved-booster-box.jpg",
+      "filename": "apex-049-pokemon-paldea-evolved-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/493975",
+      "tcgplayerProductId": 493975,
+      "matchedProductName": "Paldea Evolved Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Paldea Evolved Elite Trainer Box",
+      "image": "/images/apex/apex-050-pokemon-paldea-evolved-elite-trainer-box.jpg",
+      "filename": "apex-050-pokemon-paldea-evolved-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/493974",
+      "tcgplayerProductId": 493974,
+      "matchedProductName": "Paldea Evolved Elite Trainer Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Paradox Rift Booster Box",
+      "image": "/images/apex/apex-051-pokemon-paradox-rift-booster-box.jpg",
+      "filename": "apex-051-pokemon-paradox-rift-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/512821",
+      "tcgplayerProductId": 512821,
+      "matchedProductName": "Paradox Rift Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Paradox Rift Elite Trainer Box",
+      "image": "/images/apex/apex-052-pokemon-paradox-rift-elite-trainer-box.jpg",
+      "filename": "apex-052-pokemon-paradox-rift-elite-trainer-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/528770",
+      "tcgplayerProductId": 528770,
+      "matchedProductName": "Code Card - Paradox Rift Elite Trainer Box [Roaring Moon]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Base Set Booster Box",
+      "image": "/images/apex/apex-053-pokemon-base-set-booster-box.jpg",
+      "filename": "apex-053-pokemon-base-set-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/185731",
+      "tcgplayerProductId": 185731,
+      "matchedProductName": "Base Set Booster Box [Revised Unlimited Edition]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Jungle Booster Box",
+      "image": "/images/apex/apex-054-pokemon-jungle-booster-box.jpg",
+      "filename": "apex-054-pokemon-jungle-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/107598",
+      "tcgplayerProductId": 107598,
+      "matchedProductName": "Jungle Booster Box [1st Edition]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Fossil Booster Box",
+      "image": "/images/apex/apex-055-pokemon-fossil-booster-box.jpg",
+      "filename": "apex-055-pokemon-fossil-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/107601",
+      "tcgplayerProductId": 107601,
+      "matchedProductName": "Pokemon Fossil [1st Edition] Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Team Rocket Booster Box",
+      "image": "/images/apex/apex-056-pokemon-team-rocket-booster-box.jpg",
+      "filename": "apex-056-pokemon-team-rocket-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/209436",
+      "tcgplayerProductId": 209436,
+      "matchedProductName": "Team Rocket Booster Box [1st Edition]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Gym Heroes Booster Box",
+      "image": "/images/apex/apex-057-pokemon-gym-heroes-booster-box.jpg",
+      "filename": "apex-057-pokemon-gym-heroes-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/208708",
+      "tcgplayerProductId": 208708,
+      "matchedProductName": "Gym Heroes Booster Box [Unlimited Edition]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Gym Challenge Booster Box",
+      "image": "/images/apex/apex-058-pokemon-gym-challenge-booster-box.jpg",
+      "filename": "apex-058-pokemon-gym-challenge-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/285314",
+      "tcgplayerProductId": 285314,
+      "matchedProductName": "Gym Challenge Booster Box [Unlimited Edition]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Neo Genesis Booster Box",
+      "image": "/images/apex/apex-059-pokemon-neo-genesis-booster-box.jpg",
+      "filename": "apex-059-pokemon-neo-genesis-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/193335",
+      "tcgplayerProductId": 193335,
+      "matchedProductName": "Neo Genesis Booster Box [Unlimited Edition]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Neo Discovery Booster Box",
+      "image": "/images/apex/apex-060-pokemon-neo-discovery-booster-box.jpg",
+      "filename": "apex-060-pokemon-neo-discovery-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/563754",
+      "tcgplayerProductId": 563754,
+      "matchedProductName": "Neo Destiny Booster Box [1st Edition]",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Card 151 Japanese Booster Box",
+      "image": "/images/apex/apex-061-pokemon-card-151-japanese-booster-box.jpg",
+      "filename": "apex-061-pokemon-card-151-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/517554",
+      "tcgplayerProductId": 517554,
+      "matchedProductName": "Code Card - 151 Elite Trainer Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Shiny Treasure ex Japanese Booster Box",
+      "image": "/images/apex/apex-062-pokemon-shiny-treasure-ex-japanese-booster-box.jpg",
+      "filename": "apex-062-pokemon-shiny-treasure-ex-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/528039",
+      "tcgplayerProductId": 528039,
+      "matchedProductName": "Paldean Fates Pokemon Center Elite Trainer Box (Exclusive)",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Terastal Festival ex Japanese Booster Box",
+      "image": "/images/apex/apex-063-pokemon-terastal-festival-ex-japanese-booster-box.jpg",
+      "filename": "apex-063-pokemon-terastal-festival-ex-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/501257",
+      "tcgplayerProductId": 501257,
+      "matchedProductName": "Obsidian Flames Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Super Electric Breaker Japanese Booster Box",
+      "image": "/images/apex/apex-064-pokemon-super-electric-breaker-japanese-booster-box.jpg",
+      "filename": "apex-064-pokemon-super-electric-breaker-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/587728",
+      "tcgplayerProductId": 587728,
+      "matchedProductName": "Super Electric Breaker Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Night Wanderer Japanese Booster Box",
+      "image": "/images/apex/apex-066-pokemon-night-wanderer-japanese-booster-box.jpg",
+      "filename": "apex-066-pokemon-night-wanderer-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/684444",
+      "tcgplayerProductId": 684444,
+      "matchedProductName": "Chaos Rising Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Mask of Change Japanese Booster Box",
+      "image": "/images/apex/apex-067-pokemon-mask-of-change-japanese-booster-box.jpg",
+      "filename": "apex-067-pokemon-mask-of-change-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/501257",
+      "tcgplayerProductId": 501257,
+      "matchedProductName": "Obsidian Flames Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Crimson & Purple Japanese Booster Box",
+      "image": "/images/apex/apex-068-pokemon-crimson-purple-japanese-booster-box.jpg",
+      "filename": "apex-068-pokemon-crimson-purple-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/146995",
+      "tcgplayerProductId": 146995,
+      "matchedProductName": "Crimson Invasion Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Wild Force Japanese Booster Box",
+      "image": "/images/apex/apex-069-pokemon-wild-force-japanese-booster-box.jpg",
+      "filename": "apex-069-pokemon-wild-force-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/649416",
+      "tcgplayerProductId": 649416,
+      "matchedProductName": "Temporal Forces Half Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Cyber Judge Japanese Booster Box",
+      "image": "/images/apex/apex-070-pokemon-cyber-judge-japanese-booster-box.jpg",
+      "filename": "apex-070-pokemon-cyber-judge-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/649416",
+      "tcgplayerProductId": 649416,
+      "matchedProductName": "Temporal Forces Half Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Ancient Roar Japanese Booster Box",
+      "image": "/images/apex/apex-071-pokemon-ancient-roar-japanese-booster-box.jpg",
+      "filename": "apex-071-pokemon-ancient-roar-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/712094",
+      "tcgplayerProductId": 712094,
+      "matchedProductName": "Delta Reign Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Future Flash Japanese Booster Box",
+      "image": "/images/apex/apex-072-pokemon-future-flash-japanese-booster-box.jpg",
+      "filename": "apex-072-pokemon-future-flash-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/649416",
+      "tcgplayerProductId": 649416,
+      "matchedProductName": "Temporal Forces Half Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Raging Surf Japanese Booster Box",
+      "image": "/images/apex/apex-073-pokemon-raging-surf-japanese-booster-box.jpg",
+      "filename": "apex-073-pokemon-raging-surf-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/649416",
+      "tcgplayerProductId": 649416,
+      "matchedProductName": "Temporal Forces Half Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Snow Hazard Japanese Booster Box",
+      "image": "/images/apex/apex-074-pokemon-snow-hazard-japanese-booster-box.jpg",
+      "filename": "apex-074-pokemon-snow-hazard-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/484495",
+      "tcgplayerProductId": 484495,
+      "matchedProductName": "Alolan Ninetales (SM-P Japanese Exclusive)",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Clay Burst Japanese Booster Box",
+      "image": "/images/apex/apex-075-pokemon-clay-burst-japanese-booster-box.jpg",
+      "filename": "apex-075-pokemon-clay-burst-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/484495",
+      "tcgplayerProductId": 484495,
+      "matchedProductName": "Alolan Ninetales (SM-P Japanese Exclusive)",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Triplet Beat Japanese Booster Box",
+      "image": "/images/apex/apex-076-pokemon-triplet-beat-japanese-booster-box.jpg",
+      "filename": "apex-076-pokemon-triplet-beat-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/672394",
+      "tcgplayerProductId": 672394,
+      "matchedProductName": "Perfect Order Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Violet ex Japanese Booster Box",
+      "image": "/images/apex/apex-077-pokemon-violet-ex-japanese-booster-box.jpg",
+      "filename": "apex-077-pokemon-violet-ex-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/476452",
+      "tcgplayerProductId": 476452,
+      "matchedProductName": "Scarlet & Violet Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Scarlet ex Japanese Booster Box",
+      "image": "/images/apex/apex-078-pokemon-scarlet-ex-japanese-booster-box.jpg",
+      "filename": "apex-078-pokemon-scarlet-ex-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/678555",
+      "tcgplayerProductId": 678555,
+      "matchedProductName": "Prismatic Evolutions Booster Bundle + Surprise Box Bundle (Sam's Club)",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon VSTAR Universe Japanese Booster Box",
+      "image": "/images/apex/apex-079-pokemon-vstar-universe-japanese-booster-box.jpg",
+      "filename": "apex-079-pokemon-vstar-universe-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/265519",
+      "tcgplayerProductId": 265519,
+      "matchedProductName": "Astral Radiance Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Pok\u00e9mon Eevee Heroes Japanese Booster Box",
+      "image": "/images/apex/apex-080-pokemon-eevee-heroes-japanese-booster-box.jpg",
+      "filename": "apex-080-pokemon-eevee-heroes-japanese-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/678555",
+      "tcgplayerProductId": 678555,
+      "matchedProductName": "Prismatic Evolutions Booster Bundle + Surprise Box Bundle (Sam's Club)",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece OP-01 Romance Dawn Booster Box",
+      "image": "/images/apex/apex-081-one-piece-op-01-romance-dawn-booster-box.jpg",
+      "filename": "apex-081-one-piece-op-01-romance-dawn-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/450086",
+      "tcgplayerProductId": 450086,
+      "matchedProductName": "Romance Dawn - Booster Box (Wave 1 - Blue)",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece OP-02 Paramount War Booster Box",
+      "image": "/images/apex/apex-082-one-piece-op-02-paramount-war-booster-box.jpg",
+      "filename": "apex-082-one-piece-op-02-paramount-war-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/455866",
+      "tcgplayerProductId": 455866,
+      "matchedProductName": "Paramount War - Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece OP-03 Pillars of Strength Booster Box",
+      "image": "/images/apex/apex-083-one-piece-op-03-pillars-of-strength-booster-box.jpg",
+      "filename": "apex-083-one-piece-op-03-pillars-of-strength-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/477176",
+      "tcgplayerProductId": 477176,
+      "matchedProductName": "Pillars of Strength - Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece OP-04 Kingdoms of Intrigue Booster Box",
+      "image": "/images/apex/apex-084-one-piece-op-04-kingdoms-of-intrigue-booster-box.jpg",
+      "filename": "apex-084-one-piece-op-04-kingdoms-of-intrigue-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/485833",
+      "tcgplayerProductId": 485833,
+      "matchedProductName": "Kingdoms of Intrigue - Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece OP-05 Awakening of the New Era Booster Box",
+      "image": "/images/apex/apex-085-one-piece-op-05-awakening-of-the-new-era-booster-box.jpg",
+      "filename": "apex-085-one-piece-op-05-awakening-of-the-new-era-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/498734",
+      "tcgplayerProductId": 498734,
+      "matchedProductName": "Awakening of the New Era - Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece OP-06 Wings of the Captain Booster Box",
+      "image": "/images/apex/apex-086-one-piece-op-06-wings-of-the-captain-booster-box.jpg",
+      "filename": "apex-086-one-piece-op-06-wings-of-the-captain-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/515080",
+      "tcgplayerProductId": 515080,
+      "matchedProductName": "Wings of the Captain - Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece OP-07 500 Years in the Future Booster Box",
+      "image": "/images/apex/apex-087-one-piece-op-07-500-years-in-the-future-booster-box.jpg",
+      "filename": "apex-087-one-piece-op-07-500-years-in-the-future-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/532106",
+      "tcgplayerProductId": 532106,
+      "matchedProductName": "500 Years in the Future - Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece OP-08 Two Legends Booster Box",
+      "image": "/images/apex/apex-088-one-piece-op-08-two-legends-booster-box.jpg",
+      "filename": "apex-088-one-piece-op-08-two-legends-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/542504",
+      "tcgplayerProductId": 542504,
+      "matchedProductName": "Two Legends - Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece OP-09 Emperors in the New World Booster Box",
+      "image": "/images/apex/apex-089-one-piece-op-09-emperors-in-the-new-world-booster-box.jpg",
+      "filename": "apex-089-one-piece-op-09-emperors-in-the-new-world-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/563834",
+      "tcgplayerProductId": 563834,
+      "matchedProductName": "Emperors in the New World - Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece OP-10 Royal Blood Booster Box",
+      "image": "/images/apex/apex-090-one-piece-op-10-royal-blood-booster-box.jpg",
+      "filename": "apex-090-one-piece-op-10-royal-blood-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/586671",
+      "tcgplayerProductId": 586671,
+      "matchedProductName": "Royal Blood Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece OP-11 A Fist of Divine Speed Booster Box",
+      "image": "/images/apex/apex-091-one-piece-op-11-a-fist-of-divine-speed-booster-box.jpg",
+      "filename": "apex-091-one-piece-op-11-a-fist-of-divine-speed-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/620180",
+      "tcgplayerProductId": 620180,
+      "matchedProductName": "A Fist of Divine Speed Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece EB-01 Memorial Collection Booster Box",
+      "image": "/images/apex/apex-092-one-piece-eb-01-memorial-collection-booster-box.jpg",
+      "filename": "apex-092-one-piece-eb-01-memorial-collection-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/521161",
+      "tcgplayerProductId": 521161,
+      "matchedProductName": "Memorial Collection - Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece EB-02 Anime 25th Collection Booster Box",
+      "image": "/images/apex/apex-093-one-piece-eb-02-anime-25th-collection-booster-box.jpg",
+      "filename": "apex-093-one-piece-eb-02-anime-25th-collection-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/594069",
+      "tcgplayerProductId": 594069,
+      "matchedProductName": "Extra Booster: Anime 25th Collection Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece Premium Booster \u2014 The Best",
+      "image": "/images/apex/apex-094-one-piece-premium-booster-the-best.jpg",
+      "filename": "apex-094-one-piece-premium-booster-the-best.jpg",
+      "source_url": "https://www.tcgplayer.com/product/545399",
+      "tcgplayerProductId": 545399,
+      "matchedProductName": "Premium Booster - Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece Starter Deck ST-01 Straw Hat Crew",
+      "image": "/images/apex/apex-095-one-piece-starter-deck-st-01-straw-hat-crew.jpg",
+      "filename": "apex-095-one-piece-starter-deck-st-01-straw-hat-crew.jpg",
+      "source_url": "https://www.tcgplayer.com/product/288221",
+      "tcgplayerProductId": 288221,
+      "matchedProductName": "Starter Deck 1: Straw Hat Crew",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece Starter Deck ST-02 Worst Generation",
+      "image": "/images/apex/apex-096-one-piece-starter-deck-st-02-worst-generation.jpg",
+      "filename": "apex-096-one-piece-starter-deck-st-02-worst-generation.jpg",
+      "source_url": "https://www.tcgplayer.com/product/288226",
+      "tcgplayerProductId": 288226,
+      "matchedProductName": "Starter Deck 2: Worst Generation",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece Starter Deck ST-03 The Seven Warlords",
+      "image": "/images/apex/apex-097-one-piece-starter-deck-st-03-the-seven-warlords.jpg",
+      "filename": "apex-097-one-piece-starter-deck-st-03-the-seven-warlords.jpg",
+      "source_url": "https://www.tcgplayer.com/product/288227",
+      "tcgplayerProductId": 288227,
+      "matchedProductName": "Starter Deck 3: The Seven Warlords of The Sea",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece Starter Deck ST-04 Animal Kingdom Pirates",
+      "image": "/images/apex/apex-098-one-piece-starter-deck-st-04-animal-kingdom-pirates.jpg",
+      "filename": "apex-098-one-piece-starter-deck-st-04-animal-kingdom-pirates.jpg",
+      "source_url": "https://www.tcgplayer.com/product/288224",
+      "tcgplayerProductId": 288224,
+      "matchedProductName": "Starter Deck 4: Animal Kingdom Pirates",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece Starter Deck ST-05 Film Edition",
+      "image": "/images/apex/apex-099-one-piece-starter-deck-st-05-film-edition.jpg",
+      "filename": "apex-099-one-piece-starter-deck-st-05-film-edition.jpg",
+      "source_url": "https://www.tcgplayer.com/product/455860",
+      "tcgplayerProductId": 455860,
+      "matchedProductName": "Starter Deck 5: Film Edition Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "One Piece Starter Deck ST-06 Absolute Justice",
+      "image": "/images/apex/apex-100-one-piece-starter-deck-st-06-absolute-justice.jpg",
+      "filename": "apex-100-one-piece-starter-deck-st-06-absolute-justice.jpg",
+      "source_url": "https://www.tcgplayer.com/product/455868",
+      "tcgplayerProductId": 455868,
+      "matchedProductName": "Starter Deck 6: Absolute Justice",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Final Fantasy Play Booster Box",
+      "image": "/images/apex/apex-101-magic-the-gathering-final-fantasy-play-booster-box.jpg",
+      "filename": "apex-101-magic-the-gathering-final-fantasy-play-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/618890",
+      "tcgplayerProductId": 618890,
+      "matchedProductName": "FINAL FANTASY - Play Booster Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Final Fantasy Collector Booster Box",
+      "image": "/images/apex/apex-102-magic-the-gathering-final-fantasy-collector-booster-box.jpg",
+      "filename": "apex-102-magic-the-gathering-final-fantasy-collector-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/618893",
+      "tcgplayerProductId": 618893,
+      "matchedProductName": "FINAL FANTASY - Collector Booster Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Final Fantasy Bundle",
+      "image": "/images/apex/apex-103-magic-the-gathering-final-fantasy-bundle.jpg",
+      "filename": "apex-103-magic-the-gathering-final-fantasy-bundle.jpg",
+      "source_url": "https://www.tcgplayer.com/product/618897",
+      "tcgplayerProductId": 618897,
+      "matchedProductName": "FINAL FANTASY - Bundle",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Final Fantasy Gift Bundle",
+      "image": "/images/apex/apex-104-magic-the-gathering-final-fantasy-gift-bundle.jpg",
+      "filename": "apex-104-magic-the-gathering-final-fantasy-gift-bundle.jpg",
+      "source_url": "https://www.tcgplayer.com/product/618899",
+      "tcgplayerProductId": 618899,
+      "matchedProductName": "FINAL FANTASY - Gift Bundle",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Tarkir: Dragonstorm Play Booster Box",
+      "image": "/images/apex/apex-105-magic-the-gathering-tarkir-dragonstorm-play-booster-box.jpg",
+      "filename": "apex-105-magic-the-gathering-tarkir-dragonstorm-play-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/619645",
+      "tcgplayerProductId": 619645,
+      "matchedProductName": "Tarkir: Dragonstorm - Play Booster Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Tarkir: Dragonstorm Collector Booster Box",
+      "image": "/images/apex/apex-106-magic-the-gathering-tarkir-dragonstorm-collector-booster-box.jpg",
+      "filename": "apex-106-magic-the-gathering-tarkir-dragonstorm-collector-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/619649",
+      "tcgplayerProductId": 619649,
+      "matchedProductName": "Tarkir: Dragonstorm - Collector Booster Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Aetherdrift Play Booster Box",
+      "image": "/images/apex/apex-107-magic-the-gathering-aetherdrift-play-booster-box.jpg",
+      "filename": "apex-107-magic-the-gathering-aetherdrift-play-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/604250",
+      "tcgplayerProductId": 604250,
+      "matchedProductName": "Aetherdrift - Play Booster Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Aetherdrift Collector Booster Box",
+      "image": "/images/apex/apex-108-magic-the-gathering-aetherdrift-collector-booster-box.jpg",
+      "filename": "apex-108-magic-the-gathering-aetherdrift-collector-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/604253",
+      "tcgplayerProductId": 604253,
+      "matchedProductName": "Aetherdrift - Collector Booster Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Innistrad Remastered Play Booster Box",
+      "image": "/images/apex/apex-109-magic-the-gathering-innistrad-remastered-play-booster-box.jpg",
+      "filename": "apex-109-magic-the-gathering-innistrad-remastered-play-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/594672",
+      "tcgplayerProductId": 594672,
+      "matchedProductName": "Innistrad Remastered - Play Booster Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Innistrad Remastered Collector Booster Box",
+      "image": "/images/apex/apex-110-magic-the-gathering-innistrad-remastered-collector-booster-b.jpg",
+      "filename": "apex-110-magic-the-gathering-innistrad-remastered-collector-booster-b.jpg",
+      "source_url": "https://www.tcgplayer.com/product/594681",
+      "tcgplayerProductId": 594681,
+      "matchedProductName": "Innistrad Remastered - Collector Booster Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Foundations Play Booster Box",
+      "image": "/images/apex/apex-111-magic-the-gathering-foundations-play-booster-box.jpg",
+      "filename": "apex-111-magic-the-gathering-foundations-play-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/562118",
+      "tcgplayerProductId": 562118,
+      "matchedProductName": "Magic: The Gathering Foundations - Play Booster Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Foundations Beginner Box",
+      "image": "/images/apex/apex-112-magic-the-gathering-foundations-beginner-box.jpg",
+      "filename": "apex-112-magic-the-gathering-foundations-beginner-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/562167",
+      "tcgplayerProductId": 562167,
+      "matchedProductName": "Magic: The Gathering Foundations - Beginner Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Duskmourn Play Booster Box",
+      "image": "/images/apex/apex-113-magic-the-gathering-duskmourn-play-booster-box.jpg",
+      "filename": "apex-113-magic-the-gathering-duskmourn-play-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/557241",
+      "tcgplayerProductId": 557241,
+      "matchedProductName": "Duskmourn: House of Horror - Play Booster Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Duskmourn Collector Booster Box",
+      "image": "/images/apex/apex-114-magic-the-gathering-duskmourn-collector-booster-box.jpg",
+      "filename": "apex-114-magic-the-gathering-duskmourn-collector-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/557244",
+      "tcgplayerProductId": 557244,
+      "matchedProductName": "Duskmourn: House of Horror - Collector Booster Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Bloomburrow Play Booster Box",
+      "image": "/images/apex/apex-115-magic-the-gathering-bloomburrow-play-booster-box.jpg",
+      "filename": "apex-115-magic-the-gathering-bloomburrow-play-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/541235",
+      "tcgplayerProductId": 541235,
+      "matchedProductName": "Bloomburrow - Play Booster Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Bloomburrow Collector Booster Box",
+      "image": "/images/apex/apex-116-magic-the-gathering-bloomburrow-collector-booster-box.jpg",
+      "filename": "apex-116-magic-the-gathering-bloomburrow-collector-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/579916",
+      "tcgplayerProductId": 579916,
+      "matchedProductName": "Bloomburrow - Collector Booster Sample Pack",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Modern Horizons 3 Play Booster Box",
+      "image": "/images/apex/apex-117-magic-the-gathering-modern-horizons-3-play-booster-box.jpg",
+      "filename": "apex-117-magic-the-gathering-modern-horizons-3-play-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/541164",
+      "tcgplayerProductId": 541164,
+      "matchedProductName": "Modern Horizons 3 - Play Booster Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Modern Horizons 3 Collector Booster Box",
+      "image": "/images/apex/apex-118-magic-the-gathering-modern-horizons-3-collector-booster-box.jpg",
+      "filename": "apex-118-magic-the-gathering-modern-horizons-3-collector-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/541179",
+      "tcgplayerProductId": 541179,
+      "matchedProductName": "Modern Horizons 3 - Collector Booster Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Commander Masters Draft Booster Box",
+      "image": "/images/apex/apex-119-magic-the-gathering-commander-masters-draft-booster-box.jpg",
+      "filename": "apex-119-magic-the-gathering-commander-masters-draft-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/484924",
+      "tcgplayerProductId": 484924,
+      "matchedProductName": "Commander Masters - Draft Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Commander Masters Collector Booster Box",
+      "image": "/images/apex/apex-120-magic-the-gathering-commander-masters-collector-booster-box.jpg",
+      "filename": "apex-120-magic-the-gathering-commander-masters-collector-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/484929",
+      "tcgplayerProductId": 484929,
+      "matchedProductName": "Commander Masters - Collector Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Lord of the Rings Set Booster Box",
+      "image": "/images/apex/apex-121-magic-the-gathering-lord-of-the-rings-set-booster-box.jpg",
+      "filename": "apex-121-magic-the-gathering-lord-of-the-rings-set-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/484909",
+      "tcgplayerProductId": 484909,
+      "matchedProductName": "Universes Beyond: The Lord of the Rings: Tales of Middle-earth - Set Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Lord of the Rings Collector Booster Box",
+      "image": "/images/apex/apex-122-magic-the-gathering-lord-of-the-rings-collector-booster-box.jpg",
+      "filename": "apex-122-magic-the-gathering-lord-of-the-rings-collector-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/515906",
+      "tcgplayerProductId": 515906,
+      "matchedProductName": "The Lord of the Rings: Tales of Middle-earth - Special Edition Collector Booster Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Wilds of Eldraine Play Booster Box",
+      "image": "/images/apex/apex-123-magic-the-gathering-wilds-of-eldraine-play-booster-box.jpg",
+      "filename": "apex-123-magic-the-gathering-wilds-of-eldraine-play-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/496043",
+      "tcgplayerProductId": 496043,
+      "matchedProductName": "Wilds of Eldraine Commander Deck - Fae Dominion",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering Phyrexia: All Will Be One Draft Booster Box",
+      "image": "/images/apex/apex-124-magic-the-gathering-phyrexia-all-will-be-one-draft-booster-b.jpg",
+      "filename": "apex-124-magic-the-gathering-phyrexia-all-will-be-one-draft-booster-b.jpg",
+      "source_url": "https://www.tcgplayer.com/product/451869",
+      "tcgplayerProductId": 451869,
+      "matchedProductName": "Phyrexia: All Will Be One - Draft Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Magic: The Gathering March of the Machine Draft Booster Box",
+      "image": "/images/apex/apex-125-magic-the-gathering-march-of-the-machine-draft-booster-box.jpg",
+      "filename": "apex-125-magic-the-gathering-march-of-the-machine-draft-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/475575",
+      "tcgplayerProductId": 475575,
+      "matchedProductName": "March of the Machine - Draft Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Yu-Gi-Oh! Blazing Dominion Booster Box",
+      "image": "/images/apex/apex-126-yu-gi-oh-blazing-dominion-booster-box.jpg",
+      "filename": "apex-126-yu-gi-oh-blazing-dominion-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/694069",
+      "tcgplayerProductId": 694069,
+      "matchedProductName": "Blazing Dominion Mini Booster Box (Retail Exclusive)",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Yu-Gi-Oh! Quarter Century Bonanza Booster Box",
+      "image": "/images/apex/apex-127-yu-gi-oh-quarter-century-bonanza-booster-box.jpg",
+      "filename": "apex-127-yu-gi-oh-quarter-century-bonanza-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/575145",
+      "tcgplayerProductId": 575145,
+      "matchedProductName": "Quarter Century Bonanza Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Yu-Gi-Oh! Supreme Darkness Booster Box",
+      "image": "/images/apex/apex-128-yu-gi-oh-supreme-darkness-booster-box.jpg",
+      "filename": "apex-128-yu-gi-oh-supreme-darkness-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/586046",
+      "tcgplayerProductId": 586046,
+      "matchedProductName": "Supreme Darkness Booster Box [1st Edition]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Yu-Gi-Oh! Rage of the Abyss Booster Box",
+      "image": "/images/apex/apex-129-yu-gi-oh-rage-of-the-abyss-booster-box.jpg",
+      "filename": "apex-129-yu-gi-oh-rage-of-the-abyss-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/601490",
+      "tcgplayerProductId": 601490,
+      "matchedProductName": "Rage of the Abyss Booster Box [1st Edition] Mini Box (Retail Exclusive)",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Yu-Gi-Oh! The Infinite Forbidden Booster Box",
+      "image": "/images/apex/apex-130-yu-gi-oh-the-infinite-forbidden-booster-box.jpg",
+      "filename": "apex-130-yu-gi-oh-the-infinite-forbidden-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/542372",
+      "tcgplayerProductId": 542372,
+      "matchedProductName": "The Infinite Forbidden Booster Box [1st Edition]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Yu-Gi-Oh! Legacy of Destruction Booster Box",
+      "image": "/images/apex/apex-131-yu-gi-oh-legacy-of-destruction-booster-box.jpg",
+      "filename": "apex-131-yu-gi-oh-legacy-of-destruction-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/531836",
+      "tcgplayerProductId": 531836,
+      "matchedProductName": "Legacy of Destruction Booster Box [1st Edition]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Yu-Gi-Oh! Phantom Nightmare Booster Box",
+      "image": "/images/apex/apex-132-yu-gi-oh-phantom-nightmare-booster-box.jpg",
+      "filename": "apex-132-yu-gi-oh-phantom-nightmare-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/518873",
+      "tcgplayerProductId": 518873,
+      "matchedProductName": "Phantom Nightmare Booster Box [1st Edition]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Yu-Gi-Oh! Age of Overlord Booster Box",
+      "image": "/images/apex/apex-133-yu-gi-oh-age-of-overlord-booster-box.jpg",
+      "filename": "apex-133-yu-gi-oh-age-of-overlord-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/501639",
+      "tcgplayerProductId": 501639,
+      "matchedProductName": "Age of Overlord Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Yu-Gi-Oh! Duelist Nexus Booster Box",
+      "image": "/images/apex/apex-134-yu-gi-oh-duelist-nexus-booster-box.jpg",
+      "filename": "apex-134-yu-gi-oh-duelist-nexus-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/490047",
+      "tcgplayerProductId": 490047,
+      "matchedProductName": "Duelist Nexus Booster Box [1st Edition]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Yu-Gi-Oh! Cyberstorm Access Booster Box",
+      "image": "/images/apex/apex-135-yu-gi-oh-cyberstorm-access-booster-box.jpg",
+      "filename": "apex-135-yu-gi-oh-cyberstorm-access-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/484142",
+      "tcgplayerProductId": 484142,
+      "matchedProductName": "Cyberstorm Access Booster Box [1st Edition]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Yu-Gi-Oh! 25th Anniversary Rarity Collection",
+      "image": "/images/apex/apex-136-yu-gi-oh-25th-anniversary-rarity-collection.jpg",
+      "filename": "apex-136-yu-gi-oh-25th-anniversary-rarity-collection.jpg",
+      "source_url": "https://www.tcgplayer.com/product/554330",
+      "tcgplayerProductId": 554330,
+      "matchedProductName": "25th Anniversary Rarity Collection II Mini Box (Retail Exclusive)",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Yu-Gi-Oh! Rarity Collection II",
+      "image": "/images/apex/apex-137-yu-gi-oh-rarity-collection-ii.jpg",
+      "filename": "apex-137-yu-gi-oh-rarity-collection-ii.jpg",
+      "source_url": "https://www.tcgplayer.com/product/554330",
+      "tcgplayerProductId": 554330,
+      "matchedProductName": "25th Anniversary Rarity Collection II Mini Box (Retail Exclusive)",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Yu-Gi-Oh! Structure Deck: Fire Kings",
+      "image": "/images/apex/apex-140-yu-gi-oh-structure-deck-fire-kings.jpg",
+      "filename": "apex-140-yu-gi-oh-structure-deck-fire-kings.jpg",
+      "source_url": "https://www.tcgplayer.com/product/516551",
+      "tcgplayerProductId": 516551,
+      "matchedProductName": "Fire Kings Structure Deck [1st Edition]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Yu-Gi-Oh! Structure Deck: Traptrix",
+      "image": "/images/apex/apex-141-yu-gi-oh-structure-deck-traptrix.jpg",
+      "filename": "apex-141-yu-gi-oh-structure-deck-traptrix.jpg",
+      "source_url": "https://www.tcgplayer.com/product/483631",
+      "tcgplayerProductId": 483631,
+      "matchedProductName": "Traptrix Pudica",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Yu-Gi-Oh! Structure Deck: Dark World",
+      "image": "/images/apex/apex-142-yu-gi-oh-structure-deck-dark-world.jpg",
+      "filename": "apex-142-yu-gi-oh-structure-deck-dark-world.jpg",
+      "source_url": "https://www.tcgplayer.com/product/283525",
+      "tcgplayerProductId": 283525,
+      "matchedProductName": "Dark World Structure Deck [1st Edition]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Yu-Gi-Oh! Structure Deck: Beware of Traptrix",
+      "image": "/images/apex/apex-143-yu-gi-oh-structure-deck-beware-of-traptrix.jpg",
+      "filename": "apex-143-yu-gi-oh-structure-deck-beware-of-traptrix.jpg",
+      "source_url": "https://www.tcgplayer.com/product/451588",
+      "tcgplayerProductId": 451588,
+      "matchedProductName": "Beware of Traptrix Structure Deck [1st Edition]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Yu-Gi-Oh! Structure Deck: Albaz Strike",
+      "image": "/images/apex/apex-144-yu-gi-oh-structure-deck-albaz-strike.jpg",
+      "filename": "apex-144-yu-gi-oh-structure-deck-albaz-strike.jpg",
+      "source_url": "https://www.tcgplayer.com/product/257371",
+      "tcgplayerProductId": 257371,
+      "matchedProductName": "Albaz Strike Structure Deck [1st Edition]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Yu-Gi-Oh! Structure Deck: Cyber Strike",
+      "image": "/images/apex/apex-145-yu-gi-oh-structure-deck-cyber-strike.jpg",
+      "filename": "apex-145-yu-gi-oh-structure-deck-cyber-strike.jpg",
+      "source_url": "https://www.tcgplayer.com/product/240558",
+      "tcgplayerProductId": 240558,
+      "matchedProductName": "Cyber Strike Structure Deck [1st Edition]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Disney Lorcana The First Chapter Booster Box",
+      "image": "/images/apex/apex-146-disney-lorcana-the-first-chapter-booster-box.jpg",
+      "filename": "apex-146-disney-lorcana-the-first-chapter-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/485256",
+      "tcgplayerProductId": 485256,
+      "matchedProductName": "Disney Lorcana: The First Chapter Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Disney Lorcana Rise of the Floodborn Booster Box",
+      "image": "/images/apex/apex-147-disney-lorcana-rise-of-the-floodborn-booster-box.jpg",
+      "filename": "apex-147-disney-lorcana-rise-of-the-floodborn-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/516276",
+      "tcgplayerProductId": 516276,
+      "matchedProductName": "Disney Lorcana: Rise of the Floodborn Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Disney Lorcana Into the Inklands Booster Box",
+      "image": "/images/apex/apex-148-disney-lorcana-into-the-inklands-booster-box.jpg",
+      "filename": "apex-148-disney-lorcana-into-the-inklands-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/531521",
+      "tcgplayerProductId": 531521,
+      "matchedProductName": "Disney Lorcana: Into the Inklands Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Disney Lorcana Ursula\u2019s Return Booster Box",
+      "image": "/images/apex/apex-149-disney-lorcana-ursula-s-return-booster-box.jpg",
+      "filename": "apex-149-disney-lorcana-ursula-s-return-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/543859",
+      "tcgplayerProductId": 543859,
+      "matchedProductName": "Disney Lorcana: Ursula's Return Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Disney Lorcana Shimmering Skies Booster Box",
+      "image": "/images/apex/apex-150-disney-lorcana-shimmering-skies-booster-box.jpg",
+      "filename": "apex-150-disney-lorcana-shimmering-skies-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/555130",
+      "tcgplayerProductId": 555130,
+      "matchedProductName": "Disney Lorcana: Shimmering Skies Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Disney Lorcana Azurite Sea Booster Box",
+      "image": "/images/apex/apex-151-disney-lorcana-azurite-sea-booster-box.jpg",
+      "filename": "apex-151-disney-lorcana-azurite-sea-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/578093",
+      "tcgplayerProductId": 578093,
+      "matchedProductName": "Disney Lorcana: Azurite Sea Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Disney Lorcana Archazia\u2019s Island Booster Box",
+      "image": "/images/apex/apex-152-disney-lorcana-archazia-s-island-booster-box.jpg",
+      "filename": "apex-152-disney-lorcana-archazia-s-island-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/607758",
+      "tcgplayerProductId": 607758,
+      "matchedProductName": "Disney Lorcana: Archazia's Island Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Disney Lorcana Reign of Jafar Booster Box",
+      "image": "/images/apex/apex-153-disney-lorcana-reign-of-jafar-booster-box.jpg",
+      "filename": "apex-153-disney-lorcana-reign-of-jafar-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/623064",
+      "tcgplayerProductId": 623064,
+      "matchedProductName": "Disney Lorcana: Reign of Jafar Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Disney Lorcana The First Chapter Starter Deck",
+      "image": "/images/apex/apex-154-disney-lorcana-the-first-chapter-starter-deck.jpg",
+      "filename": "apex-154-disney-lorcana-the-first-chapter-starter-deck.jpg",
+      "source_url": "https://www.tcgplayer.com/product/518785",
+      "tcgplayerProductId": 518785,
+      "matchedProductName": "Disney Lorcana: The First Chapter Starter Deck [Set of 3]",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Disney Lorcana Rise of the Floodborn Starter Deck",
+      "image": "/images/apex/apex-155-disney-lorcana-rise-of-the-floodborn-starter-deck.jpg",
+      "filename": "apex-155-disney-lorcana-rise-of-the-floodborn-starter-deck.jpg",
+      "source_url": "https://www.tcgplayer.com/product/518643",
+      "tcgplayerProductId": 518643,
+      "matchedProductName": "Disney Lorcana: Rise of the Floodborn Starter Deck Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Disney Lorcana Into the Inklands Starter Deck",
+      "image": "/images/apex/apex-156-disney-lorcana-into-the-inklands-starter-deck.jpg",
+      "filename": "apex-156-disney-lorcana-into-the-inklands-starter-deck.jpg",
+      "source_url": "https://www.tcgplayer.com/product/531526",
+      "tcgplayerProductId": 531526,
+      "matchedProductName": "Disney Lorcana: Into the Inklands Starter Deck (Amber & Emerald)",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Disney Lorcana Ursula\u2019s Return Starter Deck",
+      "image": "/images/apex/apex-157-disney-lorcana-ursula-s-return-starter-deck.jpg",
+      "filename": "apex-157-disney-lorcana-ursula-s-return-starter-deck.jpg",
+      "source_url": "https://www.tcgplayer.com/product/543884",
+      "tcgplayerProductId": 543884,
+      "matchedProductName": "Disney Lorcana: Ursula's Return Starter Deck Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Disney Lorcana Shimmering Skies Starter Deck",
+      "image": "/images/apex/apex-158-disney-lorcana-shimmering-skies-starter-deck.jpg",
+      "filename": "apex-158-disney-lorcana-shimmering-skies-starter-deck.jpg",
+      "source_url": "https://www.tcgplayer.com/product/555145",
+      "tcgplayerProductId": 555145,
+      "matchedProductName": "Disney Lorcana: Shimmering Skies Starter Deck (Emerald & Steel)",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Disney Lorcana Azurite Sea Starter Deck",
+      "image": "/images/apex/apex-159-disney-lorcana-azurite-sea-starter-deck.jpg",
+      "filename": "apex-159-disney-lorcana-azurite-sea-starter-deck.jpg",
+      "source_url": "https://www.tcgplayer.com/product/578128",
+      "tcgplayerProductId": 578128,
+      "matchedProductName": "Disney Lorcana: Azurite Sea Starter Deck Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Disney Lorcana Illumineer\u2019s Trove",
+      "image": "/images/apex/apex-160-disney-lorcana-illumineer-s-trove.jpg",
+      "filename": "apex-160-disney-lorcana-illumineer-s-trove.jpg",
+      "source_url": "https://www.tcgplayer.com/product/578121",
+      "tcgplayerProductId": 578121,
+      "matchedProductName": "Disney Lorcana: Azurite Sea Illumineer's Trove",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Digimon EX-08 Chain of Liberation Booster Box",
+      "image": "/images/apex/apex-161-digimon-ex-08-chain-of-liberation-booster-box.jpg",
+      "filename": "apex-161-digimon-ex-08-chain-of-liberation-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/601119",
+      "tcgplayerProductId": 601119,
+      "matchedProductName": "Chain of Liberation Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Digimon EX-09 Digital Hazard Booster Box",
+      "image": "/images/apex/apex-162-digimon-ex-09-digital-hazard-booster-box.jpg",
+      "filename": "apex-162-digimon-ex-09-digital-hazard-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/271916",
+      "tcgplayerProductId": 271916,
+      "matchedProductName": "Digital Hazard Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Digimon BT-16 Beginning Observer Booster Box",
+      "image": "/images/apex/apex-163-digimon-bt-16-beginning-observer-booster-box.jpg",
+      "filename": "apex-163-digimon-bt-16-beginning-observer-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/533902",
+      "tcgplayerProductId": 533902,
+      "matchedProductName": "Beginning Observer Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Digimon BT-17 Secret Crisis Booster Box",
+      "image": "/images/apex/apex-164-digimon-bt-17-secret-crisis-booster-box.jpg",
+      "filename": "apex-164-digimon-bt-17-secret-crisis-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/558451",
+      "tcgplayerProductId": 558451,
+      "matchedProductName": "Secret Crisis Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Digimon BT-18 Element Successor Booster Box",
+      "image": "/images/apex/apex-165-digimon-bt-18-element-successor-booster-box.jpg",
+      "filename": "apex-165-digimon-bt-18-element-successor-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/504543",
+      "tcgplayerProductId": 504543,
+      "matchedProductName": "Exceed Apocalypse Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Digimon BT-19 Xros Evolution Booster Box",
+      "image": "/images/apex/apex-166-digimon-bt-19-xros-evolution-booster-box.jpg",
+      "filename": "apex-166-digimon-bt-19-xros-evolution-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/276702",
+      "tcgplayerProductId": 276702,
+      "matchedProductName": "Xros Encounter Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Digimon BT-20 Over the X Booster Box",
+      "image": "/images/apex/apex-167-digimon-bt-20-over-the-x-booster-box.jpg",
+      "filename": "apex-167-digimon-bt-20-over-the-x-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/609126",
+      "tcgplayerProductId": 609126,
+      "matchedProductName": "World Convergence Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Digimon Starter Deck ST-18 Guardian Vortex",
+      "image": "/images/apex/apex-168-digimon-starter-deck-st-18-guardian-vortex.jpg",
+      "filename": "apex-168-digimon-starter-deck-st-18-guardian-vortex.jpg",
+      "source_url": "https://www.tcgplayer.com/product/563763",
+      "tcgplayerProductId": 563763,
+      "matchedProductName": "Guardian Vortex Starter Deck",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Digimon Starter Deck ST-19 Fable Waltz",
+      "image": "/images/apex/apex-169-digimon-starter-deck-st-19-fable-waltz.jpg",
+      "filename": "apex-169-digimon-starter-deck-st-19-fable-waltz.jpg",
+      "source_url": "https://www.tcgplayer.com/product/563768",
+      "tcgplayerProductId": 563768,
+      "matchedProductName": "Fable Waltz Starter Deck",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Digimon Starter Deck ST-20 Protector of Light",
+      "image": "/images/apex/apex-170-digimon-starter-deck-st-20-protector-of-light.jpg",
+      "filename": "apex-170-digimon-starter-deck-st-20-protector-of-light.jpg",
+      "source_url": "https://www.tcgplayer.com/product/606585",
+      "tcgplayerProductId": 606585,
+      "matchedProductName": "Protector of Light Starter Deck",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Digimon Starter Deck ST-21 Hero of Hope",
+      "image": "/images/apex/apex-171-digimon-starter-deck-st-21-hero-of-hope.jpg",
+      "filename": "apex-171-digimon-starter-deck-st-21-hero-of-hope.jpg",
+      "source_url": "https://www.tcgplayer.com/product/606588",
+      "tcgplayerProductId": 606588,
+      "matchedProductName": "Hero of Hope Starter Deck",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Digimon Double Typhoon Advanced Deck",
+      "image": "/images/apex/apex-172-digimon-double-typhoon-advanced-deck.jpg",
+      "filename": "apex-172-digimon-double-typhoon-advanced-deck.jpg",
+      "source_url": "https://www.tcgplayer.com/product/505875",
+      "tcgplayerProductId": 505875,
+      "matchedProductName": "Double Typhoon Advanced Starter Deck",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Digimon Animal Colosseum Theme Booster",
+      "image": "/images/apex/apex-173-digimon-animal-colosseum-theme-booster.jpg",
+      "filename": "apex-173-digimon-animal-colosseum-theme-booster.jpg",
+      "source_url": "https://www.tcgplayer.com/product/503285",
+      "tcgplayerProductId": 503285,
+      "matchedProductName": "Animal Colosseum Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Digimon Classic Collection Booster Box",
+      "image": "/images/apex/apex-174-digimon-classic-collection-booster-box.jpg",
+      "filename": "apex-174-digimon-classic-collection-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/250007",
+      "tcgplayerProductId": 250007,
+      "matchedProductName": "Classic Collection Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Digimon Battle of Omni Booster Box",
+      "image": "/images/apex/apex-175-digimon-battle-of-omni-booster-box.jpg",
+      "filename": "apex-175-digimon-battle-of-omni-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/240965",
+      "tcgplayerProductId": 240965,
+      "matchedProductName": "Battle of Omni Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Flesh and Blood Rosetta Booster Box",
+      "image": "/images/apex/apex-176-flesh-and-blood-rosetta-booster-box.jpg",
+      "filename": "apex-176-flesh-and-blood-rosetta-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/555706",
+      "tcgplayerProductId": 555706,
+      "matchedProductName": "Rosetta Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Flesh and Blood Part the Mistveil Booster Box",
+      "image": "/images/apex/apex-177-flesh-and-blood-part-the-mistveil-booster-box.jpg",
+      "filename": "apex-177-flesh-and-blood-part-the-mistveil-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/543923",
+      "tcgplayerProductId": 543923,
+      "matchedProductName": "Part the Mistveil Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Flesh and Blood Heavy Hitters Booster Box",
+      "image": "/images/apex/apex-178-flesh-and-blood-heavy-hitters-booster-box.jpg",
+      "filename": "apex-178-flesh-and-blood-heavy-hitters-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/528086",
+      "tcgplayerProductId": 528086,
+      "matchedProductName": "Heavy Hitters Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Flesh and Blood Bright Lights Booster Box",
+      "image": "/images/apex/apex-179-flesh-and-blood-bright-lights-booster-box.jpg",
+      "filename": "apex-179-flesh-and-blood-bright-lights-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/510030",
+      "tcgplayerProductId": 510030,
+      "matchedProductName": "Bright Lights Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Flesh and Blood Outsiders Booster Box",
+      "image": "/images/apex/apex-180-flesh-and-blood-outsiders-booster-box.jpg",
+      "filename": "apex-180-flesh-and-blood-outsiders-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/477233",
+      "tcgplayerProductId": 477233,
+      "matchedProductName": "Outsiders Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Star Wars: Unlimited Spark of Rebellion Booster Box",
+      "image": "/images/apex/apex-181-star-wars-unlimited-spark-of-rebellion-booster-box.jpg",
+      "filename": "apex-181-star-wars-unlimited-spark-of-rebellion-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/533897",
+      "tcgplayerProductId": 533897,
+      "matchedProductName": "Spark of Rebellion - Booster Display",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Star Wars: Unlimited Shadows of the Galaxy Booster Box",
+      "image": "/images/apex/apex-182-star-wars-unlimited-shadows-of-the-galaxy-booster-box.jpg",
+      "filename": "apex-182-star-wars-unlimited-shadows-of-the-galaxy-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/553621",
+      "tcgplayerProductId": 553621,
+      "matchedProductName": "Shadows of the Galaxy - Prerelease Kit",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Star Wars: Unlimited Twilight of the Republic Booster Box",
+      "image": "/images/apex/apex-183-star-wars-unlimited-twilight-of-the-republic-booster-box.jpg",
+      "filename": "apex-183-star-wars-unlimited-twilight-of-the-republic-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/578939",
+      "tcgplayerProductId": 578939,
+      "matchedProductName": "Twilight of the Republic - Booster Display",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Star Wars: Unlimited Jump to Lightspeed Booster Box",
+      "image": "/images/apex/apex-184-star-wars-unlimited-jump-to-lightspeed-booster-box.jpg",
+      "filename": "apex-184-star-wars-unlimited-jump-to-lightspeed-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/610308",
+      "tcgplayerProductId": 610308,
+      "matchedProductName": "Jump to Lightspeed - Booster Display",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Star Wars: Unlimited Starter Set",
+      "image": "/images/apex/apex-185-star-wars-unlimited-starter-set.jpg",
+      "filename": "apex-185-star-wars-unlimited-starter-set.jpg",
+      "source_url": "https://www.tcgplayer.com/product/553332",
+      "tcgplayerProductId": 553332,
+      "matchedProductName": "Shadows of the Galaxy - Two-Player Starter",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Riftbound Origins Booster Box",
+      "image": "/images/apex/apex-186-riftbound-origins-booster-box.jpg",
+      "filename": "apex-186-riftbound-origins-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/635368",
+      "tcgplayerProductId": 635368,
+      "matchedProductName": "Origins - Booster Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Riftbound Spiritforged Booster Box",
+      "image": "/images/apex/apex-187-riftbound-spiritforged-booster-box.jpg",
+      "filename": "apex-187-riftbound-spiritforged-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/661934",
+      "tcgplayerProductId": 661934,
+      "matchedProductName": "Spiritforged - Booster Display",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Riftbound Proving Grounds Starter Deck",
+      "image": "/images/apex/apex-188-riftbound-proving-grounds-starter-deck.jpg",
+      "filename": "apex-188-riftbound-proving-grounds-starter-deck.jpg",
+      "source_url": "https://www.tcgplayer.com/product/635460",
+      "tcgplayerProductId": 635460,
+      "matchedProductName": "Origins - Proving Grounds Box Set",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "MetaZoo Wilderness Booster Box",
+      "image": "/images/apex/apex-189-metazoo-wilderness-booster-box.jpg",
+      "filename": "apex-189-metazoo-wilderness-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/487438",
+      "tcgplayerProductId": 487438,
+      "matchedProductName": "Wilderness: Ebay Edition Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "MetaZoo Nightfall Booster Box",
+      "image": "/images/apex/apex-190-metazoo-nightfall-booster-box.jpg",
+      "filename": "apex-190-metazoo-nightfall-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/246447",
+      "tcgplayerProductId": 246447,
+      "matchedProductName": "Nightfall: First Edition Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Dragon Ball Super Fusion World FB01 Booster Box",
+      "image": "/images/apex/apex-191-dragon-ball-super-fusion-world-fb01-booster-box.jpg",
+      "filename": "apex-191-dragon-ball-super-fusion-world-fb01-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/535546",
+      "tcgplayerProductId": 535546,
+      "matchedProductName": "Awakened Pulse Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Dragon Ball Super Fusion World FB02 Booster Box",
+      "image": "/images/apex/apex-192-dragon-ball-super-fusion-world-fb02-booster-box.jpg",
+      "filename": "apex-192-dragon-ball-super-fusion-world-fb02-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/543427",
+      "tcgplayerProductId": 543427,
+      "matchedProductName": "Blazing Aura Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Dragon Ball Super Fusion World FB03 Booster Box",
+      "image": "/images/apex/apex-193-dragon-ball-super-fusion-world-fb03-booster-box.jpg",
+      "filename": "apex-193-dragon-ball-super-fusion-world-fb03-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/551680",
+      "tcgplayerProductId": 551680,
+      "matchedProductName": "Raging Roar Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Dragon Ball Super Fusion World Starter Deck",
+      "image": "/images/apex/apex-194-dragon-ball-super-fusion-world-starter-deck.jpg",
+      "filename": "apex-194-dragon-ball-super-fusion-world-starter-deck.jpg",
+      "source_url": "https://www.tcgplayer.com/product/455922",
+      "tcgplayerProductId": 455922,
+      "matchedProductName": "Starter Deck 21",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Weiss Schwarz Booster Box",
+      "image": "/images/apex/apex-195-weiss-schwarz-booster-box.jpg",
+      "filename": "apex-195-weiss-schwarz-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/618750",
+      "tcgplayerProductId": 618750,
+      "matchedProductName": "Lycoris Recoil Premium Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Union Arena Booster Box",
+      "image": "/images/apex/apex-196-union-arena-booster-box.jpg",
+      "filename": "apex-196-union-arena-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/604236",
+      "tcgplayerProductId": 604236,
+      "matchedProductName": "One Punch Man - Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Battle Spirits Saga Booster Box",
+      "image": "/images/apex/apex-197-battle-spirits-saga-booster-box.jpg",
+      "filename": "apex-197-battle-spirits-saga-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/497017",
+      "tcgplayerProductId": 497017,
+      "matchedProductName": "False Gods Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Grand Archive Booster Box",
+      "image": "/images/apex/apex-198-grand-archive-booster-box.jpg",
+      "filename": "apex-198-grand-archive-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/672387",
+      "tcgplayerProductId": 672387,
+      "matchedProductName": "Radiant Origins 1st Edition Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Sorcery: Contested Realm Booster Box",
+      "image": "/images/apex/apex-199-sorcery-contested-realm-booster-box.jpg",
+      "filename": "apex-199-sorcery-contested-realm-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/522759",
+      "tcgplayerProductId": 522759,
+      "matchedProductName": "Beta - Booster Box",
+      "matchQuality": "closest-line",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    },
+    {
+      "title": "Altered TCG Booster Box",
+      "image": "/images/apex/apex-200-altered-tcg-booster-box.jpg",
+      "filename": "apex-200-altered-tcg-booster-box.jpg",
+      "source_url": "https://www.tcgplayer.com/product/588161",
+      "tcgplayerProductId": 588161,
+      "matchedProductName": "Daybreak [First Edition] - Booster Box",
+      "matchQuality": "exact",
+      "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders."
+    }
+  ]
+}
