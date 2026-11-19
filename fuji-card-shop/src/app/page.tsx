@@ -7,16 +7,27 @@ import {
   ourStory,
   whyFuji,
 } from "@/data/content";
-import { getFeaturedProducts, getSaleProducts } from "@/data/products";
+import {
+  getFeaturedProductsResolved,
+  getSaleProductsResolved,
+} from "@/data/resolveProducts";
 
 export default function HomePage() {
-  const featured = getFeaturedProducts().slice(0, 12);
-  const sale = getSaleProducts().slice(0, 10);
+  const featured = getFeaturedProductsResolved().slice(0, 12);
+  const sale = getSaleProductsResolved().slice(0, 10);
 
   return (
     <>
       <section className="hero">
-        <div className="hero-media" aria-hidden="true" />
+        <div className="hero-media" aria-hidden="true">
+          {/* Live shop banner recovered from Wayback */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            className="hero-banner-img"
+            src="/images/products/story-banner.png"
+            alt=""
+          />
+        </div>
         <div className="shell hero-copy">
           <div className="hero-kicker">
             {brand.trustpilotScore} · Ships from Japan
@@ -134,6 +145,39 @@ export default function HomePage() {
                 </div>
               </article>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section" style={{ paddingTop: 0 }}>
+        <div className="shell split">
+          <div>
+            <div className="section-head">
+              <div className="eyebrow">Wholesale</div>
+              <h2>Apex TCG planning catalog</h2>
+              <p>
+                200 sealed SKUs with unit and B2B case planning prices — merged from the Apex upload
+                pack into this Project site.
+              </p>
+            </div>
+            <div className="hero-actions">
+              <Link href="/apex" className="btn btn-primary">
+                Open Apex wholesale
+              </Link>
+              <Link href="/apex/cases" className="btn btn-secondary">
+                Case pricing
+              </Link>
+            </div>
+          </div>
+          <div className="story-panel">
+            <div className="eyebrow">Quote-led</div>
+            <h3 style={{ fontSize: "1.8rem", margin: "0.5rem 0 1rem" }}>
+              Planning estimates, not live checkout
+            </h3>
+            <p style={{ color: "var(--mist)" }}>
+              Confirm stock, case pack, and final wholesale terms before quoting. Source DOCX/PDF
+              downloads live under Wholesale docs.
+            </p>
           </div>
         </div>
       </section>

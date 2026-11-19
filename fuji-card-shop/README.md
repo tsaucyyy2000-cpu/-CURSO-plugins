@@ -30,10 +30,11 @@ npm run lint    # eslint
 
 ## What’s included
 
-- Home (hero, releases, story, featured/sale products, announcements, why Fuji)
+- Home (hero, releases, story, featured/sale products, announcements, why Fuji, Apex wholesale CTA)
 - Store + category routes (`pokemon`, `one-piece`, `other-tcg`, Weiss, UNION ARENA, hololive, Gundam)
 - Product detail pages with add-to-cart
-- Cart + checkout stub (no real payments)
+- **Apex TCG wholesale layer** (`/apex`, `/apex/catalog`, `/apex/cases`, `/apex/wholesale`, `/apex/product/[slug]`) — 200 planning SKUs + B2B case pricing + downloadable DOCX/PDF sources
+- Cart + checkout stub (no real payments; Apex wholesale is quote-led)
 - Shipping / taxes, right to cancel, terms, privacy, Specified Commercial Transaction Act, fake-accounts advisory
 - About + contact (forms do not send email)
 
@@ -43,7 +44,7 @@ npm run lint    # eslint
 | --- | --- |
 | WooCommerce cart, payments (card / Google Pay / Apple Pay / PayPal), tariffs at checkout | Local cart + checkout stub only |
 | Full WP product catalog + pagination + variants | Curated inventory pulled from crawled pages |
-| Hosted product photography | Stylized product art (live CDN blocked from this environment; image URLs noted where known) |
+| Hosted product photography | 41 archived product/banner photos in `public/images/products/` (Wayback recovery). Newest live CDN assets still blocked (403/Cloudflare); see `/gallery` |
 | Account / My Account | Not implemented |
 | Live contact inbox | Front-end form stub |
 

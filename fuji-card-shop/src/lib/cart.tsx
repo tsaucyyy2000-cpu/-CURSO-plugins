@@ -9,7 +9,12 @@ import {
   useState,
   type ReactNode,
 } from "react";
-import { getProduct, type Product } from "@/data/products";
+import type { Product } from "@/data/products";
+import { getProductBySlug } from "@/data/resolveProducts";
+
+function getProduct(slug: string): Product | undefined {
+  return getProductBySlug(slug);
+}
 
 export type CartLine = {
   slug: string;
