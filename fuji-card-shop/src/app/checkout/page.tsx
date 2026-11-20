@@ -37,8 +37,8 @@ export default function CheckoutPage() {
         <div className="eyebrow">Checkout</div>
         <h1>Checkout stub</h1>
         <p>
-          Mirrors the live shop&apos;s checkout intent (contact + shipping + payment methods) without
-          a payment backend.
+          Test checkout only — mirrors contact + shipping + payment method selection without a payment
+          backend. Confirm each cart line&apos;s language and sealed type before placing a demo order.
         </p>
       </div>
 

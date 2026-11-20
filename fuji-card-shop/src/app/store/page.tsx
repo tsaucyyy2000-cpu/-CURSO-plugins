@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import { CategoryFilters } from "@/components/CategoryFilters";
-import { ProductCard } from "@/components/ProductCard";
+import { BrowseConsole } from "@/components/BrowseConsole";
 import { TrustStrip } from "@/components/TrustStrip";
 import { getAllProducts } from "@/data/resolveProducts";
 
@@ -19,19 +18,15 @@ export default function StorePage() {
           <div className="eyebrow">Shop</div>
           <h1>Store</h1>
           <p>
-            Japanese Pokémon, ONE PIECE, and sealed TCG with authentic product photography on every
-            listing ({withPhotos}/{products.length}). Factory-sealed presentation — ships from Japan.
+            Browse by game, language, and sealed type — then open a listing to inspect photos before
+            you add the correct SKU. Authentic sealed photography on {withPhotos}/{products.length}{" "}
+            listings. Ships from Japan.
           </p>
         </div>
       </div>
       <TrustStrip />
       <div className="shell">
-        <CategoryFilters />
-        <div className="product-grid" style={{ paddingBottom: "4rem", paddingTop: "1.25rem" }}>
-          {products.map((product, index) => (
-            <ProductCard key={product.slug} product={product} index={index} />
-          ))}
-        </div>
+        <BrowseConsole products={products} />
       </div>
     </>
   );

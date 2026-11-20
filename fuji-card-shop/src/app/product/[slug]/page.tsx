@@ -2,7 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AddToCartButton } from "@/components/AddToCartButton";
-import { ProductArt } from "@/components/ProductArt";
+import { InventoryStatus } from "@/components/InventoryStatus";
+import { ProductGallery } from "@/components/ProductGallery";
+import {
+  detectLanguage,
+  detectProductType,
+  languageLabel,
+  productTypeLabel,
+} from "@/data/browse";
 import { formatPrice } from "@/data/products";
 import { getAllProducts, getProductBySlug } from "@/data/resolveProducts";
 
@@ -37,22 +44,21 @@ export default async function ProductPage({
     notFound();
   }
 
+  const language = languageLabel(detectLanguage(product));
+  const sealedType = productTypeLabel(detectProductType(product));
+
   return (
     <div className="shell product-layout" style={{ paddingTop: "2.5rem" }}>
-      <div className="product-detail-art">
-        {product.image ? (
-          <div
-            className="product-spotlight"
-            style={{ backgroundImage: `url(${product.image})` }}
-            aria-hidden="true"
-          />
-        ) : null}
-        <ProductArt product={product} priority />
-      </div>
+      <ProductGallery product={product} />
 
       <div className="detail-copy">
         <div className="eyebrow">{product.category.replace("-", " ")}</div>
         <h1 style={{ fontSize: "clamp(1.8rem, 4vw, 2.8rem)" }}>{product.name}</h1>
+        <div className="product-confirm-row">
+          <InventoryStatus product={product} />
+          <span className="confirm-chip">{language}</span>
+          <span className="confirm-chip">{sealedType}</span>
+        </div>
         <div className="price">{formatPrice(product)}</div>
         <p className="product-assurance">
           {product.image
@@ -65,7 +71,7 @@ export default async function ProductPage({
           <p className="stub-note">{product.imageNote}</p>
         ) : null}
         {typeof product.stock === "number" ? (
-          <p style={{ color: "var(--mist)" }}>{product.stock} in stock</p>
+          <p style={{ color: "var(--mist)" }}>{product.stock} in stock (catalog count)</p>
         ) : null}
         {product.shipNote ? (
           <p style={{ color: "var(--gold)" }}>{product.shipNote}</p>
@@ -111,7 +117,8 @@ export default async function ProductPage({
 
         <div className="stub-note">
           Checkout payments (Credit Card / Google Pay / Apple Pay / PayPal) are stubbed in this
-          rebuild. Cart state is local-only.
+          rebuild. Cart state is local-only. Confirm language and sealed type match what you intend
+          before placing a demo order.
         </div>
 
         <div className="panel">
