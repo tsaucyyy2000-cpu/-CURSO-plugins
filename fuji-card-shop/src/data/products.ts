@@ -33,6 +33,8 @@ export type Product = {
   onSale?: boolean;
   /** Local path under /public, e.g. /images/products/M2a-bb.jpg */
   image?: string;
+  /** Alternate sealed views after the front image */
+  gallery?: string[];
   imageRef?: string;
   imageMatchQuality?: "exact" | "closest-line";
   imageNote?: string;

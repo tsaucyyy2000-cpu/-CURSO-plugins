@@ -40,15 +40,15 @@ export default function HomePage() {
             Fuji <em>Card</em> Shop
           </h1>
           <p className="hero-lead">
-            Real sealed product photography across the full catalog — Japanese Pokémon, ONE PIECE,
-            and TCG you can recognize before you buy, packed carefully and sent worldwide.
+            Find a set, confirm Japanese language and sealed type, inspect authentic photos, then add
+            the correct item — packed carefully and shipped worldwide from Japan.
           </p>
           <div className="hero-actions">
             <Link href="/store" className="btn btn-primary">
-              Shop sealed products
+              Browse by game
             </Link>
-            <Link href="/category/pokemon" className="btn btn-secondary">
-              Browse Pokémon
+            <Link href="/category/one-piece" className="btn btn-secondary">
+              ONE PIECE sealed
             </Link>
           </div>
         </div>

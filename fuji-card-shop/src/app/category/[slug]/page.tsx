@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { BrowseConsole } from "@/components/BrowseConsole";
 import { CategoryFilters } from "@/components/CategoryFilters";
-import { ProductCard } from "@/components/ProductCard";
 import { TrustStrip } from "@/components/TrustStrip";
 import { categories, type CategorySlug } from "@/data/products";
 import { getProductsByCategorySlug } from "@/data/resolveProducts";
@@ -37,7 +37,6 @@ export default async function CategoryPage({
   }
 
   const list = getProductsByCategorySlug(slug as CategorySlug);
-
   const withPhotos = list.filter((product) => product.image).length;
 
   return (
@@ -47,18 +46,15 @@ export default async function CategoryPage({
           <div className="eyebrow">Category</div>
           <h1>{category.name}</h1>
           <p>
-            {category.description} Authentic sealed photos on {withPhotos}/{list.length} listings.
+            {category.description} Confirm language and sealed type, then inspect photos. Authentic
+            sealed photos on {withPhotos}/{list.length} listings.
           </p>
         </div>
       </div>
       <TrustStrip />
       <div className="shell">
         <CategoryFilters active={category.slug} />
-        <div className="product-grid" style={{ paddingBottom: "4rem", paddingTop: "1.25rem" }}>
-          {list.map((product, index) => (
-            <ProductCard key={product.slug} product={product} index={index} />
-          ))}
-        </div>
+        <BrowseConsole products={list} initialGame={category.slug} />
       </div>
     </>
   );

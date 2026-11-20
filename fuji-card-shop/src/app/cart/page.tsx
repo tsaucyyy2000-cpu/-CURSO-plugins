@@ -1,7 +1,14 @@
 "use client";
 
 import Link from "next/link";
+import { InventoryStatus } from "@/components/InventoryStatus";
 import { ProductArt } from "@/components/ProductArt";
+import {
+  detectLanguage,
+  detectProductType,
+  languageLabel,
+  productTypeLabel,
+} from "@/data/browse";
 import { getProductBySlug } from "@/data/resolveProducts";
 import { useCart } from "@/lib/cart";
 
@@ -48,6 +55,15 @@ export default function CartPage() {
                   <h2 style={{ fontSize: "1rem", marginBottom: "0.35rem" }}>
                     <Link href={`/product/${product.slug}`}>{product.name}</Link>
                   </h2>
+                  <div className="product-confirm-row" style={{ marginBottom: "0.45rem" }}>
+                    <InventoryStatus product={product} />
+                    <span className="confirm-chip">
+                      {languageLabel(detectLanguage(product))}
+                    </span>
+                    <span className="confirm-chip">
+                      {productTypeLabel(detectProductType(product))}
+                    </span>
+                  </div>
                   <div className="price" style={{ color: "var(--gold)" }}>
                     $ {product.price.toFixed(2)}
                   </div>
