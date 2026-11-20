@@ -28,8 +28,8 @@ export default function StorePage() {
       <div className="shell">
         <CategoryFilters />
         <div className="product-grid" style={{ paddingBottom: "4rem", paddingTop: "1.25rem" }}>
-          {products.map((product) => (
-            <ProductCard key={product.slug} product={product} />
+          {products.map((product, index) => (
+            <ProductCard key={product.slug} product={product} index={index} />
           ))}
         </div>
       </div>

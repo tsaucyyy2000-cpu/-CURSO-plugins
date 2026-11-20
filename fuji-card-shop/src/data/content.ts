@@ -43,21 +43,29 @@ export const heroReleases = [
     title: "OP-18 The Dominance of God Warriors",
     subtitle: "Release on November 21",
     href: "/product/op-18-the-dominance-of-god-booster-box",
+    status: "preorder" as const,
+    config: "Booster box · Japanese",
   },
   {
     title: "M7 Aura Seeker",
     subtitle: "Release on November 27",
     href: "/product/m7-aura-seeker-booster-box",
+    status: "preorder" as const,
+    config: "Booster box · Japanese",
   },
   {
     title: "EB-05 ONE PIECE Heroines Edition vol.2",
     subtitle: "Release Date: October 31",
     href: "/product/eb-05-one-piece-heroines-edition-vol-2-booster-box",
+    status: "live" as const,
+    config: "Extra booster · 24 packs",
   },
   {
     title: "30th CELEBRATION booster box",
     subtitle: "Release Date: September 16",
     href: "/product/m6a-30th-celebration-booster-box",
+    status: "live" as const,
+    config: "Anniversary sealed · Japanese",
   },
 ];
 
