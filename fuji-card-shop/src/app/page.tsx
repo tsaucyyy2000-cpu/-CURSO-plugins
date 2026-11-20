@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { ProductCard } from "@/components/ProductCard";
+import { ReleaseStatus } from "@/components/ReleaseStatus";
+import { SealedShelf } from "@/components/SealedShelf";
 import { TrustStrip } from "@/components/TrustStrip";
 import {
   announcements,
@@ -28,6 +30,7 @@ export default function HomePage() {
             src="/images/products/story-banner.png"
             alt=""
           />
+          <div className="hero-spark" />
         </div>
         <div className="shell hero-copy">
           <div className="hero-kicker">
@@ -53,18 +56,25 @@ export default function HomePage() {
 
       <TrustStrip />
 
+      <SealedShelf products={featured} />
+
       <section className="section">
         <div className="shell">
           <div className="section-head">
             <div className="eyebrow">Featured releases</div>
             <h2>What&apos;s landing next</h2>
-            <p>Pre-order windows and recent arrivals mirrored from the live shop homepage.</p>
+            <p>
+              Status in plain words — pre-order windows, landings, and shipping sets — with sealed
+              configuration called out up front.
+            </p>
           </div>
           <div className="release-rail">
             {heroReleases.map((release) => (
               <Link key={release.href} href={release.href} className="release-chip">
+                <ReleaseStatus tone={release.status} />
                 <strong>{release.title}</strong>
                 <span>{release.subtitle}</span>
+                <span className="release-config">{release.config}</span>
               </Link>
             ))}
           </div>
@@ -89,7 +99,7 @@ export default function HomePage() {
               </Link>
             </div>
           </div>
-          <div className="story-panel">
+          <div className="story-panel lit-panel">
             <div className="eyebrow">Why collectors choose us</div>
             <h3 style={{ fontSize: "2rem", margin: "0.6rem 0 1rem" }}>
               Honest service from Japan
@@ -113,8 +123,8 @@ export default function HomePage() {
             </p>
           </div>
           <div className="product-grid">
-            {featured.map((product) => (
-              <ProductCard key={product.slug} product={product} />
+            {featured.map((product, index) => (
+              <ProductCard key={product.slug} product={product} index={index} />
             ))}
           </div>
         </div>
@@ -128,8 +138,8 @@ export default function HomePage() {
             <p>Highlighted sale and featured-offer items from the live storefront.</p>
           </div>
           <div className="product-grid">
-            {sale.map((product) => (
-              <ProductCard key={product.slug} product={product} />
+            {sale.map((product, index) => (
+              <ProductCard key={product.slug} product={product} index={index} />
             ))}
           </div>
         </div>
@@ -162,8 +172,8 @@ export default function HomePage() {
               <div className="eyebrow">Wholesale</div>
               <h2>Apex TCG planning catalog</h2>
               <p>
-                200 sealed SKUs with unit and B2B case planning prices — merged from the Apex upload
-                pack into this Project site.
+                200 sealed SKUs with unit and B2B case planning prices — planning estimates labeled
+                clearly, never as live retail checkout.
               </p>
             </div>
             <div className="hero-actions">
@@ -175,7 +185,7 @@ export default function HomePage() {
               </Link>
             </div>
           </div>
-          <div className="story-panel">
+          <div className="story-panel lit-panel">
             <div className="eyebrow">Quote-led</div>
             <h3 style={{ fontSize: "1.8rem", margin: "0.5rem 0 1rem" }}>
               Planning estimates, not live checkout

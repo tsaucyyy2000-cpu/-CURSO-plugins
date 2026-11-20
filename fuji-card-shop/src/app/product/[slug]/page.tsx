@@ -40,6 +40,13 @@ export default async function ProductPage({
   return (
     <div className="shell product-layout" style={{ paddingTop: "2.5rem" }}>
       <div className="product-detail-art">
+        {product.image ? (
+          <div
+            className="product-spotlight"
+            style={{ backgroundImage: `url(${product.image})` }}
+            aria-hidden="true"
+          />
+        ) : null}
         <ProductArt product={product} priority />
       </div>
 

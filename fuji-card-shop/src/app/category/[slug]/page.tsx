@@ -55,8 +55,8 @@ export default async function CategoryPage({
       <div className="shell">
         <CategoryFilters active={category.slug} />
         <div className="product-grid" style={{ paddingBottom: "4rem", paddingTop: "1.25rem" }}>
-          {list.map((product) => (
-            <ProductCard key={product.slug} product={product} />
+          {list.map((product, index) => (
+            <ProductCard key={product.slug} product={product} index={index} />
           ))}
         </div>
       </div>
