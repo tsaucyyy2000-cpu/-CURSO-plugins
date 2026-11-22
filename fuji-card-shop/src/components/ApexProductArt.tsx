@@ -26,7 +26,7 @@ export function ApexProductArt({
       {product.image ? (
         <>
           <span className="authentic-chip">
-            {product.imageMatchQuality === "closest-line" ? "Line-matched photo" : "Authentic sealed"}
+            {product.imageMatchQuality === "closest-line" ? "Line-matched photo" : "Catalog photo"}
           </span>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img

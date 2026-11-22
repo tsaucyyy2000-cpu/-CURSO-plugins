@@ -81,8 +81,8 @@ export default async function ApexCatalogPage({
                     <div className="product-assurance">
                       {product.image
                         ? product.imageMatchQuality === "closest-line"
-                          ? "Closest authentic sealed photo"
-                          : "Official sealed product photo"
+                          ? "Closest-line catalog photo"
+                          : "Catalog packaging photo"
                         : "Sealed planning SKU"}
                       {" · "}
                       {product.format || "Sealed"}

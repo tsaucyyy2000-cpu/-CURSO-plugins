@@ -1,15 +1,18 @@
 {
-  "_comment": "Per-SKU image locks that win over family/default ingest. Re-running apply-image-import-overrides must not re-merge locked sealed-case fronts onto booster-box CDN URLs.",
+  "_comment": "Per-SKU image locks that win over family/default ingest. OP-14 sealed-case uses booster-box photo + visible Booster-box-shown note until set/language markings and photo permission are confirmed.",
   "overrides": {
     "op-14-the-azure-seas-seven-sealed-case": {
-      "image": "/images/products/op-14-the-azure-seas-seven-sealed-case.jpg",
-      "filename": "op-14-the-azure-seas-seven-sealed-case.jpg",
-      "source_url": "https://i.ebayimg.com/images/g/g38AAeSwPY9p2Mzx/s-l1600.webp",
-      "source_page_url": "https://www.ebay.com/itm/287264028864",
-      "matchQuality": "exact",
-      "imageAlt": "Japanese OP-14 The Azure Sea’s Seven sealed case carton (12 booster boxes)",
-      "note": "locked_distinct_case:import_override; depicts=sealed_case_carton; do_not_share_with_booster_box",
-      "forbidden_image_substrings": ["OP-14-bb"],
+      "image": "/images/products/OP-14-bb.jpg",
+      "filename": "OP-14-bb.jpg",
+      "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/OP-14-bb.webp",
+      "source_page_url": "https://www.fujicardshop.com/product/op-14-the-azure-seas-seven-booster-box/",
+      "matchQuality": "closest-line",
+      "imageAlt": "Photo shows OP-14 The Azure Sea’s Seven booster box (sealed-case listing; carton set markings not confirmed)",
+      "note": "Booster box shown.",
+      "attribution": "Fallback to Fuji booster-box archive photo. eBay carton (itm/287264028864) lacks visible OP-14/set ID and rights were not cleared.",
+      "forbidden_image_substrings": [
+        "op-14-the-azure-seas-seven-sealed-case.jpg"
+      ],
       "locked": true
     },
     "op-14-the-azure-seas-seven-booster-box": {

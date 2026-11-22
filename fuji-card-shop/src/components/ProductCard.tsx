@@ -44,11 +44,9 @@ export function ProductCard({ product, index = 0 }: { product: Product; index?: 
         <div className="product-assurance">
           {product.image
             ? product.imageMatchQuality === "closest-line"
-              ? "Closest authentic sealed photo"
-              : "Official sealed product photo"
-            : "Sealed TCG"}
-          {" · "}
-          Ships from Japan
+              ? product.imageNote || "Closest-line catalog photo"
+              : "Catalog packaging photo"
+            : "Sealed TCG listing"}
         </div>
         <div className="price">{formatPrice(product)}</div>
       </div>

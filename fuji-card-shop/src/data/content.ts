@@ -80,8 +80,8 @@ export const ourStory = {
 
 export const whyFuji = [
   {
-    title: "Authentic sealed product",
-    body: "Every listing shows real factory-sealed photography matched to the SKU — Japanese Pokémon, ONE PIECE, and specialty TCG you can recognize before checkout.",
+    title: "Catalog packaging photos",
+    body: "Listings show packaging photography when available. Closest-line stand-ins are labeled (for example “Booster box shown.”) so you can confirm sealed type before checkout.",
   },
   {
     title: "Ships from Japan",
