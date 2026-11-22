@@ -36,12 +36,12 @@
   },
   "op-14-the-azure-seas-seven-sealed-case": {
     "title": "OP-14 The Azure Sea’s Seven Sealed Case (12 boxes) Japanese ONE PIECE CARD",
-    "image": "/images/products/OP-14-bb.jpg",
-    "filename": "OP-14-bb.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/OP-14-bb.webp",
-    "matchQuality": "closest-line",
-    "attribution": "Fuji Card Shop Japanese product photography (shared OP-14 booster-box image).",
-    "note": "Booster box shown."
+    "image": "/images/products/op-14-the-azure-seas-seven-sealed-case.jpg",
+    "filename": "op-14-the-azure-seas-seven-sealed-case.jpg",
+    "source_url": "https://i.ebayimg.com/images/g/g38AAeSwPY9p2Mzx/s-l1600.webp",
+    "matchQuality": "exact",
+    "attribution": "Third-party/catalog product photo HTTP-verified (case_carton). Rights not cleared in source CSV — used with uncertainty note.",
+    "note": "verified84_import:distinct_case_carton_http_verified; import_ready=NO_rights_not_cleared; depicts=case_carton; source ebay/case photo. Booster-box-shown label cleared."
   },
   "op-14-the-azure-seas-seven-booster-box": {
     "title": "OP-14 The Azure Sea’s Seven Booster Box Japanese ONE PIECE CARD",
@@ -499,21 +499,21 @@
     "title": "30th CELEBRATION Premium Deck Set Espeon Umbreon Japanese Pokemon Card",
     "image": "/images/products/30th-celebration-premium-deck-set-espeon-umbreon.jpg",
     "filename": "30th-celebration-premium-deck-set-espeon-umbreon.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/01/150x300-test-banner.png",
+    "source_url": "https://tokyocardbase.com/assets/catalog/30th-celebration-premium-deck-set-espeon-umbreon.webp",
     "matchedProductName": "30th Celebration Ultra-Premium Collection [Day]",
     "matchQuality": "exact",
-    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
-    "note": "abs63_import:verified_http_200 live Fuji front; abs63_import:unresolved_product_page_404_or_no_gallery; local_archive_kept"
+    "attribution": "Third-party/catalog product photo HTTP-verified (product_packaging). Rights not cleared in source CSV — used with uncertainty note.",
+    "note": "verified84_import:http_verified; import_ready=NO_rights_not_cleared; depicts=product_packaging; observed_price=18500 JPY (NOT applied to store)"
   },
   "30th-celebration-futuristic-box": {
     "title": "30th CELEBRATION FUTURISTIC BOX Japanese Pokemon Card",
     "image": "/images/products/30th-celebration-futuristic-box.jpg",
     "filename": "30th-celebration-futuristic-box.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/01/150x300-test-banner.png",
+    "source_url": "https://www.pokevalues.com/cards/696837_400.jpg",
     "matchedProductName": "30th Celebration Elite Trainer Box",
     "matchQuality": "exact",
-    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
-    "note": "abs63_import:verified_http_200 live Fuji front; abs63_import:unresolved_product_page_404_or_no_gallery; local_archive_kept"
+    "attribution": "Third-party/catalog product photo HTTP-verified (product_packaging). Rights not cleared in source CSV — used with uncertainty note.",
+    "note": "verified84_import:http_verified; import_ready=NO_rights_not_cleared; depicts=product_packaging; observed_price=590.41 USD (NOT applied to store)"
   },
   "30th-celebration-card-set-9-type-bundle": {
     "title": "30th CELEBRATION Card Set 9 Type Bundle Japanese Pokemon Card",
@@ -609,20 +609,20 @@
     "title": "UNION ARENA Re:ZERO -Starting Life in Another World- Vol.2 EX17BT Booster Box Japanese",
     "image": "/images/products/union-arena-rezero-vol-2-ex17bt.jpg",
     "filename": "union-arena-rezero-vol-2-ex17bt.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/01/150x300-test-banner.png",
+    "source_url": "https://www.unionarena-tcg.com/en/images/products/boosters/ex_rez/img_item01.png?v=",
     "matchedProductName": "Re:ZERO -Starting Life in Another World- - Booster Box",
-    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "attribution": "Third-party/catalog product photo HTTP-verified (booster_display_and_pack). Rights not cleared in source CSV — used with uncertainty note.",
     "matchQuality": "exact",
-    "note": "abs63_import:verified_http_200 live Fuji front; abs63_import:unresolved_product_page_404_or_no_gallery; local_archive_kept"
+    "note": "verified84_import:http_verified; import_ready=NO_rights_not_cleared; depicts=booster_display_and_pack;"
   },
   "union-arena-madoka-magica-ex16bt": {
     "title": "UNION ARENA Puella Magi Madoka Magica: Magia Exedra EX16BT Booster Box Japanese",
     "image": "/images/products/union-arena-madoka-magica-ex16bt.jpg",
     "filename": "union-arena-madoka-magica-ex16bt.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/01/150x300-test-banner.png",
+    "source_url": "https://www.unionarena-tcg.com/jp/images/products/boosters/ex_mmm/img_item01.png?v1=",
     "matchQuality": "exact",
-    "note": "abs63_import:verified_http_200 live Fuji front; abs63_import:unresolved_product_page_404_or_no_gallery; local_archive_kept",
-    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL)."
+    "note": "verified84_import:http_verified; import_ready=NO_rights_not_cleared; depicts=booster_display_and_pack; observed_price=9800 JPY (NOT applied to store)",
+    "attribution": "Third-party/catalog product photo HTTP-verified (booster_display_and_pack). Rights not cleared in source CSV — used with uncertainty note."
   },
   "hololive-start-deck-achichi-mela": {
     "title": "hololive OFFICIAL CARD GAME Start Deck Asobi★Mawaritai! Oshi Achichi Mela Japanese",
@@ -689,21 +689,21 @@
     "title": "Yu-Gi-Oh! OCG UTILITY SELECTION Booster Box Japanese Trading Card",
     "image": "/images/products/yugioh-utility-selection-booster-box.jpg",
     "filename": "yugioh-utility-selection-booster-box.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/01/150x300-test-banner.png",
+    "source_url": "https://highplacejp.com/cdn/shop/files/2048x2048_9.jpg?v=1787398917&width=2048",
     "matchedProductName": "Limited Pack World Championship 2026 Box",
-    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "attribution": "Third-party/catalog product photo HTTP-verified (booster_box_and_pack). Rights not cleared in source CSV — used with uncertainty note.",
     "matchQuality": "exact",
-    "note": "abs63_import:verified_http_200 live Fuji front; abs63_import:unresolved_product_page_404_or_no_gallery; local_archive_kept"
+    "note": "verified84_import:http_verified; import_ready=NO_rights_not_cleared; depicts=booster_box_and_pack; observed_price=65 USD (NOT applied to store)"
   },
   "union-arena-bleach-ex15bt": {
     "title": "UNION ARENA BLEACH Thousand-Year Blood War Vol.3 EX15BT Booster Box Japanese Trading Card",
     "image": "/images/products/union-arena-bleach-ex15bt.jpg",
     "filename": "union-arena-bleach-ex15bt.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/01/150x300-test-banner.png",
+    "source_url": "https://www.unionarena-tcg.com/jp/images/products/boosters/ex_blc-3/img_item01.png?v=",
     "matchedProductName": "BLEACH: Thousand-Year Blood War - Booster Box Case",
-    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "attribution": "Third-party/catalog product photo HTTP-verified (booster_display_and_pack). Rights not cleared in source CSV — used with uncertainty note.",
     "matchQuality": "exact",
-    "note": "abs63_import:verified_http_200 live Fuji front; abs63_import:unresolved_product_page_404_or_no_gallery; local_archive_kept"
+    "note": "verified84_import:http_verified; import_ready=NO_rights_not_cleared; depicts=booster_display_and_pack; observed_price=99.99 USD (NOT applied to store)"
   },
   "mcdonalds-2025-promo-pack": {
     "title": "McDonald’s 2025 Promo Pack Japanese Pokemon Card",
