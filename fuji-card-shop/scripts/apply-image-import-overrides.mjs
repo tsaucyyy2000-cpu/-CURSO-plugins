@@ -69,10 +69,15 @@ for (const [slug, override] of Object.entries(overrides)) {
     source_page_url: override.source_page_url ?? existing.source_page_url,
     matchQuality: override.matchQuality ?? existing.matchQuality ?? "exact",
     imageAlt: override.imageAlt ?? existing.imageAlt,
-    note: override.note ?? existing.note,
+    note: Object.prototype.hasOwnProperty.call(override, "note")
+      ? override.note
+      : existing.note,
     attribution: override.attribution ?? existing.attribution,
     locked: true,
   };
+  if (next.note === null || next.note === undefined) {
+    delete next.note;
+  }
 
   for (const needle of forbidden) {
     if (typeof next.image === "string" && next.image.includes(needle)) {
@@ -106,15 +111,19 @@ for (const [slug, override] of Object.entries(overrides)) {
   }
 }
 
-// Guard: OP-14 case fallback must keep closest-line + Booster box shown note
+// Guard: OP-14 case must stay on verified distinct carton; box stays Fuji archive front
 const box = productImages["op-14-the-azure-seas-seven-booster-box"];
 const cas = productImages["op-14-the-azure-seas-seven-sealed-case"];
-if (cas?.matchQuality !== "closest-line" || cas?.note !== "Booster box shown.") {
-  console.error("BLOCKED: OP-14 sealed-case must stay closest-line with note 'Booster box shown.'");
+if (!cas?.image?.includes("op-14-the-azure-seas-seven-sealed-case.jpg")) {
+  console.error("BLOCKED: OP-14 sealed-case must use verified sealed-case.jpg carton face");
   process.exit(1);
 }
-if (cas?.image?.includes("op-14-the-azure-seas-seven-sealed-case.jpg")) {
-  console.error("BLOCKED: OP-14 case must not use unverified eBay carton path while rights/set ID unconfirmed");
+if (cas?.matchQuality !== "exact" || cas?.note) {
+  console.error("BLOCKED: OP-14 sealed-case must be exact with no Booster-box-shown note");
+  process.exit(1);
+}
+if (cas?.image === box?.image || cas?.image?.includes("OP-14-bb")) {
+  console.error("BLOCKED: OP-14 sealed-case must not share booster-box image");
   process.exit(1);
 }
 if (!box?.image?.includes("OP-14-bb")) {
