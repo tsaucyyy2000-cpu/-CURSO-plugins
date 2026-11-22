@@ -3,19 +3,36 @@
     "title": "UNION ARENA To LOVE-Ru -Trouble- Memory of Heroines UA45BT Sealed Case(16 boxes) Japanese Trading Card",
     "image": "/images/products/UA45BT-bb.jpg",
     "filename": "UA45BT-bb.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/12/UA45BT-bb.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/12/UA45BT-bb.webp",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/union-arena-to-love-ru-trouble-memory-of-heroines-ua45bt-sealed-case-gallery-1.jpg"
+    ]
   },
   "sb02-manga-booster-02": {
     "title": "SB02 MANGA BOOSTER 02 Japanese DRAGON BALL FUSION WORLD Card",
     "image": "/images/products/SB02-bb.jpg",
     "filename": "SB02-bb.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/12/SB02-bb.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/12/SB02-bb.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/sb02-manga-booster-02-gallery-1.jpg",
+      "/images/products/sb02-manga-booster-02-gallery-2.jpg",
+      "/images/products/sb02-manga-booster-02-gallery-3.jpg"
+    ]
   },
   "m2a-mega-dream-ex-booster-box": {
     "title": "m2a-mega-dream-ex-booster-box",
     "image": "/images/products/M2a-bb.jpg",
     "filename": "M2a-bb.jpg",
-    "source_url": ""
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/11/M2a-bb.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front"
   },
   "op-14-the-azure-seas-seven-sealed-case": {
     "title": "OP-14 The Azure Sea’s Seven Sealed Case (12 boxes) Japanese ONE PIECE CARD",
@@ -50,25 +67,47 @@
     "title": "ONE PIECE magazine Promo Monkey D. Luffy [SR] {ST21-014} Japanese ONE PIECE CARD",
     "image": "/images/products/20251006_d7bc07.jpg",
     "filename": "20251006_d7bc07.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/20251006_d7bc07.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/20251006_d7bc07.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front"
   },
   "gundam-card-game-limited-box-ver-%ce%b2": {
     "title": "Gundam Card Game Limited BOX Ver. β Japanese Trading Card",
     "image": "/images/products/1.jpg",
     "filename": "1.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/09/1.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/09/1.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/gundam-card-game-limited-box-ver-%ce%b2-gallery-1.jpg"
+    ]
   },
   "starter-set-mega-mega-gengar-ex-mbg": {
     "title": "Starter Set MEGA Mega Gengar ex MBG Japanese Pokemon Card",
     "image": "/images/products/MBG-deck.jpg",
     "filename": "MBG-deck.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/09/MBG-deck.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/09/MBG-deck.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/starter-set-mega-mega-gengar-ex-mbg-gallery-1.jpg",
+      "/images/products/starter-set-mega-mega-gengar-ex-mbg-gallery-2.jpg"
+    ]
   },
   "m1s-mega-symphonia-pokemon-center-set": {
     "title": "M1S Mega Symphonia Pokemon Center Set Japanese Pokemon Card",
     "image": "/images/products/M1S-sp.jpg",
     "filename": "M1S-sp.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/08/M1S-sp.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/08/M1S-sp.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/m1s-mega-symphonia-pokemon-center-set-gallery-1.jpg"
+    ]
   },
   "pokemon-card-came-classic": {
     "title": "Pokemon Card Came Classic Japanese Pokemon Card",
@@ -78,75 +117,145 @@
   },
   "vstar-universe-booster-box-s12a": {
     "title": "S12a VSTAR Universe booster box Japanese Pokemon Card",
-    "image": "/images/products/vstarboosterbox.webp",
-    "filename": "vstarboosterbox.webp",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/10/vstarboosterbox.webp"
+    "image": "/images/products/vstarboosterbox.jpg",
+    "filename": "vstarboosterbox.jpg",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/10/vstarboosterbox.webp",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/vstar-universe-booster-box-s12a-gallery-1.jpg"
+    ]
   },
   "paradigm-trigger-booster-box-s12": {
     "title": "S12 Paradigm Trigger booster box Japanese Pokemon Card",
     "image": "/images/products/Paradigm-Trigger-Booster-Box-s12-.jpg",
     "filename": "Paradigm-Trigger-Booster-Box-s12-.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/10/Paradigm-Trigger-Booster-Box-s12-.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/10/Paradigm-Trigger-Booster-Box-s12-.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/paradigm-trigger-booster-box-s12-gallery-1.jpg"
+    ]
   },
   "incandescent-arcana-booster-box": {
     "title": "S11a Incandescent Arcana booster box Japanese Pokemon Card",
     "image": "/images/products/Incandescent-Arcana-booster-box.jpg",
     "filename": "Incandescent-Arcana-booster-box.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/08/Incandescent-Arcana-booster-box.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/08/Incandescent-Arcana-booster-box.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/incandescent-arcana-booster-box-gallery-1.jpg"
+    ]
   },
   "lost-abyss-booster-box-s11": {
     "title": "S11 Lost Abyss Booster Box Japanese Pokemon Card",
     "image": "/images/products/Lost-Abyss-booster-box-s11-japanese-pokemon-cards.jpg",
     "filename": "Lost-Abyss-booster-box-s11-japanese-pokemon-cards.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/10/Lost-Abyss-booster-box-s11-japanese-pokemon-cards.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/10/Lost-Abyss-booster-box-s11-japanese-pokemon-cards.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/lost-abyss-booster-box-s11-gallery-1.jpg"
+    ]
   },
   "pokemon-go-booster-box-s10b": {
     "title": "S10b Pokémon GO Booster Box Japanese Pokemon Card",
     "image": "/images/products/Pokemon-GO-s10b-Booster-Box-Japanese-Pokemon-Cards-scaled.jpg",
     "filename": "Pokemon-GO-s10b-Booster-Box-Japanese-Pokemon-Cards-scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Pokemon-GO-s10b-Booster-Box-Japanese-Pokemon-Cards-scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Pokemon-GO-s10b-Booster-Box-Japanese-Pokemon-Cards-scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front"
   },
   "dark-phantasma-booster-box-s10a": {
     "title": "S10a Dark Phantasma Booster Box Japanese Pokemon Card",
     "image": "/images/products/Dark-Phantasma-Booster-Box-s10a-Japanese-Pokemon-Cards.jpg",
     "filename": "Dark-Phantasma-Booster-Box-s10a-Japanese-Pokemon-Cards.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Dark-Phantasma-Booster-Box-s10a-Japanese-Pokemon-Cards.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Dark-Phantasma-Booster-Box-s10a-Japanese-Pokemon-Cards.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front"
   },
   "space-juggler-booster-box-s10p": {
     "title": "S10P Space Juggler Booster Box Japanese Pokemon Card",
     "image": "/images/products/Space-Juggler-S10P-Booster-Box-Japanese-Pokemon-Cards-scaled.jpg",
     "filename": "Space-Juggler-S10P-Booster-Box-Japanese-Pokemon-Cards-scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Space-Juggler-S10P-Booster-Box-Japanese-Pokemon-Cards-scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Space-Juggler-S10P-Booster-Box-Japanese-Pokemon-Cards-scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/space-juggler-booster-box-s10p-gallery-1.jpg"
+    ]
   },
   "time-gazer-booster-box-s10d": {
     "title": "S10D Time Gazer Booster Box Japanese Pokemon Card",
     "image": "/images/products/Time-Gazer-Booster-box-S10D-Japanese-Pokemon-Cards--scaled.jpg",
     "filename": "Time-Gazer-Booster-box-S10D-Japanese-Pokemon-Cards--scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Time-Gazer-Booster-box-S10D-Japanese-Pokemon-Cards--scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Time-Gazer-Booster-box-S10D-Japanese-Pokemon-Cards--scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/time-gazer-booster-box-s10d-gallery-1.jpg",
+      "/images/products/time-gazer-booster-box-s10d-gallery-2.jpg",
+      "/images/products/time-gazer-booster-box-s10d-gallery-3.jpg"
+    ]
   },
   "battle-region-booster-box-s9a": {
     "title": "S9a Battle Region Booster Box Japanese Pokemon Card",
     "image": "/images/products/Battle-Region-Booster-Box-S9a-Japanese-Pokemon-Cards-scaled.jpg",
     "filename": "Battle-Region-Booster-Box-S9a-Japanese-Pokemon-Cards-scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Battle-Region-Booster-Box-S9a-Japanese-Pokemon-Cards-scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Battle-Region-Booster-Box-S9a-Japanese-Pokemon-Cards-scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/battle-region-booster-box-s9a-gallery-1.jpg",
+      "/images/products/battle-region-booster-box-s9a-gallery-2.jpg",
+      "/images/products/battle-region-booster-box-s9a-gallery-3.jpg"
+    ]
   },
   "rebellion-crash-booster-box-s2": {
     "title": "S2 Rebellion Crash Booster Box Japanese Pokemon Card",
     "image": "/images/products/Rebellion-Crash-booster-box-s2-japanese-pokemon-cards-scaled.jpg",
     "filename": "Rebellion-Crash-booster-box-s2-japanese-pokemon-cards-scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Rebellion-Crash-booster-box-s2-japanese-pokemon-cards-scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Rebellion-Crash-booster-box-s2-japanese-pokemon-cards-scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/rebellion-crash-booster-box-s2-gallery-1.jpg"
+    ]
   },
   "25th-anniversary-collection-booster-box-s8a": {
     "title": "S8a 25th Anniversary Collection Booster Box Japanese Pokemon Card",
     "image": "/images/products/25th-anniversary-booster-box-s8a-japanese-pokemon-cards-scaled.jpg",
     "filename": "25th-anniversary-booster-box-s8a-japanese-pokemon-cards-scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/25th-anniversary-booster-box-s8a-japanese-pokemon-cards-scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/25th-anniversary-booster-box-s8a-japanese-pokemon-cards-scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/25th-anniversary-collection-booster-box-s8a-gallery-1.jpg"
+    ]
   },
   "star-birth-booster-box-s9": {
     "title": "S9 Star Birth Booster Box Japanese Pokemon Card",
     "image": "/images/products/Star-Birth-booster-box-s9-japanese-pokemon-cards.jpg",
     "filename": "Star-Birth-booster-box-s9-japanese-pokemon-cards.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Star-Birth-booster-box-s9-japanese-pokemon-cards.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Star-Birth-booster-box-s9-japanese-pokemon-cards.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/star-birth-booster-box-s9-gallery-1.jpg"
+    ]
   },
   "vmax-climax-booster-box-s8b": {
     "title": "S8b Vmax Climax Booster Box Japanese Pokemon Card",
@@ -158,103 +267,196 @@
     "title": "S6H Silver Lance Booster Box Japanese Pokemon Card",
     "image": "/images/products/Silver-lance-booster-box-s6h-japanese-pokemon-cards.jpg",
     "filename": "Silver-lance-booster-box-s6h-japanese-pokemon-cards.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Silver-lance-booster-box-s6h-japanese-pokemon-cards.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Silver-lance-booster-box-s6h-japanese-pokemon-cards.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/silver-lance-booster-box-s6h-gallery-1.jpg"
+    ]
   },
   "jet-black-poltergeist-booster-box-s6k": {
     "title": "S6K Jet Black Poltergeist Booster Box Japanese Pokemon Card",
     "image": "/images/products/jet-black-spirit-s6k-booster-box-japanese-pokemon-cards.jpg",
     "filename": "jet-black-spirit-s6k-booster-box-japanese-pokemon-cards.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/jet-black-spirit-s6k-booster-box-japanese-pokemon-cards.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/jet-black-spirit-s6k-booster-box-japanese-pokemon-cards.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/jet-black-poltergeist-booster-box-s6k-gallery-1.jpg"
+    ]
   },
   "vmax-rising-booster-box-s1a": {
     "title": "S1a Vmax Rising Booster Box Japanese Pokemon Card",
     "image": "/images/products/Vmax-rising-booster-box-s1a-japanese-pokemon-cards-scaled.jpg",
     "filename": "Vmax-rising-booster-box-s1a-japanese-pokemon-cards-scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Vmax-rising-booster-box-s1a-japanese-pokemon-cards-scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Vmax-rising-booster-box-s1a-japanese-pokemon-cards-scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/vmax-rising-booster-box-s1a-gallery-1.jpg"
+    ]
   },
   "fusion-arts-booster-box": {
     "title": "S8 Fusion Arts Booster Box Japanese Pokemon Card",
     "image": "/images/products/Fusion-Arts-booster-box-s8-japanese-pokemon-cards-scaled.jpg",
     "filename": "Fusion-Arts-booster-box-s8-japanese-pokemon-cards-scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Fusion-Arts-booster-box-s8-japanese-pokemon-cards-scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Fusion-Arts-booster-box-s8-japanese-pokemon-cards-scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front"
   },
   "blue-sky-stream-booster-box-s7r": {
     "title": "S7R Blue Sky Stream Booster Box Japanese Pokemon Card",
     "image": "/images/products/Blue-Sky-Stream-booster-box-s7r-japanese-pokemon-cards-scaled.jpg",
     "filename": "Blue-Sky-Stream-booster-box-s7r-japanese-pokemon-cards-scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Blue-Sky-Stream-booster-box-s7r-japanese-pokemon-cards-scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Blue-Sky-Stream-booster-box-s7r-japanese-pokemon-cards-scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/blue-sky-stream-booster-box-s7r-gallery-1.jpg"
+    ]
   },
   "towering-perfection-booster-box-s7d": {
     "title": "S7D Towering Perfection Booster Box Japanese Pokemon Card",
     "image": "/images/products/towering-perfection-booster-box-s7d-japanese-pokemon-cards-scaled.jpg",
     "filename": "towering-perfection-booster-box-s7d-japanese-pokemon-cards-scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/towering-perfection-booster-box-s7d-japanese-pokemon-cards-scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/towering-perfection-booster-box-s7d-japanese-pokemon-cards-scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/towering-perfection-booster-box-s7d-gallery-1.jpg"
+    ]
   },
   "eevee-heroes-booster-box": {
     "title": "S6a Eevee Heroes Booster Box Japanese Pokemon Card",
     "image": "/images/products/eevee-heroes-booster-box-s6a-japanese-pokemon-cards.jpg",
     "filename": "eevee-heroes-booster-box-s6a-japanese-pokemon-cards.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/eevee-heroes-booster-box-s6a-japanese-pokemon-cards.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/eevee-heroes-booster-box-s6a-japanese-pokemon-cards.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/eevee-heroes-booster-box-gallery-1.jpg"
+    ]
   },
   "matchless-fighters-booster-box": {
     "title": "S5a Matchless Fighters Booster Box Japanese Pokemon Card",
     "image": "/images/products/Matchless-Fighter-booster-box-s5a-japanese-pokemon-cards-scaled.jpg",
     "filename": "Matchless-Fighter-booster-box-s5a-japanese-pokemon-cards-scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Matchless-Fighter-booster-box-s5a-japanese-pokemon-cards-scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Matchless-Fighter-booster-box-s5a-japanese-pokemon-cards-scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/matchless-fighters-booster-box-gallery-1.jpg"
+    ]
   },
   "shiny-star-v-booster-box": {
     "title": "S4a Shiny Star V Booster Box Japanese Pokemon Card",
     "image": "/images/products/Shiny-star-v-booster-box-s4a-japanese-pokemon-cards-scaled.jpg",
     "filename": "Shiny-star-v-booster-box-s4a-japanese-pokemon-cards-scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Shiny-star-v-booster-box-s4a-japanese-pokemon-cards-scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Shiny-star-v-booster-box-s4a-japanese-pokemon-cards-scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/shiny-star-v-booster-box-gallery-1.jpg"
+    ]
   },
   "single-strike-master-booster-box": {
     "title": "S5I Single Strike Master Booster Box Japanese Pokemon Card",
     "image": "/images/products/Single-strike-master-booster-box-s5i-japanese-pokemon-cards-scaled.jpg",
     "filename": "Single-strike-master-booster-box-s5i-japanese-pokemon-cards-scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Single-strike-master-booster-box-s5i-japanese-pokemon-cards-scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Single-strike-master-booster-box-s5i-japanese-pokemon-cards-scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/single-strike-master-booster-box-gallery-1.jpg"
+    ]
   },
   "rapid-strike-master-booster-box": {
     "title": "S5R Rapid Strike Master Booster Box Japanese Pokemon Card",
     "image": "/images/products/Rapid-strike-master-booster-box-s5r-japanese-pokemon-cards-scaled.jpg",
     "filename": "Rapid-strike-master-booster-box-s5r-japanese-pokemon-cards-scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Rapid-strike-master-booster-box-s5r-japanese-pokemon-cards-scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Rapid-strike-master-booster-box-s5r-japanese-pokemon-cards-scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/rapid-strike-master-booster-box-gallery-1.jpg"
+    ]
   },
   "sword-japanese-booster-box": {
     "title": "S1W Sword Japanese Booster Box Japanese Pokemon Card",
     "image": "/images/products/Sword-S1W-Booster-Box-Japanese-Pokemon-Cards-scaled.jpg",
     "filename": "Sword-S1W-Booster-Box-Japanese-Pokemon-Cards-scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Sword-S1W-Booster-Box-Japanese-Pokemon-Cards-scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Sword-S1W-Booster-Box-Japanese-Pokemon-Cards-scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/sword-japanese-booster-box-gallery-1.jpg"
+    ]
   },
   "explosive-flame-walker-booster-box": {
     "title": "S2a Explosive Flame Walker Booster Box Japanese Pokemon Card",
     "image": "/images/products/Explosive-Flame-Walker-Booster-box-s2a-japanese-pokemon-cards-scaled.jpg",
     "filename": "Explosive-Flame-Walker-Booster-box-s2a-japanese-pokemon-cards-scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2021/03/Explosive-Flame-Walker-Booster-box-s2a-japanese-pokemon-cards-scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2021/03/Explosive-Flame-Walker-Booster-box-s2a-japanese-pokemon-cards-scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/explosive-flame-walker-booster-box-gallery-1.jpg"
+    ]
   },
   "shield-boosterbox": {
     "title": "S1H Shield Boosterbox Japanese Pokemon Card",
     "image": "/images/products/Shield-booster-box-s1h-japanese-pokemon-cards-scaled.jpg",
     "filename": "Shield-booster-box-s1h-japanese-pokemon-cards-scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Shield-booster-box-s1h-japanese-pokemon-cards-scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Shield-booster-box-s1h-japanese-pokemon-cards-scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front"
   },
   "infinity-zone-booster-box": {
     "title": "S3 Infinity Zone Booster Box Japanese Pokemon Card",
     "image": "/images/products/infinity-zone-booster-box-s3-japanese-pokemon-cards.jpg",
     "filename": "infinity-zone-booster-box-s3-japanese-pokemon-cards.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/infinity-zone-booster-box-s3-japanese-pokemon-cards.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/infinity-zone-booster-box-s3-japanese-pokemon-cards.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/infinity-zone-booster-box-gallery-1.jpg"
+    ]
   },
   "legendary-heartbeat-booster-box-s3a": {
     "title": "S3a Legendary Heartbeat Booster Box Japanese Pokemon Card",
     "image": "/images/products/Legendary-heartbeat-pulse-booster-box-s3a-japanese-pokemon-cards-scaled.jpg",
     "filename": "Legendary-heartbeat-pulse-booster-box-s3a-japanese-pokemon-cards-scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Legendary-heartbeat-pulse-booster-box-s3a-japanese-pokemon-cards-scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Legendary-heartbeat-pulse-booster-box-s3a-japanese-pokemon-cards-scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/legendary-heartbeat-booster-box-s3a-gallery-1.jpg"
+    ]
   },
   "shocking-volt-tackle-booster-box": {
     "title": "S4 Shocking Volt Tackle Booster Box Japanese Pokemon Card",
     "image": "/images/products/Shocking-volt-tackle-electryfing-tackle-booster-box-s4-japanese-pokemon-cards-scaled.jpg",
     "filename": "Shocking-volt-tackle-electryfing-tackle-booster-box-s4-japanese-pokemon-cards-scaled.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Shocking-volt-tackle-electryfing-tackle-booster-box-s4-japanese-pokemon-cards-scaled.jpg"
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Shocking-volt-tackle-electryfing-tackle-booster-box-s4-japanese-pokemon-cards-scaled.jpg",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front"
   },
   "op-18-the-dominance-of-god-booster-box": {
     "title": "[Pre-Order Ship Nov 24] OP-18 The Dominance of God Booster Box Japanese ONE PIECE CARD",
@@ -283,39 +485,45 @@
     "title": "M6a 30th CELEBRATION booster box Japanese Pokemon Card",
     "image": "/images/products/m6a-30th-celebration-booster-box.jpg",
     "filename": "m6a-30th-celebration-booster-box.jpg",
-    "source_url": "https://www.tcgplayer.com/product/704143",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/08/3.jpg",
     "matchedProductName": "30th Celebration Elite Trainer Box",
-    "matchQuality": "closest-line",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders.",
-    "note": "Japanese 30th Celebration booster illustrated with authentic 30th Celebration sealed Elite Trainer Box photography. Exact JP booster-box art not listed on public CDN.",
-    "tcgplayerProductId": 704143
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "tcgplayerProductId": 704143,
+    "gallery": [
+      "/images/products/m6a-30th-celebration-booster-box-gallery-1.jpg"
+    ]
   },
   "30th-celebration-premium-deck-set-espeon-umbreon": {
     "title": "30th CELEBRATION Premium Deck Set Espeon Umbreon Japanese Pokemon Card",
     "image": "/images/products/30th-celebration-premium-deck-set-espeon-umbreon.jpg",
     "filename": "30th-celebration-premium-deck-set-espeon-umbreon.jpg",
-    "source_url": "https://www.tcgplayer.com/product/704190",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/01/150x300-test-banner.png",
     "matchedProductName": "30th Celebration Ultra-Premium Collection [Day]",
     "matchQuality": "exact",
-    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front; abs63_import:unresolved_product_page_404_or_no_gallery; local_archive_kept"
   },
   "30th-celebration-futuristic-box": {
     "title": "30th CELEBRATION FUTURISTIC BOX Japanese Pokemon Card",
     "image": "/images/products/30th-celebration-futuristic-box.jpg",
     "filename": "30th-celebration-futuristic-box.jpg",
-    "source_url": "https://www.tcgplayer.com/product/704143",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/01/150x300-test-banner.png",
     "matchedProductName": "30th Celebration Elite Trainer Box",
     "matchQuality": "exact",
-    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front; abs63_import:unresolved_product_page_404_or_no_gallery; local_archive_kept"
   },
   "30th-celebration-card-set-9-type-bundle": {
     "title": "30th CELEBRATION Card Set 9 Type Bundle Japanese Pokemon Card",
     "image": "/images/products/30th-celebration-card-set-9-type-bundle.jpg",
     "filename": "30th-celebration-card-set-9-type-bundle.jpg",
-    "source_url": "https://www.tcgplayer.com/product/726826",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/01/150x300-test-banner.png",
     "matchedProductName": "30th Celebration Battle Deck: Umbreon ex/Espeon ex [Set of two]",
     "matchQuality": "exact",
-    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front; abs63_import:unresolved_product_page_404_or_no_gallery; local_archive_kept"
   },
   "op-17-the-worlds-strongest-warriors-booster-box": {
     "title": "OP-17 The World’s Strongest Warriors booster box Japanese ONE PIECE CARD",
@@ -332,156 +540,192 @@
     "title": "[Pre-Order/Ship December] ONE PIECE magazine vol.21 Promo Monkey D. Luffy {ST29-001} Japanese ONE PIECE CARD",
     "image": "/images/products/one-piece-magazine-vol-21-promo-luffy.jpg",
     "filename": "one-piece-magazine-vol-21-promo-luffy.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/20251006_d7bc07.jpg",
-    "matchQuality": "closest-line",
-    "note": "Reused closest authentic Fuji archive image from 20251006_d7bc07.jpg",
-    "attribution": "Fuji Card Shop catalog archive photography."
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/01/150x300-test-banner.png",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front; abs63_import:unresolved_product_page_404_or_no_gallery; local_archive_kept",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL)."
   },
   "pokemon-center-fukuoka-special-box": {
     "title": "Pokemon Center Fukuoka Special Box Japanese Pokemon Card",
     "image": "/images/products/pokemon-center-fukuoka-special-box.jpg",
     "filename": "pokemon-center-fukuoka-special-box.jpg",
-    "matchQuality": "closest-line",
-    "note": "Authentic Japanese Pokémon Center special-set sealed photography (closest regional PC exclusive).",
-    "attribution": "Fuji Card Shop catalog archive photography."
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/09/SP-fukuoka.jpg",
+    "gallery": [
+      "/images/products/pokemon-center-fukuoka-special-box-gallery-1.jpg"
+    ]
   },
   "pokemon-center-hiroshima-special-box": {
     "title": "Pokemon Center Hiroshima Special Box Japanese Pokemon Card",
     "image": "/images/products/pokemon-center-hiroshima-special-box.jpg",
     "filename": "pokemon-center-hiroshima-special-box.jpg",
-    "matchQuality": "closest-line",
-    "note": "Authentic Japanese Pokémon Center special-set sealed photography (closest regional PC exclusive).",
-    "attribution": "Fuji Card Shop catalog archive photography."
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/09/SP-hiroshima-1.jpg",
+    "gallery": [
+      "/images/products/pokemon-center-hiroshima-special-box-gallery-1.jpg"
+    ]
   },
   "pokemon-center-tohoku-special-box": {
     "title": "Pokemon Center Tohoku Special Box Japanese Pokemon Card",
     "image": "/images/products/pokemon-center-tohoku-special-box.jpg",
     "filename": "pokemon-center-tohoku-special-box.jpg",
-    "matchQuality": "closest-line",
-    "note": "Authentic Japanese Pokémon Center special-set sealed photography (closest regional PC exclusive).",
-    "attribution": "Fuji Card Shop catalog archive photography."
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/08/SP-tohoku.jpg",
+    "gallery": [
+      "/images/products/pokemon-center-tohoku-special-box-gallery-1.jpg"
+    ]
   },
   "m5-abyss-eye-booster-box": {
     "title": "M5 Abyss Eye booster box Japanese Pokemon Card",
     "image": "/images/products/m5-abyss-eye-booster-box.jpg",
     "filename": "m5-abyss-eye-booster-box.jpg",
-    "matchQuality": "closest-line",
-    "note": "Upcoming Japanese Mega set illustrated with authentic Mega Evolution–era sealed booster photography (Pitch Black). Exact JP box art not yet publicly listed.",
-    "source_url": "https://www.tcgplayer.com/product/692939",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders.",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/04/M5-bb.jpg",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
     "matchedProductName": "Pitch Black Booster Box",
-    "tcgplayerProductId": 692939
+    "tcgplayerProductId": 692939,
+    "gallery": [
+      "/images/products/m5-abyss-eye-booster-box-gallery-1.jpg"
+    ]
   },
   "gundam-gd06-stardust-trails-booster-box": {
     "title": "GUNDAM CARD GAME GD06 Stardust Trails Booster Box Japanese",
     "image": "/images/products/gundam-gd06-stardust-trails-booster-box.jpg",
     "filename": "gundam-gd06-stardust-trails-booster-box.jpg",
-    "source_url": "https://www.tcgplayer.com/product/710652",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/01/150x300-test-banner.png",
     "matchedProductName": "Stardust Trails Booster Box",
-    "attribution": "Product photography via TCGPlayer CDN."
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front; abs63_import:unresolved_product_page_404_or_no_gallery; local_archive_kept"
   },
   "union-arena-rezero-vol-2-ex17bt": {
     "title": "UNION ARENA Re:ZERO -Starting Life in Another World- Vol.2 EX17BT Booster Box Japanese",
     "image": "/images/products/union-arena-rezero-vol-2-ex17bt.jpg",
     "filename": "union-arena-rezero-vol-2-ex17bt.jpg",
-    "source_url": "https://www.tcgplayer.com/product/696138",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/01/150x300-test-banner.png",
     "matchedProductName": "Re:ZERO -Starting Life in Another World- - Booster Box",
-    "attribution": "Product photography via TCGPlayer CDN."
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front; abs63_import:unresolved_product_page_404_or_no_gallery; local_archive_kept"
   },
   "union-arena-madoka-magica-ex16bt": {
     "title": "UNION ARENA Puella Magi Madoka Magica: Magia Exedra EX16BT Booster Box Japanese",
     "image": "/images/products/union-arena-madoka-magica-ex16bt.jpg",
     "filename": "union-arena-madoka-magica-ex16bt.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/12/UA45BT-bb.jpg",
-    "matchQuality": "closest-line",
-    "note": "Reused closest authentic Fuji archive image from UA45BT-bb.jpg",
-    "attribution": "Fuji Card Shop catalog archive photography."
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/01/150x300-test-banner.png",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front; abs63_import:unresolved_product_page_404_or_no_gallery; local_archive_kept",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL)."
   },
   "hololive-start-deck-achichi-mela": {
     "title": "hololive OFFICIAL CARD GAME Start Deck Asobi★Mawaritai! Oshi Achichi Mela Japanese",
     "image": "/images/products/hololive-start-deck-achichi-mela.jpg",
     "filename": "hololive-start-deck-achichi-mela.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/09/MBG-deck.jpg",
-    "matchQuality": "closest-line",
-    "note": "Reused closest authentic Fuji archive image from MBG-deck.jpg",
-    "attribution": "Fuji Card Shop catalog archive photography."
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/01/150x300-test-banner.png",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front; abs63_import:unresolved_product_page_404_or_no_gallery; local_archive_kept",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL)."
   },
   "hololive-start-deck-hyakuto-kyoko": {
     "title": "hololive OFFICIAL CARD GAME Start Deck Asobi★Mawaritai! Oshi Hyakuto Kyoko Japanese",
     "image": "/images/products/hololive-start-deck-hyakuto-kyoko.jpg",
     "filename": "hololive-start-deck-hyakuto-kyoko.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/09/MBG-deck.jpg",
-    "matchQuality": "closest-line",
-    "note": "Reused closest authentic Fuji archive image from MBG-deck.jpg",
-    "attribution": "Fuji Card Shop catalog archive photography."
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/01/150x300-test-banner.png",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front; abs63_import:unresolved_product_page_404_or_no_gallery; local_archive_kept",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL)."
   },
   "weiss-schwarz-nikke-vol-2": {
     "title": "Weiss Schwarz Booster Goddess of Victory: NIKKE Vol.2 Japanese Trading Card",
     "image": "/images/products/weiss-schwarz-nikke-vol-2.jpg",
     "filename": "weiss-schwarz-nikke-vol-2.jpg",
-    "source_url": "https://www.tcgplayer.com/product/694637",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/09/weiss-schwarz-nikke-vol-2-japanese.png",
     "matchedProductName": "GODDESS OF VICTORY: NIKKE Vol.2 Booster Box",
-    "attribution": "Product photography via TCGPlayer CDN."
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front"
   },
   "weiss-schwarz-frieren-vol-2": {
     "title": "Weiss Schwarz Booster Frieren: Beyond Journey’s End Vol.2 Japanese Trading Card",
     "image": "/images/products/weiss-schwarz-frieren-vol-2.jpg",
     "filename": "weiss-schwarz-frieren-vol-2.jpg",
-    "source_url": "https://www.tcgplayer.com/product/578956",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/09/weiss-schwarz-frieren-vol-2-japanese.png",
     "matchedProductName": "Frieren: Beyond Journey's End Trial Deck",
-    "attribution": "Product photography via TCGPlayer CDN."
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front"
   },
   "hololive-volume-vortex": {
     "title": "hololive OFFICIAL CG Booster Vol.9 Volume Vortex Japanese Trading Card",
     "image": "/images/products/hololive-volume-vortex.jpg",
     "filename": "hololive-volume-vortex.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/09/MBG-deck.jpg",
-    "matchQuality": "closest-line",
-    "note": "Reused closest authentic Fuji archive image from hololive-start-deck-achichi-mela.jpg",
-    "attribution": "Fuji Card Shop catalog archive photography."
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/09/hololive-hbp09-volume-vortex-booster-box.jpg",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL)."
   },
   "one-piece-saikyo-jump-promo-pack": {
     "title": "ONE PIECE Card Saikyo Jump Promo Pack “Summit Powerhouse Pack” Japanese ONE PIECE CARD",
     "image": "/images/products/one-piece-saikyo-jump-promo-pack.jpg",
     "filename": "one-piece-saikyo-jump-promo-pack.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/20251006_d7bc07.jpg",
-    "matchQuality": "closest-line",
-    "note": "Reused closest authentic Fuji archive image from 20251006_d7bc07.jpg",
-    "attribution": "Fuji Card Shop catalog archive photography."
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/05/OPsv-p-pack.png",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "gallery": [
+      "/images/products/one-piece-saikyo-jump-promo-pack-gallery-1.jpg",
+      "/images/products/one-piece-saikyo-jump-promo-pack-gallery-2.jpg",
+      "/images/products/one-piece-saikyo-jump-promo-pack-gallery-3.jpg"
+    ]
   },
   "yugioh-utility-selection-booster-box": {
     "title": "Yu-Gi-Oh! OCG UTILITY SELECTION Booster Box Japanese Trading Card",
     "image": "/images/products/yugioh-utility-selection-booster-box.jpg",
     "filename": "yugioh-utility-selection-booster-box.jpg",
-    "source_url": "https://www.tcgplayer.com/product/702321",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/01/150x300-test-banner.png",
     "matchedProductName": "Limited Pack World Championship 2026 Box",
-    "attribution": "Product photography via TCGPlayer CDN."
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front; abs63_import:unresolved_product_page_404_or_no_gallery; local_archive_kept"
   },
   "union-arena-bleach-ex15bt": {
     "title": "UNION ARENA BLEACH Thousand-Year Blood War Vol.3 EX15BT Booster Box Japanese Trading Card",
     "image": "/images/products/union-arena-bleach-ex15bt.jpg",
     "filename": "union-arena-bleach-ex15bt.jpg",
-    "source_url": "https://www.tcgplayer.com/product/552229",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/01/150x300-test-banner.png",
     "matchedProductName": "BLEACH: Thousand-Year Blood War - Booster Box Case",
-    "attribution": "Product photography via TCGPlayer CDN."
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front; abs63_import:unresolved_product_page_404_or_no_gallery; local_archive_kept"
   },
   "mcdonalds-2025-promo-pack": {
     "title": "McDonald’s 2025 Promo Pack Japanese Pokemon Card",
     "image": "/images/products/mcdonalds-2025-promo-pack.jpg",
     "filename": "mcdonalds-2025-promo-pack.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/20251006_d7bc07.jpg",
-    "matchQuality": "closest-line",
-    "note": "Reused closest authentic Fuji archive image from 20251006_d7bc07.jpg",
-    "attribution": "Fuji Card Shop catalog archive photography."
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2022/01/150x300-test-banner.png",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front; abs63_import:unresolved_product_page_404_or_no_gallery; local_archive_kept",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL)."
   },
   "start-deck-100-battle-collection": {
     "title": "Start Deck 100 Battle Collection Japanese Pokemon Card",
     "image": "/images/products/start-deck-100-battle-collection.jpg",
     "filename": "start-deck-100-battle-collection.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/09/MBG-deck.jpg",
-    "matchQuality": "closest-line",
-    "note": "Reused closest authentic Fuji archive image from MBG-deck.jpg",
-    "attribution": "Fuji Card Shop catalog archive photography."
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/12/MC-100deck.png",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "gallery": [
+      "/images/products/start-deck-100-battle-collection-gallery-1.jpg",
+      "/images/products/start-deck-100-battle-collection-gallery-2.jpg"
+    ]
   },
   "op-18-the-dominance-of-god-sealed-case": {
     "title": "OP-18 The Dominance of God Sealed Case(12 boxes) Japanese ONE PIECE CARD",
@@ -525,10 +769,10 @@
     "title": "M7 Aura Seeker Booster Box Japanese Pokemon Card",
     "image": "/images/products/m7-aura-seeker-booster-box.jpg",
     "filename": "m7-aura-seeker-booster-box.jpg",
-    "matchQuality": "closest-line",
-    "note": "Upcoming Japanese Mega set illustrated with authentic Mega Evolution sealed booster photography. Exact Aura Seeker box art not yet publicly listed.",
-    "source_url": "https://www.tcgplayer.com/product/644300",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders.",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/11/m7-aura-seeker-japanese-booster-box-open-official.webp",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
     "matchedProductName": "Mega Evolution Enhanced Booster Box",
     "tcgplayerProductId": 644300
   },
@@ -536,32 +780,38 @@
     "title": "M6 Storm Emeralda booster box Japanese Pokemon Card",
     "image": "/images/products/m6-storm-emeralda-booster-box.jpg",
     "filename": "m6-storm-emeralda-booster-box.jpg",
-    "matchQuality": "closest-line",
-    "note": "Upcoming Japanese Mega set illustrated with authentic Mega Evolution–era sealed booster photography (Delta Reign). Exact JP box art not yet publicly listed.",
-    "source_url": "https://www.tcgplayer.com/product/712094",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders.",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/04/M6-bb.jpg",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
     "matchedProductName": "Delta Reign Booster Box",
-    "tcgplayerProductId": 712094
+    "tcgplayerProductId": 712094,
+    "gallery": [
+      "/images/products/m6-storm-emeralda-booster-box-gallery-1.jpg"
+    ]
   },
   "m4-ninja-spinner-booster-box": {
     "title": "M4 Ninja Spinner booster box Japanese Pokemon Card",
     "image": "/images/products/m4-ninja-spinner-booster-box.jpg",
     "filename": "m4-ninja-spinner-booster-box.jpg",
-    "matchQuality": "closest-line",
-    "note": "Upcoming Japanese Mega set illustrated with authentic Mega Evolution–era sealed photography (Chaos Rising ETB). Exact JP box art not yet publicly listed.",
-    "source_url": "https://www.tcgplayer.com/product/684450",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders.",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/02/M4-bb.jpg",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
     "matchedProductName": "Chaos Rising Elite Trainer Box",
-    "tcgplayerProductId": 684450
+    "tcgplayerProductId": 684450,
+    "gallery": [
+      "/images/products/m4-ninja-spinner-booster-box-gallery-1.jpg"
+    ]
   },
   "m3-munikis-zero-booster-box": {
     "title": "M3 Munikis Zero booster box Japanese Pokemon Card",
     "image": "/images/products/m3-munikis-zero-booster-box.jpg",
     "filename": "m3-munikis-zero-booster-box.jpg",
-    "matchQuality": "closest-line",
-    "note": "Upcoming Japanese Mega set illustrated with authentic Mega Evolution–era sealed booster photography (Chaos Rising). Exact JP box art not yet publicly listed.",
-    "source_url": "https://www.tcgplayer.com/product/684444",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders.",
+    "matchQuality": "exact",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/01/M3-bb.jpg",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
     "matchedProductName": "Chaos Rising Booster Box",
     "tcgplayerProductId": 684444
   },
@@ -569,9 +819,13 @@
     "title": "Palworld Official Card Game BP02 Legends Awaken Japanese",
     "image": "/images/products/palworld-bp02-legends-awaken.jpg",
     "filename": "palworld-bp02-legends-awaken.jpg",
-    "source_url": "https://www.tcgplayer.com/product/716519",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/10/pal-bp02-legends-awaken-official-announcement.png",
     "matchedProductName": "Legends Awaken Booster Box",
-    "matchQuality": "closest-line",
-    "attribution": "Official sealed-product photography via TCGPlayer retail CDN (stored locally)."
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop live Japanese product photography (HTTP-verified absolute URL).",
+    "note": "abs63_import:verified_http_200 live Fuji front",
+    "gallery": [
+      "/images/products/palworld-bp02-legends-awaken-gallery-1.jpg"
+    ]
   }
 }
