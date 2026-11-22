@@ -2,7 +2,7 @@
   {
     "slug": "union-arena-to-love-ru-trouble-memory-of-heroines-ua45bt-sealed-case",
     "name": "UNION ARENA To LOVE-Ru -Trouble- Memory of Heroines UA45BT Sealed Case(16 boxes) Japanese Trading Card",
-    "price": 0,
+    "price": 1136,
     "currency": "USD",
     "category": "union-arena",
     "status": "available",
@@ -20,7 +20,7 @@
   {
     "slug": "sb02-manga-booster-02",
     "name": "SB02 MANGA BOOSTER 02 Japanese DRAGON BALL FUSION WORLD Card",
-    "price": 0,
+    "price": 566,
     "currency": "USD",
     "category": "other-tcg",
     "status": "available",
@@ -38,7 +38,7 @@
   {
     "slug": "m2a-mega-dream-ex-booster-box",
     "name": "M2a MEGA Dream ex booster box Japanese Pokemon Card",
-    "price": 0,
+    "price": 84,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -56,7 +56,7 @@
   {
     "slug": "op-14-the-azure-seas-seven-sealed-case",
     "name": "OP-14 The Azure Sea\u2019s Seven Sealed Case (12 boxes) Japanese ONE PIECE CARD",
-    "price": 0,
+    "price": 1161,
     "currency": "USD",
     "category": "one-piece",
     "status": "available",
@@ -74,7 +74,7 @@
   {
     "slug": "op-14-the-azure-seas-seven-booster-box",
     "name": "OP-14 The Azure Sea\u2019s Seven Booster Box Japanese ONE PIECE CARD",
-    "price": 0,
+    "price": 79,
     "currency": "USD",
     "category": "one-piece",
     "status": "available",
@@ -92,10 +92,10 @@
   {
     "slug": "gundam-card-game-booster-gd02-dual-impact",
     "name": "Gundam Card Game booster GD02 Dual Impact Japanese Trading Card",
-    "price": 0,
+    "price": 37,
     "currency": "USD",
     "category": "gundam",
-    "status": "available",
+    "status": "out-of-stock",
     "accent": "#db2777",
     "accentSecondary": "#f9a8d4",
     "shortDescription": "Japanese sealed product from Fuji Card Shop \u2014 Gundam Card Game booster GD02 Dual Impact Japanese Trading Card.",
@@ -110,10 +110,10 @@
   {
     "slug": "one-piece-magazine-promo-monkey-d-luffy-sr-st21-014-japanese-one-piece-card",
     "name": "ONE PIECE magazine Promo Monkey D. Luffy [SR] {ST21-014} Japanese ONE PIECE CARD",
-    "price": 0,
+    "price": 177,
     "currency": "USD",
     "category": "one-piece",
-    "status": "available",
+    "status": "out-of-stock",
     "accent": "#dc2626",
     "accentSecondary": "#fecaca",
     "shortDescription": "Japanese sealed product from Fuji Card Shop \u2014 ONE PIECE magazine Promo Monkey D. Luffy [SR] {ST21-014} Japanese ONE PIECE CARD.",
@@ -128,10 +128,10 @@
   {
     "slug": "gundam-card-game-limited-box-ver-%ce%b2",
     "name": "Gundam Card Game Limited BOX Ver. \u03b2 Japanese Trading Card",
-    "price": 0,
+    "price": 240,
     "currency": "USD",
     "category": "gundam",
-    "status": "available",
+    "status": "out-of-stock",
     "accent": "#1f6feb",
     "accentSecondary": "#7dd3fc",
     "shortDescription": "Japanese sealed product from Fuji Card Shop \u2014 Gundam Card Game Limited BOX Ver. \u03b2 Japanese Trading Card.",
@@ -146,7 +146,7 @@
   {
     "slug": "starter-set-mega-mega-gengar-ex-mbg",
     "name": "Starter Set MEGA Mega Gengar ex MBG Japanese Pokemon Card",
-    "price": 0,
+    "price": 23,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -164,7 +164,7 @@
   {
     "slug": "m1s-mega-symphonia-pokemon-center-set",
     "name": "M1S Mega Symphonia Pokemon Center Set Japanese Pokemon Card",
-    "price": 0,
+    "price": 121,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -182,7 +182,7 @@
   {
     "slug": "pokemon-card-came-classic",
     "name": "Pokemon Card Came Classic Japanese Pokemon Card",
-    "price": 0,
+    "price": 323,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -200,7 +200,7 @@
   {
     "slug": "vstar-universe-booster-box-s12a",
     "name": "S12a VSTAR Universe booster box Japanese Pokemon Card",
-    "price": 0,
+    "price": 185,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -218,7 +218,7 @@
   {
     "slug": "paradigm-trigger-booster-box-s12",
     "name": "S12 Paradigm Trigger booster box Japanese Pokemon Card",
-    "price": 0,
+    "price": 141,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -236,7 +236,7 @@
   {
     "slug": "incandescent-arcana-booster-box",
     "name": "S11a Incandescent Arcana booster box Japanese Pokemon Card",
-    "price": 0,
+    "price": 82,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -254,7 +254,7 @@
   {
     "slug": "lost-abyss-booster-box-s11",
     "name": "S11 Lost Abyss Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 352,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -272,7 +272,7 @@
   {
     "slug": "pokemon-go-booster-box-s10b",
     "name": "S10b Pok\u00e9mon GO Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 149,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -290,7 +290,7 @@
   {
     "slug": "dark-phantasma-booster-box-s10a",
     "name": "S10a Dark Phantasma Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 163,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -308,7 +308,7 @@
   {
     "slug": "space-juggler-booster-box-s10p",
     "name": "S10P Space Juggler Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 141,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -326,7 +326,7 @@
   {
     "slug": "time-gazer-booster-box-s10d",
     "name": "S10D Time Gazer Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 156,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -344,7 +344,7 @@
   {
     "slug": "battle-region-booster-box-s9a",
     "name": "S9a Battle Region Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 103,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -362,7 +362,7 @@
   {
     "slug": "rebellion-crash-booster-box-s2",
     "name": "S2 Rebellion Crash Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 421,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -380,7 +380,7 @@
   {
     "slug": "25th-anniversary-collection-booster-box-s8a",
     "name": "S8a 25th Anniversary Collection Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 419,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -398,7 +398,7 @@
   {
     "slug": "star-birth-booster-box-s9",
     "name": "S9 Star Birth Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 158,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -416,7 +416,7 @@
   {
     "slug": "vmax-climax-booster-box-s8b",
     "name": "S8b Vmax Climax Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 224,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -434,7 +434,7 @@
   {
     "slug": "silver-lance-booster-box-s6h",
     "name": "S6H Silver Lance Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 159,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -452,7 +452,7 @@
   {
     "slug": "jet-black-poltergeist-booster-box-s6k",
     "name": "S6K Jet Black Poltergeist Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 173,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -470,7 +470,7 @@
   {
     "slug": "vmax-rising-booster-box-s1a",
     "name": "S1a Vmax Rising Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 851,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -488,7 +488,7 @@
   {
     "slug": "fusion-arts-booster-box",
     "name": "S8 Fusion Arts Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 437,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -506,7 +506,7 @@
   {
     "slug": "blue-sky-stream-booster-box-s7r",
     "name": "S7R Blue Sky Stream Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 1625,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -524,7 +524,7 @@
   {
     "slug": "towering-perfection-booster-box-s7d",
     "name": "S7D Towering Perfection Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 159,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -542,7 +542,7 @@
   {
     "slug": "eevee-heroes-booster-box",
     "name": "S6a Eevee Heroes Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 915,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -560,7 +560,7 @@
   {
     "slug": "matchless-fighters-booster-box",
     "name": "S5a Matchless Fighters Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 318,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -578,7 +578,7 @@
   {
     "slug": "shiny-star-v-booster-box",
     "name": "S4a Shiny Star V Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 154,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -596,7 +596,7 @@
   {
     "slug": "single-strike-master-booster-box",
     "name": "S5I Single Strike Master Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 332,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -614,7 +614,7 @@
   {
     "slug": "rapid-strike-master-booster-box",
     "name": "S5R Rapid Strike Master Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 388,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -632,7 +632,7 @@
   {
     "slug": "sword-japanese-booster-box",
     "name": "S1W Sword Japanese Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 437,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -650,7 +650,7 @@
   {
     "slug": "explosive-flame-walker-booster-box",
     "name": "S2a Explosive Flame Walker Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 389,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -668,7 +668,7 @@
   {
     "slug": "shield-boosterbox",
     "name": "S1H Shield Boosterbox Japanese Pokemon Card",
-    "price": 0,
+    "price": 501,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -686,7 +686,7 @@
   {
     "slug": "infinity-zone-booster-box",
     "name": "S3 Infinity Zone Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 360,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -704,7 +704,7 @@
   {
     "slug": "legendary-heartbeat-booster-box-s3a",
     "name": "S3a Legendary Heartbeat Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 317,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",
@@ -722,7 +722,7 @@
   {
     "slug": "shocking-volt-tackle-booster-box",
     "name": "S4 Shocking Volt Tackle Booster Box Japanese Pokemon Card",
-    "price": 0,
+    "price": 367,
     "currency": "USD",
     "category": "pokemon",
     "status": "available",

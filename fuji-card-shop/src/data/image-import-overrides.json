@@ -32,21 +32,81 @@
       "filename": "op-17-the-worlds-strongest-warriors-sealed-case.jpg",
       "matchQuality": "exact",
       "locked": true,
-      "forbidden_image_substrings": ["op-17-the-worlds-strongest-warriors-booster-box"]
+      "forbidden_image_substrings": [
+        "op-17-the-worlds-strongest-warriors-booster-box"
+      ]
     },
     "op-18-the-dominance-of-god-sealed-case": {
       "image": "/images/products/op-18-the-dominance-of-god-sealed-case.jpg",
       "filename": "op-18-the-dominance-of-god-sealed-case.jpg",
       "matchQuality": "exact",
       "locked": true,
-      "forbidden_image_substrings": ["op-18-the-dominance-of-god-booster-box"]
+      "forbidden_image_substrings": [
+        "op-18-the-dominance-of-god-booster-box"
+      ]
     },
     "eb-05-one-piece-heroines-edition-vol-2-sealed-case": {
       "image": "/images/products/eb-05-one-piece-heroines-edition-vol-2-sealed-case.jpg",
       "filename": "eb-05-one-piece-heroines-edition-vol-2-sealed-case.jpg",
       "matchQuality": "exact",
       "locked": true,
-      "forbidden_image_substrings": ["eb-05-one-piece-heroines-edition-vol-2-booster-box"]
+      "forbidden_image_substrings": [
+        "eb-05-one-piece-heroines-edition-vol-2-booster-box"
+      ]
+    },
+    "op-15-adventure-on-kamis-island-booster-box": {
+      "image": "/images/products/op-15-adventure-on-kamis-island-booster-box.jpg",
+      "filename": "op-15-adventure-on-kamis-island-booster-box.jpg",
+      "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/02/OP-15-bb.webp",
+      "matchQuality": "exact",
+      "locked": true
+    },
+    "op-15-adventure-on-kamis-island-sealed-case": {
+      "image": "/images/products/op-15-adventure-on-kamis-island-booster-box.jpg",
+      "filename": "op-15-adventure-on-kamis-island-booster-box.jpg",
+      "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/02/OP-15-bb.webp",
+      "source_page_url": "https://www.fujicardshop.com/product/op-15-adventure-on-kamis-island-booster-box/",
+      "matchQuality": "closest-line",
+      "imageAlt": "Photo shows OP-15 Adventure on KAMI's Island booster box (sealed-case listing)",
+      "note": "Booster box shown.",
+      "attribution": "Booster-box packaging photo used for sealed-case listing; carton photo not imported.",
+      "locked": true
+    },
+    "op-16-the-time-of-battle-booster-box": {
+      "image": "/images/products/op-16-the-time-of-battle-booster-box.jpg",
+      "filename": "op-16-the-time-of-battle-booster-box.jpg",
+      "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/04/OP-16-bb.webp",
+      "matchQuality": "exact",
+      "locked": true
+    },
+    "op-16-the-time-of-battle-sealed-case": {
+      "image": "/images/products/op-16-the-time-of-battle-booster-box.jpg",
+      "filename": "op-16-the-time-of-battle-booster-box.jpg",
+      "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/04/OP-16-bb.webp",
+      "source_page_url": "https://www.fujicardshop.com/product/op-16-the-time-of-battle-booster-box/",
+      "matchQuality": "closest-line",
+      "imageAlt": "Photo shows OP-16 The Time of Battle booster box (sealed-case listing)",
+      "note": "Booster box shown.",
+      "attribution": "Booster-box packaging photo used for sealed-case listing; carton photo not imported.",
+      "locked": true
+    },
+    "eb-04-egghead-crisis-booster-box": {
+      "image": "/images/products/eb-04-egghead-crisis-booster-box.jpg",
+      "filename": "eb-04-egghead-crisis-booster-box.jpg",
+      "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/12/EB-04-bb.jpg",
+      "matchQuality": "exact",
+      "locked": true
+    },
+    "eb-04-egghead-crisis-sealed-case": {
+      "image": "/images/products/eb-04-egghead-crisis-booster-box.jpg",
+      "filename": "eb-04-egghead-crisis-booster-box.jpg",
+      "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/12/EB-04-bb.jpg",
+      "source_page_url": "https://www.fujicardshop.com/product/eb-04-egghead-crisis-booster-box/",
+      "matchQuality": "closest-line",
+      "imageAlt": "Photo shows EB-04 Egghead Crisis booster box (sealed-case listing)",
+      "note": "Booster box shown.",
+      "attribution": "Booster-box packaging photo used for sealed-case listing; carton photo not imported.",
+      "locked": true
     }
   }
 }

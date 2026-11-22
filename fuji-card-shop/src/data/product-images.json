@@ -834,5 +834,71 @@
     "gallery": [
       "/images/products/palworld-bp02-legends-awaken-gallery-1.jpg"
     ]
+  },
+  "op-15-adventure-on-kamis-island-booster-box": {
+    "title": "OP-15 Adventure on KAMI's Island booster box Japanese ONE PIECE CARD",
+    "image": "/images/products/op-15-adventure-on-kamis-island-booster-box.jpg",
+    "filename": "op-15-adventure-on-kamis-island-booster-box.jpg",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/02/OP-15-bb.webp",
+    "source_page_url": "https://www.fujicardshop.com/product/op-15-adventure-on-kamis-island-booster-box/",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Fuji Card Shop product page packaging photo (captured 2026-11-22; CDN direct download blocked from agent network)."
+  },
+  "op-15-adventure-on-kamis-island-sealed-case": {
+    "title": "OP-15 Adventure on KAMI's Island Sealed Case (12 boxes) Japanese ONE PIECE CARD",
+    "image": "/images/products/op-15-adventure-on-kamis-island-booster-box.jpg",
+    "filename": "op-15-adventure-on-kamis-island-booster-box.jpg",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/02/OP-15-bb.webp",
+    "source_page_url": "https://www.fujicardshop.com/product/op-15-adventure-on-kamis-island-booster-box/",
+    "matchQuality": "closest-line",
+    "locked": true,
+    "note": "Booster box shown.",
+    "imageAlt": "Photo shows OP-15 Adventure on KAMI's Island booster box (sealed-case listing)",
+    "attribution": "Booster-box packaging photo used for sealed-case listing; carton photo not imported."
+  },
+  "op-16-the-time-of-battle-booster-box": {
+    "title": "OP-16 The Time of Battle booster box Japanese ONE PIECE CARD",
+    "image": "/images/products/op-16-the-time-of-battle-booster-box.jpg",
+    "filename": "op-16-the-time-of-battle-booster-box.jpg",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/04/OP-16-bb.webp",
+    "source_page_url": "https://www.fujicardshop.com/product/op-16-the-time-of-battle-booster-box/",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Fuji Card Shop product page packaging photo (captured 2026-11-22; CDN direct download blocked from agent network)."
+  },
+  "op-16-the-time-of-battle-sealed-case": {
+    "title": "OP-16 The Time of Battle Sealed Case (12 boxes) Japanese ONE PIECE CARD",
+    "image": "/images/products/op-16-the-time-of-battle-booster-box.jpg",
+    "filename": "op-16-the-time-of-battle-booster-box.jpg",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/04/OP-16-bb.webp",
+    "source_page_url": "https://www.fujicardshop.com/product/op-16-the-time-of-battle-booster-box/",
+    "matchQuality": "closest-line",
+    "locked": true,
+    "note": "Booster box shown.",
+    "imageAlt": "Photo shows OP-16 The Time of Battle booster box (sealed-case listing)",
+    "attribution": "Booster-box packaging photo used for sealed-case listing; carton photo not imported."
+  },
+  "eb-04-egghead-crisis-booster-box": {
+    "title": "EB-04 EGGHEAD CRISIS Booster Box Japanese ONE PIECE CARD",
+    "image": "/images/products/eb-04-egghead-crisis-booster-box.jpg",
+    "filename": "eb-04-egghead-crisis-booster-box.jpg",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/12/EB-04-bb.jpg",
+    "source_page_url": "https://www.fujicardshop.com/product/eb-04-egghead-crisis-booster-box/",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Fuji Card Shop product page packaging photo (captured 2026-11-22; CDN direct download blocked from agent network)."
+  },
+  "eb-04-egghead-crisis-sealed-case": {
+    "title": "EB-04 EGGHEAD CRISIS Sealed Case (12 boxes) Japanese ONE PIECE CARD",
+    "image": "/images/products/eb-04-egghead-crisis-booster-box.jpg",
+    "filename": "eb-04-egghead-crisis-booster-box.jpg",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/12/EB-04-bb.jpg",
+    "source_page_url": "https://www.fujicardshop.com/product/eb-04-egghead-crisis-booster-box/",
+    "matchQuality": "closest-line",
+    "locked": true,
+    "note": "Booster box shown.",
+    "imageAlt": "Photo shows EB-04 Egghead Crisis booster box (sealed-case listing)",
+    "attribution": "Booster-box packaging photo used for sealed-case listing; carton photo not imported."
   }
 }

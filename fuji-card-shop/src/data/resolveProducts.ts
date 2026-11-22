@@ -70,10 +70,13 @@ const extras: Product[] = (imagedProducts as Product[])
   .filter((entry) => !baseProducts.some((product) => product.slug === entry.slug))
   .map((entry) => {
     const mapped = images[entry.slug];
+    const priced = entry.price > 0;
     return {
       ...entry,
-      price: entry.price > 0 ? entry.price : 49,
-      badge: entry.badge ?? "Archive photo",
+      // Never invent prices — keep 0 when Fuji/official evidence is missing.
+      price: priced ? entry.price : 0,
+      badge: entry.badge ?? (priced ? "Archive photo" : "Price pending"),
+      status: priced ? entry.status : entry.status === "preorder" ? "preorder" : entry.status,
       image: mapped?.image ?? entry.image,
       gallery: mapped?.gallery,
       imageRef: mapped?.source_url ?? entry.imageRef,
@@ -87,7 +90,9 @@ const extras: Product[] = (imagedProducts as Product[])
         ? entry.description
         : [
             "Product photography pulled from the live Fuji Card Shop catalog archive.",
-            "Pricing shown is a placeholder when live checkout data was unavailable.",
+            priced
+              ? "Price synced from Fuji Card Shop listed USD."
+              : "Listed price pending — no Fuji/official price evidence imported yet.",
           ],
     };
   });
