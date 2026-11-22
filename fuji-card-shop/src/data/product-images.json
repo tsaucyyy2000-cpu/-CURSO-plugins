@@ -39,9 +39,12 @@
     "image": "/images/products/op-14-the-azure-seas-seven-sealed-case.jpg",
     "filename": "op-14-the-azure-seas-seven-sealed-case.jpg",
     "source_url": "https://i.ebayimg.com/images/g/g38AAeSwPY9p2Mzx/s-l1600.webp",
+    "source_page_url": "https://www.ebay.com/itm/287264028864",
     "matchQuality": "exact",
-    "attribution": "Third-party/catalog product photo HTTP-verified (case_carton). Rights not cleared in source CSV — used with uncertainty note.",
-    "note": "verified84_import:distinct_case_carton_http_verified; import_ready=NO_rights_not_cleared; depicts=case_carton; source ebay/case photo. Booster-box-shown label cleared."
+    "imageAlt": "Japanese OP-14 The Azure Sea’s Seven sealed case carton (12 booster boxes)",
+    "attribution": "Third-party listing photo of sealed case carton; source page titled sealed case of 12 boxes. Rights not cleared in source CSV.",
+    "note": "locked_distinct_case:import_override; depicts=sealed_case_carton; do_not_share_with_booster_box",
+    "locked": true
   },
   "op-14-the-azure-seas-seven-booster-box": {
     "title": "OP-14 The Azure Sea’s Seven Booster Box Japanese ONE PIECE CARD",
@@ -49,7 +52,9 @@
     "filename": "OP-14-bb.jpg",
     "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/OP-14-bb.webp",
     "matchQuality": "exact",
-    "attribution": "Fuji Card Shop Japanese product photography (OP-14 booster box)."
+    "imageAlt": "Japanese OP-14 The Azure Sea’s Seven booster box front",
+    "attribution": "Fuji Card Shop Japanese product photography (OP-14 booster box).",
+    "locked": true
   },
   "gundam-card-game-booster-gd02-dual-impact": {
     "title": "Gundam Card Game booster GD02 Dual Impact Japanese Trading Card",
@@ -738,7 +743,8 @@
     "gallery": [
       "/images/products/op-18-the-dominance-of-god-booster-box.jpg",
       "/images/products/op-18-gallery-official.jpg"
-    ]
+    ],
+    "locked": true
   },
   "eb-05-one-piece-heroines-edition-vol-2-sealed-case": {
     "title": "EB-05 ONE PIECE Heroines Edition vol.2 Sealed Case Japanese ONE PIECE CARD",
@@ -751,7 +757,8 @@
     "gallery": [
       "/images/products/eb-05-one-piece-heroines-edition-vol-2-booster-box.jpg",
       "/images/products/eb-05-gallery-alt.jpg"
-    ]
+    ],
+    "locked": true
   },
   "op-17-the-worlds-strongest-warriors-sealed-case": {
     "title": "OP-17 The World's Strongest Warriors Sealed Case(12 boxes) Japanese ONE PIECE CARD",
@@ -763,7 +770,8 @@
     "attribution": "Fuji Card Shop Japanese product photography (OP-17 sealed-case listing gallery; distinct from booster-box front).",
     "gallery": [
       "/images/products/op-17-the-worlds-strongest-warriors-booster-box.jpg"
-    ]
+    ],
+    "locked": true
   },
   "m7-aura-seeker-booster-box": {
     "title": "M7 Aura Seeker Booster Box Japanese Pokemon Card",

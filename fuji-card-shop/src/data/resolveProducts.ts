@@ -10,42 +10,57 @@ type ImageEntry = {
   matchQuality?: "exact" | "closest-line";
   note?: string;
   gallery?: string[];
+  imageAlt?: string;
+  locked?: boolean;
 };
 
 type ImageMap = Record<string, ImageEntry>;
 
 const images = productImages as ImageMap;
 
+/** Packaging family so fuzzy match cannot map a sealed-case SKU onto a booster-box photo. */
+function packagingKind(slug: string): "sealed-case" | "booster-box" | "other" {
+  if (slug.endsWith("-sealed-case") || slug.includes("-sealed-case-")) {
+    return "sealed-case";
+  }
+  if (slug.endsWith("-booster-box") || slug.includes("-booster-box")) {
+    return "booster-box";
+  }
+  return "other";
+}
+
+function applyEntry(product: Product, entry: ImageEntry): Product {
+  return {
+    ...product,
+    image: entry.image,
+    gallery: entry.gallery,
+    imageRef: entry.source_url || product.imageRef,
+    imageMatchQuality: entry.matchQuality ?? "exact",
+    imageNote: entry.note,
+    imageAlt: entry.imageAlt ?? product.imageAlt,
+  };
+}
+
 function withImage(product: Product): Product {
   const direct = images[product.slug];
   if (direct) {
-    return {
-      ...product,
-      image: direct.image,
-      gallery: direct.gallery,
-      imageRef: direct.source_url || product.imageRef,
-      imageMatchQuality: direct.matchQuality ?? "exact",
-      imageNote: direct.note,
-    };
+    return applyEntry(product, direct);
   }
 
+  const productKind = packagingKind(product.slug);
   const fuzzy = Object.entries(images).find(([slug]) => {
+    if (packagingKind(slug) !== productKind && productKind !== "other") {
+      return false;
+    }
     return (
       slug === product.slug ||
       slug.includes(product.slug) ||
-      product.slug.includes(slug.replace(/-booster-box$/, ""))
+      product.slug.includes(slug.replace(/-booster-box$/, "").replace(/-sealed-case$/, ""))
     );
   });
 
   if (fuzzy) {
-    return {
-      ...product,
-      image: fuzzy[1].image,
-      gallery: fuzzy[1].gallery,
-      imageRef: fuzzy[1].source_url || product.imageRef,
-      imageMatchQuality: fuzzy[1].matchQuality ?? "exact",
-      imageNote: fuzzy[1].note,
-    };
+    return applyEntry(product, fuzzy[1]);
   }
 
   return product;
@@ -64,6 +79,7 @@ const extras: Product[] = (imagedProducts as Product[])
       imageRef: mapped?.source_url ?? entry.imageRef,
       imageMatchQuality: mapped?.matchQuality ?? "exact",
       imageNote: mapped?.note,
+      imageAlt: mapped?.imageAlt ?? entry.imageAlt,
       shortDescription:
         entry.shortDescription ||
         "Japanese sealed product photo archived from Fuji Card Shop.",

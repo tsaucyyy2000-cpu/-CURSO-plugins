@@ -38,6 +38,8 @@ export type Product = {
   imageRef?: string;
   imageMatchQuality?: "exact" | "closest-line";
   imageNote?: string;
+  /** Packaging-accurate img alt when different from product.name */
+  imageAlt?: string;
 };
 
 export const categories: {

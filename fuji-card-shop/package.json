@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "images:apply-overrides": "node scripts/apply-image-import-overrides.mjs",
+    "images:check-overrides": "node scripts/apply-image-import-overrides.mjs --dry-run"
   },
   "dependencies": {
     "next": "^16.4.6",
