@@ -60,7 +60,10 @@ const extras: Product[] = (imagedProducts as Product[])
       price: entry.price > 0 ? entry.price : 49,
       badge: entry.badge ?? "Archive photo",
       image: mapped?.image ?? entry.image,
+      gallery: mapped?.gallery,
       imageRef: mapped?.source_url ?? entry.imageRef,
+      imageMatchQuality: mapped?.matchQuality ?? "exact",
+      imageNote: mapped?.note,
       shortDescription:
         entry.shortDescription ||
         "Japanese sealed product photo archived from Fuji Card Shop.",

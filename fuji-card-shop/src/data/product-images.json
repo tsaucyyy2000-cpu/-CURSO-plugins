@@ -19,21 +19,32 @@
   },
   "op-14-the-azure-seas-seven-sealed-case": {
     "title": "OP-14 The Azure Sea’s Seven Sealed Case (12 boxes) Japanese ONE PIECE CARD",
-    "image": "/images/products/OP-14-bb.webp",
-    "filename": "OP-14-bb.webp",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/OP-14-bb.webp"
+    "image": "/images/products/OP-14-bb.jpg",
+    "filename": "OP-14-bb.jpg",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/OP-14-bb.webp",
+    "matchQuality": "closest-line",
+    "attribution": "Fuji Card Shop Japanese product photography (shared OP-14 booster-box image).",
+    "note": "Booster box shown."
   },
   "op-14-the-azure-seas-seven-booster-box": {
     "title": "OP-14 The Azure Sea’s Seven Booster Box Japanese ONE PIECE CARD",
-    "image": "/images/products/OP-14-bb.webp",
-    "filename": "OP-14-bb.webp",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/OP-14-bb.webp"
+    "image": "/images/products/OP-14-bb.jpg",
+    "filename": "OP-14-bb.jpg",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/OP-14-bb.webp",
+    "matchQuality": "exact",
+    "attribution": "Fuji Card Shop Japanese product photography (OP-14 booster box)."
   },
   "gundam-card-game-booster-gd02-dual-impact": {
     "title": "Gundam Card Game booster GD02 Dual Impact Japanese Trading Card",
     "image": "/images/products/GD02-bb.jpg",
     "filename": "GD02-bb.jpg",
-    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2025/10/GD02-bb.jpg"
+    "source_url": "https://www.gundam-gcg.com/en/products/boosters/gd02/",
+    "gallery": [
+      "/images/products/GD02-gallery-hero.jpg"
+    ],
+    "matchQuality": "exact",
+    "attribution": "Bandai official English Gundam Card Game product page artwork (GD02 Dual Impact). Not a GTS logo placeholder.",
+    "note": "Front from Bandai EN official GD02 product artwork; GTS listing/logo URLs remain unverified and were not used."
   },
   "one-piece-magazine-promo-monkey-d-luffy-sr-st21-014-japanese-one-piece-card": {
     "title": "ONE PIECE magazine Promo Monkey D. Luffy [SR] {ST21-014} Japanese ONE PIECE CARD",
@@ -249,19 +260,24 @@
     "title": "[Pre-Order Ship Nov 24] OP-18 The Dominance of God Booster Box Japanese ONE PIECE CARD",
     "image": "/images/products/op-18-the-dominance-of-god-booster-box.jpg",
     "filename": "op-18-the-dominance-of-god-booster-box.jpg",
-    "source_url": "https://www.tcgplayer.com/product/712901",
-    "matchedProductName": "The Dominance of God Booster Box",
-    "attribution": "Product photography via TCGPlayer CDN."
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/11/op18-japanese-booster-box-white-background.jpg",
+    "attribution": "Fuji Card Shop Japanese product photography (OP-18 booster box).",
+    "gallery": [
+      "/images/products/op-18-gallery-alt.jpg",
+      "/images/products/op-18-gallery-official.jpg"
+    ],
+    "matchQuality": "exact"
   },
   "eb-05-one-piece-heroines-edition-vol-2-booster-box": {
     "title": "EB-05 ONE PIECE Heroines Edition vol.2 Booster Box Japanese ONE PIECE CARD",
     "image": "/images/products/eb-05-one-piece-heroines-edition-vol-2-booster-box.jpg",
     "filename": "eb-05-one-piece-heroines-edition-vol-2-booster-box.jpg",
-    "source_url": "https://www.tcgplayer.com/product/711385",
-    "matchedProductName": "Extra Booster: One Piece Heroines Edition Vol.2 - Booster Box",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders.",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/11/eb05-japanese-booster-box-official-white.jpg",
+    "attribution": "Fuji Card Shop Japanese product photography (EB-05 booster box).",
     "matchQuality": "exact",
-    "tcgplayerProductId": 711385
+    "gallery": [
+      "/images/products/eb-05-gallery-alt.jpg"
+    ]
   },
   "m6a-30th-celebration-booster-box": {
     "title": "M6a 30th CELEBRATION booster box Japanese Pokemon Card",
@@ -305,9 +321,12 @@
     "title": "OP-17 The World’s Strongest Warriors booster box Japanese ONE PIECE CARD",
     "image": "/images/products/op-17-the-worlds-strongest-warriors-booster-box.jpg",
     "filename": "op-17-the-worlds-strongest-warriors-booster-box.jpg",
-    "source_url": "https://www.tcgplayer.com/product/704754",
-    "matchedProductName": "The World's Strongest Warriors Booster Box Case",
-    "attribution": "Product photography via TCGPlayer CDN."
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/05/OP-17-bb.webp",
+    "attribution": "Fuji Card Shop Japanese product photography (OP-17 booster box).",
+    "gallery": [
+      "/images/products/op-17-gallery-alt.jpg"
+    ],
+    "matchQuality": "exact"
   },
   "one-piece-magazine-vol-21-promo-luffy": {
     "title": "[Pre-Order/Ship December] ONE PIECE magazine vol.21 Promo Monkey D. Luffy {ST29-001} Japanese ONE PIECE CARD",
@@ -465,33 +484,42 @@
     "attribution": "Fuji Card Shop catalog archive photography."
   },
   "op-18-the-dominance-of-god-sealed-case": {
-    "title": "OP-18 sealed case",
+    "title": "OP-18 The Dominance of God Sealed Case(12 boxes) Japanese ONE PIECE CARD",
     "image": "/images/products/op-18-the-dominance-of-god-sealed-case.jpg",
     "filename": "op-18-the-dominance-of-god-sealed-case.jpg",
-    "matchQuality": "closest-line",
-    "note": "Sealed case illustrated with authentic OP-18 booster box product photo.",
-    "source_url": "https://www.tcgplayer.com/product/712901",
-    "attribution": "Product photography via TCGPlayer CDN."
+    "matchQuality": "exact",
+    "note": "Fuji live sealed-case page reuses box art; case SKU front uses distinct Fuji gallery photo (2-1.jpg).",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/10/2-1.jpg",
+    "attribution": "Fuji Card Shop Japanese product photography (OP-18 gallery alt used as distinct sealed-case front; Fuji live case page reuses box art).",
+    "gallery": [
+      "/images/products/op-18-the-dominance-of-god-booster-box.jpg",
+      "/images/products/op-18-gallery-official.jpg"
+    ]
   },
   "eb-05-one-piece-heroines-edition-vol-2-sealed-case": {
     "title": "EB-05 ONE PIECE Heroines Edition vol.2 Sealed Case Japanese ONE PIECE CARD",
     "image": "/images/products/eb-05-one-piece-heroines-edition-vol-2-sealed-case.jpg",
     "filename": "eb-05-one-piece-heroines-edition-vol-2-sealed-case.jpg",
-    "matchQuality": "closest-line",
-    "note": "Sealed case illustrated with authentic Heroines Edition Vol.2 booster box photography.",
-    "source_url": "https://www.tcgplayer.com/product/711386",
-    "attribution": "Product photography via TCGPlayer CDN (retail catalog image). Used for catalog illustration; trademarks belong to respective rights holders.",
-    "matchedProductName": "Extra Booster: One Piece Heroines Edition Vol.2 - Booster Box",
-    "tcgplayerProductId": 711385
+    "matchQuality": "exact",
+    "note": "Distinct Fuji sealed-case product photo (IMG_8002), not the booster-box white-background front.",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/10/IMG_8002.jpeg",
+    "attribution": "Fuji Card Shop Japanese product photography (EB-05 sealed case — IMG_8002).",
+    "gallery": [
+      "/images/products/eb-05-one-piece-heroines-edition-vol-2-booster-box.jpg",
+      "/images/products/eb-05-gallery-alt.jpg"
+    ]
   },
   "op-17-the-worlds-strongest-warriors-sealed-case": {
-    "title": "OP-17 sealed case",
+    "title": "OP-17 The World's Strongest Warriors Sealed Case(12 boxes) Japanese ONE PIECE CARD",
     "image": "/images/products/op-17-the-worlds-strongest-warriors-sealed-case.jpg",
     "filename": "op-17-the-worlds-strongest-warriors-sealed-case.jpg",
-    "matchQuality": "closest-line",
-    "note": "Sealed case illustrated with authentic OP-17 booster box product photo.",
-    "source_url": "https://www.tcgplayer.com/product/704754",
-    "attribution": "Product photography via TCGPlayer CDN."
+    "matchQuality": "exact",
+    "note": "Case listing front uses Fuji OP-17 gallery photo distinct from the booster-box white-background front.",
+    "source_url": "https://www.fujicardshop.com/wp-content/uploads/2026/05/2.jpg",
+    "attribution": "Fuji Card Shop Japanese product photography (OP-17 sealed-case listing gallery; distinct from booster-box front).",
+    "gallery": [
+      "/images/products/op-17-the-worlds-strongest-warriors-booster-box.jpg"
+    ]
   },
   "m7-aura-seeker-booster-box": {
     "title": "M7 Aura Seeker Booster Box Japanese Pokemon Card",
