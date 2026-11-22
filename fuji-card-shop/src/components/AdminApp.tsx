@@ -270,7 +270,15 @@ export function AdminApp({ configured }: { configured: boolean }) {
           <tbody>
             {visible.map((product) => (
               <AdminRow
-                key={product.id}
+                key={[
+                  product.id,
+                  product.name,
+                  product.price,
+                  product.image ?? "",
+                  product.status,
+                  product.stock ?? "",
+                  product.visible ? "1" : "0",
+                ].join("|")}
                 product={product}
                 saving={savingSlug === product.slug}
                 onSave={saveProduct}
@@ -298,15 +306,6 @@ function AdminRow({
   const [status, setStatus] = useState(product.status);
   const [stock, setStock] = useState(product.stock == null ? "" : String(product.stock));
   const [visible, setVisible] = useState(product.visible);
-
-  useEffect(() => {
-    setName(product.name);
-    setPrice(String(product.price));
-    setImage(product.image || "");
-    setStatus(product.status);
-    setStock(product.stock == null ? "" : String(product.stock));
-    setVisible(product.visible);
-  }, [product]);
 
   return (
     <tr>
