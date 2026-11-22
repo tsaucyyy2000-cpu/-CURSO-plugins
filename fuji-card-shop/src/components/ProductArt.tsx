@@ -39,7 +39,7 @@ export function ProductArt({
           <img
             className="product-photo"
             src={product.image}
-            alt={product.name}
+            alt={product.imageAlt || product.name}
             loading={priority ? "eager" : "lazy"}
           />
         </>
