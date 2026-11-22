@@ -70,8 +70,17 @@ export function CartProvider({ children }: { children: ReactNode }) {
   const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
-    setLines(readStorage());
-    setHydrated(true);
+    let cancelled = false;
+    Promise.resolve().then(() => {
+      if (cancelled) {
+        return;
+      }
+      setLines(readStorage());
+      setHydrated(true);
+    });
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   useEffect(() => {

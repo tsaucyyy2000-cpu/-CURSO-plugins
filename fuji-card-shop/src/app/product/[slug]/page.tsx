@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { AddToCartButton } from "@/components/AddToCartButton";
 import { InventoryStatus } from "@/components/InventoryStatus";
 import { ProductGallery } from "@/components/ProductGallery";
+import { StickyCtaBar } from "@/components/StickyCtaBar";
 import {
   detectLanguage,
   detectProductType,
@@ -108,10 +109,13 @@ export default async function ProductPage({
           </div>
         ) : null}
 
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "0.75rem" }}>
+        <div className="pdp-actions" style={{ display: "flex", flexWrap: "wrap", gap: "0.75rem" }}>
           <AddToCartButton slug={product.slug} status={product.status} />
           <Link href="/shipping" className="btn btn-secondary">
             Shipping details
+          </Link>
+          <Link href="/cart" className="btn btn-secondary">
+            View cart
           </Link>
         </div>
 
@@ -120,6 +124,16 @@ export default async function ProductPage({
           rebuild. Cart state is local-only. Confirm language and sealed type match what you intend
           before placing a demo order.
         </div>
+
+        <StickyCtaBar>
+          <div className="sticky-cta-meta">
+            <span>
+              {language} · {sealedType}
+            </span>
+            <strong>{formatPrice(product)}</strong>
+          </div>
+          <AddToCartButton slug={product.slug} status={product.status} />
+        </StickyCtaBar>
 
         <div className="panel">
           <h2 style={{ fontSize: "1.05rem", marginBottom: "0.5rem" }}>Cancellation policy</h2>

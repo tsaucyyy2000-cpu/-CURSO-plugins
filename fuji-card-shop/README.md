@@ -25,7 +25,7 @@ Open [http://localhost:3000](http://localhost:3000).
 ```bash
 npm run build   # production build
 npm run start   # serve production build
-npm run lint    # eslint
+npm run lint    # eslint (Next.js 16+; no `next lint` CLI)
 ```
 
 ## What’s included
@@ -36,9 +36,9 @@ npm run lint    # eslint
 - **Apex TCG wholesale layer** (`/apex`, `/apex/catalog`, `/apex/cases`, `/apex/wholesale`, `/apex/product/[slug]`) — 200 planning SKUs + B2B case pricing + downloadable DOCX/PDF sources
 - **Authentic product photography** for every Fuji + Apex SKU (274/274), stored under `public/images/products` and `public/images/apex`
 - **Staff admin** at `/admin` — catalog edits (name/price/image/visibility/stock) behind session auth
-- Cart + checkout stub (no real payments; Apex wholesale is quote-led; cart prices resolve from catalog only)
+- Cart → checkout (details + review) → local confirmation journey with validation, empty-cart guards, demo acknowledgment, and mobile sticky CTAs (no real payments; Apex wholesale is quote-led; cart prices resolve from catalog only)
 - Shipping / taxes, right to cancel, terms, privacy, Specified Commercial Transaction Act, fake-accounts advisory
-- About + contact (forms do not send email)
+- About + contact (front-end demo acknowledgment only; forms do not send email)
 
 ## Admin auth
 
@@ -54,7 +54,7 @@ See Project doc `docs/product-images-admin-security.md`.
 
 | Live shop | This rebuild |
 | --- | --- |
-| WooCommerce cart, payments (card / Google Pay / Apple Pay / PayPal), tariffs at checkout | Local cart + checkout stub only |
+| WooCommerce cart, payments (card / Google Pay / Apple Pay / PayPal), tariffs at checkout | Local cart → checkout → confirmation demo (validated; no charges) |
 | Full WP product catalog + pagination + variants | Curated inventory pulled from crawled pages |
 | Hosted product photography | Authentic sealed-product photos for all SKUs (TCGPlayer CDN + Fuji archive); closest-line noted where exact JP art unavailable |
 | Account / My Account | Staff `/admin` only (not customer accounts) |
