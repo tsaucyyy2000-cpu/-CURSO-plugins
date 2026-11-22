@@ -16,12 +16,29 @@ function loadJson(rel) {
   return JSON.parse(readFileSync(join(root, rel), "utf8"));
 }
 
-function writeJson(rel, data) {
+function stringifyJson(data, { escapeNonAscii }) {
+  const raw = JSON.stringify(data, null, 2);
+  if (!escapeNonAscii) {
+    return `${raw}\n`;
+  }
+  // imaged-products.json historically stores non-ASCII as \\u escapes.
+  return `${raw.replace(/[\u007f-\uffff]/g, (ch) => {
+    const code = ch.codePointAt(0);
+    if (code === undefined || code <= 0xffff) {
+      return `\\u${(code ?? 0).toString(16).padStart(4, "0")}`;
+    }
+    const hi = Math.floor((code - 0x10000) / 0x400) + 0xd800;
+    const lo = ((code - 0x10000) % 0x400) + 0xdc00;
+    return `\\u${hi.toString(16).padStart(4, "0")}\\u${lo.toString(16).padStart(4, "0")}`;
+  })}\n`;
+}
+
+function writeJson(rel, data, { escapeNonAscii = false } = {}) {
   if (dryRun) {
     console.log(`[dry-run] would write ${rel}`);
     return;
   }
-  writeFileSync(join(root, rel), `${JSON.stringify(data, null, 2)}\n`);
+  writeFileSync(join(root, rel), stringifyJson(data, { escapeNonAscii }));
   console.log(`wrote ${rel}`);
 }
 
@@ -89,20 +106,24 @@ for (const [slug, override] of Object.entries(overrides)) {
   }
 }
 
-// Guard: OP-14 case must not equal box front
+// Guard: OP-14 case fallback must keep closest-line + Booster box shown note
 const box = productImages["op-14-the-azure-seas-seven-booster-box"];
 const cas = productImages["op-14-the-azure-seas-seven-sealed-case"];
-if (box?.image && cas?.image && box.image === cas.image) {
-  console.error("BLOCKED: OP-14 box and case share the same image path after override");
+if (cas?.matchQuality !== "closest-line" || cas?.note !== "Booster box shown.") {
+  console.error("BLOCKED: OP-14 sealed-case must stay closest-line with note 'Booster box shown.'");
   process.exit(1);
 }
-if (cas?.image?.includes("OP-14-bb")) {
-  console.error("BLOCKED: OP-14 case still points at OP-14-bb");
+if (cas?.image?.includes("op-14-the-azure-seas-seven-sealed-case.jpg")) {
+  console.error("BLOCKED: OP-14 case must not use unverified eBay carton path while rights/set ID unconfirmed");
+  process.exit(1);
+}
+if (!box?.image?.includes("OP-14-bb")) {
+  console.error("BLOCKED: OP-14 booster-box front missing");
   process.exit(1);
 }
 
-writeJson("src/data/product-images.json", productImages);
-writeJson("src/data/imaged-products.json", imagedProducts);
+writeJson("src/data/product-images.json", productImages, { escapeNonAscii: false });
+writeJson("src/data/imaged-products.json", imagedProducts, { escapeNonAscii: true });
 
 console.log(
   JSON.stringify(

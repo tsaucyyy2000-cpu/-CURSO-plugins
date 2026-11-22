@@ -64,12 +64,12 @@ export default async function ProductPage({
         <p className="product-assurance">
           {product.image
             ? product.imageMatchQuality === "closest-line"
-              ? "Closest authentic sealed photo · Factory packaging style as shipped from Japan"
-              : "Official sealed product photo · Factory packaging as shipped from Japan"
-            : "Sealed Japanese TCG · Ships from Funabashi"}
+              ? "Closest-line catalog packaging photo"
+              : "Catalog packaging photo"
+            : "Sealed Japanese TCG listing"}
         </p>
         {product.imageMatchQuality === "closest-line" && product.imageNote ? (
-          <p className="stub-note">{product.imageNote}</p>
+          <p className="stub-note image-disclaimer">{product.imageNote}</p>
         ) : null}
         {typeof product.stock === "number" ? (
           <p style={{ color: "var(--mist)" }}>{product.stock} in stock (catalog count)</p>

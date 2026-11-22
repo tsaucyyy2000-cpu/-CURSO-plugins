@@ -12,7 +12,7 @@ export function SealedShelf({ products }: { products: Product[] }) {
     <section className="sealed-shelf" aria-label="Sealed product photography">
       <div className="shell sealed-shelf-head">
         <div className="eyebrow">Sealed shelf</div>
-        <h2>Factory packaging, full frame</h2>
+        <h2>Packaging photos, full frame</h2>
         <p>Scroll the wall — every shot is the sealed product collectors receive.</p>
       </div>
       <div className="sealed-shelf-track">

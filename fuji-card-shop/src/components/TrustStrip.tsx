@@ -3,8 +3,8 @@ export function TrustStrip() {
     <section className="trust-strip" aria-label="Buyer confidence">
       <div className="shell trust-strip-inner">
         <div className="trust-item">
-          <strong>Authentic sealed product</strong>
-          <span>Factory-sealed TCG photography matched to each SKU name</span>
+          <strong>Catalog packaging photos</strong>
+          <span>Photos matched to SKUs when available; closest-line notes call out stand-ins</span>
         </div>
         <div className="trust-item">
           <strong>Ships from Japan</strong>

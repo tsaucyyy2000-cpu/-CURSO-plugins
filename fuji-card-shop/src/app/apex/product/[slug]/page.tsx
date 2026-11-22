@@ -40,7 +40,7 @@ export default async function ApexProductPage({
         </div>
         {product.imageMatchQuality === "closest-line" ? (
           <p className="stub-note" style={{ marginTop: "0.75rem" }}>
-            Closest authentic product-line photo
+            Closest-line catalog packaging photo
             {product.imageNote ? ` — ${product.imageNote}` : "."}
           </p>
         ) : null}
@@ -53,8 +53,8 @@ export default async function ApexProductPage({
         <p className="product-assurance">
           {product.image
             ? product.imageMatchQuality === "closest-line"
-              ? "Closest authentic sealed photo for this planning line"
-              : "Official sealed product photo for wholesale planning"
+              ? "Closest-line catalog packaging photo for wholesale planning"
+              : "Catalog packaging photo for wholesale planning"
             : "Sealed planning SKU"}
         </p>
         {product.format ? <p style={{ color: "var(--mist)" }}>Format: {product.format}</p> : null}

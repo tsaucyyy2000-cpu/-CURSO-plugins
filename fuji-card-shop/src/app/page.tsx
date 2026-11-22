@@ -34,7 +34,7 @@ export default function HomePage() {
         </div>
         <div className="shell hero-copy">
           <div className="hero-kicker">
-            {brand.trustpilotScore} Trustpilot · Authentic sealed · Ships from Japan
+            {brand.trustpilotScore} Trustpilot · Catalog photos · Ships from Japan
           </div>
           <h1>
             Fuji <em>Card</em> Shop
@@ -118,8 +118,8 @@ export default function HomePage() {
             <div className="eyebrow">Catalog</div>
             <h2>Featured products</h2>
             <p>
-              Authentic sealed photography on every tile — pre-orders, anniversary sets, and Pokémon
-              Center exclusives.
+              Catalog packaging photos on every tile when available — pre-orders, anniversary sets,
+              and Pokémon Center exclusives.
             </p>
           </div>
           <div className="product-grid">

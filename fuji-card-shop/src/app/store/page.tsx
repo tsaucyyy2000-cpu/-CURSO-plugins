@@ -19,7 +19,7 @@ export default function StorePage() {
           <h1>Store</h1>
           <p>
             Browse by game, language, and sealed type — then open a listing to inspect photos before
-            you add the correct SKU. Authentic sealed photography on {withPhotos}/{products.length}{" "}
+            you add the correct SKU. Catalog packaging photos on {withPhotos}/{products.length}{" "}
             listings. Ships from Japan.
           </p>
         </div>

@@ -33,8 +33,11 @@ export function ProductArt({
           <span className="authentic-chip">
             {product.imageMatchQuality === "closest-line"
               ? "Line-matched photo"
-              : "Authentic sealed"}
+              : "Catalog photo"}
           </span>
+          {product.imageMatchQuality === "closest-line" && product.imageNote ? (
+            <span className="image-disclaimer-chip">{product.imageNote}</span>
+          ) : null}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             className="product-photo"

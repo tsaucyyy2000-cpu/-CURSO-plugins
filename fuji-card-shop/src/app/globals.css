@@ -516,6 +516,26 @@ p {
   text-transform: uppercase;
 }
 
+.image-disclaimer-chip {
+  position: absolute;
+  left: 0.7rem;
+  bottom: 0.7rem;
+  z-index: 2;
+  max-width: calc(100% - 7.5rem);
+  padding: 0.28rem 0.55rem;
+  border-radius: 8px;
+  background: rgba(40, 28, 8, 0.9);
+  border: 1px solid rgba(212, 168, 75, 0.55);
+  color: #f0d9a0;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  line-height: 1.25;
+}
+
+.image-disclaimer {
+  margin-top: 0.35rem;
+}
+
 .product-assurance {
   color: var(--mist);
   font-size: 0.8rem;
