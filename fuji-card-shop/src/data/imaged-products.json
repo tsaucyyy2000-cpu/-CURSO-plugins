@@ -7057,5 +7057,557 @@
     ],
     "image": "/images/products/jp-pokemon-nihil-zero-booster-box.jpg",
     "imageRef": "https://www.tcgplayer.com/product/674449"
+  },
+  {
+    "slug": "de-pokemon-dunkelnacht-booster-display",
+    "name": "Pokémon Mega-Entwicklung Dunkelnacht Booster-Display German",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#be123c",
+    "accentSecondary": "#fecdd3",
+    "shortDescription": "German sealed booster box. Price pending.",
+    "description": [
+      "Language: German. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Official Pokémon Center DE product photo. Packaging shows SAMMELKARTENSPIEL + DUNKELNACHT. Checked 2026-11-23."
+    ],
+    "features": [
+      "German sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/de-pokemon-dunkelnacht-booster-display.jpg",
+    "imageRef": "https://www.pokemoncenter.com/de-de/product/10-10425-103/pokemon-sammelkartenspiel-boosterpack-display-box-mega-entwicklung-dunkelnacht-36-boosterpacks"
+  },
+  {
+    "slug": "de-pokemon-delta-herrschaft-booster-display",
+    "name": "Pokémon Mega-Entwicklung Delta-Herrschaft Booster-Display German",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "preorder",
+    "badge": "Price pending",
+    "accent": "#0f766e",
+    "accentSecondary": "#5eead4",
+    "shortDescription": "German sealed booster box. Price pending.",
+    "description": [
+      "Language: German. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Official Pokémon Center DE product photo. Packaging shows SAMMELKARTENSPIEL + DELTA-HERRSCHAFT. Checked 2026-11-23."
+    ],
+    "features": [
+      "German sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/de-pokemon-delta-herrschaft-booster-display.jpg",
+    "imageRef": "https://www.pokemoncenter.com/de-de/product/10-10446-103/pokemon-sammelkartenspiel-boosterpack-display-box-mega-entwicklung-delta-herrschaft-36-boosterpacks"
+  },
+  {
+    "slug": "de-pokemon-fatale-flammen-booster-display",
+    "name": "Pokémon Mega-Entwicklung Fatale Flammen Booster-Display German",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#1d4ed8",
+    "accentSecondary": "#93c5fd",
+    "shortDescription": "German sealed booster box. Price pending.",
+    "description": [
+      "Language: German. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Official tcg.pokemon.com DE expansion asset (me02-booster-display-de). Shows SAMMELKARTENSPIEL + FATALE FLAMMEN. Checked 2026-11-23."
+    ],
+    "features": [
+      "German sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/de-pokemon-fatale-flammen-booster-display.jpg",
+    "imageRef": "https://tcg.pokemon.com/de-de/expansions/phantasmal-flames/"
+  },
+  {
+    "slug": "de-pokemon-fatale-flammen-pokemon-center-top-trainer-box",
+    "name": "Pokémon Mega-Entwicklung Fatale Flammen Pokémon Center Top-Trainer-Box German",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#7c2d12",
+    "accentSecondary": "#fdba74",
+    "shortDescription": "German sealed special set. Price pending.",
+    "description": [
+      "Language: German. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Official Pokémon Center DE exclusive Top-Trainer-Box. Packaging shows SAMMELKARTENSPIEL + FATALE FLAMMEN + Pokémon Center. Checked 2026-11-23."
+    ],
+    "features": [
+      "German sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/de-pokemon-fatale-flammen-pokemon-center-top-trainer-box.jpg",
+    "imageRef": "https://www.pokemoncenter.com/de-de/product/10-10186-110/pokemon-tcg-mega-evolution-phantasmal-flames-pokemon-center-elite-trainer-box-de"
+  },
+  {
+    "slug": "de-pokemon-fatale-flammen-top-trainer-box",
+    "name": "Pokémon Mega-Entwicklung Fatale Flammen Top-Trainer-Box German",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#4c1d95",
+    "accentSecondary": "#c4b5fd",
+    "shortDescription": "German sealed special set. Price pending.",
+    "description": [
+      "Language: German. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Official tcg.pokemon.com DE ETB asset (me02-etb-de). Checked 2026-11-23."
+    ],
+    "features": [
+      "German sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/de-pokemon-fatale-flammen-top-trainer-box.jpg",
+    "imageRef": "https://tcg.pokemon.com/de-de/expansions/phantasmal-flames/"
+  },
+  {
+    "slug": "de-pokemon-fatale-flammen-booster-bundle",
+    "name": "Pokémon Mega-Entwicklung Fatale Flammen Boosterbundle German",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#9f1239",
+    "accentSecondary": "#fda4af",
+    "shortDescription": "German sealed special set. Price pending.",
+    "description": [
+      "Language: German. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Official tcg.pokemon.com DE booster bundle asset (me02-booster-bundle-de). Checked 2026-11-23."
+    ],
+    "features": [
+      "German sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/de-pokemon-fatale-flammen-booster-bundle.jpg",
+    "imageRef": "https://tcg.pokemon.com/de-de/expansions/phantasmal-flames/"
+  },
+  {
+    "slug": "de-pokemon-mega-entwicklung-booster-display",
+    "name": "Pokémon Mega-Entwicklung Booster-Display German",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#065f46",
+    "accentSecondary": "#6ee7b7",
+    "shortDescription": "German sealed booster box. Price pending.",
+    "description": [
+      "Language: German. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Official tcg.pokemon.com DE ME01 booster display asset. Checked 2026-11-23."
+    ],
+    "features": [
+      "German sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/de-pokemon-mega-entwicklung-booster-display.jpg",
+    "imageRef": "https://tcg.pokemon.com/de-de/expansions/mega-evolution/"
+  },
+  {
+    "slug": "de-pokemon-wachsendes-chaos-booster-display",
+    "name": "Pokémon Mega-Entwicklung Wachsendes Chaos Booster-Display German",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#b45309",
+    "accentSecondary": "#fcd34d",
+    "shortDescription": "German sealed booster box. Price pending.",
+    "description": [
+      "Language: German. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "DE retailer product photo. Packaging shows SAMMELKARTENSPIEL + WACHSENDES CHAOS. Checked 2026-11-23."
+    ],
+    "features": [
+      "German sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/de-pokemon-wachsendes-chaos-booster-display.jpg",
+    "imageRef": "https://games-island.eu/Pokemon-TCG-Mega-Entwicklung-04-Wachsendes-Chaos-Booster-Display-Deutsch"
+  },
+  {
+    "slug": "de-pokemon-ewige-rivalen-booster-display",
+    "name": "Pokémon Karmesin & Purpur Ewige Rivalen Booster-Display German",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#be123c",
+    "accentSecondary": "#fecdd3",
+    "shortDescription": "German sealed booster box. Price pending.",
+    "description": [
+      "Language: German. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "DE retailer product photo. Packaging shows SAMMELKARTENSPIEL + Ewige Rivalen. Checked 2026-11-23."
+    ],
+    "features": [
+      "German sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/de-pokemon-ewige-rivalen-booster-display.jpg",
+    "imageRef": "https://www.tabletop-dragon.de/shop_de/kp10-karmesin-purpur-ewige-rivalen-display-deutsch-36-booster.html"
+  },
+  {
+    "slug": "kr-pokemon-inferno-x-booster-box",
+    "name": "Pokémon MEGA Inferno X M2 Booster Box Korean",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#0f766e",
+    "accentSecondary": "#5eead4",
+    "shortDescription": "Korean sealed booster box. Price pending.",
+    "description": [
+      "Language: Korean. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Retailer sealed photo. Hangul 인페르노X + 포켓몬 카드 게임 verified on packaging. Checked 2026-11-23."
+    ],
+    "features": [
+      "Korean sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/kr-pokemon-inferno-x-booster-box.jpg",
+    "imageRef": "https://pokeunlimited.com/products/pokemon-tcg-mega-inferno-x-booster-box-korean"
+  },
+  {
+    "slug": "kr-pokemon-mega-brave-booster-box",
+    "name": "Pokémon Mega Brave M1L Booster Box Korean",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#1d4ed8",
+    "accentSecondary": "#93c5fd",
+    "shortDescription": "Korean sealed booster box. Price pending.",
+    "description": [
+      "Language: Korean. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Hangul 메가브레이브 packaging verified. Checked 2026-11-23."
+    ],
+    "features": [
+      "Korean sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/kr-pokemon-mega-brave-booster-box.jpg",
+    "imageRef": "https://pokeunlimited.com/products/pokemon-tcg-mega-brave-m1l-booster-box-korean"
+  },
+  {
+    "slug": "kr-pokemon-nihil-zero-booster-box",
+    "name": "Pokémon Nihil Zero M3 Booster Box Korean",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#7c2d12",
+    "accentSecondary": "#fdba74",
+    "shortDescription": "Korean sealed booster box. Price pending.",
+    "description": [
+      "Language: Korean. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Hangul 니힐제로 + M3 packaging verified. Checked 2026-11-23."
+    ],
+    "features": [
+      "Korean sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/kr-pokemon-nihil-zero-booster-box.jpg",
+    "imageRef": "https://pokeunlimited.com/products/pokemon-mega-nihil-zero-m3-booster-box-korean"
+  },
+  {
+    "slug": "kr-pokemon-terastal-festival-booster-box",
+    "name": "Pokémon Terastal Festival ex SV8a Booster Box Korean",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#4c1d95",
+    "accentSecondary": "#c4b5fd",
+    "shortDescription": "Korean sealed booster box. Price pending.",
+    "description": [
+      "Language: Korean. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Hangul 테라스탈페스타 ex + sv8a packaging verified. Checked 2026-11-23."
+    ],
+    "features": [
+      "Korean sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/kr-pokemon-terastal-festival-booster-box.jpg",
+    "imageRef": "https://pokeunlimited.com/products/pokemon-tcg-terastal-festival-booster-box-korean"
+  },
+  {
+    "slug": "kr-pokemon-dream-ex-booster-box",
+    "name": "Pokémon MEGA Dream ex M2a Booster Box Korean",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#9f1239",
+    "accentSecondary": "#fda4af",
+    "shortDescription": "Korean sealed booster box. Price pending.",
+    "description": [
+      "Language: Korean. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Hangul 드림 ex + M2a high-class pack packaging verified. Checked 2026-11-23."
+    ],
+    "features": [
+      "Korean sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/kr-pokemon-dream-ex-booster-box.jpg",
+    "imageRef": "https://pokeunlimited.com/products/pokemon-tcg-mega-dream-ex-m2a-booster-box-korean"
+  },
+  {
+    "slug": "kr-pokemon-heat-wave-arena-booster-box",
+    "name": "Pokémon Heat Wave Arena SV9a Booster Box Korean",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#065f46",
+    "accentSecondary": "#6ee7b7",
+    "shortDescription": "Korean sealed booster box. Price pending.",
+    "description": [
+      "Language: Korean. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Hangul 열풍의 아레나 + SV9a packaging verified. Checked 2026-11-23."
+    ],
+    "features": [
+      "Korean sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/kr-pokemon-heat-wave-arena-booster-box.jpg",
+    "imageRef": "https://pokeunlimited.com/products/pokemon-tcg-heat-wave-arena-booster-box-korean"
+  },
+  {
+    "slug": "kr-pokemon-mega-symphonia-booster-box",
+    "name": "Pokémon Mega Symphonia M1S Booster Box Korean",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#b45309",
+    "accentSecondary": "#fcd34d",
+    "shortDescription": "Korean sealed booster box. Price pending.",
+    "description": [
+      "Language: Korean. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Korean Mega Symphonia M1S sealed box packaging. Checked 2026-11-23."
+    ],
+    "features": [
+      "Korean sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/kr-pokemon-mega-symphonia-booster-box.jpg",
+    "imageRef": "https://pokeunlimited.com/products/pokemon-tcg-mega-symphonia-m1s-booster-box-korean"
+  },
+  {
+    "slug": "kr-pokemon-glory-of-team-rocket-booster-box",
+    "name": "Pokémon The Glory of Team Rocket SV10 Booster Box Korean",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#be123c",
+    "accentSecondary": "#fecdd3",
+    "shortDescription": "Korean sealed booster box. Price pending.",
+    "description": [
+      "Language: Korean. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Korean SV10 Glory of Team Rocket sealed box. Checked 2026-11-23."
+    ],
+    "features": [
+      "Korean sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/kr-pokemon-glory-of-team-rocket-booster-box.jpg",
+    "imageRef": "https://pokeunlimited.com/products/pokemon-tcg-the-glory-of-team-rocket-booster-box-korean"
+  },
+  {
+    "slug": "kr-pokemon-ninja-spinner-booster-box",
+    "name": "Pokémon Ninja Spinner M4 Booster Box Korean",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#0f766e",
+    "accentSecondary": "#5eead4",
+    "shortDescription": "Korean sealed booster box. Price pending.",
+    "description": [
+      "Language: Korean. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Hangul 닌자스피너 + M4 packaging verified. Checked 2026-11-23."
+    ],
+    "features": [
+      "Korean sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/kr-pokemon-ninja-spinner-booster-box.jpg",
+    "imageRef": "https://pokeunlimited.com/products/pokemon-mega-ninja-spinner-m4-booster-box-korean"
+  },
+  {
+    "slug": "fr-pokemon-flammes-fantasmagoriques-booster-display",
+    "name": "Pokémon Méga-Évolution Flammes Fantasmagoriques Booster Display French",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#1d4ed8",
+    "accentSecondary": "#93c5fd",
+    "shortDescription": "French sealed booster box. Price pending.",
+    "description": [
+      "Language: French. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Official FR asset. Packaging shows CARTES À JOUER ET À COLLECTIONNER + FLAMMES FANTASMAGORIQUES. Checked 2026-11-23."
+    ],
+    "features": [
+      "French sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/fr-pokemon-flammes-fantasmagoriques-booster-display.jpg",
+    "imageRef": "https://tcg.pokemon.com/fr-fr/expansions/phantasmal-flames/"
+  },
+  {
+    "slug": "fr-pokemon-flammes-fantasmagoriques-top-trainer-box",
+    "name": "Pokémon Méga-Évolution Flammes Fantasmagoriques Coffret Dresseur d'élite French",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#7c2d12",
+    "accentSecondary": "#fdba74",
+    "shortDescription": "French sealed special set. Price pending.",
+    "description": [
+      "Language: French. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Official FR ETB asset (me02-etb-fr). Checked 2026-11-23."
+    ],
+    "features": [
+      "French sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/fr-pokemon-flammes-fantasmagoriques-top-trainer-box.jpg",
+    "imageRef": "https://tcg.pokemon.com/fr-fr/expansions/phantasmal-flames/"
+  },
+  {
+    "slug": "it-pokemon-fiamme-spettrali-booster-display",
+    "name": "Pokémon Megaevoluzione Fiamme Spettrali Booster Display Italian",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#4c1d95",
+    "accentSecondary": "#c4b5fd",
+    "shortDescription": "Italian sealed booster box. Price pending.",
+    "description": [
+      "Language: Italian. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Official IT asset. Packaging shows GIOCO DI CARTE COLLEZIONABILI + FIAMME SPETTRALI. Checked 2026-11-23."
+    ],
+    "features": [
+      "Italian sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/it-pokemon-fiamme-spettrali-booster-display.jpg",
+    "imageRef": "https://tcg.pokemon.com/it-it/expansions/phantasmal-flames/"
+  },
+  {
+    "slug": "it-pokemon-fiamme-spettrali-top-trainer-box",
+    "name": "Pokémon Megaevoluzione Fiamme Spettrali Set Allenatore Fuoriclasse Italian",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#9f1239",
+    "accentSecondary": "#fda4af",
+    "shortDescription": "Italian sealed special set. Price pending.",
+    "description": [
+      "Language: Italian. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Official IT ETB asset (me02-etb-it). Checked 2026-11-23."
+    ],
+    "features": [
+      "Italian sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/it-pokemon-fiamme-spettrali-top-trainer-box.jpg",
+    "imageRef": "https://tcg.pokemon.com/it-it/expansions/phantasmal-flames/"
+  },
+  {
+    "slug": "it-pokemon-megaevoluzione-booster-display",
+    "name": "Pokémon Megaevoluzione Booster Display Italian",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#065f46",
+    "accentSecondary": "#6ee7b7",
+    "shortDescription": "Italian sealed booster box. Price pending.",
+    "description": [
+      "Language: Italian. Condition: Sealed packaging photo on file.",
+      "No Fuji Card Shop retail price invented; USD sell price pending.",
+      "Official IT ME01 booster display asset. Checked 2026-11-23."
+    ],
+    "features": [
+      "Italian sealed product",
+      "Verified packaging photo on file",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/it-pokemon-megaevoluzione-booster-display.jpg",
+    "imageRef": "https://tcg.pokemon.com/it-it/expansions/mega-evolution/"
   }
 ]

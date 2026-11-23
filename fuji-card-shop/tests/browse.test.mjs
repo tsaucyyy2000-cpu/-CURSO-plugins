@@ -97,7 +97,7 @@ describe("browse search/sort/filter", () => {
     assert.equal(next.length, 2);
   });
 
-  it("detects chinese / german / korean language tags", () => {
+  it("detects chinese / german / korean / french / italian language tags", () => {
     assert.equal(
       detectLanguage({
         slug: "zh-pokemon-csv10c-chasing-glory-together-booster-box",
@@ -109,8 +109,8 @@ describe("browse search/sort/filter", () => {
     );
     assert.equal(
       detectLanguage({
-        slug: "de-pokemon-temporal-forces-booster-box",
-        name: "Pokémon Temporal Forces Booster Box German",
+        slug: "de-pokemon-dunkelnacht-booster-display",
+        name: "Pokémon Mega-Entwicklung Dunkelnacht Booster-Display German",
         shortDescription: "German sealed",
         description: ["Language: German"],
       }),
@@ -119,11 +119,29 @@ describe("browse search/sort/filter", () => {
     assert.equal(
       detectLanguage({
         slug: "kr-pokemon-inferno-x-booster-box",
-        name: "Pokémon Inferno X Booster Box Korean",
+        name: "Pokémon MEGA Inferno X M2 Booster Box Korean",
         shortDescription: "Korean sealed",
         description: ["Language: Korean"],
       }),
       "korean",
+    );
+    assert.equal(
+      detectLanguage({
+        slug: "fr-pokemon-flammes-fantasmagoriques-booster-display",
+        name: "Pokémon Méga-Évolution Flammes Fantasmagoriques Booster Display French",
+        shortDescription: "French sealed",
+        description: ["Language: French"],
+      }),
+      "french",
+    );
+    assert.equal(
+      detectLanguage({
+        slug: "it-pokemon-fiamme-spettrali-booster-display",
+        name: "Pokémon Megaevoluzione Fiamme Spettrali Booster Display Italian",
+        shortDescription: "Italian sealed",
+        description: ["Language: Italian"],
+      }),
+      "italian",
     );
   });
 });
