@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { ProductCard } from "@/components/ProductCard";
 import {
+  DEFAULT_BROWSE_LANGUAGE,
   browseGames,
   browseLanguages,
   browseProductTypes,
@@ -22,15 +23,19 @@ export function BrowseConsole({
   initialQuery = "",
   initialSort = "featured",
   initialStatus = "all",
+  initialLanguage = DEFAULT_BROWSE_LANGUAGE,
 }: {
   products: Product[];
   initialGame?: BrowseFilters["game"];
   initialQuery?: string;
   initialSort?: BrowseSort;
   initialStatus?: BrowseFilters["status"];
+  initialLanguage?: BrowseFilters["language"];
 }) {
   const [game, setGame] = useState<BrowseFilters["game"]>(initialGame ?? "all");
-  const [language, setLanguage] = useState<BrowseFilters["language"]>("all");
+  const [language, setLanguage] = useState<BrowseFilters["language"]>(
+    initialLanguage ?? DEFAULT_BROWSE_LANGUAGE,
+  );
   const [productType, setProductType] = useState<BrowseFilters["productType"]>("all");
   const [status, setStatus] = useState<BrowseFilters["status"]>(initialStatus ?? "all");
   const [query, setQuery] = useState(initialQuery);
@@ -49,12 +54,21 @@ export function BrowseConsole({
 
   function reset() {
     setGame(initialGame ?? "all");
-    setLanguage("all");
+    setLanguage(initialLanguage ?? DEFAULT_BROWSE_LANGUAGE);
     setProductType("all");
     setStatus(initialStatus ?? "all");
     setQuery(initialQuery);
     setSort(initialSort);
   }
+
+  const languageHint =
+    language === "english"
+      ? " · English first — switch Language for Japanese"
+      : language === "japanese"
+        ? " · Japanese sealed"
+        : language === "all"
+          ? " · all languages"
+          : "";
 
   return (
     <div className="browse-console">
@@ -72,6 +86,8 @@ export function BrowseConsole({
               onClick={() => {
                 setQuery(preset.query);
                 setGame("all");
+                // Cross-language collection searches should not hide JP OCG behind EN filter.
+                setLanguage("all");
               }}
             >
               {preset.label}
@@ -105,7 +121,7 @@ export function BrowseConsole({
           <label className="browse-field">
             <span>2. Language</span>
             <select
-              value={language ?? "all"}
+              value={language ?? DEFAULT_BROWSE_LANGUAGE}
               onChange={(event) => setLanguage(event.target.value as BrowseFilters["language"])}
             >
               {browseLanguages.map((option) => (
@@ -162,6 +178,7 @@ export function BrowseConsole({
       <div className="browse-result-meta">
         Showing {filtered.length} of {products.length} sealed listings
         {query.trim() ? ` · search “${query.trim()}”` : ""}
+        {languageHint}
       </div>
 
       {filtered.length === 0 ? (

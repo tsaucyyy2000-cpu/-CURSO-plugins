@@ -1,10 +1,14 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
 import {
+  DEFAULT_BROWSE_LANGUAGE,
+  detectLanguage,
   filterProducts,
   matchesQuery,
+  preferEnglishProducts,
   sortProducts,
 } from "../src/data/browse.ts";
+import { formatPrice } from "../src/data/products.ts";
 
 const sample = [
   {
@@ -44,6 +48,18 @@ const sample = [
     shortDescription: "gone",
     description: ["gone"],
   },
+  {
+    slug: "en-pokemon-surging-sparks-booster-box",
+    name: "Pokémon Scarlet & Violet Surging Sparks Booster Box English",
+    price: 0,
+    currency: "USD",
+    category: "pokemon",
+    status: "available",
+    accent: "#0f766e",
+    accentSecondary: "#5eead4",
+    shortDescription: "English sealed",
+    description: ["English sealed"],
+  },
 ];
 
 describe("browse search/sort/filter", () => {
@@ -54,13 +70,40 @@ describe("browse search/sort/filter", () => {
 
   it("hides sold out when buyable", () => {
     const next = filterProducts(sample, { status: "buyable" });
-    assert.equal(next.length, 2);
+    assert.equal(next.length, 3);
     assert.ok(next.every((item) => item.status !== "out-of-stock"));
   });
 
   it("sorts by price ascending", () => {
     const next = sortProducts(sample, "price-asc");
-    assert.equal(next[0].slug, "sold-out-box");
-    assert.equal(next[2].slug, "yugioh-utility-selection-booster-box");
+    assert.equal(next[0].slug, "en-pokemon-surging-sparks-booster-box");
+    assert.equal(next[3].slug, "yugioh-utility-selection-booster-box");
+  });
+
+  it("defaults store language to English", () => {
+    assert.equal(DEFAULT_BROWSE_LANGUAGE, "english");
+  });
+
+  it("filters English language without inventing SKUs", () => {
+    const next = filterProducts(sample, { language: "english" });
+    assert.equal(next.length, 1);
+    assert.equal(next[0].slug, "en-pokemon-surging-sparks-booster-box");
+    assert.equal(detectLanguage(next[0]), "english");
+  });
+
+  it("prefers English products for featured rails", () => {
+    const next = preferEnglishProducts(sample, 2);
+    assert.equal(next[0].slug, "en-pokemon-surging-sparks-booster-box");
+    assert.equal(next.length, 2);
+  });
+});
+
+describe("formatPrice honesty", () => {
+  it("does not invent a sell price for pending listings", () => {
+    assert.equal(formatPrice(sample[3]), "Inquire for price");
+  });
+
+  it("formats verified USD without a stray space", () => {
+    assert.equal(formatPrice(sample[0]), "$80.00");
   });
 });

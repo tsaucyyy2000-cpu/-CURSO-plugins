@@ -1,12 +1,17 @@
 import type { Metadata } from "next";
 import { BrowseConsole } from "@/components/BrowseConsole";
 import { TrustStrip } from "@/components/TrustStrip";
-import type { BrowseFilters, BrowseSort } from "@/data/browse";
+import {
+  DEFAULT_BROWSE_LANGUAGE,
+  type BrowseFilters,
+  type BrowseSort,
+  type ProductLanguage,
+} from "@/data/browse";
 import { getAllProducts } from "@/data/resolveProducts";
 
 export const metadata: Metadata = {
   title: "Store",
-  description: "Browse Japanese and English sealed TCG by game, language, and type.",
+  description: "Browse English and Japanese sealed TCG by game, language, and type.",
 };
 
 type SearchParams = {
@@ -14,6 +19,7 @@ type SearchParams = {
   sort?: string;
   game?: string;
   status?: string;
+  language?: string;
 };
 
 function parseSort(value: string | undefined): BrowseSort {
@@ -69,6 +75,16 @@ function parseStatus(value: string | undefined): BrowseFilters["status"] {
   return "all";
 }
 
+function parseLanguage(value: string | undefined): BrowseFilters["language"] {
+  const allowed = ["english", "japanese", "all", "other"] as const;
+  for (const option of allowed) {
+    if (option === value) {
+      return option;
+    }
+  }
+  return DEFAULT_BROWSE_LANGUAGE;
+}
+
 export default async function StorePage({
   searchParams,
 }: {
@@ -77,6 +93,7 @@ export default async function StorePage({
   const params = await searchParams;
   const products = getAllProducts();
   const withPhotos = products.filter((product) => product.image).length;
+  const initialLanguage = parseLanguage(params.language);
 
   return (
     <>
@@ -85,9 +102,10 @@ export default async function StorePage({
           <div className="eyebrow">Shop</div>
           <h1>Store</h1>
           <p>
-            Search and filter by game, language, and sealed type — then open a listing to inspect
-            photos before you inquire or add the correct SKU. Catalog packaging photos on{" "}
-            {withPhotos}/{products.length} listings. Ships from Japan. Prices listed in USD.
+            English sealed first for USA collectors — switch Language to Japanese or All when you
+            need it. Confirm sealed type, then open a listing to inspect packaging photos before you
+            inquire. Catalog photos on {withPhotos}/{products.length} listings. Ships from Japan.
+            Prices listed in USD when verified.
           </p>
         </div>
       </div>
@@ -99,6 +117,7 @@ export default async function StorePage({
           initialSort={parseSort(params.sort)}
           initialGame={parseGame(params.game)}
           initialStatus={parseStatus(params.status)}
+          initialLanguage={initialLanguage as ProductLanguage | "all"}
         />
       </div>
     </>

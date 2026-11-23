@@ -2,7 +2,7 @@ export const brand = {
   name: "FUJI CARD",
   legalName: "FUJI CARD",
   domain: "www.fuji-card.com",
-  tagline: "Japanese & English sealed TCG — shipped from Japan",
+  tagline: "English & Japanese sealed TCG — shipped from Japan",
   email: "support@fujicardshop.com",
   phone: "+81 47-707-3321",
   /** Authorized store WhatsApp for availability / wholesale inquiries (not payment). */
@@ -22,7 +22,7 @@ export const navLinks = [
   { href: "/category/pokemon", label: "Pokémon" },
   { href: "/category/one-piece", label: "ONE PIECE" },
   { href: "/category/other-tcg", label: "Other TCG" },
-  { href: "/store?q=yu-gi-oh", label: "Yu-Gi-Oh!" },
+  { href: "/store?q=yu-gi-oh&language=all", label: "Yu-Gi-Oh!" },
   { href: "/apex", label: "Wholesale" },
   { href: "/info", label: "Card lists" },
   { href: "/gallery", label: "Photos" },
@@ -49,16 +49,30 @@ export const footerLinks = [
 ];
 
 export const heroSpotlight = {
-  setCode: "M4",
-  title: "Ninja Spinner",
-  language: "Japanese",
+  setCode: "SV08",
+  title: "Surging Sparks",
+  language: "English",
   sealedType: "Booster box",
-  href: "/product/m4-ninja-spinner-booster-box",
-  image: "/images/products/m4-ninja-spinner-booster-box.jpg",
-  lead: "Explore the Japanese sealed box — confirm language and packaging, then add the correct SKU.",
+  href: "/product/en-pokemon-surging-sparks-booster-box",
+  image: "/images/products/en-pokemon-surging-sparks-booster-box.jpg",
+  lead: "English sealed first — confirm packaging photos, then inquire. Japanese sealed stays one Language filter away.",
 };
 
 export const heroReleases = [
+  {
+    title: "English sealed catalog",
+    subtitle: "225 EN SKUs with packaging evidence",
+    href: "/store",
+    status: "live" as const,
+    config: "Store defaults to English",
+  },
+  {
+    title: "Prismatic Evolutions ETB",
+    subtitle: "Elite Trainer Box · English",
+    href: "/product/en-pokemon-prismatic-evolutions-elite-trainer-box",
+    status: "live" as const,
+    config: "Packaging photo on file",
+  },
   {
     title: "OP-18 The Dominance of God",
     subtitle: "Booster box · Japanese",
@@ -73,27 +87,13 @@ export const heroReleases = [
     status: "live" as const,
     config: "Case carton face verified",
   },
-  {
-    title: "English sealed catalog",
-    subtitle: "189 EN SKUs with packaging evidence",
-    href: "/store",
-    status: "live" as const,
-    config: "Filter Store → English",
-  },
-  {
-    title: "M7 Aura Seeker",
-    subtitle: "Release on November 27",
-    href: "/product/m7-aura-seeker-booster-box",
-    status: "preorder" as const,
-    config: "Booster box · Japanese",
-  },
 ];
 
 export const collectionLanes = [
   {
     title: "Pokémon",
     href: "/category/pokemon",
-    blurb: "Japanese boosters, Center sets, and English sealed.",
+    blurb: "English sealed first, plus Japanese boosters and Center sets.",
   },
   {
     title: "ONE PIECE",
@@ -102,7 +102,7 @@ export const collectionLanes = [
   },
   {
     title: "Yu-Gi-Oh!",
-    href: "/store?q=yu-gi-oh",
+    href: "/store?q=yu-gi-oh&language=all",
     blurb: "Verified OCG / EN sealed boxes already in the catalog.",
   },
   {

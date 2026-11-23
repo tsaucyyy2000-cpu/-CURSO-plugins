@@ -243,6 +243,21 @@ export function relatedProducts(
   return pool.slice(0, limit);
 }
 
+/** Prefer existing English SKUs for home/featured rails; fall back only when none exist. */
+export function preferEnglishProducts(products: Product[], limit?: number): Product[] {
+  const english = products.filter((product) => detectLanguage(product) === "english");
+  const ordered = english.length > 0
+    ? [...english, ...products.filter((product) => detectLanguage(product) !== "english")]
+    : products;
+  if (typeof limit === "number") {
+    return ordered.slice(0, limit);
+  }
+  return ordered;
+}
+
+/** Store/category default — USA-first; Japanese remains available via the Language filter. */
+export const DEFAULT_BROWSE_LANGUAGE: ProductLanguage = "english";
+
 export const browseGames: { value: CategorySlug | "all"; label: string }[] = [
   { value: "all", label: "All games" },
   { value: "pokemon", label: "Pokémon" },
@@ -255,9 +270,9 @@ export const browseGames: { value: CategorySlug | "all"; label: string }[] = [
 ];
 
 export const browseLanguages: { value: ProductLanguage | "all"; label: string }[] = [
-  { value: "all", label: "All languages" },
-  { value: "japanese", label: "Japanese" },
   { value: "english", label: "English" },
+  { value: "japanese", label: "Japanese" },
+  { value: "all", label: "All languages" },
   { value: "other", label: "Other" },
 ];
 
@@ -294,7 +309,7 @@ export const browseSorts: { value: BrowseSort; label: string }[] = [
 
 /** Quick lane presets for games that share the other-tcg category. */
 export const collectionSearchPresets: { label: string; href: string; query: string }[] = [
-  { label: "Yu-Gi-Oh!", href: "/store?q=yu-gi-oh", query: "yu-gi-oh" },
-  { label: "Dragon Ball", href: "/store?q=dragon%20ball", query: "dragon ball" },
-  { label: "Disney Lorcana", href: "/store?q=lorcana", query: "lorcana" },
+  { label: "Yu-Gi-Oh!", href: "/store?q=yu-gi-oh&language=all", query: "yu-gi-oh" },
+  { label: "Dragon Ball", href: "/store?q=dragon%20ball&language=all", query: "dragon ball" },
+  { label: "Disney Lorcana", href: "/store?q=lorcana&language=all", query: "lorcana" },
 ];

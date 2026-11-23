@@ -22,7 +22,7 @@ const figtree = Figtree({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.fuji-card.com"),
   title: {
-    default: "Fuji Card | Japanese & English Sealed TCG",
+    default: "Fuji Card | English & Japanese Sealed TCG",
     template: "%s | Fuji Card",
   },
   description: brand.tagline,

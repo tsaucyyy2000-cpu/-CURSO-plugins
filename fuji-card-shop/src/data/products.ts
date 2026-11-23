@@ -785,16 +785,24 @@ export function getProductsByCategory(category: CategorySlug): Product[] {
 }
 
 export function formatPrice(product: Product): string {
+  // Never invent a sell price — pending listings invite WhatsApp inquiry instead.
+  if (!(product.price > 0)) {
+    return "Inquire for price";
+  }
   if (product.compareAt && product.compareAt > product.price) {
     return `From $${product.price.toLocaleString("en-US", {
       minimumFractionDigits: 2,
       maximumFractionDigits: 2,
     })}`;
   }
-  return `$ ${product.price.toLocaleString("en-US", {
+  return `$${product.price.toLocaleString("en-US", {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
   })}`;
+}
+
+export function hasListedPrice(product: Product): boolean {
+  return product.price > 0;
 }
 
 export function getFeaturedProducts(): Product[] {

@@ -18,13 +18,14 @@ import {
   getProductBySlug,
   getSaleProductsResolved,
 } from "@/data/resolveProducts";
-import { formatPrice } from "@/data/products";
+import { formatPrice, hasListedPrice } from "@/data/products";
 import { whatsappLinks } from "@/lib/whatsapp";
 
 export default function HomePage() {
   const featured = getFeaturedProductsResolved().slice(0, 18);
   const sale = getSaleProductsResolved().slice(0, 12);
   const spotlight = getProductBySlug(heroSpotlight.href.replace("/product/", ""));
+  const spotlightPriced = spotlight ? hasListedPrice(spotlight) : false;
   const spotlightPrice = spotlight ? formatPrice(spotlight) : null;
 
   return (
@@ -45,17 +46,21 @@ export default function HomePage() {
           </h1>
           <p className="hero-lead">{heroSpotlight.lead}</p>
           {spotlightPrice ? (
-            <p className="hero-price">
+            <p className={`hero-price${spotlightPriced ? "" : " price-pending"}`}>
               {spotlightPrice}
-              <span>{brand.currencyNote}</span>
+              <span>
+                {spotlightPriced
+                  ? brand.currencyNote
+                  : "USD sell price pending — inquire on WhatsApp. No invented price."}
+              </span>
             </p>
           ) : null}
           <div className="hero-actions">
             <Link href={heroSpotlight.href} className="btn btn-primary">
-              View booster box
+              View English box
             </Link>
             <Link href="/store" className="btn btn-secondary">
-              Browse full catalog
+              Browse English catalog
             </Link>
             <WhatsAppInquiryLink href={whatsappLinks.general()}>
               WhatsApp inquiry
@@ -92,8 +97,8 @@ export default function HomePage() {
             <div className="eyebrow">Featured releases</div>
             <h2>What&apos;s landing next</h2>
             <p>
-              OP-14 case photography, OP-18 prices, and the English sealed filter — called out up
-              front.
+              English sealed up front for USA collectors — Japanese OP boxes remain one Language
+              filter away.
             </p>
           </div>
           <div className="release-rail">
@@ -146,8 +151,8 @@ export default function HomePage() {
             <div className="eyebrow">Catalog</div>
             <h2>Featured products</h2>
             <p>
-              Packaging photos on every tile when available — Japanese and English sealed, boxes and
-              cases.
+              English packaging photos first when available — Japanese sealed stays in the Language
+              filter.
             </p>
           </div>
           <div className="product-grid">

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import type { Product } from "@/data/products";
 import { ProductArt } from "@/components/ProductArt";
+import { detectLanguage } from "@/data/browse";
 
 export function ProductGallery({ product }: { product: Product }) {
   const images = [
@@ -12,18 +13,31 @@ export function ProductGallery({ product }: { product: Product }) {
 
   const [active, setActive] = useState(0);
   const current = images[active] ?? product.image;
+  const language = detectLanguage(product);
 
-  if (images.length <= 1) {
+  if (images.length === 0) {
     return (
-      <div className="product-detail-art">
-        {product.image ? (
+      <div className="product-gallery">
+        <div className="product-detail-art">
+          <ProductArt product={product} priority language={language} showPhotoChip />
+        </div>
+        <p className="gallery-caption">Packaging photo pending — confirm language before inquiry.</p>
+      </div>
+    );
+  }
+
+  if (images.length === 1) {
+    return (
+      <div className="product-gallery">
+        <div className="product-detail-art">
           <div
             className="product-spotlight"
             style={{ backgroundImage: `url(${product.image})` }}
             aria-hidden="true"
           />
-        ) : null}
-        <ProductArt product={product} priority />
+          <ProductArt product={product} priority language={language} showPhotoChip />
+        </div>
+        <p className="gallery-caption">Front sealed packaging · confirm language and sealed type</p>
       </div>
     );
   }
@@ -41,7 +55,7 @@ export function ProductGallery({ product }: { product: Product }) {
           style={{ backgroundImage: `url(${current})` }}
           aria-hidden="true"
         />
-        <ProductArt product={activeProduct} priority />
+        <ProductArt product={activeProduct} priority language={language} showPhotoChip />
       </div>
       <div className="gallery-thumbs" role="list" aria-label="Product photos">
         {images.map((src, index) => (
