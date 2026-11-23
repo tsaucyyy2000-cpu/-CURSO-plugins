@@ -14,7 +14,7 @@ export const brand = {
   trustpilotScore: "4.9★",
   trustpilotLabel: "Trustpilot rated",
   sourceUrl: "https://www.fuji-card.com/",
-  currencyNote: "Catalog prices are USD from the Fuji Japan sealed list.",
+  currencyNote: "Catalog prices are USD when verified. Product language defaults to English.",
 };
 
 export const navLinks = [

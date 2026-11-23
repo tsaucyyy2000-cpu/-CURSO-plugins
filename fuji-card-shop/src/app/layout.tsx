@@ -4,7 +4,6 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { brand } from "@/data/content";
 import { CartProvider } from "@/lib/cart";
-import { CurrencyDisplayProvider } from "@/lib/currency-display";
 import "./globals.css";
 
 const syne = Syne({
@@ -40,11 +39,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${syne.variable} ${figtree.variable}`}>
         <CartProvider>
-          <CurrencyDisplayProvider>
-            <Header />
-            <main>{children}</main>
-            <Footer />
-          </CurrencyDisplayProvider>
+          <Header />
+          <main>{children}</main>
+          <Footer />
         </CartProvider>
       </body>
     </html>

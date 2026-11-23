@@ -1193,33 +1193,6 @@ p {
   font-size: 0.9rem;
 }
 
-.header-tools {
-  padding-top: 0;
-  padding-bottom: 0.65rem;
-}
-
-.currency-toggle {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.65rem 1rem;
-}
-
-.currency-toggle select {
-  padding: 0.4rem 0.65rem;
-  border-radius: 10px;
-  border: 1px solid var(--line);
-  background: var(--foam);
-  color: var(--paper);
-  font-size: 0.85rem;
-}
-
-.currency-toggle-note {
-  color: var(--mist);
-  font-size: 0.8rem;
-  max-width: 42rem;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
