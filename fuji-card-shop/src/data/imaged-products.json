@@ -736,5 +736,480 @@
     "image": "/images/products/Shocking-volt-tackle-electryfing-tackle-booster-box-s4-japanese-pokemon-cards-scaled.jpg",
     "imageRef": "https://www.fujicardshop.com/wp-content/uploads/2022/05/Shocking-volt-tackle-electryfing-tackle-booster-box-s4-japanese-pokemon-cards-scaled.jpg",
     "featured": false
+  },
+  {
+    "slug": "en-pokemon-surging-sparks-booster-box",
+    "name": "Pok\u00e9mon Scarlet & Violet Surging Sparks Booster Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#0f766e",
+    "accentSecondary": "#5eead4",
+    "shortDescription": "English sealed booster box. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "EN sealed display; no Fuji EN listing. Apex exact packaging photo.",
+      "No direct JP twin on the current 80-SKU storefront mirror."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/en-pokemon-surging-sparks-booster-box.jpg",
+    "imageRef": "https://www.tcgplayer.com/product/565606"
+  },
+  {
+    "slug": "en-pokemon-destined-rivals-booster-box",
+    "name": "Pok\u00e9mon Scarlet & Violet Destined Rivals Booster Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#1d4ed8",
+    "accentSecondary": "#93c5fd",
+    "shortDescription": "English sealed booster box. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "EN counterpart line for JP Mega-era Chaos Rising / Ninja Spinner era cards; Apex exact packaging.",
+      "Related JP storefront SKU: m4-ninja-spinner-booster-box."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/en-pokemon-destined-rivals-booster-box.jpg",
+    "imageRef": "https://www.tcgplayer.com/product/624679"
+  },
+  {
+    "slug": "en-pokemon-journey-together-booster-box",
+    "name": "Pok\u00e9mon Scarlet & Violet Journey Together Booster Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#7c2d12",
+    "accentSecondary": "#fdba74",
+    "shortDescription": "English sealed booster box. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "EN sealed display; no Fuji EN listing. Apex exact packaging photo.",
+      "No direct JP twin on the current 80-SKU storefront mirror."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/en-pokemon-journey-together-booster-box.jpg",
+    "imageRef": "https://www.tcgplayer.com/product/623628"
+  },
+  {
+    "slug": "en-pokemon-prismatic-evolutions-elite-trainer-box",
+    "name": "Pok\u00e9mon Scarlet & Violet Prismatic Evolutions Elite Trainer Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#4c1d95",
+    "accentSecondary": "#c4b5fd",
+    "shortDescription": "English sealed special set. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "EN ETB; no Fuji EN listing. Apex exact packaging photo.",
+      "No direct JP twin on the current 80-SKU storefront mirror."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/en-pokemon-prismatic-evolutions-elite-trainer-box.jpg",
+    "imageRef": "https://www.tcgplayer.com/product/593355"
+  },
+  {
+    "slug": "en-pokemon-battle-styles-booster-box",
+    "name": "Pok\u00e9mon Sword & Shield Battle Styles Booster Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#9f1239",
+    "accentSecondary": "#fda4af",
+    "shortDescription": "English sealed booster box. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "EN sealed counterpart to JP S5I Single Strike Master / S5R Rapid Strike Master pairing.",
+      "Related JP storefront SKU: single-strike-master-booster-box."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/en-pokemon-battle-styles-booster-box.jpg",
+    "imageRef": "https://www.tcgplayer.com/product/229277"
+  },
+  {
+    "slug": "en-pokemon-evolving-skies-booster-box",
+    "name": "Pok\u00e9mon Sword & Shield Evolving Skies Booster Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#065f46",
+    "accentSecondary": "#6ee7b7",
+    "shortDescription": "English sealed booster box. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "EN sealed counterpart line to JP S6a Eevee Heroes.",
+      "Related JP storefront SKU: eevee-heroes-booster-box."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/en-pokemon-evolving-skies-booster-box.jpg",
+    "imageRef": "https://www.tcgplayer.com/product/242436"
+  },
+  {
+    "slug": "en-pokemon-fusion-strike-booster-box",
+    "name": "Pok\u00e9mon Sword & Shield Fusion Strike Booster Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#0f766e",
+    "accentSecondary": "#5eead4",
+    "shortDescription": "English sealed booster box. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "EN sealed counterpart line to JP S8 Fusion Arts.",
+      "Related JP storefront SKU: fusion-arts-booster-box."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/en-pokemon-fusion-strike-booster-box.jpg",
+    "imageRef": "https://www.tcgplayer.com/product/247654"
+  },
+  {
+    "slug": "en-pokemon-brilliant-stars-booster-box",
+    "name": "Pok\u00e9mon Sword & Shield Brilliant Stars Booster Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#1d4ed8",
+    "accentSecondary": "#93c5fd",
+    "shortDescription": "English sealed booster box. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "EN sealed counterpart line to JP S9 Star Birth.",
+      "Related JP storefront SKU: star-birth-booster-box-s9."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/en-pokemon-brilliant-stars-booster-box.jpg",
+    "imageRef": "https://www.tcgplayer.com/product/256141"
+  },
+  {
+    "slug": "en-pokemon-lost-origin-booster-box",
+    "name": "Pok\u00e9mon Sword & Shield Lost Origin Booster Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#7c2d12",
+    "accentSecondary": "#fdba74",
+    "shortDescription": "English sealed booster box. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "EN sealed counterpart line to JP S11 Lost Abyss.",
+      "Related JP storefront SKU: lost-abyss-booster-box-s11."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/en-pokemon-lost-origin-booster-box.jpg",
+    "imageRef": "https://www.tcgplayer.com/product/277324"
+  },
+  {
+    "slug": "en-pokemon-silver-tempest-booster-box",
+    "name": "Pok\u00e9mon Sword & Shield Silver Tempest Booster Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#4c1d95",
+    "accentSecondary": "#c4b5fd",
+    "shortDescription": "English sealed booster box. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "EN sealed counterpart line to JP S12 Paradigm Trigger era.",
+      "Related JP storefront SKU: paradigm-trigger-booster-box-s12."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/en-pokemon-silver-tempest-booster-box.jpg",
+    "imageRef": "https://www.tcgplayer.com/product/283389"
+  },
+  {
+    "slug": "en-pokemon-30th-celebration-elite-trainer-box",
+    "name": "Pok\u00e9mon 30th Celebration Elite Trainer Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "pokemon",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#9f1239",
+    "accentSecondary": "#fda4af",
+    "shortDescription": "English sealed special set. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "EN 30th Celebration sealed product; JP shop carries JP M6a box/specials.",
+      "Related JP storefront SKU: m6a-30th-celebration-booster-box."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/en-pokemon-30th-celebration-elite-trainer-box.jpg",
+    "imageRef": "https://www.tcgplayer.com/product/704143"
+  },
+  {
+    "slug": "en-one-piece-op-09-emperors-in-the-new-world-booster-box",
+    "name": "ONE PIECE Card Game OP-09 Emperors in the New World Booster Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "one-piece",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#065f46",
+    "accentSecondary": "#6ee7b7",
+    "shortDescription": "English sealed booster box. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "Official EN OP-09 exists; Bandai EN product page + Apex exact packaging. Not on current JP 80-SKU mirror as JP OP-09.",
+      "No direct JP twin on the current 80-SKU storefront mirror."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/en-one-piece-op-09-emperors-in-the-new-world-booster-box.jpg",
+    "imageRef": "https://www.tcgplayer.com/product/563834"
+  },
+  {
+    "slug": "en-one-piece-op-10-royal-blood-booster-box",
+    "name": "ONE PIECE Card Game OP-10 Royal Blood Booster Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "one-piece",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#0f766e",
+    "accentSecondary": "#5eead4",
+    "shortDescription": "English sealed booster box. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "EN OP-10 sealed; Apex exact packaging. No Fuji EN listing.",
+      "No direct JP twin on the current 80-SKU storefront mirror."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/en-one-piece-op-10-royal-blood-booster-box.jpg",
+    "imageRef": "https://www.tcgplayer.com/product/586671"
+  },
+  {
+    "slug": "en-one-piece-op-11-a-fist-of-divine-speed-booster-box",
+    "name": "ONE PIECE Card Game OP-11 A Fist of Divine Speed Booster Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "one-piece",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#1d4ed8",
+    "accentSecondary": "#93c5fd",
+    "shortDescription": "English sealed booster box. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "EN OP-11 sealed; Apex exact packaging. No Fuji EN listing.",
+      "No direct JP twin on the current 80-SKU storefront mirror."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/en-one-piece-op-11-a-fist-of-divine-speed-booster-box.jpg",
+    "imageRef": "https://www.tcgplayer.com/product/620180"
+  },
+  {
+    "slug": "en-gundam-gd02-dual-impact-booster-box",
+    "name": "Gundam Card Game GD02 Dual Impact Booster Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "gundam",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#7c2d12",
+    "accentSecondary": "#fdba74",
+    "shortDescription": "English sealed booster box. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "EN GD02 sealed release exists. Local GD02-bb.jpg is Bandai EN product artwork already used for JP SKU packaging display.",
+      "Related JP storefront SKU: gundam-card-game-booster-gd02-dual-impact."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/GD02-bb.jpg",
+    "imageRef": "bandai-en-official-art-local-GD02-bb.jpg"
+  },
+  {
+    "slug": "en-lorcana-the-first-chapter-booster-box",
+    "name": "Disney Lorcana The First Chapter Booster Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "other-tcg",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#4c1d95",
+    "accentSecondary": "#c4b5fd",
+    "shortDescription": "English sealed booster box. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "Prior EN candidate; Apex exact packaging. No JP counterpart on storefront.",
+      "No direct JP twin on the current 80-SKU storefront mirror."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/en-lorcana-the-first-chapter-booster-box.jpg",
+    "imageRef": "https://www.tcgplayer.com/product/485256"
+  },
+  {
+    "slug": "en-lorcana-into-the-inklands-booster-box",
+    "name": "Disney Lorcana Into the Inklands Booster Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "other-tcg",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#9f1239",
+    "accentSecondary": "#fda4af",
+    "shortDescription": "English sealed booster box. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "Prior EN candidate; Apex exact packaging. No JP counterpart on storefront.",
+      "No direct JP twin on the current 80-SKU storefront mirror."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/en-lorcana-into-the-inklands-booster-box.jpg",
+    "imageRef": "https://www.tcgplayer.com/product/531521"
+  },
+  {
+    "slug": "en-yugioh-quarter-century-bonanza-booster-box",
+    "name": "Yu-Gi-Oh! Quarter Century Bonanza Booster Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "other-tcg",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#065f46",
+    "accentSecondary": "#6ee7b7",
+    "shortDescription": "English sealed booster box. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "EN Yu-Gi-Oh sealed candidate; JP shop has OCG Utility Selection (different set).",
+      "Related JP storefront SKU: yugioh-utility-selection-booster-box."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/en-yugioh-quarter-century-bonanza-booster-box.jpg",
+    "imageRef": "https://www.tcgplayer.com/product/575145"
+  },
+  {
+    "slug": "en-magic-the-gathering-foundations-play-booster-box",
+    "name": "Magic: The Gathering Foundations Play Booster Box English",
+    "price": 0,
+    "currency": "USD",
+    "category": "other-tcg",
+    "status": "available",
+    "badge": "Price pending",
+    "accent": "#0f766e",
+    "accentSecondary": "#5eead4",
+    "shortDescription": "English sealed booster box. Price pending \u2014 no Fuji Card Shop EN listing.",
+    "description": [
+      "Language: English. Condition: Sealed new packaging photo on file.",
+      "No Fuji Card Shop English retail listing found (2026-11-23); USD sell price not invented.",
+      "Prior EN candidate; Apex exact packaging. No JP counterpart on storefront.",
+      "No direct JP twin on the current 80-SKU storefront mirror."
+    ],
+    "features": [
+      "English sealed product",
+      "Packaging photo archived for catalog use",
+      "Tracked shipping options shown at checkout demo"
+    ],
+    "image": "/images/products/en-magic-the-gathering-foundations-play-booster-box.jpg",
+    "imageRef": "https://www.tcgplayer.com/product/562118"
   }
 ]

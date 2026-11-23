@@ -66,7 +66,9 @@ export default async function ProductPage({
             ? product.imageMatchQuality === "closest-line"
               ? "Closest-line catalog packaging photo"
               : "Catalog packaging photo"
-            : "Sealed Japanese TCG listing"}
+            : language === "English"
+              ? "Sealed English TCG listing"
+              : "Sealed Japanese TCG listing"}
         </p>
         {product.imageMatchQuality === "closest-line" && product.imageNote ? (
           <p className="stub-note image-disclaimer">{product.imageNote}</p>

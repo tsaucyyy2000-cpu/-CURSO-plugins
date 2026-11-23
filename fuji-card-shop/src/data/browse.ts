@@ -31,6 +31,13 @@ export function gameLabel(slug: CategorySlug): string {
 }
 
 export function detectLanguage(product: Product): ProductLanguage {
+  // Prefer explicit EN slug/name so counterpart notes mentioning JP do not flip language.
+  if (
+    /^en-|_english\b/i.test(product.slug) ||
+    /\benglish\b/i.test(product.name)
+  ) {
+    return "english";
+  }
   const text = `${product.name} ${product.shortDescription} ${product.description.join(" ")}`;
   if (/japanese|\bjp\b|日本/i.test(text)) {
     return "japanese";
