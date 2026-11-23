@@ -1031,9 +1031,27 @@ p {
   font-weight: 650;
 }
 
+.browse-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 0.85rem;
+}
+
+.browse-preset {
+  cursor: pointer;
+  border: 1px solid var(--line);
+  background: var(--foam);
+}
+
+.browse-preset:hover,
+.browse-preset:focus-visible {
+  border-color: rgba(199, 59, 46, 0.45);
+}
+
 .browse-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.75rem;
 }
 
@@ -1044,7 +1062,12 @@ p {
   color: var(--mist);
 }
 
-.browse-field select {
+.browse-field-wide {
+  grid-column: 1 / -1;
+}
+
+.browse-field select,
+.browse-field input {
   width: 100%;
   padding: 0.7rem 0.8rem;
   border-radius: 12px;
@@ -1057,6 +1080,45 @@ p {
   margin: 1rem 0 0.25rem;
   color: var(--mist);
   font-size: 0.9rem;
+}
+
+.header-tools {
+  padding-top: 0;
+  padding-bottom: 0.65rem;
+}
+
+.currency-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem 1rem;
+}
+
+.currency-toggle select {
+  padding: 0.4rem 0.65rem;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--foam);
+  color: var(--paper);
+  font-size: 0.85rem;
+}
+
+.currency-toggle-note {
+  color: var(--mist);
+  font-size: 0.8rem;
+  max-width: 42rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .tile-status-row {

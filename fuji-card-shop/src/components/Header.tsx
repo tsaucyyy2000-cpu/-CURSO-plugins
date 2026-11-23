@@ -4,6 +4,15 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { brand, navLinks } from "@/data/content";
 import { useCart } from "@/lib/cart";
+import { CurrencyToggle } from "@/lib/currency-display";
+
+function navCurrent(pathname: string, href: string): boolean {
+  // Query-string presets (e.g. Yu-Gi-Oh lane) are not path-current markers.
+  if (href.includes("?")) {
+    return false;
+  }
+  return pathname === href || pathname.startsWith(`${href}/`);
+}
 
 export function Header() {
   const pathname = usePathname();
@@ -33,11 +42,7 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              aria-current={
-                pathname === link.href || pathname.startsWith(`${link.href}/`)
-                  ? "page"
-                  : undefined
-              }
+              aria-current={navCurrent(pathname, link.href) ? "page" : undefined}
             >
               {link.label}
             </Link>
@@ -46,6 +51,9 @@ export function Header() {
             Cart {hydrated ? itemCount : 0}
           </Link>
         </nav>
+      </div>
+      <div className="shell header-tools">
+        <CurrencyToggle />
       </div>
       <div className="shell mobile-nav" aria-label="Mobile">
         {navLinks.map((link) => (

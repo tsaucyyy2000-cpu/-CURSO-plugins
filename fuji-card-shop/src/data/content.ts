@@ -22,7 +22,9 @@ export const navLinks = [
   { href: "/category/pokemon", label: "Pokémon" },
   { href: "/category/one-piece", label: "ONE PIECE" },
   { href: "/category/other-tcg", label: "Other TCG" },
+  { href: "/store?q=yu-gi-oh", label: "Yu-Gi-Oh!" },
   { href: "/apex", label: "Wholesale" },
+  { href: "/info", label: "Card lists" },
   { href: "/gallery", label: "Photos" },
   { href: "/shipping", label: "Shipping" },
   { href: "/about", label: "Our story" },
@@ -34,6 +36,8 @@ export const footerLinks = [
   { href: "/apex/catalog", label: "Apex planning catalog" },
   { href: "/apex/cases", label: "Apex B2B case pricing" },
   { href: "/apex/wholesale", label: "Wholesale docs & quotes" },
+  { href: "/info", label: "Official card lists" },
+  { href: "/payment-methods", label: "Payment methods" },
   { href: "/shipping", label: "Shipping & taxes" },
   { href: "/right-to-cancel", label: "Right to cancel" },
   { href: "/terms", label: "Terms & conditions" },
@@ -97,9 +101,14 @@ export const collectionLanes = [
     blurb: "Boxes and factory sealed cases with distinct photos.",
   },
   {
+    title: "Yu-Gi-Oh!",
+    href: "/store?q=yu-gi-oh",
+    blurb: "Verified OCG / EN sealed boxes already in the catalog.",
+  },
+  {
     title: "Other TCG",
     href: "/category/other-tcg",
-    blurb: "UNION ARENA, Weiss, hololive, Gundam, and more.",
+    blurb: "UNION ARENA, Weiss, hololive, Gundam, Lorcana, and more.",
   },
 ];
 

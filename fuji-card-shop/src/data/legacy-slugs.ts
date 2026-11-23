@@ -35,5 +35,5 @@ export const legacyPathRedirects: { source: string; destination: string }[] = [
   { source: "/products/:path*", destination: "/store" },
   { source: "/login", destination: "/admin" },
   { source: "/account", destination: "/admin" },
-  { source: "/info", destination: "/about" },
+  // /info is a first-class official card-list page (parity with live fuji-card.com)
 ];

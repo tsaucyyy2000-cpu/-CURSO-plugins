@@ -13,8 +13,17 @@ export type BrowseFilters = {
   game?: CategorySlug | "all";
   language?: ProductLanguage | "all";
   productType?: SealedProductType | "all";
-  status?: ProductStatus | "all";
+  status?: ProductStatus | "all" | "buyable";
+  query?: string;
 };
+
+export type BrowseSort =
+  | "featured"
+  | "newest"
+  | "price-asc"
+  | "price-desc"
+  | "name-asc"
+  | "name-desc";
 
 const GAME_LABELS: Record<CategorySlug, string> = {
   pokemon: "Pokémon",
@@ -126,6 +135,23 @@ export function inventoryTone(
   return "instock";
 }
 
+export function matchesQuery(product: Product, query: string | undefined): boolean {
+  const needle = query?.trim().toLowerCase() ?? "";
+  if (!needle) {
+    return true;
+  }
+  const haystack = [
+    product.slug,
+    product.name,
+    product.shortDescription,
+    product.category,
+    product.badge ?? "",
+  ]
+    .join(" ")
+    .toLowerCase();
+  return haystack.includes(needle);
+}
+
 export function filterProducts(products: Product[], filters: BrowseFilters): Product[] {
   return products.filter((product) => {
     if (filters.game && filters.game !== "all" && product.category !== filters.game) {
@@ -151,12 +177,70 @@ export function filterProducts(products: Product[], filters: BrowseFilters): Pro
       }
     }
     if (filters.status && filters.status !== "all") {
-      if (product.status !== filters.status) {
+      if (filters.status === "buyable") {
+        if (product.status === "out-of-stock") {
+          return false;
+        }
+      } else if (product.status !== filters.status) {
         return false;
       }
     }
+    if (!matchesQuery(product, filters.query)) {
+      return false;
+    }
     return true;
   });
+}
+
+export function sortProducts(products: Product[], sort: BrowseSort): Product[] {
+  const next = [...products];
+  if (sort === "price-asc") {
+    return next.sort((a, b) => a.price - b.price || a.name.localeCompare(b.name));
+  }
+  if (sort === "price-desc") {
+    return next.sort((a, b) => b.price - a.price || a.name.localeCompare(b.name));
+  }
+  if (sort === "name-asc") {
+    return next.sort((a, b) => a.name.localeCompare(b.name));
+  }
+  if (sort === "name-desc") {
+    return next.sort((a, b) => b.name.localeCompare(a.name));
+  }
+  if (sort === "newest") {
+    return next.sort((a, b) => {
+      const aDate = a.releaseDate ? Date.parse(a.releaseDate) : Number.NaN;
+      const bDate = b.releaseDate ? Date.parse(b.releaseDate) : Number.NaN;
+      const aOk = Number.isFinite(aDate);
+      const bOk = Number.isFinite(bDate);
+      if (aOk && bOk && aDate !== bDate) {
+        return bDate - aDate;
+      }
+      if (aOk && !bOk) {
+        return -1;
+      }
+      if (!aOk && bOk) {
+        return 1;
+      }
+      return a.name.localeCompare(b.name);
+    });
+  }
+  // featured: keep incoming catalog order
+  return next;
+}
+
+export function relatedProducts(
+  product: Product,
+  catalog: Product[],
+  limit = 4,
+): Product[] {
+  const sameGame = catalog.filter(
+    (entry) => entry.slug !== product.slug && entry.category === product.category,
+  );
+  const sameLanguage = sameGame.filter(
+    (entry) => detectLanguage(entry) === detectLanguage(product),
+  );
+  const pool = sameLanguage.length >= limit ? sameLanguage : sameGame;
+  return pool.slice(0, limit);
 }
 
 export const browseGames: { value: CategorySlug | "all"; label: string }[] = [
@@ -187,10 +271,30 @@ export const browseProductTypes: { value: SealedProductType | "all"; label: stri
   { value: "other", label: "Other" },
 ];
 
-export const browseStatuses: { value: ProductStatus | "all"; label: string }[] = [
+export const browseStatuses: {
+  value: ProductStatus | "all" | "buyable";
+  label: string;
+}[] = [
   { value: "all", label: "Any availability" },
-  { value: "available", label: "In stock" },
+  { value: "buyable", label: "In stock only (hide sold out)" },
+  { value: "available", label: "Listed available" },
   { value: "preorder", label: "Pre-order" },
   { value: "out-of-stock", label: "Sold out" },
   { value: "sale", label: "Sale" },
+];
+
+export const browseSorts: { value: BrowseSort; label: string }[] = [
+  { value: "featured", label: "Featured order" },
+  { value: "newest", label: "Newest arrivals" },
+  { value: "price-asc", label: "Price: low to high" },
+  { value: "price-desc", label: "Price: high to low" },
+  { value: "name-asc", label: "Name: A–Z" },
+  { value: "name-desc", label: "Name: Z–A" },
+];
+
+/** Quick lane presets for games that share the other-tcg category. */
+export const collectionSearchPresets: { label: string; href: string; query: string }[] = [
+  { label: "Yu-Gi-Oh!", href: "/store?q=yu-gi-oh", query: "yu-gi-oh" },
+  { label: "Dragon Ball", href: "/store?q=dragon%20ball", query: "dragon ball" },
+  { label: "Disney Lorcana", href: "/store?q=lorcana", query: "lorcana" },
 ];

@@ -62,20 +62,44 @@ export default function ContactPage() {
         <div className="eyebrow">Support</div>
         <h1>Contact us</h1>
         <p>
-          Prefer WhatsApp for a live inquiry, or stage a local form draft below. For questions about
-          an existing order, include your order number.
+          WhatsApp is the complete customer contact path today. Use it for product availability,
+          wholesale questions, or existing-order help. Optional form below only stages a local draft.
         </p>
       </div>
 
       <DemoNotice>
-        <strong>WhatsApp is the active contact path</strong> ({brand.whatsappDisplay}). The on-page
-        form only stages a local acknowledgment — it is not emailed to {brand.email}.
+        <strong>Active channel: WhatsApp {brand.whatsappDisplay}</strong> — inquiry only, not
+        payment. Email {brand.email} is listed for reference; do not assume mailbox delivery from
+        this form.
       </DemoNotice>
 
-      <div style={{ marginBottom: "1.25rem" }}>
-        <WhatsAppInquiryLink href={whatsappLinks.contact()} variant="primary">
-          Open WhatsApp inquiry
-        </WhatsAppInquiryLink>
+      <div className="panel" style={{ marginBottom: "1.25rem" }}>
+        <h2 style={{ fontSize: "1.15rem", marginBottom: "0.5rem" }}>How to reach Fuji Card</h2>
+        <ul className="prose">
+          <li>
+            WhatsApp:{" "}
+            <a href={whatsappLinks.general()} target="_blank" rel="noopener noreferrer">
+              {brand.whatsappDisplay}
+            </a>
+          </li>
+          <li>Phone (Japan): {brand.phone}</li>
+          <li>Address: {brand.address}</li>
+          <li>
+            Shipping &amp; taxes: <Link href="/shipping">policy page</Link>
+          </li>
+          <li>
+            Payment status: <Link href="/payment-methods">honesty page</Link> (no live card
+            processing)
+          </li>
+          <li>
+            Beware of fakes: <Link href="/fake-accounts">advisory</Link>
+          </li>
+        </ul>
+        <div style={{ marginTop: "1rem" }}>
+          <WhatsAppInquiryLink href={whatsappLinks.contact()} variant="primary">
+            Open WhatsApp inquiry
+          </WhatsAppInquiryLink>
+        </div>
       </div>
 
       <div className="split">

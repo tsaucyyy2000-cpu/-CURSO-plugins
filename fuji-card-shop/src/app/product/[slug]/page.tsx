@@ -6,11 +6,13 @@ import { InventoryStatus } from "@/components/InventoryStatus";
 import { ProductGallery } from "@/components/ProductGallery";
 import { StickyCtaBar } from "@/components/StickyCtaBar";
 import { WhatsAppInquiryLink } from "@/components/WhatsAppInquiryLink";
+import { ProductCard } from "@/components/ProductCard";
 import {
   detectLanguage,
   detectProductType,
   languageLabel,
   productTypeLabel,
+  relatedProducts,
   statusLabel,
 } from "@/data/browse";
 import { formatPrice } from "@/data/products";
@@ -57,8 +59,10 @@ export default async function ProductPage({
     quantity: 1,
     statusLabel: statusLabel(product.status),
   });
+  const related = relatedProducts(product, getAllProducts(), 4);
 
   return (
+    <>
     <div className="shell product-layout" style={{ paddingTop: "2.5rem" }}>
       <ProductGallery product={product} />
 
@@ -171,5 +175,23 @@ export default async function ProductPage({
         </div>
       </div>
     </div>
+
+    {related.length > 0 ? (
+      <section className="section" style={{ paddingTop: 0 }}>
+        <div className="shell">
+          <div className="section-head">
+            <div className="eyebrow">Related</div>
+            <h2>More from this game</h2>
+            <p>Same-category sealed listings already in the Fuji catalog — verify language and type.</p>
+          </div>
+          <div className="product-grid">
+            {related.map((entry, index) => (
+              <ProductCard key={entry.slug} product={entry} index={index} />
+            ))}
+          </div>
+        </div>
+      </section>
+    ) : null}
+    </>
   );
 }
