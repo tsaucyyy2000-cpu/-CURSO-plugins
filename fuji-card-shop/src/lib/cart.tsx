@@ -11,25 +11,31 @@ import {
 } from "react";
 import type { Product } from "@/data/products";
 import { getProductBySlug } from "@/data/resolveProducts";
+import {
+  addWithStockCap,
+  catalogSubtotal,
+  reconcileCartLines,
+  setWithStockCap,
+  type AddResult,
+  type CartLineInput,
+} from "@/lib/cart-validation";
 
 function getProduct(slug: string): Product | undefined {
   return getProductBySlug(slug);
 }
 
-export type CartLine = {
-  slug: string;
-  quantity: number;
-};
+export type CartLine = CartLineInput;
 
 type CartContextValue = {
   lines: CartLine[];
   itemCount: number;
   subtotal: number;
-  addItem: (slug: string, quantity?: number) => void;
+  addItem: (slug: string, quantity?: number) => AddResult;
   removeItem: (slug: string) => void;
-  setQuantity: (slug: string, quantity: number) => void;
+  setQuantity: (slug: string, quantity: number) => AddResult;
   clear: () => void;
   hydrated: boolean;
+  lastResult: AddResult | null;
 };
 
 const STORAGE_KEY = "fuji-card-shop-cart-v1";
@@ -48,7 +54,7 @@ function readStorage(): CartLine[] {
     if (!Array.isArray(parsed)) {
       return [];
     }
-    return parsed
+    const lines = parsed
       .filter((entry): entry is CartLine => {
         if (typeof entry !== "object" || entry === null) {
           return false;
@@ -60,6 +66,7 @@ function readStorage(): CartLine[] {
         slug: entry.slug,
         quantity: Math.max(1, Math.floor(entry.quantity)),
       }));
+    return reconcileCartLines(lines, getProduct).lines;
   } catch {
     return [];
   }
@@ -68,6 +75,7 @@ function readStorage(): CartLine[] {
 export function CartProvider({ children }: { children: ReactNode }) {
   const [lines, setLines] = useState<CartLine[]>([]);
   const [hydrated, setHydrated] = useState(false);
+  const [lastResult, setLastResult] = useState<AddResult | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -87,68 +95,63 @@ export function CartProvider({ children }: { children: ReactNode }) {
     if (!hydrated) {
       return;
     }
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(lines));
+    try {
+      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(lines));
+    } catch {
+      // Fail closed on persistence errors: keep in-memory cart, do not throw.
+    }
   }, [lines, hydrated]);
 
-  const addItem = useCallback((slug: string, quantity = 1) => {
+  const addItem = useCallback((slug: string, quantity = 1): AddResult => {
     const product = getProduct(slug);
-    if (!product || product.status === "out-of-stock") {
-      return;
-    }
+    let result: AddResult = { ok: false, reason: "missing", quantity: 0 };
     setLines((current) => {
-      const existing = current.find((line) => line.slug === slug);
-      if (existing) {
-        return current.map((line) =>
-          line.slug === slug
-            ? { ...line, quantity: line.quantity + Math.max(1, quantity) }
-            : line,
-        );
-      }
-      return [...current, { slug, quantity: Math.max(1, quantity) }];
+      const next = addWithStockCap(current, product, quantity);
+      result = next.result;
+      return next.lines;
     });
+    setLastResult(result);
+    return result;
   }, []);
 
   const removeItem = useCallback((slug: string) => {
     setLines((current) => current.filter((line) => line.slug !== slug));
+    setLastResult(null);
   }, []);
 
-  const setQuantity = useCallback((slug: string, quantity: number) => {
-    if (quantity < 1) {
-      setLines((current) => current.filter((line) => line.slug !== slug));
-      return;
-    }
-    setLines((current) =>
-      current.map((line) =>
-        line.slug === slug ? { ...line, quantity: Math.floor(quantity) } : line,
-      ),
-    );
+  const setQuantity = useCallback((slug: string, quantity: number): AddResult => {
+    const product = getProduct(slug);
+    let result: AddResult = { ok: false, reason: "missing", quantity: 0 };
+    setLines((current) => {
+      const next = setWithStockCap(current, product, slug, quantity);
+      result = next.result;
+      return next.lines;
+    });
+    setLastResult(result);
+    return result;
   }, []);
 
-  const clear = useCallback(() => setLines([]), []);
+  const clear = useCallback(() => {
+    setLines([]);
+    setLastResult(null);
+  }, []);
 
   // Prices always resolve from catalog data — never trust client-provided amounts.
   const value = useMemo<CartContextValue>(() => {
-    const resolved = lines
-      .map((line) => {
-        const product = getProduct(line.slug);
-        return product ? { line, product } : null;
-      })
-      .filter((entry): entry is { line: CartLine; product: Product } => entry !== null);
-
+    const reconciled = reconcileCartLines(lines, getProduct);
+    const resolvedLines = reconciled.lines;
     return {
-      lines,
+      lines: resolvedLines,
       hydrated,
-      itemCount: resolved.reduce((sum, entry) => sum + entry.line.quantity, 0),
-      subtotal: resolved.reduce(
-        (sum, entry) => sum + entry.product.price * entry.line.quantity,
-        0,
-      ),
+      itemCount: resolvedLines.reduce((sum, line) => sum + line.quantity, 0),
+      subtotal: catalogSubtotal(resolvedLines, getProduct),
       addItem,
       removeItem,
       setQuantity,
       clear,
+      lastResult,
     };
-  }, [lines, hydrated, addItem, removeItem, setQuantity, clear]);
+  }, [lines, hydrated, addItem, removeItem, setQuantity, clear, lastResult]);
 
   return <CartContext.Provider value={value}>{children}</CartContext.Provider>;
 }
