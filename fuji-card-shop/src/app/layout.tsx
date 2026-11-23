@@ -19,11 +19,15 @@ const figtree = Figtree({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.fuji-card.com"),
   title: {
-    default: "Japanese Pokemon Cards Store - Fuji Card Shop",
-    template: "%s | Fuji Card Shop",
+    default: "Fuji Card | Japanese & English Sealed TCG",
+    template: "%s | Fuji Card",
   },
   description: brand.tagline,
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({

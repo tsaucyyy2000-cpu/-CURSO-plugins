@@ -6,55 +6,78 @@ import { TrustStrip } from "@/components/TrustStrip";
 import {
   announcements,
   brand,
+  collectionLanes,
   heroReleases,
+  heroSpotlight,
   ourStory,
   whyFuji,
 } from "@/data/content";
 import {
   getFeaturedProductsResolved,
+  getProductBySlug,
   getSaleProductsResolved,
 } from "@/data/resolveProducts";
+import { formatPrice } from "@/data/products";
 
 export default function HomePage() {
   const featured = getFeaturedProductsResolved().slice(0, 18);
   const sale = getSaleProductsResolved().slice(0, 12);
+  const spotlight = getProductBySlug(heroSpotlight.href.replace("/product/", ""));
+  const spotlightPrice = spotlight ? formatPrice(spotlight) : null;
 
   return (
     <>
-      <section className="hero">
+      <section className="hero hero-merged">
         <div className="hero-media" aria-hidden="true">
-          {/* Live shop banner recovered from Wayback */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            className="hero-banner-img"
-            src="/images/products/story-banner.png"
-            alt=""
-          />
+          <img className="hero-banner-img" src={heroSpotlight.image} alt="" />
           <div className="hero-spark" />
         </div>
         <div className="shell hero-copy">
+          <p className="hero-brand">{brand.name}</p>
           <div className="hero-kicker">
-            {brand.trustpilotScore} Trustpilot · Catalog photos · Ships from Japan
+            {heroSpotlight.setCode} · {heroSpotlight.language} · {brand.trustpilotScore} Trustpilot
           </div>
           <h1>
-            Fuji <em>Card</em> Shop
+            {heroSpotlight.title}
           </h1>
-          <p className="hero-lead">
-            Find a set, confirm Japanese language and sealed type, inspect authentic photos, then add
-            the correct item — packed carefully and shipped worldwide from Japan.
-          </p>
+          <p className="hero-lead">{heroSpotlight.lead}</p>
+          {spotlightPrice ? (
+            <p className="hero-price">
+              {spotlightPrice}
+              <span>{brand.currencyNote}</span>
+            </p>
+          ) : null}
           <div className="hero-actions">
-            <Link href="/store" className="btn btn-primary">
-              Browse by game
+            <Link href={heroSpotlight.href} className="btn btn-primary">
+              View booster box
             </Link>
-            <Link href="/category/one-piece" className="btn btn-secondary">
-              ONE PIECE sealed
+            <Link href="/store" className="btn btn-secondary">
+              Browse full catalog
             </Link>
           </div>
         </div>
       </section>
 
       <TrustStrip />
+
+      <section className="section section-tight">
+        <div className="shell">
+          <div className="section-head">
+            <div className="eyebrow">Collections</div>
+            <h2>Find your next sealed set</h2>
+            <p>Game lanes from the Fuji Card domain — catalog depth from the sealed shop.</p>
+          </div>
+          <div className="lane-grid">
+            {collectionLanes.map((lane) => (
+              <Link key={lane.href} href={lane.href} className="lane-card">
+                <strong>{lane.title}</strong>
+                <span>{lane.blurb}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
 
       <SealedShelf products={featured} />
 
@@ -64,13 +87,13 @@ export default function HomePage() {
             <div className="eyebrow">Featured releases</div>
             <h2>What&apos;s landing next</h2>
             <p>
-              Status in plain words — pre-order windows, landings, and shipping sets — with sealed
-              configuration called out up front.
+              OP-14 case photography, OP-18 prices, and the English sealed filter — called out up
+              front.
             </p>
           </div>
           <div className="release-rail">
             {heroReleases.map((release) => (
-              <Link key={release.href} href={release.href} className="release-chip">
+              <Link key={release.href + release.title} href={release.href} className="release-chip">
                 <ReleaseStatus tone={release.status} />
                 <strong>{release.title}</strong>
                 <span>{release.subtitle}</span>
@@ -104,9 +127,9 @@ export default function HomePage() {
             <h3 style={{ fontSize: "2rem", margin: "0.6rem 0 1rem" }}>
               Honest service from Japan
             </h3>
-            <p style={{ color: "var(--mist)" }}>
-              Fair pricing, careful packaging, reliable shipping, and clear communication —
-              the same promise published on the live Fuji Card Shop profile.
+            <p>
+              Fair pricing, careful packaging, reliable shipping, and clear communication — now on{" "}
+              {brand.domain}.
             </p>
           </div>
         </div>
@@ -118,8 +141,8 @@ export default function HomePage() {
             <div className="eyebrow">Catalog</div>
             <h2>Featured products</h2>
             <p>
-              Catalog packaging photos on every tile when available — pre-orders, anniversary sets,
-              and Pokémon Center exclusives.
+              Packaging photos on every tile when available — Japanese and English sealed, boxes and
+              cases.
             </p>
           </div>
           <div className="product-grid">
@@ -134,8 +157,8 @@ export default function HomePage() {
         <div className="shell">
           <div className="section-head">
             <div className="eyebrow">Offers</div>
-            <h2>SALE Products</h2>
-            <p>Highlighted sale and featured-offer items from the live storefront.</p>
+            <h2>Highlighted picks</h2>
+            <p>Sale and featured-offer items from the Fuji sealed catalog.</p>
           </div>
           <div className="product-grid">
             {sale.map((product, index) => (
@@ -190,7 +213,7 @@ export default function HomePage() {
             <h3 style={{ fontSize: "1.8rem", margin: "0.5rem 0 1rem" }}>
               Planning estimates, not live checkout
             </h3>
-            <p style={{ color: "var(--mist)" }}>
+            <p>
               Confirm stock, case pack, and final wholesale terms before quoting. Source DOCX/PDF
               downloads live under Wholesale docs.
             </p>
@@ -202,7 +225,7 @@ export default function HomePage() {
         <div className="shell">
           <div className="section-head">
             <div className="eyebrow">Trust</div>
-            <h2>Why Fuji Cards?</h2>
+            <h2>Why Fuji Card?</h2>
           </div>
           <div className="why-grid">
             {whyFuji.map((item) => (

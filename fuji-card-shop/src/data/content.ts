@@ -1,6 +1,8 @@
 export const brand = {
-  name: "FUJI CARD SHOP",
-  tagline: "Japanese Pokémon & ONE PIECE cards, shipped from Japan",
+  name: "FUJI CARD",
+  legalName: "FUJI CARD",
+  domain: "www.fuji-card.com",
+  tagline: "Japanese & English sealed TCG — shipped from Japan",
   email: "support@fujicardshop.com",
   phone: "+81 47-707-3321",
   address: "2-12-24 MinatoCyo, MinatoCyo Nihonbashi Building, 6F, 273-0011, Funabashi City, Japan",
@@ -8,7 +10,8 @@ export const brand = {
   facebook: "https://www.facebook.com/Fujicardshop/",
   trustpilotScore: "4.9★",
   trustpilotLabel: "Trustpilot rated",
-  sourceUrl: "https://www.fujicardshop.com/",
+  sourceUrl: "https://www.fuji-card.com/",
+  currencyNote: "Catalog prices are USD from the Fuji Japan sealed list.",
 };
 
 export const navLinks = [
@@ -16,7 +19,7 @@ export const navLinks = [
   { href: "/category/pokemon", label: "Pokémon" },
   { href: "/category/one-piece", label: "ONE PIECE" },
   { href: "/category/other-tcg", label: "Other TCG" },
-  { href: "/apex", label: "Apex wholesale" },
+  { href: "/apex", label: "Wholesale" },
   { href: "/gallery", label: "Photos" },
   { href: "/shipping", label: "Shipping" },
   { href: "/about", label: "Our story" },
@@ -38,13 +41,37 @@ export const footerLinks = [
   { href: "/admin", label: "Staff login" },
 ];
 
+export const heroSpotlight = {
+  setCode: "M4",
+  title: "Ninja Spinner",
+  language: "Japanese",
+  sealedType: "Booster box",
+  href: "/product/m4-ninja-spinner-booster-box",
+  image: "/images/products/m4-ninja-spinner-booster-box.jpg",
+  lead: "Explore the Japanese sealed box — confirm language and packaging, then add the correct SKU.",
+};
+
 export const heroReleases = [
   {
-    title: "OP-18 The Dominance of God Warriors",
-    subtitle: "Release on November 21",
+    title: "OP-18 The Dominance of God",
+    subtitle: "Booster box · Japanese",
     href: "/product/op-18-the-dominance-of-god-booster-box",
     status: "preorder" as const,
-    config: "Booster box · Japanese",
+    config: "USD catalog price synced",
+  },
+  {
+    title: "OP-14 The Azure Sea’s Seven",
+    subtitle: "Box + sealed case · distinct photos",
+    href: "/product/op-14-the-azure-seas-seven-sealed-case",
+    status: "live" as const,
+    config: "Case carton face verified",
+  },
+  {
+    title: "English sealed catalog",
+    subtitle: "189 EN SKUs with packaging evidence",
+    href: "/store",
+    status: "live" as const,
+    config: "Filter Store → English",
   },
   {
     title: "M7 Aura Seeker",
@@ -53,26 +80,30 @@ export const heroReleases = [
     status: "preorder" as const,
     config: "Booster box · Japanese",
   },
+];
+
+export const collectionLanes = [
   {
-    title: "EB-05 ONE PIECE Heroines Edition vol.2",
-    subtitle: "Release Date: October 31",
-    href: "/product/eb-05-one-piece-heroines-edition-vol-2-booster-box",
-    status: "live" as const,
-    config: "Extra booster · 24 packs",
+    title: "Pokémon",
+    href: "/category/pokemon",
+    blurb: "Japanese boosters, Center sets, and English sealed.",
   },
   {
-    title: "30th CELEBRATION booster box",
-    subtitle: "Release Date: September 16",
-    href: "/product/m6a-30th-celebration-booster-box",
-    status: "live" as const,
-    config: "Anniversary sealed · Japanese",
+    title: "ONE PIECE",
+    href: "/category/one-piece",
+    blurb: "Boxes and factory sealed cases with distinct photos.",
+  },
+  {
+    title: "Other TCG",
+    href: "/category/other-tcg",
+    blurb: "UNION ARENA, Weiss, hololive, Gundam, and more.",
   },
 ];
 
 export const ourStory = {
   title: "Our story",
   paragraphs: [
-    "Fuji Card Shop is an online store based in Japan, dedicated to selling authentic Japanese trading cards to customers worldwide.",
+    "Fuji Card is an online store based in Japan, dedicated to selling authentic Japanese and English sealed trading cards to collectors worldwide.",
     "We aim to offer fair and competitive prices while providing careful packaging, reliable shipping, and clear communication.",
     "Our goal is simple: to serve collectors and players with honesty, respect, and the best service we can deliver.",
   ],
@@ -81,7 +112,7 @@ export const ourStory = {
 export const whyFuji = [
   {
     title: "Catalog packaging photos",
-    body: "Listings show packaging photography when available. Closest-line stand-ins are labeled (for example “Booster box shown.”) so you can confirm sealed type before checkout.",
+    body: "Listings show packaging photography when available. Closest-line stand-ins are labeled so you can confirm sealed type before checkout.",
   },
   {
     title: "Ships from Japan",
@@ -99,8 +130,15 @@ export const whyFuji = [
 
 export const announcements = [
   {
+    slug: "domain-merge",
+    title: "fuji-card.com now serves the full Fuji sealed catalog",
+    date: "Live",
+    excerpt:
+      "One storefront: Japanese + English sealed SKUs, verified OP-14 box/case photography, OP-18 catalog prices, and the cart → checkout demo — on www.fuji-card.com.",
+  },
+  {
     slug: "us-tariff-update",
-    title: "🇺🇸 U.S. Tariff Update: 12.5% on Orders from Japan (Effective July 24, 2026)",
+    title: "U.S. Tariff Update: 12.5% on Orders from Japan (Effective July 24, 2026)",
     date: "24 Jul",
     excerpt:
       "We collect our configured US tariff of 12.5% on applicable goods. You can see the collected amount in your order summary; shipping and handling are listed separately.",
@@ -119,20 +157,6 @@ export const announcements = [
     excerpt:
       "30th CELEBRATION Booster Boxes and the Premium Deck Set – Espeon & Umbreon have arrived. Orders are shipping in batches.",
   },
-  {
-    slug: "op-17-arrival",
-    title: "New Arrival! ONE PIECE CARD GAME OP-17 – The World’s Strongest Warriors",
-    date: "New",
-    excerpt:
-      "4th anniversary set featuring Rocks D. Xebec, Four Emperors Manga Alternate Arts, and Lucky Roux Treasure Rare. Additional stock available.",
-  },
-  {
-    slug: "m6-storm-emeralda",
-    title: "New Arrival! Pokémon Card M6 – Storm Emeralda",
-    date: "New",
-    excerpt:
-      "Mega Rayquaza ex leads Storm Emeralda, with Zinnia’s Trust SAR and the Hoenn legendary trio represented across chase rarities.",
-  },
 ];
 
 export const shippingTransit = [
@@ -144,7 +168,7 @@ export const shippingTransit = [
 ];
 
 export const commercialTransaction = [
-  { label: "Name of the Business", value: "FUJI CARD SHOP" },
+  { label: "Name of the Business", value: "FUJI CARD" },
   { label: "Email Address", value: "support@fujicardshop.com" },
   {
     label: "Sales Price",
