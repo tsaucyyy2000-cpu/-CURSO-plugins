@@ -12,6 +12,7 @@ export function Footer() {
           <p style={{ marginTop: "0.45rem" }}>
             <a href={`mailto:${brand.email}`}>{brand.email}</a>
           </p>
+          <p style={{ marginTop: "0.45rem", color: "var(--mist)" }}>{brand.currencyNote}</p>
         </div>
         <div>
           <h3>Policies</h3>
@@ -40,8 +41,8 @@ export function Footer() {
               {brand.trustpilotScore} {brand.trustpilotLabel}
             </li>
             <li>
-              <a href={brand.sourceUrl} target="_blank" rel="noreferrer">
-                Live shop reference
+              <a href={`https://${brand.domain}`} rel="noreferrer">
+                {brand.domain}
               </a>
             </li>
           </ul>

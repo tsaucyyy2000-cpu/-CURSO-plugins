@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { legacyPathRedirects, legacyProductRedirects } from "./src/data/legacy-slugs";
 
 const securityHeaders = [
   { key: "X-Frame-Options", value: "DENY" },
@@ -33,6 +34,12 @@ const nextConfig: NextConfig = {
         headers: securityHeaders,
       },
     ];
+  },
+  async redirects() {
+    return [...legacyPathRedirects, ...legacyProductRedirects].map((rule) => ({
+      ...rule,
+      permanent: true,
+    }));
   },
 };
 

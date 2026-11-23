@@ -13,17 +13,31 @@ export function Header() {
     <header className="site-header">
       <div className="shell header-inner">
         <Link href="/" className="brand" aria-label={`${brand.name} home`}>
-          <div className="brand-mark">
-            Fuji <span>Card</span> Shop
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            className="brand-logo"
+            src="/brand/fuji-card-logo.png"
+            alt=""
+            width={36}
+            height={36}
+          />
+          <div>
+            <div className="brand-mark">
+              Fuji <span>Card</span>
+            </div>
+            <div className="brand-sub">Based in Japan · Sealed TCG</div>
           </div>
-          <div className="brand-sub">Based in Japan · Sealed TCG</div>
         </Link>
         <nav className="nav" aria-label="Primary">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              aria-current={pathname === link.href || pathname.startsWith(`${link.href}/`) ? "page" : undefined}
+              aria-current={
+                pathname === link.href || pathname.startsWith(`${link.href}/`)
+                  ? "page"
+                  : undefined
+              }
             >
               {link.label}
             </Link>
