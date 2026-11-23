@@ -1,6 +1,16 @@
 import type { CategorySlug, Product, ProductStatus } from "./products";
 
-export type ProductLanguage = "japanese" | "english" | "other";
+export type ProductLanguage =
+  | "japanese"
+  | "english"
+  | "german"
+  | "korean"
+  | "french"
+  | "italian"
+  | "chinese"
+  | "spanish"
+  | "portuguese"
+  | "other";
 export type SealedProductType =
   | "booster-box"
   | "booster-pack"
@@ -40,16 +50,68 @@ export function gameLabel(slug: CategorySlug): string {
 }
 
 export function detectLanguage(product: Product): ProductLanguage {
-  // Prefer explicit EN slug/name so counterpart notes mentioning JP do not flip language.
+  // Prefer explicit language prefixes / name tokens so counterpart notes do not flip language.
   if (
     /^en-|_english\b/i.test(product.slug) ||
     /\benglish\b/i.test(product.name)
   ) {
     return "english";
   }
+  if (/^jp-|_japanese\b/i.test(product.slug) || /\bjapanese\b/i.test(product.name)) {
+    return "japanese";
+  }
+  if (/^de-|_german\b/i.test(product.slug) || /\bgerman\b|\bdeutsch\b/i.test(product.name)) {
+    return "german";
+  }
+  if (/^kr-|_korean\b/i.test(product.slug) || /\bkorean\b/i.test(product.name)) {
+    return "korean";
+  }
+  if (/^fr-|_french\b/i.test(product.slug) || /\bfrench\b|\bfrançais\b/i.test(product.name)) {
+    return "french";
+  }
+  if (/^it-|_italian\b/i.test(product.slug) || /\bitalian\b|\bitaliano\b/i.test(product.name)) {
+    return "italian";
+  }
+  if (
+    /^zh-|_chinese\b|simplified-chinese|traditional-chinese/i.test(product.slug) ||
+    /\bchinese\b|simplified chinese|traditional chinese|s-chinese|t-chinese/i.test(product.name)
+  ) {
+    return "chinese";
+  }
+  if (/^es-|_spanish\b/i.test(product.slug) || /\bspanish\b|\bespañol\b/i.test(product.name)) {
+    return "spanish";
+  }
+  if (
+    /^pt-|_portuguese\b/i.test(product.slug) ||
+    /\bportuguese\b|\bportuguês\b/i.test(product.name)
+  ) {
+    return "portuguese";
+  }
+
   const text = `${product.name} ${product.shortDescription} ${product.description.join(" ")}`;
   if (/japanese|\bjp\b|日本/i.test(text)) {
     return "japanese";
+  }
+  if (/german|\bdeutsch\b/i.test(text)) {
+    return "german";
+  }
+  if (/korean/i.test(text)) {
+    return "korean";
+  }
+  if (/french|\bfrançais\b/i.test(text)) {
+    return "french";
+  }
+  if (/italian|\bitaliano\b/i.test(text)) {
+    return "italian";
+  }
+  if (/chinese|s-chinese|t-chinese|简体|繁體|宝可梦|寶可夢/i.test(text)) {
+    return "chinese";
+  }
+  if (/spanish|\bespañol\b/i.test(text)) {
+    return "spanish";
+  }
+  if (/portuguese|\bportuguês\b/i.test(text)) {
+    return "portuguese";
   }
   if (/english|\ben\b/i.test(text)) {
     return "english";
@@ -78,13 +140,28 @@ export function detectProductType(product: Product): SealedProductType {
 }
 
 export function languageLabel(language: ProductLanguage): string {
-  if (language === "japanese") {
-    return "Japanese";
+  switch (language) {
+    case "japanese":
+      return "Japanese";
+    case "english":
+      return "English";
+    case "german":
+      return "German";
+    case "korean":
+      return "Korean";
+    case "french":
+      return "French";
+    case "italian":
+      return "Italian";
+    case "chinese":
+      return "Chinese";
+    case "spanish":
+      return "Spanish";
+    case "portuguese":
+      return "Portuguese";
+    default:
+      return "Other";
   }
-  if (language === "english") {
-    return "English";
-  }
-  return "Other";
 }
 
 export function productTypeLabel(type: SealedProductType): string {
@@ -269,9 +346,17 @@ export const browseGames: { value: CategorySlug | "all"; label: string }[] = [
   { value: "other-tcg", label: "Other TCG" },
 ];
 
+/** English-first default stays; All + other languages remain available via filter. */
 export const browseLanguages: { value: ProductLanguage | "all"; label: string }[] = [
   { value: "english", label: "English" },
   { value: "japanese", label: "Japanese" },
+  { value: "chinese", label: "Chinese" },
+  { value: "korean", label: "Korean" },
+  { value: "german", label: "German" },
+  { value: "french", label: "French" },
+  { value: "italian", label: "Italian" },
+  { value: "spanish", label: "Spanish" },
+  { value: "portuguese", label: "Portuguese" },
   { value: "all", label: "All languages" },
   { value: "other", label: "Other" },
 ];
