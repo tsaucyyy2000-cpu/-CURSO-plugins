@@ -2540,5 +2540,255 @@
     "matchQuality": "exact",
     "locked": true,
     "attribution": "Packaging photo via Apex/TCGPlayer catalog archive (exact). Trademarks belong to rights holders; not an official authenticity claim."
+  },
+  "en-pokemon-black-bolt-elite-trainer-box": {
+    "title": "Pokémon Scarlet & Violet Black Bolt Elite Trainer Box English",
+    "image": "/images/products/en-pokemon-black-bolt-elite-trainer-box.jpg",
+    "filename": "en-pokemon-black-bolt-elite-trainer-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/630686_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/630686",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-white-flare-elite-trainer-box": {
+    "title": "Pokémon Scarlet & Violet White Flare Elite Trainer Box English",
+    "image": "/images/products/en-pokemon-white-flare-elite-trainer-box.jpg",
+    "filename": "en-pokemon-white-flare-elite-trainer-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/630689_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/630689",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-black-bolt-booster-bundle": {
+    "title": "Pokémon Scarlet & Violet Black Bolt Booster Bundle English",
+    "image": "/images/products/en-pokemon-black-bolt-booster-bundle.jpg",
+    "filename": "en-pokemon-black-bolt-booster-bundle.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/630431_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/630431",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-white-flare-booster-bundle": {
+    "title": "Pokémon Scarlet & Violet White Flare Booster Bundle English",
+    "image": "/images/products/en-pokemon-white-flare-booster-bundle.jpg",
+    "filename": "en-pokemon-white-flare-booster-bundle.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/630696_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/630696",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-mega-evolution-booster-box": {
+    "title": "Pokémon Mega Evolution Booster Box English",
+    "image": "/images/products/en-pokemon-mega-evolution-booster-box.jpg",
+    "filename": "en-pokemon-mega-evolution-booster-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/644298_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/644298",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-mega-evolution-enhanced-booster-box": {
+    "title": "Pokémon Mega Evolution Enhanced Booster Box English",
+    "image": "/images/products/en-pokemon-mega-evolution-enhanced-booster-box.jpg",
+    "filename": "en-pokemon-mega-evolution-enhanced-booster-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/644300_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/644300",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-mega-evolution-elite-trainer-box-mega-gardevoir": {
+    "title": "Pokémon Mega Evolution Elite Trainer Box Mega Gardevoir English",
+    "image": "/images/products/en-pokemon-mega-evolution-elite-trainer-box-mega-gardevoir.jpg",
+    "filename": "en-pokemon-mega-evolution-elite-trainer-box-mega-gardevoir.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/644279_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/644279",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-mega-evolution-elite-trainer-box-mega-lucario": {
+    "title": "Pokémon Mega Evolution Elite Trainer Box Mega Lucario English",
+    "image": "/images/products/en-pokemon-mega-evolution-elite-trainer-box-mega-lucario.jpg",
+    "filename": "en-pokemon-mega-evolution-elite-trainer-box-mega-lucario.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/648394_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/648394",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-mega-evolution-booster-bundle": {
+    "title": "Pokémon Mega Evolution Booster Bundle English",
+    "image": "/images/products/en-pokemon-mega-evolution-booster-bundle.jpg",
+    "filename": "en-pokemon-mega-evolution-booster-bundle.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/644362_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/644362",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-phantasmal-flames-booster-box": {
+    "title": "Pokémon Mega Evolution Phantasmal Flames Booster Box English",
+    "image": "/images/products/en-pokemon-phantasmal-flames-booster-box.jpg",
+    "filename": "en-pokemon-phantasmal-flames-booster-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/654137_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/654137",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-phantasmal-flames-elite-trainer-box": {
+    "title": "Pokémon Mega Evolution Phantasmal Flames Elite Trainer Box English",
+    "image": "/images/products/en-pokemon-phantasmal-flames-elite-trainer-box.jpg",
+    "filename": "en-pokemon-phantasmal-flames-elite-trainer-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/654136_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/654136",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-perfect-order-booster-box": {
+    "title": "Pokémon Mega Evolution Perfect Order Booster Box English",
+    "image": "/images/products/en-pokemon-perfect-order-booster-box.jpg",
+    "filename": "en-pokemon-perfect-order-booster-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/672394",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-pitch-black-booster-box": {
+    "title": "Pokémon Mega Evolution Pitch Black Booster Box English",
+    "image": "/images/products/en-pokemon-pitch-black-booster-box.jpg",
+    "filename": "en-pokemon-pitch-black-booster-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/692939_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/692939",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-pitch-black-elite-trainer-box": {
+    "title": "Pokémon Mega Evolution Pitch Black Elite Trainer Box English",
+    "image": "/images/products/en-pokemon-pitch-black-elite-trainer-box.jpg",
+    "filename": "en-pokemon-pitch-black-elite-trainer-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/692947_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/692947",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-one-piece-op-12-legacy-of-the-master-booster-box": {
+    "title": "ONE PIECE Card Game OP-12 Legacy of the Master Booster Box English",
+    "image": "/images/products/en-one-piece-op-12-legacy-of-the-master-booster-box.jpg",
+    "filename": "en-one-piece-op-12-legacy-of-the-master-booster-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/628346_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/628346",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-one-piece-op-13-carrying-on-his-will-booster-box": {
+    "title": "ONE PIECE Card Game OP-13 Carrying On His Will Booster Box English",
+    "image": "/images/products/en-one-piece-op-13-carrying-on-his-will-booster-box.jpg",
+    "filename": "en-one-piece-op-13-carrying-on-his-will-booster-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/628352_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/628352",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-gundam-gd01-newtype-rising-booster-box": {
+    "title": "Gundam Card Game GD01 Newtype Rising Booster Box English",
+    "image": "/images/products/en-gundam-gd01-newtype-rising-booster-box.jpg",
+    "filename": "en-gundam-gd01-newtype-rising-booster-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/619072_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/619072",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-union-arena-bleach-thousand-year-blood-war-booster-box": {
+    "title": "UNION ARENA BLEACH Thousand-Year Blood War Booster Box English",
+    "image": "/images/products/en-union-arena-bleach-thousand-year-blood-war-booster-box.jpg",
+    "filename": "en-union-arena-bleach-thousand-year-blood-war-booster-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/552230_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/552230",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-union-arena-bleach-thousand-year-blood-war-vol-2-booster-box": {
+    "title": "UNION ARENA BLEACH Thousand-Year Blood War Vol.2 Booster Box English",
+    "image": "/images/products/en-union-arena-bleach-thousand-year-blood-war-vol-2-booster-box.jpg",
+    "filename": "en-union-arena-bleach-thousand-year-blood-war-vol-2-booster-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/607851_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/607851",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-star-wars-unlimited-twilight-of-the-republic-booster-box": {
+    "title": "Star Wars: Unlimited Twilight of the Republic Booster Box English",
+    "image": "/images/apex/apex-183-star-wars-unlimited-twilight-of-the-republic-booster-box.jpg",
+    "filename": "apex-183-star-wars-unlimited-twilight-of-the-republic-booster-box.jpg",
+    "source_url": "https://www.tcgplayer.com/product/578939",
+    "source_page_url": "https://www.tcgplayer.com/product/578939",
+    "matchQuality": "closest-line",
+    "locked": true,
+    "attribution": "Packaging photo via Apex/TCGPlayer archive (closest-line, same-set name overlap). Trademarks belong to rights holders."
+  },
+  "en-star-wars-unlimited-jump-to-lightspeed-booster-box": {
+    "title": "Star Wars: Unlimited Jump to Lightspeed Booster Box English",
+    "image": "/images/apex/apex-184-star-wars-unlimited-jump-to-lightspeed-booster-box.jpg",
+    "filename": "apex-184-star-wars-unlimited-jump-to-lightspeed-booster-box.jpg",
+    "source_url": "https://www.tcgplayer.com/product/610308",
+    "source_page_url": "https://www.tcgplayer.com/product/610308",
+    "matchQuality": "closest-line",
+    "locked": true,
+    "attribution": "Packaging photo via Apex/TCGPlayer archive (closest-line, same-set name overlap). Trademarks belong to rights holders."
+  },
+  "en-riftbound-proving-grounds-starter-deck": {
+    "title": "Riftbound Proving Grounds Starter Deck English",
+    "image": "/images/apex/apex-188-riftbound-proving-grounds-starter-deck.jpg",
+    "filename": "apex-188-riftbound-proving-grounds-starter-deck.jpg",
+    "source_url": "https://www.tcgplayer.com/product/635460",
+    "source_page_url": "https://www.tcgplayer.com/product/635460",
+    "matchQuality": "closest-line",
+    "locked": true,
+    "attribution": "Packaging photo via Apex/TCGPlayer archive (closest-line, same-set name overlap). Trademarks belong to rights holders."
+  },
+  "en-dragon-ball-super-fusion-world-awakened-pulse-booster-box": {
+    "title": "Awakened Pulse Booster Box English",
+    "image": "/images/apex/apex-191-dragon-ball-super-fusion-world-fb01-booster-box.jpg",
+    "filename": "apex-191-dragon-ball-super-fusion-world-fb01-booster-box.jpg",
+    "source_url": "https://www.tcgplayer.com/product/535546",
+    "source_page_url": "https://www.tcgplayer.com/product/535546",
+    "matchQuality": "closest-line",
+    "locked": true,
+    "attribution": "Packaging photo via Apex/TCGPlayer archive (closest-line, same-set name overlap). Trademarks belong to rights holders."
+  },
+  "en-dragon-ball-super-fusion-world-blazing-aura-booster-box": {
+    "title": "Blazing Aura Booster Box English",
+    "image": "/images/apex/apex-192-dragon-ball-super-fusion-world-fb02-booster-box.jpg",
+    "filename": "apex-192-dragon-ball-super-fusion-world-fb02-booster-box.jpg",
+    "source_url": "https://www.tcgplayer.com/product/543427",
+    "source_page_url": "https://www.tcgplayer.com/product/543427",
+    "matchQuality": "closest-line",
+    "locked": true,
+    "attribution": "Packaging photo via Apex/TCGPlayer archive (closest-line, same-set name overlap). Trademarks belong to rights holders."
+  },
+  "en-dragon-ball-super-fusion-world-raging-roar-booster-box": {
+    "title": "Raging Roar Booster Box English",
+    "image": "/images/apex/apex-193-dragon-ball-super-fusion-world-fb03-booster-box.jpg",
+    "filename": "apex-193-dragon-ball-super-fusion-world-fb03-booster-box.jpg",
+    "source_url": "https://www.tcgplayer.com/product/551680",
+    "source_page_url": "https://www.tcgplayer.com/product/551680",
+    "matchQuality": "closest-line",
+    "locked": true,
+    "attribution": "Packaging photo via Apex/TCGPlayer archive (closest-line, same-set name overlap). Trademarks belong to rights holders."
   }
 }

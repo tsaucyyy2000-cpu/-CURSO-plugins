@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "images:apply-overrides": "node scripts/apply-image-import-overrides.mjs",
     "images:check-overrides": "node scripts/apply-image-import-overrides.mjs --dry-run",
-    "catalog:import-apex-english": "node scripts/import-full-apex-english-catalog.mjs"
+    "catalog:import-apex-english": "node scripts/import-full-apex-english-catalog.mjs",
+    "catalog:import-en-more": "node scripts/import-en-more-packaging.mjs"
   },
   "dependencies": {
     "next": "^16.4.6",
