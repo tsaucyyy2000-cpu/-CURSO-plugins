@@ -20,7 +20,7 @@ export function BrowseConsole({
   initialGame?: BrowseFilters["game"];
 }) {
   const [game, setGame] = useState<BrowseFilters["game"]>(initialGame ?? "all");
-  const [language, setLanguage] = useState<BrowseFilters["language"]>("japanese");
+  const [language, setLanguage] = useState<BrowseFilters["language"]>("all");
   const [productType, setProductType] = useState<BrowseFilters["productType"]>("all");
   const [status, setStatus] = useState<BrowseFilters["status"]>("all");
 
