@@ -32,8 +32,11 @@ export default function PaymentMethodsPage() {
           paying. An inquiry is not payment, acceptance, or a reservation.
         </p>
         <ul>
-          <li>Catalog amounts on this site are listed in USD.</li>
-          <li>GBP or other settlement currencies are confirmed by the store when quoting.</li>
+          <li>Catalog amounts on this site are listed in USD when a verified price exists.</li>
+          <li>
+            Language (English vs Japanese sealed) is separate from currency — use the Store Language
+            filter for product language.
+          </li>
           <li>
             Primary request channel: WhatsApp {brand.whatsappDisplay} (
             <code>wa.me/{brand.whatsappE164}</code>).

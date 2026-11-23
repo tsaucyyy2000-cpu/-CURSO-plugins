@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { brand, navLinks } from "@/data/content";
 import { useCart } from "@/lib/cart";
-import { CurrencyToggle } from "@/lib/currency-display";
 
 function navCurrent(pathname: string, href: string): boolean {
   // Query-string presets (e.g. Yu-Gi-Oh lane) are not path-current markers.
@@ -51,9 +50,6 @@ export function Header() {
             Cart {hydrated ? itemCount : 0}
           </Link>
         </nav>
-      </div>
-      <div className="shell header-tools">
-        <CurrencyToggle />
       </div>
       <div className="shell mobile-nav" aria-label="Mobile">
         {navLinks.map((link) => (
