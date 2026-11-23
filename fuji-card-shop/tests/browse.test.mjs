@@ -96,6 +96,36 @@ describe("browse search/sort/filter", () => {
     assert.equal(next[0].slug, "en-pokemon-surging-sparks-booster-box");
     assert.equal(next.length, 2);
   });
+
+  it("detects chinese / german / korean language tags", () => {
+    assert.equal(
+      detectLanguage({
+        slug: "zh-pokemon-csv10c-chasing-glory-together-booster-box",
+        name: "Pokémon CSV10C Chasing Glory Together Booster Box Simplified Chinese",
+        shortDescription: "Chinese sealed",
+        description: ["Language: Chinese"],
+      }),
+      "chinese",
+    );
+    assert.equal(
+      detectLanguage({
+        slug: "de-pokemon-temporal-forces-booster-box",
+        name: "Pokémon Temporal Forces Booster Box German",
+        shortDescription: "German sealed",
+        description: ["Language: German"],
+      }),
+      "german",
+    );
+    assert.equal(
+      detectLanguage({
+        slug: "kr-pokemon-inferno-x-booster-box",
+        name: "Pokémon Inferno X Booster Box Korean",
+        shortDescription: "Korean sealed",
+        description: ["Language: Korean"],
+      }),
+      "korean",
+    );
+  });
 });
 
 describe("formatPrice honesty", () => {

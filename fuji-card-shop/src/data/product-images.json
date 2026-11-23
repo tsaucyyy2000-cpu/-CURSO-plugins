@@ -3150,5 +3150,295 @@
     "matchQuality": "closest-line",
     "locked": true,
     "attribution": "Packaging photo via Apex/TCGPlayer archive (closest-line, matchedProductName used as SKU title). Trademarks belong to rights holders."
+  },
+  "zh-pokemon-30th-celebration-booster-box": {
+    "title": "Pokémon 30th Celebration Booster Box Simplified Chinese",
+    "image": "/images/products/zh-pokemon-30th-celebration-booster-box.jpg",
+    "filename": "zh-pokemon-30th-celebration-booster-box.jpg",
+    "source_url": "https://product-images.s3.cardmarket.com/53/908934/908934.jpg",
+    "source_page_url": "https://www.cardmarket.com/en/Pokemon/Products/Booster-Boxes/30th-Celebration-Simplified-Chinese-Booster-Box",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via Cardmarket product image. Trademarks belong to rights holders."
+  },
+  "zh-pokemon-csv10c-chasing-glory-together-booster-box": {
+    "title": "Pokémon CSV10C Chasing Glory Together Booster Box Simplified Chinese",
+    "image": "/images/products/zh-pokemon-csv10c-chasing-glory-together-booster-box.jpg",
+    "filename": "zh-pokemon-csv10c-chasing-glory-together-booster-box.jpg",
+    "source_url": "https://product-images.s3.cardmarket.com/53/895486/895486.jpg",
+    "source_page_url": "https://www.cardmarket.com/en/Pokemon/Products/Booster-Boxes/CSV10C-Chasing-Glory-Together-Booster-Box",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via Cardmarket product image. Trademarks belong to rights holders."
+  },
+  "zh-pokemon-csv10c-chasing-glory-together-jumbo-booster-box": {
+    "title": "Pokémon CSV10C Chasing Glory Together Jumbo Booster Box Simplified Chinese",
+    "image": "/images/products/zh-pokemon-csv10c-chasing-glory-together-jumbo-booster-box.jpg",
+    "filename": "zh-pokemon-csv10c-chasing-glory-together-jumbo-booster-box.jpg",
+    "source_url": "https://product-images.s3.cardmarket.com/53/895487/895487.jpg",
+    "source_page_url": "https://www.cardmarket.com/en/Pokemon/Products/Booster-Boxes/CSV10C-Chasing-Glory-Together-Jumbo-Booster-Box",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via Cardmarket product image. Trademarks belong to rights holders."
+  },
+  "zh-pokemon-csv9c-stellar-crystal-booster-box": {
+    "title": "Pokémon CSV9C Stellar Crystal Booster Box Simplified Chinese",
+    "image": "/images/products/zh-pokemon-csv9c-stellar-crystal-booster-box.jpg",
+    "filename": "zh-pokemon-csv9c-stellar-crystal-booster-box.jpg",
+    "source_url": "https://product-images.s3.cardmarket.com/53/885520/885520.jpg",
+    "source_page_url": "https://www.cardmarket.com/en/Pokemon/Products/Booster-Boxes/CSV9C-Stellar-Crystal-Booster-Box",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via Cardmarket product image. Trademarks belong to rights holders."
+  },
+  "zh-pokemon-csv95c-terastal-gathering-booster-box": {
+    "title": "Pokémon CSV9.5C Terastal Gathering Booster Box Simplified Chinese",
+    "image": "/images/products/zh-pokemon-csv95c-terastal-gathering-booster-box.jpg",
+    "filename": "zh-pokemon-csv95c-terastal-gathering-booster-box.jpg",
+    "source_url": "https://product-images.s3.cardmarket.com/53/889724/889724.jpg",
+    "source_page_url": "https://www.cardmarket.com/en/Pokemon/Products/Booster-Boxes/CSV95C-Terastal-Gathering-Booster-Box",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via Cardmarket product image. Trademarks belong to rights holders."
+  },
+  "zh-pokemon-csv8c-brilliant-fantasy-booster-box": {
+    "title": "Pokémon CSV8C Brilliant Fantasy Booster Box Simplified Chinese",
+    "image": "/images/products/zh-pokemon-csv8c-brilliant-fantasy-booster-box.jpg",
+    "filename": "zh-pokemon-csv8c-brilliant-fantasy-booster-box.jpg",
+    "source_url": "https://product-images.s3.cardmarket.com/53/873184/873184.jpg",
+    "source_page_url": "https://www.cardmarket.com/en/Pokemon/Products/Booster-Boxes/CSV8C-Brilliant-Fantasy-Booster-Box",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via Cardmarket product image. Trademarks belong to rights holders."
+  },
+  "zh-pokemon-csv5c-dark-crystal-blaze-booster-box": {
+    "title": "Pokémon CSV5C Dark Crystal Blaze Booster Box Simplified Chinese",
+    "image": "/images/products/zh-pokemon-csv5c-dark-crystal-blaze-booster-box.jpg",
+    "filename": "zh-pokemon-csv5c-dark-crystal-blaze-booster-box.jpg",
+    "source_url": "https://product-images.s3.cardmarket.com/53/840065/840065.jpg",
+    "source_page_url": "https://www.cardmarket.com/en/Pokemon/Products/Booster-Boxes/CSV5C-Dark-Crystal-Blaze-Booster-Box",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via Cardmarket product image. Trademarks belong to rights holders."
+  },
+  "zh-pokemon-csv4c-bonus-round-booster-box": {
+    "title": "Pokémon CSV4C Bonus Round Booster Box Simplified Chinese",
+    "image": "/images/products/zh-pokemon-csv4c-bonus-round-booster-box.jpg",
+    "filename": "zh-pokemon-csv4c-bonus-round-booster-box.jpg",
+    "source_url": "https://product-images.s3.cardmarket.com/53/829953/829953.jpg",
+    "source_page_url": "https://www.cardmarket.com/en/Pokemon/Products/Booster-Boxes/CSV4C-Bonus-Round-Booster-Box",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via Cardmarket product image. Trademarks belong to rights holders."
+  },
+  "zh-pokemon-151c-collect-151-surprises-booster-box": {
+    "title": "Pokémon 151C Collect 151 Surprises Booster Box Simplified Chinese",
+    "image": "/images/products/zh-pokemon-151c-collect-151-surprises-booster-box.jpg",
+    "filename": "zh-pokemon-151c-collect-151-surprises-booster-box.jpg",
+    "source_url": "https://product-images.s3.cardmarket.com/53/829955/829955.jpg",
+    "source_page_url": "https://www.cardmarket.com/en/Pokemon/Products/Booster-Boxes/151C-Collect-151-Surprises-Booster-Box",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via Cardmarket product image. Trademarks belong to rights holders."
+  },
+  "zh-pokemon-151c-collect-151-hope-booster-box": {
+    "title": "Pokémon 151C Collect 151 Hope Booster Box Simplified Chinese",
+    "image": "/images/products/zh-pokemon-151c-collect-151-hope-booster-box.jpg",
+    "filename": "zh-pokemon-151c-collect-151-hope-booster-box.jpg",
+    "source_url": "https://product-images.s3.cardmarket.com/53/819063/819063.jpg",
+    "source_page_url": "https://www.cardmarket.com/en/Pokemon/Products/Booster-Boxes/151C-Collect-151-Hope-Booster-Box",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via Cardmarket product image. Trademarks belong to rights holders."
+  },
+  "zh-pokemon-151c-collect-151-gathering-booster-box": {
+    "title": "Pokémon 151C Collect 151 Gathering Booster Box Simplified Chinese",
+    "image": "/images/products/zh-pokemon-151c-collect-151-gathering-booster-box.jpg",
+    "filename": "zh-pokemon-151c-collect-151-gathering-booster-box.jpg",
+    "source_url": "https://product-images.s3.cardmarket.com/53/829957/829957.jpg",
+    "source_page_url": "https://www.cardmarket.com/en/Pokemon/Products/Booster-Boxes/151C-Collect-151-Gathering-Booster-Box",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via Cardmarket product image. Trademarks belong to rights holders."
+  },
+  "zh-pokemon-cbb2c-gem-pack-vol-2-booster-box": {
+    "title": "Pokémon CBB2C Gem Pack Vol. 2 Booster Box Simplified Chinese",
+    "image": "/images/products/zh-pokemon-cbb2c-gem-pack-vol-2-booster-box.jpg",
+    "filename": "zh-pokemon-cbb2c-gem-pack-vol-2-booster-box.jpg",
+    "source_url": "https://product-images.s3.cardmarket.com/53/821700/821700.jpg",
+    "source_page_url": "https://www.cardmarket.com/en/Pokemon/Products/Booster-Boxes/CBB2C-Gem-Pack-Vol-2-Booster-Box",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via Cardmarket product image. Trademarks belong to rights holders."
+  },
+  "zh-pokemon-cbb3c-gem-pack-vol-3-booster-box": {
+    "title": "Pokémon CBB3C Gem Pack Vol. 3 Booster Box Simplified Chinese",
+    "image": "/images/products/zh-pokemon-cbb3c-gem-pack-vol-3-booster-box.jpg",
+    "filename": "zh-pokemon-cbb3c-gem-pack-vol-3-booster-box.jpg",
+    "source_url": "https://product-images.s3.cardmarket.com/53/845908/845908.jpg",
+    "source_page_url": "https://www.cardmarket.com/en/Pokemon/Products/Booster-Boxes/CBB3C-Gem-Pack-Vol-3-Booster-Box",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via Cardmarket product image. Trademarks belong to rights holders."
+  },
+  "zh-pokemon-cbb4c-gem-pack-vol-4-booster-box": {
+    "title": "Pokémon CBB4C Gem Pack Vol. 4 Booster Box Simplified Chinese",
+    "image": "/images/products/zh-pokemon-cbb4c-gem-pack-vol-4-booster-box.jpg",
+    "filename": "zh-pokemon-cbb4c-gem-pack-vol-4-booster-box.jpg",
+    "source_url": "https://product-images.s3.cardmarket.com/53/866295/866295.jpg",
+    "source_page_url": "https://www.cardmarket.com/en/Pokemon/Products/Booster-Boxes/CBB4C-Gem-Pack-Vol-4-Booster-Box",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via Cardmarket product image. Trademarks belong to rights holders."
+  },
+  "zh-pokemon-cbb5c-gem-pack-vol-5-booster-box": {
+    "title": "Pokémon CBB5C Gem Pack Vol. 5 Booster Box Simplified Chinese",
+    "image": "/images/products/zh-pokemon-cbb5c-gem-pack-vol-5-booster-box.jpg",
+    "filename": "zh-pokemon-cbb5c-gem-pack-vol-5-booster-box.jpg",
+    "source_url": "https://product-images.s3.cardmarket.com/53/880331/880331.jpg",
+    "source_page_url": "https://www.cardmarket.com/en/Pokemon/Products/Booster-Boxes/CBB5C-Gem-Pack-Vol-5-Booster-Box",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via Cardmarket product image. Trademarks belong to rights holders."
+  },
+  "zh-pokemon-cbb6c-gem-pack-vol-6-booster-box": {
+    "title": "Pokémon CBB6C Gem Pack Vol. 6 Booster Box Simplified Chinese",
+    "image": "/images/products/zh-pokemon-cbb6c-gem-pack-vol-6-booster-box.jpg",
+    "filename": "zh-pokemon-cbb6c-gem-pack-vol-6-booster-box.jpg",
+    "source_url": "https://product-images.s3.cardmarket.com/53/898585/898585.jpg",
+    "source_page_url": "https://www.cardmarket.com/en/Pokemon/Products/Booster-Boxes/CBB6C-Gem-Pack-Vol-6-Booster-Box",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via Cardmarket product image. Trademarks belong to rights holders."
+  },
+  "id-th-pokemon-30th-celebration-booster-box": {
+    "title": "Pokémon 30th Celebration Booster Box Indonesian & Thai",
+    "image": "/images/products/id-th-pokemon-30th-celebration-booster-box.jpg",
+    "filename": "id-th-pokemon-30th-celebration-booster-box.jpg",
+    "source_url": "https://product-images.s3.cardmarket.com/53/895622/895622.jpg",
+    "source_page_url": "https://www.cardmarket.com/en/Pokemon/Products/Booster-Boxes/30th-Celebration-Indonesian-Thai-Booster-Box",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via Cardmarket product image. Trademarks belong to rights holders."
+  },
+  "en-pokemon-delta-reign-booster-box": {
+    "title": "Pokémon Delta Reign Booster Box English",
+    "image": "/images/products/en-pokemon-delta-reign-booster-box.jpg",
+    "filename": "en-pokemon-delta-reign-booster-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/712094_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/712094",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-delta-reign-booster-box-case": {
+    "title": "Pokémon Delta Reign Booster Box Case English",
+    "image": "/images/products/en-pokemon-delta-reign-booster-box-case.jpg",
+    "filename": "en-pokemon-delta-reign-booster-box-case.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/712096_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/712096",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-delta-reign-booster-bundle": {
+    "title": "Pokémon Delta Reign Booster Bundle English",
+    "image": "/images/products/en-pokemon-delta-reign-booster-bundle.jpg",
+    "filename": "en-pokemon-delta-reign-booster-bundle.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/712097_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/712097",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-delta-reign-elite-trainer-box": {
+    "title": "Pokémon Delta Reign Elite Trainer Box English",
+    "image": "/images/products/en-pokemon-delta-reign-elite-trainer-box.jpg",
+    "filename": "en-pokemon-delta-reign-elite-trainer-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/712102_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/712102",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-ascended-heroes-elite-trainer-box": {
+    "title": "Pokémon Ascended Heroes Elite Trainer Box English",
+    "image": "/images/products/en-pokemon-ascended-heroes-elite-trainer-box.jpg",
+    "filename": "en-pokemon-ascended-heroes-elite-trainer-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/668496_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/668496",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-ascended-heroes-booster-bundle-display": {
+    "title": "Pokémon Ascended Heroes Booster Bundle Display English",
+    "image": "/images/products/en-pokemon-ascended-heroes-booster-bundle-display.jpg",
+    "filename": "en-pokemon-ascended-heroes-booster-bundle-display.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/692362_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/692362",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-phantasmal-flames-booster-bundle": {
+    "title": "Pokémon Phantasmal Flames Booster Bundle English",
+    "image": "/images/products/en-pokemon-phantasmal-flames-booster-bundle.jpg",
+    "filename": "en-pokemon-phantasmal-flames-booster-bundle.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/654160_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/654160",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "en-pokemon-phantasmal-flames-booster-box-case": {
+    "title": "Pokémon Phantasmal Flames Booster Box Case English",
+    "image": "/images/products/en-pokemon-phantasmal-flames-booster-box-case.jpg",
+    "filename": "en-pokemon-phantasmal-flames-booster-box-case.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/655281_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/655281",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "jp-pokemon-storm-emeralda-booster-box": {
+    "title": "Pokémon Storm Emeralda Booster Box Japanese",
+    "image": "/images/products/jp-pokemon-storm-emeralda-booster-box.jpg",
+    "filename": "jp-pokemon-storm-emeralda-booster-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/709110_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/709110",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "jp-pokemon-abyss-eye-booster-box": {
+    "title": "Pokémon Abyss Eye Booster Box Japanese",
+    "image": "/images/products/jp-pokemon-abyss-eye-booster-box.jpg",
+    "filename": "jp-pokemon-abyss-eye-booster-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/695112_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/695112",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "jp-pokemon-mega-brave-booster-box": {
+    "title": "Pokémon Mega Brave Booster Box Japanese",
+    "image": "/images/products/jp-pokemon-mega-brave-booster-box.jpg",
+    "filename": "jp-pokemon-mega-brave-booster-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/647500_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/647500",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "jp-pokemon-nihil-zero-booster-box": {
+    "title": "Pokémon Nihil Zero Booster Box Japanese",
+    "image": "/images/products/jp-pokemon-nihil-zero-booster-box.jpg",
+    "filename": "jp-pokemon-nihil-zero-booster-box.jpg",
+    "source_url": "https://tcgplayer-cdn.tcgplayer.com/product/674449_in_1000x1000.jpg",
+    "source_page_url": "https://www.tcgplayer.com/product/674449",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
   }
 }
