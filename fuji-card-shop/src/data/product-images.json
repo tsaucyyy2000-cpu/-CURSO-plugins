@@ -3440,5 +3440,235 @@
     "matchQuality": "exact",
     "locked": true,
     "attribution": "Packaging photo via TCGPlayer CDN (exact product id). Trademarks belong to rights holders."
+  },
+  "de-pokemon-dunkelnacht-booster-display": {
+    "title": "Pokémon Mega-Entwicklung Dunkelnacht Booster-Display German",
+    "image": "/images/products/de-pokemon-dunkelnacht-booster-display.jpg",
+    "filename": "de-pokemon-dunkelnacht-booster-display.jpg",
+    "source_url": "https://www.pokemoncenter.com/images/DAMRoot/High/10035/P11220_10-10425-103_01.jpg",
+    "source_page_url": "https://www.pokemoncenter.com/de-de/product/10-10425-103/pokemon-sammelkartenspiel-boosterpack-display-box-mega-entwicklung-dunkelnacht-36-boosterpacks",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Official packaging photo via Pokémon Center Deutschland. Trademarks belong to rights holders."
+  },
+  "de-pokemon-delta-herrschaft-booster-display": {
+    "title": "Pokémon Mega-Entwicklung Delta-Herrschaft Booster-Display German",
+    "image": "/images/products/de-pokemon-delta-herrschaft-booster-display.jpg",
+    "filename": "de-pokemon-delta-herrschaft-booster-display.jpg",
+    "source_url": "https://www.pokemoncenter.com/images/DAMRoot/High/10060/P11222_10-10446-103_01.jpg",
+    "source_page_url": "https://www.pokemoncenter.com/de-de/product/10-10446-103/pokemon-sammelkartenspiel-boosterpack-display-box-mega-entwicklung-delta-herrschaft-36-boosterpacks",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Official packaging photo via Pokémon Center Deutschland. Trademarks belong to rights holders."
+  },
+  "de-pokemon-fatale-flammen-booster-display": {
+    "title": "Pokémon Mega-Entwicklung Fatale Flammen Booster-Display German",
+    "image": "/images/products/de-pokemon-fatale-flammen-booster-display.jpg",
+    "filename": "de-pokemon-fatale-flammen-booster-display.jpg",
+    "source_url": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me02/collections/de-de/me02-booster-display-de.png",
+    "source_page_url": "https://tcg.pokemon.com/de-de/expansions/phantasmal-flames/",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Official packaging render via Pokémon TCG portal (DE). Trademarks belong to rights holders."
+  },
+  "de-pokemon-fatale-flammen-pokemon-center-top-trainer-box": {
+    "title": "Pokémon Mega-Entwicklung Fatale Flammen Pokémon Center Top-Trainer-Box German",
+    "image": "/images/products/de-pokemon-fatale-flammen-pokemon-center-top-trainer-box.jpg",
+    "filename": "de-pokemon-fatale-flammen-pokemon-center-top-trainer-box.jpg",
+    "source_url": "https://www.pokemoncenter.com/images/DAMRoot/High/10025/P10347_10-10186-110_01.jpg",
+    "source_page_url": "https://www.pokemoncenter.com/de-de/product/10-10186-110/pokemon-tcg-mega-evolution-phantasmal-flames-pokemon-center-elite-trainer-box-de",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Official packaging photo via Pokémon Center Deutschland. Trademarks belong to rights holders."
+  },
+  "de-pokemon-fatale-flammen-top-trainer-box": {
+    "title": "Pokémon Mega-Entwicklung Fatale Flammen Top-Trainer-Box German",
+    "image": "/images/products/de-pokemon-fatale-flammen-top-trainer-box.jpg",
+    "filename": "de-pokemon-fatale-flammen-top-trainer-box.jpg",
+    "source_url": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me02/collections/de-de/me02-etb-de.png",
+    "source_page_url": "https://tcg.pokemon.com/de-de/expansions/phantasmal-flames/",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Official packaging render via Pokémon TCG portal (DE). Trademarks belong to rights holders."
+  },
+  "de-pokemon-fatale-flammen-booster-bundle": {
+    "title": "Pokémon Mega-Entwicklung Fatale Flammen Boosterbundle German",
+    "image": "/images/products/de-pokemon-fatale-flammen-booster-bundle.jpg",
+    "filename": "de-pokemon-fatale-flammen-booster-bundle.jpg",
+    "source_url": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me02/collections/de-de/me02-booster-bundle-de.png",
+    "source_page_url": "https://tcg.pokemon.com/de-de/expansions/phantasmal-flames/",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Official packaging render via Pokémon TCG portal (DE). Trademarks belong to rights holders."
+  },
+  "de-pokemon-mega-entwicklung-booster-display": {
+    "title": "Pokémon Mega-Entwicklung Booster-Display German",
+    "image": "/images/products/de-pokemon-mega-entwicklung-booster-display.jpg",
+    "filename": "de-pokemon-mega-entwicklung-booster-display.jpg",
+    "source_url": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me01/collections/de-de/me01-booster-display-de.png",
+    "source_page_url": "https://tcg.pokemon.com/de-de/expansions/mega-evolution/",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Official packaging render via Pokémon TCG portal (DE). Trademarks belong to rights holders."
+  },
+  "de-pokemon-wachsendes-chaos-booster-display": {
+    "title": "Pokémon Mega-Entwicklung Wachsendes Chaos Booster-Display German",
+    "image": "/images/products/de-pokemon-wachsendes-chaos-booster-display.jpg",
+    "filename": "de-pokemon-wachsendes-chaos-booster-display.jpg",
+    "source_url": "https://games-island.eu/media/image/product/1132542/lg/pokemon-tcg-mega-entwicklung-04-wachsendes-chaos-booster-display-deutsch.webp",
+    "source_page_url": "https://games-island.eu/Pokemon-TCG-Mega-Entwicklung-04-Wachsendes-Chaos-Booster-Display-Deutsch",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Retailer packaging photo via Games Island (DE listing). Trademarks belong to rights holders."
+  },
+  "de-pokemon-ewige-rivalen-booster-display": {
+    "title": "Pokémon Karmesin & Purpur Ewige Rivalen Booster-Display German",
+    "image": "/images/products/de-pokemon-ewige-rivalen-booster-display.jpg",
+    "filename": "de-pokemon-ewige-rivalen-booster-display.jpg",
+    "source_url": "https://www.tabletop-dragon.de/media/catalog/product/cache/678f0f442fd72d9e0c1cda66621015b6/x/_/x_pci11077.jpg",
+    "source_page_url": "https://www.tabletop-dragon.de/shop_de/kp10-karmesin-purpur-ewige-rivalen-display-deutsch-36-booster.html",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Retailer packaging photo via tabletop-dragon.de. Trademarks belong to rights holders."
+  },
+  "kr-pokemon-inferno-x-booster-box": {
+    "title": "Pokémon MEGA Inferno X M2 Booster Box Korean",
+    "image": "/images/products/kr-pokemon-inferno-x-booster-box.jpg",
+    "filename": "kr-pokemon-inferno-x-booster-box.jpg",
+    "source_url": "https://pokeunlimited.com/cdn/shop/files/pokemon-tcg-mega-inferno-x-booster-box-m2-korean-4231938.jpg?v=1793712968&width=1600",
+    "source_page_url": "https://pokeunlimited.com/products/pokemon-tcg-mega-inferno-x-booster-box-korean",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Retailer packaging photo via PokeUnlimited (Korean listing). Trademarks belong to rights holders."
+  },
+  "kr-pokemon-mega-brave-booster-box": {
+    "title": "Pokémon Mega Brave M1L Booster Box Korean",
+    "image": "/images/products/kr-pokemon-mega-brave-booster-box.jpg",
+    "filename": "kr-pokemon-mega-brave-booster-box.jpg",
+    "source_url": "https://pokeunlimited.com/cdn/shop/files/pokemon-tcg-mega-brave-booster-box-m1l-korean-4687893.jpg?v=1793713027&width=900",
+    "source_page_url": "https://pokeunlimited.com/products/pokemon-tcg-mega-brave-m1l-booster-box-korean",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Retailer packaging photo via PokeUnlimited (Korean listing). Trademarks belong to rights holders."
+  },
+  "kr-pokemon-nihil-zero-booster-box": {
+    "title": "Pokémon Nihil Zero M3 Booster Box Korean",
+    "image": "/images/products/kr-pokemon-nihil-zero-booster-box.jpg",
+    "filename": "kr-pokemon-nihil-zero-booster-box.jpg",
+    "source_url": "https://pokeunlimited.com/cdn/shop/files/pokemon-tcg-mega-nihil-zero-booster-box-m3-korean-9050090.jpg?v=1793712847&width=900",
+    "source_page_url": "https://pokeunlimited.com/products/pokemon-mega-nihil-zero-m3-booster-box-korean",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Retailer packaging photo via PokeUnlimited (Korean listing). Trademarks belong to rights holders."
+  },
+  "kr-pokemon-terastal-festival-booster-box": {
+    "title": "Pokémon Terastal Festival ex SV8a Booster Box Korean",
+    "image": "/images/products/kr-pokemon-terastal-festival-booster-box.jpg",
+    "filename": "kr-pokemon-terastal-festival-booster-box.jpg",
+    "source_url": "https://pokeunlimited.com/cdn/shop/files/pokemon-tcg-scarlet-violet-terastal-festival-booster-box-sv8a-korean-9803750.jpg?v=1793713269&width=1600",
+    "source_page_url": "https://pokeunlimited.com/products/pokemon-tcg-terastal-festival-booster-box-korean",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Retailer packaging photo via PokeUnlimited (Korean listing). Trademarks belong to rights holders."
+  },
+  "kr-pokemon-dream-ex-booster-box": {
+    "title": "Pokémon MEGA Dream ex M2a Booster Box Korean",
+    "image": "/images/products/kr-pokemon-dream-ex-booster-box.jpg",
+    "filename": "kr-pokemon-dream-ex-booster-box.jpg",
+    "source_url": "https://pokeunlimited.com/cdn/shop/files/pokemon-tcg-mega-dream-ex-booster-box-m2a-korean-9453732.jpg?v=1793712908&width=1600",
+    "source_page_url": "https://pokeunlimited.com/products/pokemon-tcg-mega-dream-ex-m2a-booster-box-korean",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Retailer packaging photo via PokeUnlimited (Korean listing). Trademarks belong to rights holders."
+  },
+  "kr-pokemon-heat-wave-arena-booster-box": {
+    "title": "Pokémon Heat Wave Arena SV9a Booster Box Korean",
+    "image": "/images/products/kr-pokemon-heat-wave-arena-booster-box.jpg",
+    "filename": "kr-pokemon-heat-wave-arena-booster-box.jpg",
+    "source_url": "https://pokeunlimited.com/cdn/shop/files/pokemon-tcg-scarlet-violet-heat-wave-arena-booster-box-sv9a-korean-5987383.jpg?v=1793713148&width=1600",
+    "source_page_url": "https://pokeunlimited.com/products/pokemon-tcg-heat-wave-arena-booster-box-korean",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Retailer packaging photo via PokeUnlimited (Korean listing). Trademarks belong to rights holders."
+  },
+  "kr-pokemon-mega-symphonia-booster-box": {
+    "title": "Pokémon Mega Symphonia M1S Booster Box Korean",
+    "image": "/images/products/kr-pokemon-mega-symphonia-booster-box.jpg",
+    "filename": "kr-pokemon-mega-symphonia-booster-box.jpg",
+    "source_url": "https://pokeunlimited.com/cdn/shop/files/pokemon-tcg-mega-symphonia-booster-box-m1s-korean-4725603.jpg?v=1793713028&width=1600",
+    "source_page_url": "https://pokeunlimited.com/products/pokemon-tcg-mega-symphonia-m1s-booster-box-korean",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Retailer packaging photo via PokeUnlimited (Korean listing). Trademarks belong to rights holders."
+  },
+  "kr-pokemon-glory-of-team-rocket-booster-box": {
+    "title": "Pokémon The Glory of Team Rocket SV10 Booster Box Korean",
+    "image": "/images/products/kr-pokemon-glory-of-team-rocket-booster-box.jpg",
+    "filename": "kr-pokemon-glory-of-team-rocket-booster-box.jpg",
+    "source_url": "https://pokeunlimited.com/cdn/shop/files/pokemon-tcg-scarlet-violet-the-glory-of-team-rocket-booster-box-sv10-korean-5207241.jpg?v=1793713147&width=1600",
+    "source_page_url": "https://pokeunlimited.com/products/pokemon-tcg-the-glory-of-team-rocket-booster-box-korean",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Retailer packaging photo via PokeUnlimited (Korean listing). Trademarks belong to rights holders."
+  },
+  "kr-pokemon-ninja-spinner-booster-box": {
+    "title": "Pokémon Ninja Spinner M4 Booster Box Korean",
+    "image": "/images/products/kr-pokemon-ninja-spinner-booster-box.jpg",
+    "filename": "kr-pokemon-ninja-spinner-booster-box.jpg",
+    "source_url": "https://pokeunlimited.com/cdn/shop/files/pokemon-tcg-mega-ninja-spinner-booster-box-m4-korean-6167001.jpg?v=1793712788&width=1600",
+    "source_page_url": "https://pokeunlimited.com/products/pokemon-mega-ninja-spinner-m4-booster-box-korean",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Retailer packaging photo via PokeUnlimited (Korean listing). Trademarks belong to rights holders."
+  },
+  "fr-pokemon-flammes-fantasmagoriques-booster-display": {
+    "title": "Pokémon Méga-Évolution Flammes Fantasmagoriques Booster Display French",
+    "image": "/images/products/fr-pokemon-flammes-fantasmagoriques-booster-display.jpg",
+    "filename": "fr-pokemon-flammes-fantasmagoriques-booster-display.jpg",
+    "source_url": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me02/collections/fr-fr/me02-booster-display-fr.png",
+    "source_page_url": "https://tcg.pokemon.com/fr-fr/expansions/phantasmal-flames/",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Official packaging render via Pokémon TCG portal (FR). Trademarks belong to rights holders."
+  },
+  "fr-pokemon-flammes-fantasmagoriques-top-trainer-box": {
+    "title": "Pokémon Méga-Évolution Flammes Fantasmagoriques Coffret Dresseur d'élite French",
+    "image": "/images/products/fr-pokemon-flammes-fantasmagoriques-top-trainer-box.jpg",
+    "filename": "fr-pokemon-flammes-fantasmagoriques-top-trainer-box.jpg",
+    "source_url": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me02/collections/fr-fr/me02-etb-fr.png",
+    "source_page_url": "https://tcg.pokemon.com/fr-fr/expansions/phantasmal-flames/",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Official packaging render via Pokémon TCG portal (FR). Trademarks belong to rights holders."
+  },
+  "it-pokemon-fiamme-spettrali-booster-display": {
+    "title": "Pokémon Megaevoluzione Fiamme Spettrali Booster Display Italian",
+    "image": "/images/products/it-pokemon-fiamme-spettrali-booster-display.jpg",
+    "filename": "it-pokemon-fiamme-spettrali-booster-display.jpg",
+    "source_url": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me02/collections/it-it/me02-booster-display-it.png",
+    "source_page_url": "https://tcg.pokemon.com/it-it/expansions/phantasmal-flames/",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Official packaging render via Pokémon TCG portal (IT). Trademarks belong to rights holders."
+  },
+  "it-pokemon-fiamme-spettrali-top-trainer-box": {
+    "title": "Pokémon Megaevoluzione Fiamme Spettrali Set Allenatore Fuoriclasse Italian",
+    "image": "/images/products/it-pokemon-fiamme-spettrali-top-trainer-box.jpg",
+    "filename": "it-pokemon-fiamme-spettrali-top-trainer-box.jpg",
+    "source_url": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me02/collections/it-it/me02-etb-it.png",
+    "source_page_url": "https://tcg.pokemon.com/it-it/expansions/phantasmal-flames/",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Official packaging render via Pokémon TCG portal (IT). Trademarks belong to rights holders."
+  },
+  "it-pokemon-megaevoluzione-booster-display": {
+    "title": "Pokémon Megaevoluzione Booster Display Italian",
+    "image": "/images/products/it-pokemon-megaevoluzione-booster-display.jpg",
+    "filename": "it-pokemon-megaevoluzione-booster-display.jpg",
+    "source_url": "https://d1i787aglh9bmb.cloudfront.net/assets/img/me-expansions/me01/collections/it-it/me01-booster-display-it.png",
+    "source_page_url": "https://tcg.pokemon.com/it-it/expansions/mega-evolution/",
+    "matchQuality": "exact",
+    "locked": true,
+    "attribution": "Official packaging render via Pokémon TCG portal (IT). Trademarks belong to rights holders."
   }
 }
