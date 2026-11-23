@@ -1,3 +1,4 @@
+import { detectLanguage, preferEnglishProducts } from "./browse";
 import imagedProducts from "./imaged-products.json";
 import productImages from "./product-images.json";
 import { products as baseProducts, type Product } from "./products";
@@ -71,6 +72,9 @@ const extras: Product[] = (imagedProducts as Product[])
   .map((entry) => {
     const mapped = images[entry.slug];
     const priced = entry.price > 0;
+    const language = detectLanguage(entry);
+    const languageWord =
+      language === "english" ? "English" : language === "japanese" ? "Japanese" : "Sealed";
     return {
       ...entry,
       // Never invent prices — keep 0 when Fuji/official evidence is missing.
@@ -85,7 +89,7 @@ const extras: Product[] = (imagedProducts as Product[])
       imageAlt: mapped?.imageAlt ?? entry.imageAlt,
       shortDescription:
         entry.shortDescription ||
-        "Japanese sealed product photo archived from Fuji Card Shop.",
+        `${languageWord} sealed product photo archived from Fuji Card Shop.`,
       description: entry.description?.length
         ? entry.description
         : [
@@ -121,18 +125,25 @@ export function getProductsByCategorySlug(category: Product["category"]): Produc
 export function getFeaturedProductsResolved(): Product[] {
   const featured = allProducts.filter((product) => product.featured);
   if (featured.length >= 8) {
-    return featured;
+    return preferEnglishProducts(featured);
   }
   const withPhotos = allProducts.filter((product) => product.image);
-  return [...featured, ...withPhotos.filter((product) => !product.featured)].slice(0, 12);
+  const pool = [
+    ...featured,
+    ...withPhotos.filter((product) => !product.featured),
+  ];
+  return preferEnglishProducts(pool, 18);
 }
 
 export function getSaleProductsResolved(): Product[] {
   const sale = allProducts.filter((product) => product.onSale);
   if (sale.length > 0) {
-    return sale;
+    return preferEnglishProducts(sale);
   }
-  return allProducts.filter((product) => product.image).slice(0, 10);
+  return preferEnglishProducts(
+    allProducts.filter((product) => product.image),
+    12,
+  );
 }
 
 export function getGalleryImages(): { src: string; alt: string; href?: string }[] {

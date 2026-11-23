@@ -20,12 +20,16 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+Inquiry path: WhatsApp `+1 210-901-8399` (`wa.me/12109018399`) — availability / wholesale requests only. Live card checkout and PayFast stay disabled until a verified replacement is approved.
+
 ### Other scripts
 
 ```bash
-npm run build   # production build
-npm run start   # serve production build
-npm run lint    # eslint (Next.js 16+; no `next lint` CLI)
+npm run build      # production build
+npm run start      # serve production build
+npm run lint       # eslint (Next.js 16+; no `next lint` CLI)
+npm run test       # unit tests (cart validation + WhatsApp builders)
+npm run typecheck  # tsc --noEmit
 ```
 
 ## What’s included
@@ -36,9 +40,9 @@ npm run lint    # eslint (Next.js 16+; no `next lint` CLI)
 - **Apex TCG wholesale layer** (`/apex`, `/apex/catalog`, `/apex/cases`, `/apex/wholesale`, `/apex/product/[slug]`) — 200 planning SKUs + B2B case pricing + downloadable DOCX/PDF sources
 - **Authentic product photography** for every Fuji + Apex SKU (274/274), stored under `public/images/products` and `public/images/apex`
 - **Staff admin** at `/admin` — catalog edits (name/price/image/visibility/stock) behind session auth
-- Cart → checkout (details + review) → local confirmation journey with validation, empty-cart guards, demo acknowledgment, and mobile sticky CTAs (no real payments; Apex wholesale is quote-led; cart prices resolve from catalog only)
+- Cart → WhatsApp availability inquiry + optional local inquiry record (stock-capped cart; live card/PayFast disabled; Apex wholesale is quote-led; cart prices resolve from catalog only)
 - Shipping / taxes, right to cancel, terms, privacy, Specified Commercial Transaction Act, fake-accounts advisory
-- About + contact (front-end demo acknowledgment only; forms do not send email)
+- About + contact (WhatsApp inquiry primary; on-page form is local draft only)
 
 ## Admin auth
 

@@ -7,7 +7,7 @@ import {
   languageLabel,
   productTypeLabel,
 } from "@/data/browse";
-import { formatPrice, type Product } from "@/data/products";
+import { formatPrice, hasListedPrice, type Product } from "@/data/products";
 
 function caseHint(product: Product): string | null {
   const match = product.name.match(/\((\d+)\s*boxes?\)/i);
@@ -22,8 +22,10 @@ function caseHint(product: Product): string | null {
 
 export function ProductCard({ product, index = 0 }: { product: Product; index?: number }) {
   const caseLabel = caseHint(product);
-  const language = languageLabel(detectLanguage(product));
+  const language = detectLanguage(product);
+  const languageText = languageLabel(language);
   const sealedType = productTypeLabel(detectProductType(product));
+  const priced = hasListedPrice(product);
 
   return (
     <Link
@@ -31,24 +33,16 @@ export function ProductCard({ product, index = 0 }: { product: Product; index?: 
       className="product-tile"
       style={{ animationDelay: `${Math.min(index, 12) * 40}ms` }}
     >
-      <ProductArt product={product} />
-      <div className="tile-status-row">
-        <InventoryStatus product={product} />
-        {caseLabel ? <span className="case-config">{caseLabel}</span> : null}
-      </div>
+      <ProductArt product={product} language={language} />
       <div className="product-meta">
-        <div className="product-config-line">
-          {language} · {sealedType}
+        <div className="tile-status-row">
+          <span className={`lang-badge lang-badge-${language}`}>{languageText}</span>
+          <InventoryStatus product={product} />
+          {caseLabel ? <span className="case-config">{caseLabel}</span> : null}
         </div>
+        <p className="product-config-line">{sealedType}</p>
         <h3>{product.name}</h3>
-        <div className="product-assurance">
-          {product.image
-            ? product.imageMatchQuality === "closest-line"
-              ? product.imageNote || "Closest-line catalog photo"
-              : "Catalog packaging photo"
-            : "Sealed TCG listing"}
-        </div>
-        <div className="price">{formatPrice(product)}</div>
+        <div className={`price${priced ? "" : " price-pending"}`}>{formatPrice(product)}</div>
       </div>
     </Link>
   );

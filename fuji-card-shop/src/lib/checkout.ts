@@ -1,12 +1,25 @@
 import { z } from "zod";
 import type { CartLine } from "@/lib/cart";
 
+/**
+ * Live card / PayFast / wallet checkout stays disabled until a verified replacement
+ * is approved. WhatsApp inquiry is the only customer path that opens an external channel.
+ */
 export const PAYMENT_METHODS = [
-  { value: "card", label: "Credit Card" },
-  { value: "google", label: "Google Pay" },
-  { value: "apple", label: "Apple Pay" },
-  { value: "paypal", label: "PayPal" },
+  {
+    value: "whatsapp",
+    label: "WhatsApp availability inquiry (not payment)",
+  },
 ] as const;
+
+/** Provider-neutral local inquiry states — never imply paid / accepted / reserved. */
+export const INQUIRY_STATES = [
+  "draft",
+  "whatsapp_opened",
+  "local_recorded",
+] as const;
+
+export type InquiryState = (typeof INQUIRY_STATES)[number];
 
 export const SHIPPING_COUNTRIES = [
   { value: "US", label: "United States" },
@@ -44,12 +57,7 @@ export const CheckoutDetailsSchema = z.object({
     .trim()
     .min(8, "Enter a complete shipping address.")
     .max(500, "Address is too long."),
-  payment: z.union([
-    z.literal("card"),
-    z.literal("google"),
-    z.literal("apple"),
-    z.literal("paypal"),
-  ]),
+  payment: z.literal("whatsapp"),
 });
 
 export const ContactFormSchema = z.object({
@@ -90,6 +98,8 @@ export type DemoOrder = {
   lines: DemoOrderLine[];
   itemCount: number;
   subtotal: number;
+  /** Provider-neutral state; never "paid" / "accepted". */
+  inquiryState: InquiryState;
 };
 
 const DRAFT_KEY = "fuji-card-shop-checkout-draft-v1";
@@ -100,7 +110,7 @@ export const emptyCheckoutDetails: CheckoutDetails = {
   email: "",
   country: "US",
   address: "",
-  payment: "card",
+  payment: "whatsapp",
 };
 
 function isRecord(value: unknown): value is Record<string, unknown> {
@@ -163,7 +173,7 @@ export function createDemoOrderId(): string {
     .toUpperCase()
     .padStart(4, "0")
     .slice(-4);
-  return `DEMO-${stamp}-${random}`;
+  return `INQ-${stamp}-${random}`;
 }
 
 export function writeDemoOrder(order: DemoOrder): void {
@@ -222,6 +232,13 @@ export function readDemoOrder(): DemoOrder | null {
     if (typeof parsed.itemCount !== "number" || typeof parsed.subtotal !== "number") {
       return null;
     }
+    const inquiryRaw = parsed.inquiryState;
+    const inquiryState: InquiryState =
+      inquiryRaw === "draft" ||
+      inquiryRaw === "whatsapp_opened" ||
+      inquiryRaw === "local_recorded"
+        ? inquiryRaw
+        : "local_recorded";
     return {
       id: parsed.id,
       createdAt: parsed.createdAt,
@@ -229,6 +246,7 @@ export function readDemoOrder(): DemoOrder | null {
       lines,
       itemCount: parsed.itemCount,
       subtotal: parsed.subtotal,
+      inquiryState,
     };
   } catch {
     return null;

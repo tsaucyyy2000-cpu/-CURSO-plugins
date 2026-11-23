@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { WhatsAppInquiryLink } from "@/components/WhatsAppInquiryLink";
 import { apexMeta, formatUsd } from "@/data/apex";
+import { whatsappLinks } from "@/lib/whatsapp";
 
 export const metadata: Metadata = {
   title: "Apex Wholesale Quotes & Docs",
@@ -39,8 +41,13 @@ export default function ApexWholesalePage() {
         <h1>Wholesale quotes & downloads</h1>
         <p>
           Source Apex uploads mirrored into the site. Pro forma and GTS files are clearly marked as
-          estimates / samples.
+          estimates / samples. Request a live quote on WhatsApp — not a purchase order.
         </p>
+        <div style={{ marginTop: "1rem" }}>
+          <WhatsAppInquiryLink href={whatsappLinks.wholesale()} variant="primary">
+            Wholesale WhatsApp inquiry
+          </WhatsAppInquiryLink>
+        </div>
       </div>
 
       <div className="split" style={{ marginBottom: "2.5rem" }}>

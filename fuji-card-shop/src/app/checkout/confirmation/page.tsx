@@ -4,12 +4,24 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { DemoNotice } from "@/components/DemoNotice";
 import { JourneyRail } from "@/components/JourneyRail";
+import { WhatsAppInquiryLink } from "@/components/WhatsAppInquiryLink";
 import {
   countryLabel,
   paymentLabel,
   readDemoOrder,
   type DemoOrder,
 } from "@/lib/checkout";
+import { whatsappLinks } from "@/lib/whatsapp";
+
+function inquiryStateLabel(state: DemoOrder["inquiryState"]): string {
+  if (state === "whatsapp_opened") {
+    return "WhatsApp inquiry opened (not paid)";
+  }
+  if (state === "draft") {
+    return "Inquiry draft";
+  }
+  return "Local inquiry recorded (not paid / not accepted)";
+}
 
 export default function CheckoutConfirmationPage() {
   const [order, setOrder] = useState<DemoOrder | null>(null);
@@ -33,8 +45,8 @@ export default function CheckoutConfirmationPage() {
     return (
       <div className="shell checkout-flow" style={{ paddingBottom: "4rem" }}>
         <div className="page-hero">
-          <div className="eyebrow">Confirmation</div>
-          <h1>Loading demo receipt…</h1>
+          <div className="eyebrow">Inquiry</div>
+          <h1>Loading local inquiry record…</h1>
         </div>
       </div>
     );
@@ -44,15 +56,15 @@ export default function CheckoutConfirmationPage() {
     return (
       <div className="shell checkout-flow" style={{ paddingBottom: "4rem" }}>
         <div className="page-hero">
-          <div className="eyebrow">Confirmation</div>
-          <h1>No demo order in this browser</h1>
-          <p>Complete the cart → checkout path to generate a local demo receipt.</p>
+          <div className="eyebrow">Inquiry</div>
+          <h1>No local inquiry in this browser</h1>
+          <p>Complete cart → inquiry details to save a local record, or open WhatsApp directly.</p>
         </div>
         <DemoNotice />
         <JourneyRail current="confirmation" />
         <div className="panel empty-state">
           <p style={{ color: "var(--mist)", marginBottom: "1rem" }}>
-            Nothing was charged. Demo receipts stay in session storage for this browser only.
+            Nothing was charged. Inquiry receipts stay in session storage for this browser only.
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "0.75rem" }}>
             <Link href="/store" className="btn btn-primary">
@@ -61,6 +73,7 @@ export default function CheckoutConfirmationPage() {
             <Link href="/cart" className="btn btn-secondary">
               Open cart
             </Link>
+            <WhatsAppInquiryLink href={whatsappLinks.general()} />
           </div>
         </div>
       </div>
@@ -68,14 +81,23 @@ export default function CheckoutConfirmationPage() {
   }
 
   const placedAt = new Date(order.createdAt);
+  const followUpHref = whatsappLinks.cart({
+    lines: order.lines.map((line) => ({
+      name: line.name,
+      quantity: line.quantity,
+      unitPriceUsd: line.unitPrice,
+      slug: line.slug,
+    })),
+    subtotalUsd: order.subtotal,
+  });
 
   return (
     <div className="shell checkout-flow" style={{ paddingBottom: "4rem" }}>
       <div className="page-hero">
-        <div className="eyebrow">Confirmation</div>
-        <h1>Demo order recorded locally</h1>
+        <div className="eyebrow">Inquiry</div>
+        <h1>Local inquiry recorded</h1>
         <p>
-          Receipt <strong>{order.id}</strong>
+          Reference <strong>{order.id}</strong>
           {Number.isNaN(placedAt.getTime())
             ? null
             : ` · ${placedAt.toLocaleString(undefined, {
@@ -86,14 +108,14 @@ export default function CheckoutConfirmationPage() {
       </div>
 
       <DemoNotice>
-        <strong>No payment was processed.</strong> Credit Card, Google Pay, Apple Pay, and PayPal
-        were not contacted. This rebuild does not send email or update inventory.
+        <strong>No payment was processed.</strong> This is not an accepted order or stock
+        reservation. Live card checkout and PayFast remain disabled.
       </DemoNotice>
       <JourneyRail current="confirmation" />
 
       <div className="split">
         <div className="panel">
-          <h2 style={{ fontSize: "1.2rem", marginBottom: "0.85rem" }}>What you demoed</h2>
+          <h2 style={{ fontSize: "1.2rem", marginBottom: "0.85rem" }}>Products inquired</h2>
           <ul className="order-summary-lines">
             {order.lines.map((line) => (
               <li key={line.slug}>
@@ -108,14 +130,20 @@ export default function CheckoutConfirmationPage() {
             ))}
           </ul>
           <div className="order-summary-total">
-            <span>Subtotal ({order.itemCount} item{order.itemCount === 1 ? "" : "s"})</span>
+            <span>Catalog subtotal ({order.itemCount} item{order.itemCount === 1 ? "" : "s"})</span>
             <strong style={{ color: "var(--gold)" }}>$ {order.subtotal.toFixed(2)}</strong>
           </div>
         </div>
 
         <div className="panel">
-          <h2 style={{ fontSize: "1.2rem", marginBottom: "0.85rem" }}>Ship & pay stubs</h2>
+          <h2 style={{ fontSize: "1.2rem", marginBottom: "0.85rem" }}>Inquiry status</h2>
           <dl className="review-list">
+            <div>
+              <dt>State</dt>
+              <dd>
+                <span>{inquiryStateLabel(order.inquiryState)}</span>
+              </dd>
+            </div>
             <div>
               <dt>Contact</dt>
               <dd>
@@ -131,22 +159,22 @@ export default function CheckoutConfirmationPage() {
               </dd>
             </div>
             <div>
-              <dt>Payment method selected</dt>
+              <dt>Channel</dt>
               <dd>
-                <span>{paymentLabel(order.details.payment)} (not charged)</span>
+                <span>{paymentLabel(order.details.payment)}</span>
               </dd>
             </div>
           </dl>
           <div className="stub-note">
-            Your local cart was cleared after this demo. On the live shop, payment is processed
-            immediately and you receive a real order confirmation.
+            Your local cart was cleared after saving this inquiry record. Follow up on WhatsApp to
+            ask Fuji Cards about availability.
           </div>
           <div className="cta-row" style={{ marginTop: "1rem" }}>
-            <Link href="/store" className="btn btn-primary">
+            <WhatsAppInquiryLink href={followUpHref} variant="primary">
+              Continue on WhatsApp
+            </WhatsAppInquiryLink>
+            <Link href="/store" className="btn btn-secondary">
               Back to store
-            </Link>
-            <Link href="/contact" className="btn btn-secondary">
-              Contact (demo form)
             </Link>
           </div>
         </div>

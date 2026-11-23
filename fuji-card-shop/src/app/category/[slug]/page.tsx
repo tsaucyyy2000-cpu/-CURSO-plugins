@@ -54,7 +54,7 @@ export default async function CategoryPage({
       <TrustStrip />
       <div className="shell">
         <CategoryFilters active={category.slug} />
-        <BrowseConsole products={list} initialGame={category.slug} />
+        <BrowseConsole products={list} initialGame={category.slug} initialLanguage="english" />
       </div>
     </>
   );

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { brand, footerLinks } from "@/data/content";
+import { whatsappLinks } from "@/lib/whatsapp";
 
 export function Footer() {
   return (
@@ -27,6 +28,11 @@ export function Footer() {
         <div>
           <h3>Official channels</h3>
           <ul>
+            <li>
+              <a href={whatsappLinks.general()} target="_blank" rel="noopener noreferrer">
+                WhatsApp {brand.whatsappDisplay}
+              </a>
+            </li>
             <li>
               <a href={brand.instagram} target="_blank" rel="noreferrer">
                 Instagram @fujicardshop

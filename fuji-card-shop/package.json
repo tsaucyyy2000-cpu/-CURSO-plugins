@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
+    "typecheck": "tsc --noEmit",
     "images:apply-overrides": "node scripts/apply-image-import-overrides.mjs",
     "images:check-overrides": "node scripts/apply-image-import-overrides.mjs --dry-run",
     "catalog:import-apex-english": "node scripts/import-full-apex-english-catalog.mjs",

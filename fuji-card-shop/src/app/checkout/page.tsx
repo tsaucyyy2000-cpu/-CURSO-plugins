@@ -6,6 +6,7 @@ import { useEffect, useMemo, useState } from "react";
 import { DemoNotice } from "@/components/DemoNotice";
 import { JourneyRail } from "@/components/JourneyRail";
 import { StickyCtaBar } from "@/components/StickyCtaBar";
+import { WhatsAppInquiryLink } from "@/components/WhatsAppInquiryLink";
 import { getProductBySlug } from "@/data/resolveProducts";
 import { useCart } from "@/lib/cart";
 import {
@@ -23,6 +24,7 @@ import {
   writeDemoOrder,
   type CheckoutDetails,
 } from "@/lib/checkout";
+import { whatsappLinks } from "@/lib/whatsapp";
 
 type Step = "details" | "review";
 
@@ -32,18 +34,18 @@ export default function CheckoutPage() {
   const [step, setStep] = useState<Step>("details");
   const [details, setDetails] = useState<CheckoutDetails>(emptyCheckoutDetails);
   const [errors, setErrors] = useState<Record<string, string>>({});
-  const [demoAck, setDemoAck] = useState(false);
+  const [inquiryAck, setInquiryAck] = useState(false);
   const [ackError, setAckError] = useState("");
   const [draftReady, setDraftReady] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
-    // Defer sessionStorage read past the effect body to avoid sync setState-in-effect.
     Promise.resolve().then(() => {
       if (cancelled) {
         return;
       }
-      setDetails(readCheckoutDraft());
+      const draft = readCheckoutDraft();
+      setDetails({ ...draft, payment: "whatsapp" });
       setDraftReady(true);
     });
     return () => {
@@ -60,11 +62,25 @@ export default function CheckoutPage() {
     [lines],
   );
 
+  const cartInquiryHref = useMemo(
+    () =>
+      whatsappLinks.cart({
+        lines: orderLines.map((line) => ({
+          name: line.name,
+          quantity: line.quantity,
+          unitPriceUsd: line.unitPrice,
+          slug: line.slug,
+        })),
+        subtotalUsd: subtotal,
+      }),
+    [orderLines, subtotal],
+  );
+
   const emptyCart = hydrated && itemCount === 0;
 
   function updateField<K extends keyof CheckoutDetails>(key: K, value: CheckoutDetails[K]) {
     setDetails((current) => {
-      const next = { ...current, [key]: value };
+      const next = { ...current, [key]: value, payment: "whatsapp" as const };
       writeCheckoutDraft(next);
       return next;
     });
@@ -79,7 +95,7 @@ export default function CheckoutPage() {
   }
 
   function goToReview() {
-    const parsed = CheckoutDetailsSchema.safeParse(details);
+    const parsed = CheckoutDetailsSchema.safeParse({ ...details, payment: "whatsapp" });
     if (!parsed.success) {
       setErrors(fieldErrorsFromZod(parsed.error));
       setStep("details");
@@ -91,15 +107,17 @@ export default function CheckoutPage() {
     setStep("review");
   }
 
-  function placeDemoOrder() {
-    const parsed = CheckoutDetailsSchema.safeParse(details);
+  function recordLocalInquiry() {
+    const parsed = CheckoutDetailsSchema.safeParse({ ...details, payment: "whatsapp" });
     if (!parsed.success) {
       setErrors(fieldErrorsFromZod(parsed.error));
       setStep("details");
       return;
     }
-    if (!demoAck) {
-      setAckError("Confirm you understand this is a local demo with no charge.");
+    if (!inquiryAck) {
+      setAckError(
+        "Confirm you understand this records a local inquiry only — not payment or acceptance.",
+      );
       return;
     }
     if (orderLines.length === 0) {
@@ -113,6 +131,7 @@ export default function CheckoutPage() {
       lines: orderLines,
       itemCount,
       subtotal,
+      inquiryState: "local_recorded",
     });
     clear();
     router.push("/checkout/confirmation");
@@ -122,8 +141,8 @@ export default function CheckoutPage() {
     return (
       <div className="shell checkout-flow" style={{ paddingBottom: "4rem" }}>
         <div className="page-hero">
-          <div className="eyebrow">Checkout</div>
-          <h1>Checkout demo</h1>
+          <div className="eyebrow">Inquiry</div>
+          <h1>Availability request</h1>
           <p>Loading your local cart…</p>
         </div>
       </div>
@@ -134,16 +153,16 @@ export default function CheckoutPage() {
     return (
       <div className="shell checkout-flow" style={{ paddingBottom: "4rem" }}>
         <div className="page-hero">
-          <div className="eyebrow">Checkout</div>
-          <h1>Checkout demo</h1>
-          <p>Add sealed products before walking the demo checkout path.</p>
+          <div className="eyebrow">Inquiry</div>
+          <h1>Availability request</h1>
+          <p>Add sealed products before requesting availability.</p>
         </div>
         <DemoNotice />
         <JourneyRail current="checkout" />
         <div className="panel empty-state">
           <h2 style={{ fontSize: "1.25rem", marginBottom: "0.5rem" }}>Your cart is empty</h2>
           <p style={{ color: "var(--mist)", marginBottom: "1rem" }}>
-            Checkout stays blocked until the cart has at least one in-stock or preorder line.
+            Inquiry checkout stays blocked until the cart has at least one in-stock or preorder line.
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "0.75rem" }}>
             <Link href="/store" className="btn btn-primary">
@@ -152,6 +171,7 @@ export default function CheckoutPage() {
             <Link href="/cart" className="btn btn-secondary">
               View cart
             </Link>
+            <WhatsAppInquiryLink href={whatsappLinks.general()} />
           </div>
         </div>
       </div>
@@ -161,18 +181,19 @@ export default function CheckoutPage() {
   return (
     <div className="shell checkout-flow" style={{ paddingBottom: "6.5rem" }}>
       <div className="page-hero">
-        <div className="eyebrow">Checkout</div>
-        <h1>{step === "details" ? "Shipping & contact" : "Review demo order"}</h1>
+        <div className="eyebrow">Inquiry</div>
+        <h1>{step === "details" ? "Contact & shipping" : "Review availability request"}</h1>
         <p>
-          Local demo only — mirrors contact, shipping, and payment method selection without a
-          payment backend. No charges, emails, or inventory updates.
+          Live card checkout and PayFast are disabled. Primary path: WhatsApp availability inquiry.
+          Optional local record stays in this browser only — never payment, acceptance, or a
+          reservation.
         </p>
       </div>
 
       <DemoNotice />
       <JourneyRail current="checkout" />
 
-      <div className="checkout-step-tabs" role="tablist" aria-label="Checkout steps">
+      <div className="checkout-step-tabs" role="tablist" aria-label="Inquiry steps">
         <button
           type="button"
           role="tab"
@@ -278,20 +299,8 @@ export default function CheckoutPage() {
               ) : null}
             </label>
             <label>
-              Payment method (stub)
-              <select
-                name="payment"
-                value={details.payment}
-                onChange={(event) => {
-                  const value = event.target.value;
-                  for (const method of PAYMENT_METHODS) {
-                    if (method.value === value) {
-                      updateField("payment", method.value);
-                      return;
-                    }
-                  }
-                }}
-              >
+              Request channel
+              <select name="payment" value="whatsapp" disabled aria-readonly="true">
                 {PAYMENT_METHODS.map((method) => (
                   <option key={method.value} value={method.value}>
                     {method.label}
@@ -300,7 +309,8 @@ export default function CheckoutPage() {
               </select>
             </label>
             <div className="stub-note">
-              Stub only: selecting a payment method does not open a processor or capture a card.
+              Card, Google Pay, Apple Pay, PayPal, and PayFast are not offered. WhatsApp inquiry does
+              not charge or reserve stock.
             </div>
             <button className="btn btn-primary checkout-inline-cta" type="submit">
               Continue to review
@@ -308,7 +318,7 @@ export default function CheckoutPage() {
           </form>
         ) : (
           <div className="panel form-grid">
-            <h2 style={{ fontSize: "1.2rem" }}>Confirm details</h2>
+            <h2 style={{ fontSize: "1.2rem" }}>Confirm inquiry details</h2>
             <dl className="review-list">
               <div>
                 <dt>Contact</dt>
@@ -331,28 +341,29 @@ export default function CheckoutPage() {
                 </dd>
               </div>
               <div>
-                <dt>Payment stub</dt>
+                <dt>Channel</dt>
                 <dd>
                   <span>{paymentLabel(details.payment)}</span>
-                  <button type="button" className="text-edit" onClick={() => setStep("details")}>
-                    Change method
-                  </button>
                 </dd>
               </div>
             </dl>
 
+            <WhatsAppInquiryLink href={cartInquiryHref} variant="primary">
+              Open WhatsApp availability request
+            </WhatsAppInquiryLink>
+
             <label className="checkbox-field">
               <input
                 type="checkbox"
-                checked={demoAck}
+                checked={inquiryAck}
                 onChange={(event) => {
-                  setDemoAck(event.target.checked);
+                  setInquiryAck(event.target.checked);
                   setAckError("");
                 }}
               />
               <span>
-                I understand this places a <strong>local demo order only</strong> — no payment is
-                processed and no confirmation email is sent.
+                I understand a local inquiry record is <strong>not payment, acceptance, or a
+                reservation</strong>, and no charge or inventory update occurs.
               </span>
             </label>
             {ackError ? (
@@ -362,23 +373,23 @@ export default function CheckoutPage() {
             ) : null}
 
             <div className="stub-note">
-              Honest stub: “Place demo order” clears the local cart and shows a confirmation receipt
-              in this browser. Live Fuji checkout still handles real payments.
+              Optional: save a local inquiry receipt in this browser after opening WhatsApp (or
+              instead of sending). Production inventory is untouched.
             </div>
 
             <div className="cta-row checkout-inline-cta">
               <button type="button" className="btn btn-secondary" onClick={() => setStep("details")}>
                 Back to details
               </button>
-              <button type="button" className="btn btn-primary" onClick={placeDemoOrder}>
-                Place demo order
+              <button type="button" className="btn btn-secondary" onClick={recordLocalInquiry}>
+                Save local inquiry record
               </button>
             </div>
           </div>
         )}
 
         <aside className="panel order-summary-panel">
-          <h2 style={{ fontSize: "1.2rem", marginBottom: "0.75rem" }}>Order summary</h2>
+          <h2 style={{ fontSize: "1.2rem", marginBottom: "0.75rem" }}>Request summary</h2>
           <ul className="order-summary-lines">
             {orderLines.map((line) => (
               <li key={line.slug}>
@@ -393,14 +404,17 @@ export default function CheckoutPage() {
             ))}
           </ul>
           <div className="order-summary-total">
-            <span>Subtotal</span>
+            <span>Catalog subtotal</span>
             <strong style={{ color: "var(--gold)" }}>$ {subtotal.toFixed(2)}</strong>
           </div>
           <p style={{ color: "var(--mist)", marginTop: "1rem", fontSize: "0.92rem" }}>
-            On the live shop, checkout may also collect US tariff (12.5% where applicable), shipping,
-            and any taxes displayed in the order summary. Destination import charges may still apply.
+            Final availability, shipping, and payment method are confirmed by Fuji Cards after your
+            inquiry.
           </p>
-          <div style={{ marginTop: "1rem" }}>
+          <div style={{ marginTop: "1rem", display: "grid", gap: "0.65rem" }}>
+            <WhatsAppInquiryLink href={cartInquiryHref} variant="primary">
+              WhatsApp inquiry
+            </WhatsAppInquiryLink>
             <Link href="/cart" className="btn btn-secondary">
               Edit cart
             </Link>
@@ -422,12 +436,12 @@ export default function CheckoutPage() {
         ) : (
           <>
             <div className="sticky-cta-meta">
-              <span>Demo · no charge</span>
+              <span>Inquiry · no charge</span>
               <strong>$ {subtotal.toFixed(2)}</strong>
             </div>
-            <button type="button" className="btn btn-primary" onClick={placeDemoOrder}>
-              Place demo order
-            </button>
+            <WhatsAppInquiryLink href={cartInquiryHref} variant="primary" className="btn btn-primary">
+              WhatsApp
+            </WhatsAppInquiryLink>
           </>
         )}
       </StickyCtaBar>
