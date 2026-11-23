@@ -4,15 +4,15 @@ export type JourneyStepId = "cart" | "checkout" | "confirmation";
 
 const STEPS: { id: JourneyStepId; label: string; href: string }[] = [
   { id: "cart", label: "Cart", href: "/cart" },
-  { id: "checkout", label: "Checkout", href: "/checkout" },
-  { id: "confirmation", label: "Confirmation", href: "/checkout/confirmation" },
+  { id: "checkout", label: "Inquiry", href: "/checkout" },
+  { id: "confirmation", label: "Record", href: "/checkout/confirmation" },
 ];
 
 export function JourneyRail({ current }: { current: JourneyStepId }) {
   const currentIndex = STEPS.findIndex((step) => step.id === current);
 
   return (
-    <nav className="journey-rail" aria-label="Checkout progress">
+    <nav className="journey-rail" aria-label="Inquiry progress">
       <ol>
         {STEPS.map((step, index) => {
           const state =

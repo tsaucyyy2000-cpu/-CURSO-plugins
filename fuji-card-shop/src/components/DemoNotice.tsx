@@ -5,8 +5,9 @@ export function DemoNotice({ children }: { children?: ReactNode }) {
     <div className="demo-banner" role="status">
       {children ?? (
         <>
-          <strong>Demo storefront</strong> — no live payments, emails, or inventory updates.
-          Charges stay on the live Fuji Card Shop.
+          <strong>Inquiry storefront</strong> — live card checkout and PayFast are disabled.
+          WhatsApp opens an availability request only; nothing here is payment, acceptance, or a
+          reservation. No production inventory is updated.
         </>
       )}
     </div>

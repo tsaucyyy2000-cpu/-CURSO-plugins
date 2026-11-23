@@ -5,6 +5,9 @@ export const brand = {
   tagline: "Japanese & English sealed TCG — shipped from Japan",
   email: "support@fujicardshop.com",
   phone: "+81 47-707-3321",
+  /** Authorized store WhatsApp for availability / wholesale inquiries (not payment). */
+  whatsappE164: "12109018399",
+  whatsappDisplay: "+1 210-901-8399",
   address: "2-12-24 MinatoCyo, MinatoCyo Nihonbashi Building, 6F, 273-0011, Funabashi City, Japan",
   instagram: "https://www.instagram.com/fujicardshop/",
   facebook: "https://www.facebook.com/Fujicardshop/",

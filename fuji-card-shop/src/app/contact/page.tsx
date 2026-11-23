@@ -3,12 +3,14 @@
 import Link from "next/link";
 import { useState } from "react";
 import { DemoNotice } from "@/components/DemoNotice";
+import { WhatsAppInquiryLink } from "@/components/WhatsAppInquiryLink";
 import { brand } from "@/data/content";
 import {
   ContactFormSchema,
   fieldErrorsFromZod,
   type ContactFormValues,
 } from "@/lib/checkout";
+import { whatsappLinks } from "@/lib/whatsapp";
 
 const emptyForm: ContactFormValues = {
   name: "",
@@ -60,15 +62,21 @@ export default function ContactPage() {
         <div className="eyebrow">Support</div>
         <h1>Contact us</h1>
         <p>
-          Please use the form below. For questions about an existing order, include your order
-          number.
+          Prefer WhatsApp for a live inquiry, or stage a local form draft below. For questions about
+          an existing order, include your order number.
         </p>
       </div>
 
       <DemoNotice>
-        <strong>Contact form is front-end only</strong> in this rebuild — messages are not emailed
-        to {brand.email}.
+        <strong>WhatsApp is the active contact path</strong> ({brand.whatsappDisplay}). The on-page
+        form only stages a local acknowledgment — it is not emailed to {brand.email}.
       </DemoNotice>
+
+      <div style={{ marginBottom: "1.25rem" }}>
+        <WhatsAppInquiryLink href={whatsappLinks.contact()} variant="primary">
+          Open WhatsApp inquiry
+        </WhatsAppInquiryLink>
+      </div>
 
       <div className="split">
         {sent ? (
@@ -201,10 +209,23 @@ export default function ContactPage() {
                 {ackError}
               </span>
             ) : null}
-            <button type="submit" className="btn btn-primary">
-              Stage demo message
+            <button type="submit" className="btn btn-secondary">
+              Stage local draft
             </button>
-            <div className="stub-note">Contact form is front-end only in this clone.</div>
+            <WhatsAppInquiryLink
+              href={whatsappLinks.contact({
+                name: values.name || undefined,
+                email: values.email || undefined,
+                orderRef: values.order || undefined,
+                message: values.message || undefined,
+              })}
+              variant="primary"
+            >
+              Send this draft via WhatsApp
+            </WhatsAppInquiryLink>
+            <div className="stub-note">
+              WhatsApp opens a prefilled inquiry only — not payment or an accepted order.
+            </div>
           </form>
         )}
 
@@ -212,6 +233,12 @@ export default function ContactPage() {
           <p>You may also find our shipping information and alternative contact options helpful.</p>
           <p>
             <Link href="/shipping">Shipping information →</Link>
+          </p>
+          <p>
+            WhatsApp:{" "}
+            <a href={whatsappLinks.general()} target="_blank" rel="noopener noreferrer">
+              {brand.whatsappDisplay}
+            </a>
           </p>
           <p>
             <a href={brand.instagram} target="_blank" rel="noreferrer">

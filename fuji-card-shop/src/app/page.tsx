@@ -3,6 +3,7 @@ import { ProductCard } from "@/components/ProductCard";
 import { ReleaseStatus } from "@/components/ReleaseStatus";
 import { SealedShelf } from "@/components/SealedShelf";
 import { TrustStrip } from "@/components/TrustStrip";
+import { WhatsAppInquiryLink } from "@/components/WhatsAppInquiryLink";
 import {
   announcements,
   brand,
@@ -18,6 +19,7 @@ import {
   getSaleProductsResolved,
 } from "@/data/resolveProducts";
 import { formatPrice } from "@/data/products";
+import { whatsappLinks } from "@/lib/whatsapp";
 
 export default function HomePage() {
   const featured = getFeaturedProductsResolved().slice(0, 18);
@@ -55,6 +57,9 @@ export default function HomePage() {
             <Link href="/store" className="btn btn-secondary">
               Browse full catalog
             </Link>
+            <WhatsAppInquiryLink href={whatsappLinks.general()}>
+              WhatsApp inquiry
+            </WhatsAppInquiryLink>
           </div>
         </div>
       </section>
@@ -206,6 +211,9 @@ export default function HomePage() {
               <Link href="/apex/cases" className="btn btn-secondary">
                 Case pricing
               </Link>
+              <WhatsAppInquiryLink href={whatsappLinks.wholesale()}>
+                Wholesale WhatsApp inquiry
+              </WhatsAppInquiryLink>
             </div>
           </div>
           <div className="story-panel lit-panel">

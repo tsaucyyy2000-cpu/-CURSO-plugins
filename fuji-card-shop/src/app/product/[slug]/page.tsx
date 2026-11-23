@@ -5,14 +5,17 @@ import { AddToCartButton } from "@/components/AddToCartButton";
 import { InventoryStatus } from "@/components/InventoryStatus";
 import { ProductGallery } from "@/components/ProductGallery";
 import { StickyCtaBar } from "@/components/StickyCtaBar";
+import { WhatsAppInquiryLink } from "@/components/WhatsAppInquiryLink";
 import {
   detectLanguage,
   detectProductType,
   languageLabel,
   productTypeLabel,
+  statusLabel,
 } from "@/data/browse";
 import { formatPrice } from "@/data/products";
 import { getAllProducts, getProductBySlug } from "@/data/resolveProducts";
+import { whatsappLinks } from "@/lib/whatsapp";
 
 type Params = { slug: string };
 
@@ -47,6 +50,13 @@ export default async function ProductPage({
 
   const language = languageLabel(detectLanguage(product));
   const sealedType = productTypeLabel(detectProductType(product));
+  const productInquiryHref = whatsappLinks.product({
+    name: product.name,
+    slug: product.slug,
+    unitPriceUsd: product.price,
+    quantity: 1,
+    statusLabel: statusLabel(product.status),
+  });
 
   return (
     <div className="shell product-layout" style={{ paddingTop: "2.5rem" }}>
@@ -113,6 +123,9 @@ export default async function ProductPage({
 
         <div className="pdp-actions" style={{ display: "flex", flexWrap: "wrap", gap: "0.75rem" }}>
           <AddToCartButton slug={product.slug} status={product.status} />
+          <WhatsAppInquiryLink href={productInquiryHref} variant="primary">
+            Ask about availability on WhatsApp
+          </WhatsAppInquiryLink>
           <Link href="/shipping" className="btn btn-secondary">
             Shipping details
           </Link>
@@ -122,9 +135,9 @@ export default async function ProductPage({
         </div>
 
         <div className="stub-note">
-          Checkout payments (Credit Card / Google Pay / Apple Pay / PayPal) are stubbed in this
-          rebuild. Cart state is local-only. Confirm language and sealed type match what you intend
-          before placing a demo order.
+          Live card checkout and PayFast are disabled. WhatsApp opens an availability request only —
+          not payment, acceptance, or a reservation. Cart state is local-only; confirm language and
+          sealed type before inquiring.
         </div>
 
         <StickyCtaBar>
